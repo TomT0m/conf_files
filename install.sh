@@ -1,59 +1,59 @@
-#!/bin/bash
+#!/bin/bash -x
 
 cd "$(dirname $0)"
 
-origin=$(pwd)
-
+origin="$(pwd)"
 host="$(hostname)"
-
-function inst_file()
-
-function backup_files()
-
 
 function branch_exists(){
 	git show-ref --verify --quiet "refs/heads/$1"
+	return $?
 }
 
 
 function for_all_conffiles() {
 	command=$1
+	pushd .
+	cd files/
 	for fichier in $(find) ; do 
-		rep = $(dirname $x)
-		if [ ! -d "$rep" ] ;
-			mkdir -p $rep
-		fi
 
-		$command "$1"
+		$command "$fichier"
 	done
-
+	popd
 }
 
 function backup() {
 	local fic="$1"
 
-	if [ ! -e "$fic" ] ; do
+	if [ -e "$HOME/$fic" ] ; then
 		cp "$HOME/$fic" "$fic"
-	done
+	fi
+
 	git add "$fic"
 }
 
 function link_conf {
+	fic="$1"
 	echo rm "$HOME/$fic"
-	echo ln "$HOME/$fic" "$fic"
+	rep="$(dirname "$fichier")"
+	if [ ! -d "$HOME/$rep" ] ; then
+		echo mkdir -p $HOME/"$rep"
+	fi
+	echo ln -sf "$HOME/$fic" "$fic"
 }
 
 # backup
-if ! branch_exists '$(hostname)'; then
+if ! branch_exists "$(hostname)"; then
 	git checkout -b "$(hostname)" 
 else
-	git checkout $(hostname)
+	git checkout "$(hostname)"
 fi
 
-for_all_conffiles add_repo
+for_all_conffiles backup
 
-git commit -c "Backup commit : $date"
+git commit -m "Backup commit : $(date)"
 
+# install new files
 git checkout master
 for_all_conffiles link_conf
 
