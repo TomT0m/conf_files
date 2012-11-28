@@ -53,7 +53,7 @@ else
 fi
 
 for_all_conffiles backup
-
+git checkout master install.sh
 git commit -am "Backup commit : $(date)"
 
 # install new files
