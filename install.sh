@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash 
 
 cd "$(dirname $0)"
 
@@ -34,12 +34,15 @@ function backup() {
 
 function link_conf {
 	fic="$1"
-	echo rm "$HOME/$fic"
+	echo "treating $1 ..."
+	# rm "$HOME/$fic"
 	rep="$(dirname "$fichier")"
 	if [ ! -d "$HOME/$rep" ] ; then
-		echo mkdir -p $HOME/"$rep"
+		mkdir -p $HOME/"$rep"
 	fi
-	echo ln -sf "$HOME/$fic" "$fic"
+	if [ -f "$fic" ]; then
+		ln -sf "$(pwd)/$fic" "$HOME/$fic"
+	fi
 }
 
 # backup
