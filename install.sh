@@ -53,8 +53,13 @@ else
 fi
 
 cd files/
-git ls-files | while read old_file ; do 
-	cp "$HOME/$old_file" "$old_file" ; git add "$old_file" ; 
+git ls-files | while read old_file ; do
+	if [ -e "$HOME/$old_file" ] ; then 
+		cp "$HOME/$old_file" "$old_file" ; 
+		git add "$old_file" ; 
+	else
+		git rm "$old_file"
+	fi
 done
 cd ..
 
