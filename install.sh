@@ -27,9 +27,9 @@ function backup() {
 
 	if [ -e "$HOME/$fic" ] ; then
 		cp "$HOME/$fic" "$fic"
-		git add "$fic"
 	fi
 
+	git add "$fic"
 }
 
 function link_conf {
@@ -54,7 +54,7 @@ fi
 
 for_all_conffiles backup
 
-git commit -m "Backup commit : $(date)"
+git commit -am "Backup commit : $(date)"
 
 # install new files
 git checkout master
