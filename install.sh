@@ -41,7 +41,7 @@ function link_conf {
 		mkdir -p $HOME/"$rep"
 	fi
 	if [ -f "$fic" ]; then
-		ln -sf "$(pwd)/$fic" "$HOME/$fic"
+		cp "$(pwd)/$fic" "$HOME/$fic"
 	fi
 }
 
@@ -51,6 +51,12 @@ if ! branch_exists "$(hostname)"; then
 else
 	git checkout "$(hostname)"
 fi
+
+cd files/
+git ls-files | while read old_file ; do 
+	cp "$HOME/$old_file" "$old_file" ; git add "$old_file" ; 
+done
+cd ..
 
 for_all_conffiles backup
 git checkout master install.sh
