@@ -27,9 +27,9 @@ function backup() {
 
 	if [ -e "$HOME/$fic" ] ; then
 		cp "$HOME/$fic" "$fic"
+		git add "$fic"
 	fi
 
-	git add "$fic"
 }
 
 function link_conf {
