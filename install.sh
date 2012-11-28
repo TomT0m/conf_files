@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash -x 
 
 cd "$(dirname $0)"
 
@@ -34,9 +34,10 @@ function for_all_input_files() {
 function backup() {
 	local fic="$1"
 
-	if [ -d "$HOME/$fic" -a -e "$HOME/$fic"] ; then 
+	if [ -d "$HOME/$fic" -a -e "$HOME/$fic" ] ; then 
 		mkdir -p "$HOME/$fic"
 	elif [ -e "$HOME/$fic" ] ; then
+		mkdir -p "$(dirname "$fic")"
 		cp "$HOME/$fic" "$fic"
 	fi
 
@@ -52,7 +53,7 @@ function link_conf {
 		mkdir -p $HOME/"$rep"
 	fi
 	if [ -f "$fic" ]; then
-		cp "$(pwd)/$fic" "$HOME/$fic"
+		cp "$fic" "$HOME/$fic"
 	fi
 }
 
@@ -67,6 +68,7 @@ else
 	git checkout "$(hostname)"
 fi
 
+# copy current version of old backups file list
 cd files/
 git ls-files | while read old_file ; do
 	if [ -e "$HOME/$old_file" ] ; then 
@@ -78,7 +80,11 @@ git ls-files | while read old_file ; do
 done
 cd ..
 
-for_all_input_files backup
+#copy current version of new file list
+
+echo -n "$new_conf_files" | for_all_input_files backup
+
+
 git checkout master install.sh
 git commit -am "Backup commit : $(date)"
 
