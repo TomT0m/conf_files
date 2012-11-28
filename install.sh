@@ -16,16 +16,27 @@ function for_all_conffiles() {
 	pushd .
 	cd files/
 	for fichier in $(find) ; do 
-
 		$command "$fichier"
 	done
 	popd
 }
 
+function for_all_input_files() {
+	command=$1
+	pushd .
+	cd files/
+	while read fichier ; do
+		$command "$fichier"
+	done
+	popd .
+}
+
 function backup() {
 	local fic="$1"
 
-	if [ -e "$HOME/$fic" ] ; then
+	if [ -d "$HOME/$fic" -a -e "$HOME/$fic"] ; then 
+		mkdir -p "$HOME/$fic"
+	elif [ -e "$HOME/$fic" ] ; then
 		cp "$HOME/$fic" "$fic"
 	fi
 
@@ -45,6 +56,10 @@ function link_conf {
 	fi
 }
 
+cd files
+new_conf_files="$( git ls-files )"
+cd ..
+
 # backup
 if ! branch_exists "$(hostname)"; then
 	git checkout -b "$(hostname)" 
@@ -63,7 +78,7 @@ git ls-files | while read old_file ; do
 done
 cd ..
 
-for_all_conffiles backup
+for_all_input_files backup
 git checkout master install.sh
 git commit -am "Backup commit : $(date)"
 
