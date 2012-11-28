@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/tom/src/git/SeriesPlay/_trial_temp/_tmp/Dexter/saison6'
+let g:netrw_dirhist_2='/home/tom/src/git/SeriesPlay/_trial_temp/_tmp/Dexter'
+let g:netrw_dirhist_3='/home/tom/src/git/SeriesPlay/_trial_temp/_tmp'
+let g:netrw_dirhist_4='/home/tom/src/git/SeriesPlay/_trial_temp'
+let g:netrw_dirhist_5='/home/tom/src/git/SeriesPlay/gobj_player'
+let g:netrw_dirhist_6='/home/tom/src/git/core/extensions/Wikibase/repo/includes/api'
+let g:netrw_dirhist_7='/home/tom/src/git/SeriesPlay/datasource'
+let g:netrw_dirhist_8='/home/tom/src/git/SeriesPlay/gobj_player'
