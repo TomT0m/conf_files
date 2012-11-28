@@ -69,6 +69,9 @@ git commit -am "Backup commit : $(date)"
 
 # install new files
 git checkout master
-git submodules init
+
+git submodule init
+git submodule update
+
 for_all_conffiles link_conf
 
