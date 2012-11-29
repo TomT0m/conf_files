@@ -1,9 +1,9 @@
 #!/bin/bash 
 
-cd "$(dirname $0)"
+base="$(dirname $0)"
+cd base
 
-origin="$(pwd)"
-host="$(hostname)"
+source functions
 
 function branch_exists(){
 	git show-ref --verify --quiet "refs/heads/$1"
@@ -12,7 +12,7 @@ function branch_exists(){
 
 
 function for_all_conffiles() {
-	command=$1
+	local command=$1
 	pushd .
 	cd files/
 	for fichier in $(find) ; do 
