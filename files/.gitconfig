@@ -1,0 +1,9 @@
+[user]
+	name = Thomas Douillard
+	email = thomas.douillard@gmail.com
+[difftool]
+	prompt = false
+[diff]
+	tool = gvimdiff
+[alias]
+	d = difftool
