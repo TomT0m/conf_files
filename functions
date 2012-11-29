@@ -1,0 +1,25 @@
+#!/bin/bash
+
+
+function backup() {
+	local fic="$1"
+
+	if [ -d "$HOME/$fic" -a -e "$HOME/$fic" ] ; then 
+		mkdir -p "$HOME/$fic"
+	elif [ -e "$HOME/$fic" ] ; then
+		mkdir -p "$(dirname "$fic")"
+		cp "$HOME/$fic" "$fic"
+		git add "$fic"
+	fi
+}
+
+function for_all_input_files() {
+        command=$1
+        pushd .
+        cd files/
+        while read fichier ; do
+                $command "$fichier"
+        done
+        popd .
+}
+
