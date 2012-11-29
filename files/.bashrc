@@ -103,6 +103,6 @@ export PAGER="/bin/sh -c \"unset PAGER;col -b -x | \
     -c 'map <SPACE> <C-D>' -c 'map b <C-U>' \
     -c 'nmap K :Man <C-R>=expand(\\\"<cword>\\\")<CR><CR>' -\""
 
-source liquidprompt
+source ~/src/liquidprompt/liquidprompt
 source /usr/share/autojump/autojump.sh
 
