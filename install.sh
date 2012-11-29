@@ -1,4 +1,4 @@
-#!/bin/bash -x 
+#!/bin/bash 
 
 cd "$(dirname $0)"
 
@@ -16,32 +16,20 @@ function for_all_conffiles() {
 	pushd .
 	cd files/
 	for fichier in $(find) ; do 
+
 		$command "$fichier"
 	done
 	popd
 }
 
-function for_all_input_files() {
-	command=$1
-	pushd .
-	cd files/
-	while read fichier ; do
-		$command "$fichier"
-	done
-	popd .
-}
-
 function backup() {
 	local fic="$1"
 
-	if [ -d "$HOME/$fic" -a -e "$HOME/$fic" ] ; then 
-		mkdir -p "$HOME/$fic"
-	elif [ -e "$HOME/$fic" ] ; then
-		mkdir -p "$(dirname "$fic")"
+	if [ -e "$HOME/$fic" ] ; then
 		cp "$HOME/$fic" "$fic"
-		git add "$fic"
 	fi
 
+	git add "$fic"
 }
 
 function link_conf {
@@ -53,50 +41,37 @@ function link_conf {
 		mkdir -p $HOME/"$rep"
 	fi
 	if [ -f "$fic" ]; then
-		cp "$fic" "$HOME/$fic"
+		cp "$(pwd)/$fic" "$HOME/$fic"
 	fi
 }
 
-git checkout master
-
-
-##### backuppîng  old conf #####
-
-# getting filename that will be erased
-cd files
-new_conf_files="$( git ls-files )"
-cd ..
-
-# creating & switching to backup branch
-backup_branch="$(hostname)-$(username)"
-if ! branch_exists "$backup_branch"; then
-	git checkout -b "$backup_branch" 
+# backup
+if ! branch_exists "$(hostname)"; then
+	git checkout -b "$(hostname)" 
 else
-	git checkout "$backup_branch"
+	git checkout "$(hostname)"
 fi
 
-# copy current version of old backups file list
-git ls-files | for_all_input_files backup
+cd files/
+git ls-files | while read old_file ; do
+	if [ -e "$HOME/$old_file" ] ; then 
+		cp "$HOME/$old_file" "$old_file" ; 
+		git add "$old_file" ; 
+	else
+		git rm "$old_file"
+	fi
+done
+cd ..
 
-# copy current version of new file list
-echo -n "$new_conf_files" | for_all_input_files backup
-
-
+for_all_conffiles backup
 git checkout master install.sh
 git commit -am "Backup commit : $(date)"
 
-
-##### init conf #####
-
+# install new files
 git checkout master
 
 git submodule init
 git submodule update
 
-
-##### merging ? #####
-
-
-# install new files
 for_all_conffiles link_conf
 
