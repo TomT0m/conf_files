@@ -11,7 +11,10 @@ cd $rep
 
 list="$(for fichier in $@ ; do
 	if [ -d "$HOME/$fichier" ] ; then
-		find $fichier
+		pushd . &>/dev/null
+		cd "$HOME"
+		find "$fichier" -print0
+		popd &>/dev/null
 	elif [ -e "$HOME/$fichier" ] ; then
 		echo "$fichier"
 	fi
