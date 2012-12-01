@@ -23,6 +23,6 @@ echo $list | for_all_input_files backup
 
 
 
-git commit -m "$date : \n added files to config : \n $list"
+git commit -m "$(echo -e "$(date) : \n added files to config : \n $list")"
 git push
 
