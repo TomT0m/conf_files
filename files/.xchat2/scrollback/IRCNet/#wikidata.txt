@@ -1,0 +1,3 @@
+T 1347822553 19*	19Vous parlez maintenant sur #wikidata
+T 1347822560 Paramètres de la commande utilisateur erronés.
+T 1347822609 23*	Vous avez quitté le canal #wikidata (23Quitte23)

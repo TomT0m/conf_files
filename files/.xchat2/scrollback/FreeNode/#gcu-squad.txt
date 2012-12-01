@@ -1,0 +1,3 @@
+T 1318686287 19*	19Vous parlez maintenant sur #gcu-squad
+T 1318686288 22*	leguin.freenode.net active le mode +n #gcu-squad
+T 1318686288 22*	leguin.freenode.net active le mode +s #gcu-squad

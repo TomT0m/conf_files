@@ -1,0 +1,300 @@
+T 1216642344 19*	19Vous parlez maintenant sur #lanuxfr
+T 1217004735 19*	19Vous parlez maintenant sur #lanuxfr
+T 1217062351 19*	19Vous parlez maintenant sur #lanuxfr
+T 1217092551 19*	19Vous parlez maintenant sur #lanuxfr
+T 1217150975 19*	19Vous parlez maintenant sur #lanuxfr
+T 1217150975 22*	brown.freenode.net active le mode +n #lanuxfr
+T 1217150975 22*	brown.freenode.net active le mode +s #lanuxfr
+T 1217150975 19*	19ChanServ (ChanServ@services.) a rejoint #lanuxfr
+T 1217150975 22*	26irc.freenode.net donne l'état d'opérateur de canal à26 ChanServ
+T 1217150975 22*	ChanServ active le mode -s #lanuxfr
+T 1217150975 22*	ChanServ active le mode +t #lanuxfr
+T 1217150975 22*	ChanServ active le mode +c #lanuxfr
+T 1217150975 22*	26ChanServ enlève son état d'opérateur de canal à26 TomT0m
+T 1217177701 19*	19Vous parlez maintenant sur #lanuxfr
+T 1217266167 19*	19Vous parlez maintenant sur #lanuxfr
+T 1217443682 19*	19Vous parlez maintenant sur #lanuxfr
+T 1218373955 19*	19Vous parlez maintenant sur #lanuxfr
+T 1218376045 23*	23ChanServ est parti (23verne.freenode.net irc.freenode.net23)
+T 1218376492 19*	19ChanServ (ChanServ@services.) a rejoint #lanuxfr
+T 1218376492 22*	26irc.freenode.net donne l'état d'opérateur de canal à26 ChanServ
+T 1218378551 19*	19Vous parlez maintenant sur #lanuxfr
+T 1218381006 23*	23ChanServ est parti (23wolfe.freenode.net irc.freenode.net23)
+T 1218381080 19*	19ChanServ (ChanServ@services.) a rejoint #lanuxfr
+T 1218381080 22*	26irc.freenode.net donne l'état d'opérateur de canal à26 ChanServ
+T 1218459140 19*	19Vous parlez maintenant sur #lanuxfr
+T 1218539940 19*	19Vous parlez maintenant sur #lanuxfr
+T 1218718147 19*	19Vous parlez maintenant sur #lanuxfr
+T 1218726918 19*	19T0mTom (i=tom@crb44-3-82-235-63-125.fbx.proxad.net) a rejoint #lanuxfr
+T 1218726918 19*	19Vous parlez maintenant sur #lanuxfr
+T 1218726997 23*	23T0mTom est parti (23Client Quit23)
+T 1218889836 19*	19Vous parlez maintenant sur #lanuxfr
+T 1218974597 19*	19Vous parlez maintenant sur #lanuxfr
+T 1219148727 19*	19Vous parlez maintenant sur #lanuxfr
+T 1219337221 19*	19Vous parlez maintenant sur #lanuxfr
+T 1219496330 19*	19Vous parlez maintenant sur #lanuxfr
+T 1219608871 19*	19Vous parlez maintenant sur #lanuxfr
+T 1219691544 19*	19Vous parlez maintenant sur #lanuxfr
+T 1219691544 22*	#lanuxfr :[freenode-info] channel trolls and no channel staff around to help? please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+T 1220087803 19*	19Vous parlez maintenant sur #lanuxfr
+T 1220087804 22*	#lanuxfr :[freenode-info] channel flooding and no channel staff around to help? please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+T 1220184397 19*	19Vous parlez maintenant sur #lanuxfr
+T 1220273615 19*	19Vous parlez maintenant sur #lanuxfr
+T 1220546176 19*	19Vous parlez maintenant sur #lanuxfr
+T 1220697310 19*	19Vous parlez maintenant sur #lanuxfr
+T 1220697310 22*	card.freenode.net active le mode +n #lanuxfr
+T 1220697310 22*	card.freenode.net active le mode +s #lanuxfr
+T 1220697311 19*	19ChanServ (ChanServ@services.) a rejoint #lanuxfr
+T 1220697311 22*	26irc.freenode.net donne l'état d'opérateur de canal à26 ChanServ
+T 1220697311 22*	ChanServ active le mode -s #lanuxfr
+T 1220697311 22*	ChanServ active le mode +t #lanuxfr
+T 1220697311 22*	ChanServ active le mode +c #lanuxfr
+T 1220697311 22*	26ChanServ enlève son état d'opérateur de canal à26 TomT0m
+T 1220804809 19*	19Vous parlez maintenant sur #lanuxfr
+T 1220890165 19*	19Vous parlez maintenant sur #lanuxfr
+T 1220890165 19*	19T0mTom (i=tom@crb44-3-82-235-63-125.fbx.proxad.net) a rejoint #lanuxfr
+T 1220890194 23*	23TomT0m est parti (23"Quitte"23)
+T 1220983444 19*	19Vous parlez maintenant sur #lanuxfr
+T 1221037169 23*	23ChanServ est parti (23wolfe.freenode.net irc.freenode.net23)
+T 1221037227 19*	19ChanServ (ChanServ@services.) a rejoint #lanuxfr
+T 1221037227 22*	26irc.freenode.net donne l'état d'opérateur de canal à26 ChanServ
+T 1221037581 23*	23ChanServ est parti (23wolfe.freenode.net irc.freenode.net23)
+T 1221037660 19*	19ChanServ (ChanServ@services.) a rejoint #lanuxfr
+T 1221037660 22*	26irc.freenode.net donne l'état d'opérateur de canal à26 ChanServ
+T 1221242944 19*	19Vous parlez maintenant sur #lanuxfr
+T 1221308938 19*	19Vous parlez maintenant sur #lanuxfr
+T 1221398834 19*	19Vous parlez maintenant sur #lanuxfr
+T 1221921211 19*	19Vous parlez maintenant sur #lanuxfr
+T 1221996583 19*	19Vous parlez maintenant sur #lanuxfr
+T 1222192112 19*	19Vous parlez maintenant sur #lanuxfr
+T 1222369782 19*	19Vous parlez maintenant sur #lanuxfr
+T 1222523143 19*	19Vous parlez maintenant sur #lanuxfr
+T 1222850890 19*	19Vous parlez maintenant sur #lanuxfr
+T 1222887610 23*	23ChanServ est parti (23wolfe.freenode.net irc.freenode.net23)
+T 1222887753 19*	19ChanServ (ChanServ@services.) a rejoint #lanuxfr
+T 1222887753 22*	26irc.freenode.net donne l'état d'opérateur de canal à26 ChanServ
+T 1223057531 19*	19Vous parlez maintenant sur #lanuxfr
+T 1223125841 19*	19T0mTom (i=tom@crb44-3-82-235-63-125.fbx.proxad.net) a rejoint #lanuxfr
+T 1223125841 19*	19Vous parlez maintenant sur #lanuxfr
+T 1223126433 23*	23TomT0m est parti (23"Quitte"23)
+T 1223129258 23*	23ChanServ est parti (23wolfe.freenode.net irc.freenode.net23)
+T 1223129294 19*	19ChanServ (ChanServ@services.) a rejoint #lanuxfr
+T 1223129294 22*	26irc.freenode.net donne l'état d'opérateur de canal à26 ChanServ
+T 1223133115 23*	23ChanServ est parti (23wolfe.freenode.net irc.freenode.net23)
+T 1223133443 19*	19ChanServ (ChanServ@services.) a rejoint #lanuxfr
+T 1223133443 22*	26irc.freenode.net donne l'état d'opérateur de canal à26 ChanServ
+T 1224326086 19*	19Vous parlez maintenant sur #lanuxfr
+T 1224407789 19*	19Vous parlez maintenant sur #lanuxfr
+T 1225633486 19*	19Vous parlez maintenant sur #lanuxfr
+T 1225635773 23*	23ChanServ est parti (23brown.freenode.net irc.freenode.net23)
+T 1225635813 19*	19ChanServ (ChanServ@services.) a rejoint #lanuxfr
+T 1225635813 22*	26irc.freenode.net donne l'état d'opérateur de canal à26 ChanServ
+T 1225917792 19*	19Vous parlez maintenant sur #lanuxfr
+T 1227649693 19*	19Vous parlez maintenant sur #lanuxfr
+T 1228156701 19*	19Vous parlez maintenant sur #lanuxfr
+T 1229018891 19*	19Vous parlez maintenant sur #lanuxfr
+T 1229108205 19*	19Vous parlez maintenant sur #lanuxfr
+T 1230843897 19*	19Vous parlez maintenant sur #lanuxfr
+T 1230987171 19*	19Vous parlez maintenant sur #lanuxfr
+T 1231594227 19*	19Vous parlez maintenant sur #lanuxfr
+T 1253887979 19*	19Vous parlez maintenant sur #lanuxfr
+T 1253887979 22*	farmer.freenode.net active le mode +n #lanuxfr
+T 1253887979 22*	farmer.freenode.net active le mode +s #lanuxfr
+T 1253887980 19*	19ChanServ (ChanServ@services.) a rejoint #lanuxfr
+T 1253887980 22*	26irc.freenode.net donne l'état d'opérateur de canal à26 ChanServ
+T 1253887980 22*	ChanServ active le mode -s #lanuxfr
+T 1253887980 22*	ChanServ active le mode +t #lanuxfr
+T 1253887980 22*	ChanServ active le mode +c #lanuxfr
+T 1253887980 22*	26ChanServ enlève son état d'opérateur de canal à26 TomT0m
+T 1259099744 19*	19Vous parlez maintenant sur #lanuxfr
+T 1259099744 22*	orwell.freenode.net active le mode +n #lanuxfr
+T 1259099744 22*	orwell.freenode.net active le mode +s #lanuxfr
+T 1259099745 19*	19ChanServ (ChanServ@services.) a rejoint #lanuxfr
+T 1259099745 22*	26irc.freenode.net donne l'état d'opérateur de canal à26 ChanServ
+T 1259099745 22*	ChanServ active le mode -s #lanuxfr
+T 1259099745 22*	ChanServ active le mode +t #lanuxfr
+T 1259099745 22*	ChanServ active le mode +c #lanuxfr
+T 1259099745 22*	26ChanServ enlève son état d'opérateur de canal à26 TomT0m
+T 1259145156 22*	Déconnecté (Connection reset by peer).
+T 1259145176 19*	19Vous parlez maintenant sur #lanuxfr
+T 1259183471 19*	19Vous parlez maintenant sur #lanuxfr
+T 1259351728 19*	19Vous parlez maintenant sur #lanuxfr
+T 1262698728 19*	19Vous parlez maintenant sur #lanuxfr
+T 1262698728 22*	leguin.freenode.net active le mode +n #lanuxfr
+T 1262698728 22*	leguin.freenode.net active le mode +s #lanuxfr
+T 1262698728 19*	19ChanServ (ChanServ@services.) a rejoint #lanuxfr
+T 1262698728 22*	26irc.freenode.net donne l'état d'opérateur de canal à26 ChanServ
+T 1262698728 22*	ChanServ active le mode -s #lanuxfr
+T 1262698728 22*	ChanServ active le mode +t #lanuxfr
+T 1262698728 22*	ChanServ active le mode +c #lanuxfr
+T 1262698728 22*	26ChanServ enlève son état d'opérateur de canal à26 TomT0m
+T 1262734453 22*	Déconnecté (Connection reset by peer).
+T 1262734474 19*	19Vous parlez maintenant sur #lanuxfr
+T 1263328142 19*	19Vous parlez maintenant sur #lanuxfr
+T 1265824560 19*	19Vous parlez maintenant sur #lanuxfr
+T 1265824560 22*	bartol.freenode.net active le mode +n #lanuxfr
+T 1265824560 22*	bartol.freenode.net active le mode +t #lanuxfr
+T 1265824561 22*	26services. enlève son état d'opérateur de canal à26 TomT0m
+T 1265824561 22*	*** Notice -- TS for #lanuxfr changed from 1265824549 to 1262698727
+T 1265824561 22*	services. active le mode +c #lanuxfr
+T 1265824561 19*	19ChanServ (ChanServ@services.) a rejoint #lanuxfr
+T 1265824561 22*	26services. donne l'état d'opérateur de canal à26 ChanServ
+T 1265882119 22*	Déconnecté (Connection reset by peer).
+T 1265882186 19*	19Vous parlez maintenant sur #lanuxfr
+T 1265907674 22*	Déconnecté (Connection reset by peer).
+T 1265907716 19*	19Vous parlez maintenant sur #lanuxfr
+T 1266068851 19*	19Vous parlez maintenant sur #lanuxfr
+T 1266106128 22*	Déconnecté (Connection reset by peer).
+T 1266106149 19*	19Vous parlez maintenant sur #lanuxfr
+T 1266261938 19*	19Vous parlez maintenant sur #lanuxfr
+T 1272826132 19*	19Vous parlez maintenant sur #lanuxfr
+T 1272831216 19*	19Vous parlez maintenant sur #lanuxfr
+T 1273310360 19*	19Vous parlez maintenant sur #lanuxfr
+T 1273314306 23*	23ChanServ est parti (23*.net *.split23)
+T 1273314454 19*	19ChanServ (ChanServ@services.) a rejoint #lanuxfr
+T 1273314455 22*	26bartol.freenode.net donne l'état d'opérateur de canal à26 ChanServ
+T 1273430499 22*	Déconnecté (Connection reset by peer).
+T 1273430511 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430521 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430532 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430543 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430554 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430567 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430579 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430590 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430601 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430612 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430623 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430634 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430645 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430657 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430668 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430679 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430690 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430701 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430712 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430723 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430734 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430745 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430756 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430766 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430777 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430788 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430799 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430811 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430822 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430833 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430844 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430855 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430866 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430877 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430888 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430899 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430910 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430921 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430932 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430943 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430954 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430965 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430976 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430987 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430998 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431010 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431021 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431032 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431043 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431055 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431066 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431077 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431088 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431099 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431110 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431122 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431133 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431144 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431166 19*	19Vous parlez maintenant sur #lanuxfr
+T 1273480723 22*	Déconnecté (Connection reset by peer).
+T 1273480753 19*	19Vous parlez maintenant sur #lanuxfr
+T 1274527589 19*	19Vous parlez maintenant sur #lanuxfr
+T 1274623532 19*	19Vous parlez maintenant sur #lanuxfr
+T 1274802725 19*	19Vous parlez maintenant sur #lanuxfr
+T 1274867495 22*	Déconnecté (Connection reset by peer).
+T 1274867525 19*	19Vous parlez maintenant sur #lanuxfr
+T 1274947485 22*	Déconnecté (Connection reset by peer).
+T 1274947509 19*	19Vous parlez maintenant sur #lanuxfr
+T 1274972457 22*	Déconnecté (Connection reset by peer).
+T 1274972498 19*	19Vous parlez maintenant sur #lanuxfr
+T 1275056124 19*	19Vous parlez maintenant sur #lanuxfr
+T 1275127196 22*	Déconnecté (Connection reset by peer).
+T 1275127220 19*	19Vous parlez maintenant sur #lanuxfr
+T 1275136299 22*	Déconnecté (No route to host).
+T 1275136582 19*	19Vous parlez maintenant sur #lanuxfr
+T 1275244416 22*	Déconnecté (Connection reset by peer).
+T 1275244440 19*	19Vous parlez maintenant sur #lanuxfr
+T 1276023086 19*	19Vous parlez maintenant sur #lanuxfr
+T 1276188327 19*	19Vous parlez maintenant sur #lanuxfr
+T 1276423236 19*	19Vous parlez maintenant sur #lanuxfr
+T 1276461887 22*	Déconnecté (Connection reset by peer).
+T 1276461914 19*	19Vous parlez maintenant sur #lanuxfr
+T 1276504426 22*	Déconnecté (Connection reset by peer).
+T 1276504448 19*	19Vous parlez maintenant sur #lanuxfr
+T 1277731048 19*	19Vous parlez maintenant sur #lanuxfr
+T 1277748002 23*	23ChanServ est parti (23*.net *.split23)
+T 1277748057 19*	19ChanServ (ChanServ@services.) a rejoint #lanuxfr
+T 1277748057 22*	26calvino.freenode.net donne l'état d'opérateur de canal à26 ChanServ
+T 1277801116 22*	Déconnecté (Connection reset by peer).
+T 1277801136 19*	19Vous parlez maintenant sur #lanuxfr
+T 1278510106 19*	19Vous parlez maintenant sur #lanuxfr
+T 1278703845 19*	19Vous parlez maintenant sur #lanuxfr
+T 1278756489 22*	Déconnecté (Connection reset by peer).
+T 1278756555 19*	19Vous parlez maintenant sur #lanuxfr
+T 1278838727 22*	Déconnecté (Connection reset by peer).
+T 1278838749 19*	19Vous parlez maintenant sur #lanuxfr
+T 1278868776 22*	Déconnecté (Connection reset by peer).
+T 1278868816 19*	19Vous parlez maintenant sur #lanuxfr
+T 1278924003 22*	Déconnecté (Connection reset by peer).
+T 1278924030 19*	19Vous parlez maintenant sur #lanuxfr
+T 1278971578 22*	Déconnecté (Connection reset by peer).
+T 1278971610 19*	19Vous parlez maintenant sur #lanuxfr
+T 1279011548 22*	Déconnecté (Connection reset by peer).
+T 1279011568 19*	19Vous parlez maintenant sur #lanuxfr
+T 1279061061 22*	Déconnecté (Connection reset by peer).
+T 1279061090 19*	19Vous parlez maintenant sur #lanuxfr
+T 1280246432 19*	19Vous parlez maintenant sur #lanuxfr
+T 1281382654 19*	19Vous parlez maintenant sur #lanuxfr
+T 1281899734 19*	19Vous parlez maintenant sur #lanuxfr
+T 1282511276 19*	19Vous parlez maintenant sur #lanuxfr
+T 1282553790 22*	Déconnecté (Connection reset by peer).
+T 1282553823 19*	19Vous parlez maintenant sur #lanuxfr
+T 1282553823 22*	[freenode-info] please register your nickname...don't forget to auto-identify! http://freenode.net/faq.shtml#nicksetup
+T 1282583036 22*	Déconnecté (Connection reset by peer).
+T 1282583058 19*	19Vous parlez maintenant sur #lanuxfr
+T 1283246471 19*	19Vous parlez maintenant sur #lanuxfr
+T 1284555318 19*	19Vous parlez maintenant sur #lanuxfr
+T 1284555318 22*	[freenode-info] please register your nickname...don't forget to auto-identify! http://freenode.net/faq.shtml#nicksetup
+T 1284622101 22*	Déconnecté (Connection reset by peer).
+T 1284622120 19*	19Vous parlez maintenant sur #lanuxfr
+T 1284622120 22*	[freenode-info] why register and identify? your IRC nick is how people know you. http://freenode.net/faq.shtml#nicksetup
+T 1284664257 22*	Déconnecté (Connection reset by peer).
+T 1284664276 19*	19Vous parlez maintenant sur #lanuxfr
+T 1285240224 19*	19Vous parlez maintenant sur #lanuxfr
+T 1285439071 19*	19Vous parlez maintenant sur #lanuxfr
+T 1291310231 19*	19Vous parlez maintenant sur #lanuxfr
+T 1291372271 22*	Déconnecté (Connection reset by peer).
+T 1291372290 19*	19Vous parlez maintenant sur #lanuxfr
+T 1291637839 22*	Déconnecté (Connection reset by peer).
+T 1291637856 19*	19Vous parlez maintenant sur #lanuxfr
+T 1293722847 19*	19Vous parlez maintenant sur #lanuxfr
+T 1293722847 22*	lindbohm.freenode.net active le mode +n #lanuxfr
+T 1293722847 22*	lindbohm.freenode.net active le mode +s #lanuxfr
+T 1293722848 22*	26services. enlève son état d'opérateur de canal à26 TomT0m
+T 1293722848 22*	*** Notice -- TS for #lanuxfr changed from 1293722847 to 1262698727
+T 1293722848 22*	services. active le mode +c #lanuxfr
+T 1293722848 22*	services. active le mode +t #lanuxfr
+T 1293722848 22*	services. active le mode -s #lanuxfr
+T 1293722848 19*	19ChanServ (ChanServ@services.) a rejoint #lanuxfr
+T 1293722848 22*	26services. donne l'état d'opérateur de canal à26 ChanServ
+T 1294238695 19*	19Vous parlez maintenant sur #lanuxfr
+T 1301052352 19*	19Vous parlez maintenant sur #lanuxfr
+T 1301430140 19*	19Vous parlez maintenant sur #lanuxfr
+T 1305738610 19*	19Vous parlez maintenant sur #lanuxfr

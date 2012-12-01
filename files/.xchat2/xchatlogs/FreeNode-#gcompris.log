@@ -1,0 +1,111 @@
+**** DÉBUT DU JOURNAL À Tue May  1 18:29:18 2007
+
+mai 01 21:03:52 *	yvesC est parti ("Quitte")
+mai 01 22:09:02 *	bdoin (n=coudoin@home.gcompris.net) a rejoint #gcompris
+mai 01 22:09:02 *	ChanServ donne l'état d'opérateur de canal à bdoin
+mai 01 22:39:16 *	yvesC (n=yves@zenobi.ycombe.net) a rejoint #gcompris
+mai 01 22:39:23 <bdoin>	bonsoir
+mai 01 22:39:30 <erwan_ho>	coucou bdoin 
+mai 01 22:39:52 <erwan_ho>	ca roule ?
+mai 01 22:40:01 <bdoin>	bon ben on est pas passé à la radio, on serra peut être célèbre que demain :/
+mai 01 22:40:46 <yvesC>	qui on?
+mai 01 22:41:33 <bdoin>	yvesC: tu n'es pas au courant, hier j'ai fait une interview pour france inter / info avec Thomas
+mai 01 22:42:09 <bdoin>	Thomas explique au nom de l'april pourquoi les logiciels libre c'est bien et moi je présente gcompris et le XO
+mai 01 22:42:41 <bdoin>	le journaliste nous à dit que ça passerait aujourd'hui mais on a rien vu
+mai 01 22:42:54 <yvesC>	en général c'est le truc qui passe un peu avant 7h sur inter, non?
+mai 01 22:44:01 <bdoin>	je sais pas, il nous à dit dans les journaux de Inter et donc dans les chroniques de Info
+mai 01 22:44:34 <bdoin>	le journaliste à toulouse est pro-LL et fait la guerre à Jerome Colombain
+mai 01 22:44:43 <erwan_ho>	pq ?
+mai 01 22:44:54 <erwan_ho>	il est pas mal colombain
+mai 01 22:45:08 <bdoin>	Jerome Colombain parle pas assez de LL
+mai 01 22:45:29 <erwan_ho>	il en parle de temps en temps
+mai 01 22:45:56 <yvesC>	dans les journaux? cest plutôt une chronique. il y a une chronique numérique le matin sur inter
+mai 01 22:47:09 *	yemanja (n=yemanja@lns-bzn-49f-81-56-214-196.adsl.proxad.net) a rejoint #gcompris
+mai 01 22:51:29 <yvesC>	Jerome Colombain a pas mal argumenté contre les drm.
+mai 01 22:52:43 <erwan_ho>	et facilement comprehensible pour les novices
+mai 01 22:52:54 <erwan_ho>	moi j'aime bien
+mai 01 22:52:56 <bdoin>	c'est pas mal mais il pourrait faire plus, par exemple il a rien fait sur la sortie majeure de GCompris 8.3 !
+mai 01 22:53:51 <bdoin>	bon je rigole mais il couvre même pas les sortie de distro alors que vista ...
+mai 01 22:56:21 <erwan_ho>	en meme temps il est critique sur vista
+mai 01 22:57:05 <yann>	lo
+mai 01 22:57:22 <yann>	pour info - la 8.3.1 est uploadée
+mai 01 22:57:56 <bdoin>	hum, qui de debian ou mandriva va gagner la course à la 8.3.1 ?
+mai 01 22:58:10 <bdoin>	erwan_ho: à vous les studios
+mai 01 22:58:35 <erwan_ho>	c'est dispo ?
+mai 01 22:59:55 <bdoin>	ouch Mandriva a complètement raté le départ, oui c'est dispo depuis samedi je crois
+mai 01 23:00:01 <yann>	ben vu qu'il y a 4 nouveaux debs pour les voix, c'est pas gagné d'avance pour debian :)
+mai 01 23:01:49 <erwan_ho>	bdoin: vieux motard que jamais
+mai 01 23:03:25 <bdoin>	yvesC: je suis en train d'intégrer writing tutor
+mai 01 23:03:37 <yvesC>	gcompris_8.3.1-1_i386.changes is NEW
+mai 01 23:03:46 <yvesC>	j'ai eu ça de debian.
+mai 01 23:04:03 <yvesC>	bdoin, je n'en attendais pas moins de toi!
+mai 01 23:05:16 <bdoin>	tu en es ou toi, j'ai pas pris le temps de regarder ton git
+mai 01 23:07:05 <yvesC>	J'ai surtout bossé sur libccc.
+mai 01 23:07:24 <yvesC>	sven a du mal à piger pourquoi il nous faut des lignes qui bouge...
+mai 01 23:07:30 <bdoin>	tu es toujours convaincu que c'est le bon cheval ?
+mai 01 23:07:56 <yvesC>	le bon cheval, je ne sais pas. un bon cheval, oui.
+mai 01 23:08:23 <yvesC>	mais il y a un truc qui me turlupine, c'est de devoir attaquer cairo directement.
+mai 01 23:10:25 <bdoin>	moi ça me choque pas en soit. j'ai pas de religion à ce sujet mais il vaut mieux éviter les couches inutiles
+mai 01 23:11:26 <bdoin>	pour moi le canvas amène l'aspect object, layer, event mais on peut tout naturellement utiliser la puissance des primitives graphique de cairo
+mai 01 23:12:33 <erwan_ho>	premier essai de build de la 8.3.1
+mai 01 23:13:23 <bdoin>	erwan_ho: si tu avais buildé la 8.3 ça devrait passer sans problème
+mai 01 23:13:31 <erwan_ho>	je ne l'avais pas fait
+mai 01 23:14:00 <erwan_ho>	j'avais attendait la 8.3.1
+mai 01 23:14:06 <erwan_ho>	attendu
+mai 01 23:14:10 *	OgMaciel est parti ("mv OgMaciel $HOME")
+mai 01 23:14:21 <erwan_ho>	je fais confiance a josé ;)
+mai 01 23:16:17 <yvesC>	en gros l'intérêt d'un canvas, c'est quil gère les évènement pour toi.
+mai 01 23:19:36 <bdoin>	yep
+mai 01 23:19:58 <erwan_ho>	(ca compile)
+mai 01 23:23:57 <erwan_ho>	grumpf
+mai 01 23:24:05 *	erwan_ho relance
+mai 01 23:24:41 <yvesC>	il semble que sven ait décidé que les dessins complexes soit dessiné directemnt dans cairo. Mais je ne vois pas comment il va générer les évènement dans ce cas.
+mai 01 23:25:39 <yvesC>	à moins de pouvoir se baser sur les fonctions de cairo comme fait goocanvas.
+mai 01 23:25:53 <yvesC>	je viens de lui poser la question par mail.
+mai 01 23:26:33 <yvesC>	http://people.freedesktop.org/~herzi/libccc/
+mai 01 23:26:50 <yvesC>	compile ça et jette un oeil sur la demo de simpleitem.
+mai 01 23:27:02 <erwan_ho>	ccc ? comité contre les chats ? ;)
+mai 01 23:27:03 <bdoin>	ok
+mai 01 23:27:18 <yvesC>	C'est dessiné directement via cairo.
+mai 01 23:29:13 <yvesC>	le problème, c'est que tu doit fournir et le dessin via cairo, et les bounds, et la distance à un point à la demande.
+mai 01 23:29:45 <yvesC>	la distance doit faire 0 si tu est sur l'item. sinon les évènement ne sont pas généré.
+mai 01 23:30:12 <yvesC>	va-t-en calculer la distance d'un point à une courbe de bézier tu m'en diras des nouvelles.
+mai 01 23:30:25 <bdoin>	checking for CHECK... no
+mai 01 23:30:25 <bdoin>	configure: WARNING: AM_PATH_CHECK() is deprecated
+mai 01 23:30:25 <bdoin>	configure: WARNING: use PKG_CHECK_MODULES([CHECK], [check >= 0.9.4]) instead
+mai 01 23:30:52 <yvesC>	check est pas obligatoire. ça marche sans.
+mai 01 23:30:53 <bdoin>	elle est bonne pour bashfr celle là 
+mai 01 23:31:02 *	erwan_ho poliote
+mai 01 23:31:16 <bdoin>	oui mais non, ça continue pas
+mai 01 23:31:32 <yvesC>	ah?
+mai 01 23:31:41 <yvesC>	apt-get install check alors.
+mai 01 23:31:59 <bdoin>	c'est quoi ce check ?
+mai 01 23:32:30 <yvesC>	un programme de génération de tests systématique. 
+mai 01 23:32:51 <yvesC>	il faut que je regarde comment il marche pour tester mes bounds de ma ligne déplaçable.
+mai 01 23:33:16 <yvesC>	C'est le dossier test/
+mai 01 23:35:21 <bdoin>	ça compile
+mai 01 23:37:47 <bdoin>	yvesC: faut que je l'installe ?
+mai 01 23:38:03 <yvesC>	non
+mai 01 23:38:10 <yvesC>	cd demo && ./ccc-demo
+mai 01 23:38:20 <yvesC>	et regarde simpleitem
+mai 01 23:38:59 <bdoin>	ouch, ça dépote
+mai 01 23:39:17 <yvesC>	le code est dans simple-item.c
+mai 01 23:39:23 <yvesC>	dans le dossier demo.
+mai 01 23:39:41 <bdoin>	ça me bouffe 50% de CPU quand même mais c'est hyper fluide
+mai 01 23:40:31 <bdoin>	cool la démo des layers
+mai 01 23:40:48 <yvesC>	faut dire que le code est fait pour. Il répond à une demande de rendu et à la fin il prvoque la suivante sns mettre de délai.
+mai 01 23:43:18 <bdoin>	le code est compact
+mai 01 23:43:33 <yvesC>	oui, sven est assez pointilleux.
+mai 01 23:44:52 <yvesC>	en gros le simple item c'est un truc vide. Il envoie un signal "render", "distance" "update-bounds" suivant les besoins. à toi de fournir le code correspondant en récupérant les messages.
+mai 01 23:50:13 <bdoin>	ça me plait bien, et toi ?
+mai 01 23:50:59 <yvesC>	le problème c'est de fournir la distance.
+mai 01 23:51:26 <bdoin>	pour le zoom ?
+mai 01 23:53:55 <erwan_ho>	il me manquait les packages hi
+mai 01 23:57:15 <yvesC>	non. pour les évènements. 
+mai 01 23:57:33 <bdoin>	je comprend pas
+mai 01 23:58:10 <yvesC>	pour envoyer à un cercle l'évènement enter, il demande à chaque item sa distance à la position du curseur. le premier qui dit 0 reçoit l'évènement en question.
+mai 01 23:59:18 <bdoin>	hum
+mai 01 23:59:26 <yvesC>	donc si tu peux pas fournir la distance entre ton dessin et un point quelconque du canvas, ou au moins être capable de détecter si le point est dans ton dessin, tu recevras pas les évènements click, enetr, leave.
+mai 01 23:59:32 <yvesC>	enter
+**** FIN DU JOURNAL À Wed May  2 00:00:02 2007
+

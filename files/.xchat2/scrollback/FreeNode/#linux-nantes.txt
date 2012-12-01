@@ -1,0 +1,27 @@
+T 1204579195 19*	19Vous parlez maintenant sur #linux-nantes
+T 1204579195 29*	29Le sujet de #linux-nantes 29est : <@Hooligan0> le C c'est vraiment une perl | <nantes_geek> je couche avec Scara la|pingouins dans les champs, hiver mechant
+T 1204579195 29*	29Sujet de #linux-nantes 29défini par ayabot 29le Sat Dec  8 14:26:38 2007
+T 1204579195 22*	26ChanServ donne l'état d'opérateur de canal à26 TomT0m
+T 1217446491 19*	19Vous parlez maintenant sur #linux-nantes
+T 1217446491 29*	29Le sujet de #linux-nantes 29est : RMLL Nantes 2009 : Rendez-vous Libres ! voir #rmll-orga sur irc.freenode.net | http://www.linux-nantes.org/Cartographier-Nantes.html
+T 1217446491 29*	29Sujet de #linux-nantes 29défini par ayabot_ 29le Thu Jul 24 14:43:54 2008
+T 1218907577 19*	19Vous parlez maintenant sur #linux-nantes
+T 1218907577 29*	29Le sujet de #linux-nantes 29est : RMLL Nantes 2009 : Rendez-vous Libres ! voir #rmll-orga sur irc.freenode.net | http://www.linux-nantes.org/Cartographier-Nantes.html
+T 1218907577 29*	29Sujet de #linux-nantes 29défini par ayabot_ 29le Thu Jul 24 14:43:54 2008
+T 1218918324 23*	23Nounours_ est parti (23Read error: 60 (Operation timed out)23)
+T 1218918889 19*	19Nounours_ (n=pipo@ANantes-256-1-48-218.w86-199.abo.wanadoo.fr) a rejoint #linux-nantes
+T 1221922242 19*	19Vous parlez maintenant sur #linux-nantes
+T 1221922242 29*	29Le sujet de #linux-nantes 29est : RMLL Nantes 2009 : Rendez-vous Libres ! voir #rmll-orga sur irc.freenode.net | http://www.linux-nantes.org/Cartographier-Nantes.html
+T 1221922242 29*	29Sujet de #linux-nantes 29défini par ayabot_ 29le Thu Jul 24 14:43:54 2008
+T 1222193367 19*	19Vous parlez maintenant sur #linux-nantes
+T 1222193367 29*	29Le sujet de #linux-nantes 29est : RMLL Nantes 2009 : Rendez-vous Libres ! voir #rmll-orga sur irc.freenode.net | http://www.linux-nantes.org/Cartographier-Nantes.html
+T 1222193367 29*	29Sujet de #linux-nantes 29défini par ayabot_ 29le Thu Jul 24 14:43:54 2008
+T 1222193977 23*	23Scara est parti (23Read error: 110 (Connection timed out)23)
+T 1222195519 19*	19Scara (n=Annaig@pir44-1-82-231-147-236.fbx.proxad.net) a rejoint #linux-nantes
+T 1222198171 19*	19patlenain (n=patrice@167.125.100-84.rev.gaoland.net) a rejoint #linux-nantes
+T 1222198181 18<22patlenain>	lut
+T 1222198663 18<26Ishido>	plop patlenain 
+T 1222198671 18<22patlenain>	lut
+T 1222203784 19*	19BeTa__ (n=beta@e-glop.net) a rejoint #linux-nantes
+T 1222203913 22*	BeTa__ s'appelle maintenant BeTa-glop
+T 1222204253 23*	23BeTa-glop est parti (23"leaving"23)

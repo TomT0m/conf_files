@@ -1,0 +1,243 @@
+T 1322512510 29*	29Le sujet de #tchatchelinuxfr 29est : Tchatche LinuxFr.org : l’espace de rédaction http://linuxfr.org/news/tchatche-linuxfrorg%C2%A0-l%E2%80%99espace-de-r%C3%A9daction
+T 1322512510 29*	29Sujet de #tchatchelinuxfr 29défini par oumph!~oumph@APuteaux-154-1-18-59.w83-199.abo.wanadoo.fr 29le Mon Nov 28 20:32:30 2011
+T 1322512516 18<24N`>	ça peut faire office de brouillon
+T 1322512519 18<20hellgate>	*** baud123 tope N'
+T 1322512521 18<29patrick_g_>	Un des avantages c'est aussi de réduire les duplications de travail qui pouvaient exister auparavant quand deux contributeurs proposaient une news sur le même sujet.
+T 1322512548 18<24N`>	on peut s'arrêter au milieu de la dépêche et revenir le lendemain depuis un autre ordinateur pour finir sa dépêche
+T 1322512582 18<24N`>	et en plus, des fois, on découvre que quelqu'un a proposé d'autres liens intéressants sur le même sujet (c'est du vécu)
+T 1322512586 18<24N`>	;;
+T 1322512647 18<25oumph>	(rappel: les questions sont à envoyer en message privé aux modérateurs Oumph (irc ou xmpp) et claudex (irc).)
+T 1322512679 18<25oumph>	Où se trouve la charte de rédaction de linuxfr.org ?
+T 1322512736 18<25claudex>	http://linuxfr.org/regles_de_moderation
+T 1322512756 18<24N`>	comme pour tout, faut chercher sur le plan : http://linuxfr.org/plan ;-)
+T 1322512759 18<24N`>	;;
+T 1322512765 18<25claudex>	 ; ;
+T 1322512780 18<20hellgate>	[Nils] ;;
+T 1322512812 23*	23bbear est parti (23Quit: Goodbye23)
+T 1322512814 18<25oumph>	Disons que c'est qui est rédigé passe en modération, donc les règles de modération correspondent pas mal aux règles de rédaction de fait. Il est toutefois possible d'envisager des conseils supplémentaires de forme, de fond, etc.
+T 1322512818 23*	23alpha_one_x86 est parti (23Quit: KVIrc KVIrc Equilibrium 4.1.1, revision: 5816, sources date: 20110403, built on: 2011-10-30 17:22:05 UTC http://www.kvirc.net/23)
+T 1322512829 18<25claudex>	(rappel : les ;; sont là pour préciser que la personne a fini de répondre)
+T 1322512856 18<20hellgate>	[Nyco] la charte évolue pas mal au cours du temps et nos expériences
+T 1322512862 18<25oumph>	Par ailleurs des conseils de collaboration pourraient être donnés pour aider les gens à travailler à plusieurs efficacement disons.
+T 1322512869 18<20hellgate>	[Nyco] globalement, elle reste la même, ce sont les détails qui changent
+T 1322512888 18<25oumph>	Nous sommes preneurs de suggestions sur la charte de modération ou sur une charte de rédaction en général.
+T 1322512926 18<20hellgate>	[Nyco] genre, nous avons discuté de ceci : lorsque l'article est long, il devient nécessaire de réduire la première partie, et de sectionner la seconde par des titres (h2)
+T 1322512943 19*	19pierre80 (~pierre@AAmiens-152-1-58-66.w83-198.abo.wanadoo.fr) a rejoint #tchatchelinuxfr
+T 1322512947 18<20hellgate>	[Nyco] on bataille pas mal sur les règles de typo du français
+T 1322512974 18<20hellgate>	[Nyco] mais surtout on vérifie l'info, et son adéquation avec la ligne éditoriale du site
+T 1322512976 18<20hellgate>	[Nyco] ;;
+T 1322512981 19*	19beuss (~sebastien@eur10-1-82-241-182-73.fbx.proxad.net) a rejoint #tchatchelinuxfr
+T 1322512992 18<25oumph>	;;
+T 1322513002 18<25oumph>	Existe-il une liste de diffusion des rédacteurs pour se coordonner, proposer des sujets, définir qui fait quoi, etc. ?
+T 1322513005 18<20neox>	clair que veillez aux espaces fines insecables pour decider ou non de publier, c'est quand meme capilotracté ;;
+T 1322513024 18<20hellgate>	[baud123] s/veillez/veiller/
+T 1322513039 18<20hellgate>	[baud123] (sans parler des accents /o\)
+T 1322513046 18<20hellgate>	[Nils] il y a la tribune de rédaction : https://linuxfr.org/redaction
+T 1322513062 18<20hellgate>	[Nils] mais pas de liste de diffusion par mail
+T 1322513081 19*	19Nayo (~nayo@cust-249-200-110-94.dyn.as47377.net) a rejoint #tchatchelinuxfr
+T 1322513081 18<20hellgate>	[Nils] à noter que les dépêches dans l'espace de collaboration ont un espace de discussion
+T 1322513084 18<28baud>	pas t'encore, ya une entrée pour cela
+T 1322513113 18<20hellgate>	[Nyco] ce serait bien, effectivement, comme c'est un outil traditionnel, et que chacun s'y retrouve avec son propre MUA (client mail), par rapport à l'interface web
+T 1322513137 18<20hellgate>	[Nyco] ;;
+T 1322513153 18<20hellgate>	[Nils] ;;
+T 1322513178 18<25oumph>	Est-ce qu'il ne serait pas intéressant d'introduire la notion d'évènement, auxquels les rédacteurs habitués pourraient s'abonner (signaler qu'ils sont généralement sur ce sujet) ? Cela pourrait introduire beaucoup de facilités pour la collaboration.
+T 1322513217 18<20hellgate>	[Nyco] excellente idée !
+T 1322513247 18<20hellgate>	[Nyco] il y a déjà http://linuxfr.org/readings
+T 1322513267 18<20hellgate>	[Nyco] à cette page, pourrai s'ajouter les aticles e rédactions, etc.
+T 1322513268 18<25claudex>	J'en avais déjà parlé il me semble mais ça demande du boulot et je ne suis pas sûr que beaucoup de monde suivrait mais je trouve aussi que c'est une bonne idée
+T 1322513270 18<20hellgate>	[Nyco] ;;
+T 1322513273 18<25oumph>	(rappel: les questions sont à envoyer en message privé aux modérateurs Oumph (irc ou xmpp) et claudex (irc).)
+T 1322513283 18<20hellgate>	[baud123] ah un rss des rédactions à venir, comme proposé sur https://linuxfr.org/wiki/th%C3%A8mes-r%C3%A9currents oui, ça peut être proposé :-)
+T 1322513297 18<20hellgate>	[Nils] ça peut être vraiment sympa :)
+T 1322513298 18<20hellgate>	[baud123] vu que le process reste à créer
+T 1322513318 18<24N`>	pourquoi pas ;;
+T 1322513349 18<20hellgate>	[Nils] ;;
+T 1322513354 18<25oumph>	Est-il envisageable d'étendre le système de rédaction collaborative aux journaux ?
+T 1322513377 18<19lukhas>	hmm
+T 1322513379 18<20hellgate>	[baud123] o_O
+T 1322513386 18<19lukhas>	si c'est pour en faire un super journal complet, autant proposer une dépêche, non ?
+T 1322513392 18<20hellgate>	[Nyco] je ne vois pas très bien l'intérêt... d'autre part, sur le côté technique je laisse NoNo répondre...
+T 1322513393 18<20hellgate>	[baud123] ya le wiki pour cela ou sinon, pourquoi ne pas faire une dépêche ?
+T 1322513394 18<19lukhas>	ou alors j'ai pas saisi le but :)
+T 1322513395 18<19lukhas>	;;
+T 1322513399 18<20hellgate>	[baud123] ;;
+T 1322513405 18<24N`>	techniquement, ça demanderait beaucoup de boulot
+T 1322513415 18<24N`>	et un journal a un coté très personnel
+T 1322513423 18<20hellgate>	[Nyco] ;;
+T 1322513433 18<24N`>	donc, si c'est pour se donner autant de mal, autant faire une dépêche
+T 1322513449 18<24N`>	au pire, il y a moyen de faire ça dans l'espace de rédaction
+T 1322513456 18<20hellgate>	[Nils] j'ai aussi du mal à voir l'intérêt, le journal peut perdre de son instantanéité, ce que je trouve dommage.
+T 1322513459 18<20hellgate>	[Nils] ;;
+T 1322513475 18<24N`>	en marquant en haut de la dépêche qu'elle va être très transformée en journal
+T 1322513486 18<24N`>	puis, quelqu'un fait le copier-coller en journal
+T 1322513518 18<24N`>	ce n'est pas top, mais je ne vais pas me lancer dans les journaux en mode collaboratif avant un bout de temps
+T 1322513521 18<24N`>	;;
+T 1322513521 18<28baud>	bin l'auteur initial, vu qu'il reçoit le refus :)
+T 1322513524 18<28baud>	;;
+T 1322513531 18<25claudex>	 ; ;
+T 1322513568 18<25oumph>	Est-ce qu'il serait possible d'avoir des retours sur les corrections effectuées lors de la relecture ? Par exemple, si on écrit trop à la première personne… Cela peut permettre aux gens de ne pas refaire les mêmes erreurs et diminuer ainsi le travail de relecture.
+T 1322513633 18<24N`>	c'est déjà un peu le cas pour les dépêches refusées
+T 1322513633 18<20hellgate>	[Nyco] d'une manière générale, la première personne est utilisée dans les journaux
+T 1322513647 18<25claudex>	C'est une bonne idée mais il faudrait réussir à avoir un diff correct entre la première et la dernière correction pour que ce soit exploitable
+T 1322513647 18<24N`>	mais on pourrait donner plus de détails
+T 1322513647 18<20hellgate>	[Nyco] pour les articles à lapremière personne, il y a une section pour cela
+T 1322513669 18<20hellgate>	[Nyco] mais oui, au moment de la validation, on doit pouvoir envoyer le diff ? NoNo ?
+T 1322513682 18<20hellgate>	[Nyco] ;;
+T 1322513689 18<24N`>	en l'état, non
+T 1322513694 18<24N`>	mais ça peut se coder
+T 1322513701 18<28baud>	euh bin il y a http://demoll.tuxfamily.org/linuxfr/SuggestionsRelecteurLinuxFr qui donnait quelques conseils de relecture pouvant servir à la rédaction, reste à le reprendre sur le wiki :-)
+T 1322513713 18<28baud>	;_;
+T 1322513716 18<24N`>	juste que je ne suis pas convaincu que le diff soit très intéressant sans explications
+T 1322513723 18<24N`>	;;
+T 1322513749 18<25oumph>	Est-il envisageable de pouvoir se passer un jour de l'interface web de linuxfr.org pour rédiger et de pouvoir faire ça par un système de versionnement ? (quitte à valider l'état définitif soit par un tag, soit par l'interface web)
+T 1322513775 18<24N`>	un jour, peut-être
+T 1322513779 18<25oumph>	(rappel: les questions sont à envoyer en message privé aux modérateurs Oumph (irc ou xmpp) et claudex (irc).)
+T 1322513786 18<20hellgate>	[Nyco] je ne vois pas très bien comment, car beaucoup de process sont spécifiques, il faudrait pas mal de hooks
+T 1322513798 18<24N`>	mais pour le moment, ça paraît très improbable
+T 1322513825 18<24N`>	oui, c'est très complexe à gérer
+T 1322513839 18<20hellgate>	[Nils] peut-être en créant un web service, avec une API ? Mais j'imagine que cela reviendrait à refaire le site de A à Z...
+T 1322513881 18<24N`>	par exemple, chaque dépêche est associée à une section, comment marquer cela dans un dépôt git ?
+T 1322513882 18<25claudex>	ça me semble aussi fort compliqué pour un intérêt fort limité
+T 1322513890 18<25claudex>	 ; ;
+T 1322513899 18<20hellgate>	[Nyco] aaah, la mode de Git... ;-) ;;
+T 1322513927 18<24N`>	Nils : on pourrait faire une API, mais ça ne répond pas à la demande et ne présente pas forcément un très grand intérêt
+T 1322513930 18<24N`>	;;
+T 1322513938 18<28baud>	;_;
+T 1322513943 23*	23burmas (23~thomas@68-179-112-217.fix.adsl.belcenter.be) a quitté #tchatchelinuxfr
+T 1322513949 18<20hellgate>	[Nils] ;;
+T 1322513974 18<28baud>	bon on fait une discussion libre en enlevant le mute pour avoir un avis des participants ?
+T 1322513995 18<25oumph>	on écoule les dernières questions et on peut faire ça
+T 1322514004 18<28baud>	ça fera moins monologue et un peu plus interactif :-)
+T 1322514010 18<25oumph>	Pourra-t-on un jour utiliser weboob pour rédiger collaborativement une dépêche ?
+T 1322514013 18<28baud>	ok ;_;
+T 1322514042 18<20hellgate>	[Nyco] pourquoi pas...
+T 1322514050 18<24N`>	je n'en sais rien
+T 1322514061 18<24N`>	ça dépend surtout des développeurs de weboob
+T 1322514063 18<20hellgate>	[Nils] faut demander aux développeurs de weboob, non ?
+T 1322514079 18<20neox>	nis : +1
+T 1322514091 18<24N`>	pour le moment, je ne crois pas qu'ils aient fait la moindre demande sur le suivi dans ce sens
+T 1322514092 18<20hellgate>	[Nyco] cad que l'interface bouge pas mal surtotu en ce moment...
+T 1322514097 18<20hellgate>	[Nyco] ;;
+T 1322514103 18<24N`>	;;
+T 1322514107 18<20hellgate>	[Nils] ;;
+T 1322514111 18<25claudex>	 ; ;
+T 1322514119 18<25oumph>	Pour rebondir sur le côté personnel des journaux, cela peut aussi concerner également les dépêches, et globalement si l'on est peu adepte de la collaboration pour la rédaction de contenu. Peut-être que la possibilité de soumettre une depêche sans collaboration possible pourrait être envisagée ?
+T 1322514123 19*	19Skunnyk (~Skunnyk@fe-0-1-semaphore-v501-par.toile-libre.net) a rejoint #tchatchelinuxfr
+T 1322514141 18<20hellgate>	[Nyco] c'est là : http://linuxfr.org/news/nouveau
+T 1322514154 18<25oumph>	sans les avantages du mode brouillon
+T 1322514170 18<20hellgate>	[Nyco] de toute façon, la dépêche est vérifiée, revue et corrigée par l'équipe d'édition
+T 1322514199 18<25oumph>	donc il faut la rédiger en une fois, au lieu de pouvoir la créer et la compléter ensuite, avant l'envoi en modération.
+T 1322514210 18<28baud>	euh ouais, mais bon quand il reste tout à rédiger, faut soit connaître le sujet, soit être motivé (/me ne jette pas la pierre à Guillaumito)
+T 1322514230 18<28baud>	donc préférer l'espace de rédaction initialement
+T 1322514248 18<28baud>	;_;
+T 1322514259 18<25claudex>	 ; ;
+T 1322514273 18<20hellgate>	[Nyco] ;;
+T 1322514279 18<24N`>	je pense que l'on peut utiliser l'espace de rédaction, avec une petite note en haut
+T 1322514288 18<24N`>	disant que l'on veut travailler tout seul dessus
+T 1322514307 18<24N`>	;;
+T 1322514320 18<25oumph>	pile de questions épuisée, on passe en débat libre
+T 1322514322 22*	oumph active le mode -m #tchatchelinuxfr
+T 1322514323 23*	23moijutiliselatri (23~moijutili@esc31-1-78-245-93-86.fbx.proxad.net) a quitté #tchatchelinuxfr
+T 1322514325 18<28baud>	bin euh, c'est un peu comme un wiki quand même :)
+T 1322514338 18<28baud>	 \o/ oumph
+T 1322514342 18<27mackwic>	 \o/
+T 1322514346 18<20hellgate>	[altor] \o/
+T 1322514351 18<20hellgate>	[Nyco] oula
+T 1322514362 18<28baud>	hola mackwic que tal, tenias preguntas me parece ?
+T 1322514408 18<27mackwic>	baud: Abla la France ? :)
+T 1322514419 18<28baud>	zyva toi, t'es qui mec
+T 1322514427 19*	19florent (~flo@edony.tuxfamily.net) a rejoint #tchatchelinuxfr
+T 1322514428 18<28baud>	:D
+T 1322514455 18<27mackwic>	ouech gro, je zonais par-ci, tu vois ?
+T 1322514469 18<25oumph>	je crois qu'on vous appelle dehors
+T 1322514477 18<25oumph>	vu que vous voulez parler d'autre chose
+T 1322514478 19*	19jobbi (~jobbi@120-1-190-109.dsl.ovh.fr) a rejoint #tchatchelinuxfr
+T 1322514505 22*	26oumph enlève son état d'opérateur de canal à26 baud
+T 1322514514 18<27mackwic>	Ok, question sérieuse: y'a des coding styles pour dev sur le site ? J'irais jetter un oeil dans un futur très proche
+T 1322514533 18<27mackwic>	Ceci dit par analyse du code ça peut se déduire
+T 1322514563 18<24N`>	c'est du ruby on rails, donc ça se résume principalement à suivre les bonnes pratiques en ruby et en rails
+T 1322514572 18<24N`>	rien de bien méchant
+T 1322514608 23*	23pierre80 est parti (23Ping timeout: 248 seconds23)
+T 1322514645 18<27mackwic>	ok, ça devrait aller dans ce cas
+T 1322514664 23*	23Skunnyk (23~Skunnyk@fe-0-1-semaphore-v501-par.toile-libre.net) a quitté #tchatchelinuxfr (23"Out Of Control"23)
+T 1322514729 23*	23mackwic est parti (23Remote host closed the connection23)
+T 1322514750 18<20hellgate>	[Nyco] https://linuxfr.org/code_source_du_site
+T 1322514787 19*	19mackwic (~thomas@LLagny-156-34-48-187.w193-252.abo.wanadoo.fr) a rejoint #tchatchelinuxfr
+T 1322514823 18<28baud>	mackwic: j'ai tenté https://linuxfr.org/wiki/Organisation-Code-LinuxFr mais cela reste améliorable :-)
+T 1322514884 18<27mackwic>	ok c'est déjà pas mal
+T 1322514888 18<28baud>	et visiblement un contributeur s'en est passé d'après https://linuxfr.org/suivi/patch-possibilit%C3%A9-d%C3%A9diter-les-commentaires
+T 1322514919 18<28baud>	(j'aimerais bien un retour comment il s'est débrouillé, il a peut-être demandé à N`< de lui installer son instance ?)
+T 1322514949 18<20hellgate>	[[:belle]] test
+T 1322514969 18<28baud>	il prétend que ça lui a pris 4 à 8h, ce n'est pas tant que cela
+T 1322514980 18<24N`>	baud: non, il ne m'a rien demandé
+T 1322514987 18<28baud>	eh beh
+T 1322514990 18<24N`>	j'ai découvert le patch sur le suivi
+T 1322515015 18<20hellgate>	[[:belle]] baud< manifestement une base de test bien garnie faciliterait bien la tâche (genre un extrait de la base de prod)
+T 1322515017 18<28baud>	on aurait une ML, il aurait pu être plus prolixe (ah, mon oreillette m'indique qu'on a une ML)
+T 1322515060 18<20hellgate>	[baud123] davy.defaud, o_O
+T 1322515112 18<20hellgate>	[baud123] [:belle], yep, bah demandez
+T 1322515113 23*	23florent (23~flo@edony.tuxfamily.net) a quitté #tchatchelinuxfr
+T 1322515151 18<27mackwic>	N` : possiblité d'avoir un micro-export de la BDD pour faire tourner en local plus facilement ? (d'ailleurs comment fais-tu, toi, dans ce cas ? )
+T 1322515171 18<25oumph>	y a pas besoin pour commencer
+T 1322515185 18<25oumph>	ça se remplit quand même facilement la base
+T 1322515186 18<28baud>	sur les dév' il reste à créer une communauté : sur les CSS (le concours a apporté du contenu, pas forcément des contributeurs dans la durée :/ et il nous manque des graphistes ainsi que des testeurs et un process pour essayer l'alpha)
+T 1322515190 18<25oumph>	(j'ai aussi une instance)
+T 1322515205 18<24N`>	mackwic: moi, je me suis créé des contenus au fur et à mesure
+T 1322515212 18<25oumph>	voilà, pareil
+T 1322515221 23*	23Nayo (23~nayo@cust-249-200-110-94.dyn.as47377.net) a quitté #tchatchelinuxfr (23"Ex-Chat"23)
+T 1322515223 18<25oumph>	pour coder les stats notamment
+T 1322515272 18<24N`>	le problème d'un micro-export, c'est que c'est très facile de leaker des informations personnelles
+T 1322515280 18<28baud>	mackwic: si tu complètes https://linuxfr.org/wiki/Organisation-Code-LinuxFr visiblement oumph et N`  t'indiqueront comment te passer d'une base complète :-)
+T 1322515403 18<27mackwic>	ça ira je pense. C'est l'aigri du suivi qui présentait ça comme un problème important ;-)
+T 1322515448 18<25claudex>	je l'avais aussi lancer il y a quelques temps sans problème (mais sans base)
+T 1322515480 18<28baud>	mackwic: bin en fait le suivi est ponctuel (une fois que c'est corrigé c'est oublié), le wiki est plus inscrit dans le présent : cela précise comment participer à un instant t
+T 1322515641 18<20hellgate>	[llo] plop ?
+T 1322515698 23*	23neox est parti (23Quit: Page closed23)
+T 1322515699 18<20hellgate>	[llo] \o/ It works \o/
+T 1322515725 18<28baud>	llo : à la base c'est discussion libre maintenant (mais pas de réponse garantie)
+T 1322515758 18<20hellgate>	[llo] je sais, je sais, et merci !
+T 1322515760 18<20hellgate>	[[:belle]] On peut parler d'autre chose que de l'espace de rédaction ?
+T 1322515783 18<20hellgate>	[pierre_80] mon idée sur l'ajout de langes supplémentaires à t'elle été prise en compte ?
+T 1322515794 19*	19weshbien (5d131e1e@gateway/web/freenode/ip.93.19.30.30) a rejoint #tchatchelinuxfr
+T 1322515812 23*	23weshbien (235d131e1e@gateway/web/freenode/ip.93.19.30.30) a quitté #tchatchelinuxfr
+T 1322515831 18<24N`>	pierre_80 : quelle idée ?
+T 1322515873 19*	19LeChevalierAnu (~tieuma@30.30.19.93.rev.sfr.net) a rejoint #tchatchelinuxfr
+T 1322515966 18<20hellgate>	[pierre_80] rajouter des langues sur l'ajout des liens car certaines pages sont dans une langue qui n'est pas disponible dans le choix de la langue du lien
+T 1322515992 18<24N`>	ha, je n'ai pas vu passer cette idée
+T 1322515999 18<20hellgate>	[[:belle]] il y a des langues particulières qui t'intéressent ?
+T 1322516005 23*	23LeChevalierAnu est parti (23Client Quit23)
+T 1322516053 18<24N`>	il me faudrait surtout un petit drapeau pour représenter la langue
+T 1322516062 18<24N`>	après, ce n'est pas compliqué à ajouter
+T 1322516179 19*	19Obsidian (~Obsidian@2a01:e35:2eee:44d0:21d:fff:fef9:7e5c) a rejoint #tchatchelinuxfr
+T 1322516192 18<29Obsidian>	Bonsoir à tous…
+T 1322516193 22*	Obsidian s'appelle maintenant Guest97621
+T 1322516258 22*	Guest97621 s'appelle maintenant Obsidian__
+T 1322516264 22*	Obsidian__ s'appelle maintenant Obsidian_
+T 1322516287 22*	Obsidian_ s'appelle maintenant Obsidian_DLFP
+T 1322516298 18<28baud>	tant que  c'est dans le suivi ça peut etre pris en compte
+T 1322516504 18<20hellgate>	[llo] sinon, je voulais remercier la qualité des journaux, dépêches, etc, moi, j'ai fais de belles découvertes grâce à linuxfr :) mais je sais jamais à qui le dire....
+T 1322516535 18<20hellgate>	[baud123] llo, bin dans chaque nourjal, en commentaire :-)
+T 1322516565 18<20hellgate>	[llo] voui mais bon ^^ c'est compliqué de poster des commentaires, et j'ai toujours peur de me prendre des points en moins dans la tronche :p
+T 1322516575 18<20hellgate>	[llo] (enfin je suis difficile, je sais /o\)
+T 1322516595 18<20hellgate>	[baud123] un peu comme dans un troquet, tu trinques avec les gens avec qui tu discutes (à adapter au contexte)
+T 1322516608 18<20hellgate>	[llo] [:uxam]
+T 1322516620 18<20hellgate>	[baud123] sur la tribune aussite
+T 1322516632 18<20hellgate>	[baud123] bref
+T 1322516635 18<20Obsidian_DLFP>	Ça en fait du temps passé depuis 1999...
+T 1322516649 18<20hellgate>	[llo] oui mais.... est-ce que le tous les contributeurs sont des moules ? pas sûr....
+T 1322516675 18<20hellgate>	[pierre_80] t'inquietes pas tu risque pas de finir comme samwang même moi j'ai des commentaires notés négativement
+T 1322516679 18<28baud>	toutes les moules sont-ils des contributeurs ? (vous avez 1h16)
+T 1322516680 18<20hellgate>	[llo] (bah, je commenterai)
+T 1322516693 18<28baud>	(avant le bonjour)
+T 1322516751 18<20Obsidian_DLFP>	Bien, bien, bien. Je m'en vais vaquer à mes petites activités. Bonne soirée à tous.
+T 1322516779 18<28baud>	bn Obsidian_DLFP
+T 1322516784 23*	23claudex est parti (23Ping timeout: 248 seconds23)
+T 1322516789 18<20Obsidian_DLFP>	Bye. (Zou)
+T 1322516794 23*	23Obsidian_DLFP est parti (23Quit: Quitte23)
+T 1322516828 18<29patrick_g_>	Ciao à tous.
+T 1322516830 23*	23patrick_g_ est parti (23Quit: Ex-Chat23)
+T 1322516853 19*	19claudex (~xavier@91.180.8.167) a rejoint #tchatchelinuxfr
+T 1322516862 23*	23herlock est parti (23Quit: Ex-Chat23)
+T 1322516882 18<28baud>	ah bah vala, discussion libre et plus personne pour ne lancer de sujet :/
+T 1322517057 18<28gibus>	comment on fout des baffes aux commentateurs ?
+T 1322517107 23*	23mackwic est parti (23Remote host closed the connection23)

@@ -1,0 +1,872 @@
+**** DÉBUT DU JOURNAL À Fri Jul 20 20:50:54 2007
+
+jui 20 20:50:54 *	Vous parlez maintenant sur #linuxfr
+jui 20 20:50:54 *	Le sujet de #linuxfr est : http://linuxfr.org | ISO8859-15 UNIQUEMENT (pas d'utf8) | http://www.linux-france.org/article/these/smart-questions/smart-questions-fr.html | Merci de nous épargner les trolls politiques et le programme télé
+jui 20 20:50:54 *	Sujet de #linuxfr défini par Gniarf le Tue Jul 17 23:56:14 2007
+jui 20 20:50:55 -ChanServ-	[#linuxfr] Bienvenue sur #linuxfr. Merci d'écrire en ISO-8859-15 et en bon français si vous désirez rester parmi nous.
+jui 20 20:51:03 *	LeChevalierAnu (n=tieuma@225.98.70-86.rev.gaoland.net) a quitté #linuxfr
+jui 20 21:00:26 *	Pinkilla (n=Pinkilla@43.95-245-81.adsl-dyn.isp.belgacom.be) a rejoint #linuxfr
+jui 20 21:06:23 *	UnMus (n=domi@88-138-115-35.adslgp.cegetel.net) a rejoint #linuxfr
+jui 20 21:06:47 *	AToMiSeR est parti ("Lost terminal")
+jui 20 21:07:07 <UnMus>	Bonsoir
+jui 20 21:07:27 *	AToMiSeR (n=FIRE@gar78-1-82-238-170-171.fbx.proxad.net) a rejoint #linuxfr
+jui 20 21:07:55 <Jolidragon>	diop
+jui 20 21:11:24 *	Pinkilla est parti (Read error: 104 (Connection reset by peer))
+jui 20 21:15:04 *	Pinkilla (n=Pinkilla@60.207-243-81.adsl-dyn.isp.belgacom.be) a rejoint #linuxfr
+jui 20 21:16:02 *	pipomolo42 est parti (Client Quit)
+jui 20 21:25:20 *	AToMiSeR est parti ("Lost terminal")
+jui 20 21:25:39 *	AToMiSeR (n=FIRE@gar78-1-82-238-170-171.fbx.proxad.net) a rejoint #linuxfr
+jui 20 21:31:28 *	SMKpoil (i=SMKaribo@mtg95-1-82-233-25-164.fbx.proxad.net) a rejoint #linuxfr
+jui 20 21:42:11 *	Jolidragon est parti (Remote closed the connection)
+jui 20 21:55:07 *	UnMus est parti ("Connexion reset by beer")
+jui 20 22:06:00 *	Nounours` est parti (Read error: 110 (Connection timed out))
+jui 20 22:07:11 *	MrFreeze- (n=Guillaum@tvn95-1-82-229-101-246.fbx.proxad.net) a rejoint #linuxfr
+jui 20 22:07:24 *	stelab (n=steph@yer91-4-88-169-188-106.fbx.proxad.net) a rejoint #linuxfr
+jui 20 22:07:35 *	fky (n=fky@lns-bzn-40-82-251-159-6.adsl.proxad.net) a rejoint #linuxfr
+jui 20 22:07:40 <fky>	salut
+jui 20 22:07:50 <fky>	j'ai besoin d'un conseil pour le choix d'un linusque
+jui 20 22:08:43 <fky>	<fky> je viens d'essayer Ubuntu 7.04 sur CD et je le trouve plutot pas terrible
+jui 20 22:08:43 <fky>	<fky> je préfère largemetn Knoppix
+jui 20 22:08:43 <fky>	<fky> j'ai essayé que des trucs sur CD pour l'instant
+jui 20 22:08:43 <fky>	<fky> qu'est-ce que se rapproche de Knoppix comme distrib
+jui 20 22:08:43 <fky>	<fky> quelque chose d'assez généraliste et "moyennement" assisté
+jui 20 22:08:47 <fky>	rhaa
+jui 20 22:08:58 <Gniarf>	UTF8
+jui 20 22:09:03 <fky>	sans les accents (ca commence bien)
+jui 20 22:09:04 <fky>	j'ai essaye' que des trucs sur CD pour l'instant
+jui 20 22:09:04 <fky>	je viens d'essayer Ubuntu 7.04 sur CD et je le trouve plutot pas terrible
+jui 20 22:09:04 <fky>	je prefere largement Knoppix
+jui 20 22:09:04 <fky>	qu'est-ce que se rapproche de Knoppix comme distrib
+jui 20 22:09:04 <fky>	quelque chose d'assez generaliste et "moyennement" assiste'
+jui 20 22:09:48 *	Nounours (n=pipo@ANantes-256-1-51-158.w86-199.abo.wanadoo.fr) a rejoint #linuxfr
+jui 20 22:10:30 <Gniarf>	que reproches-tu à ubuntu ? que t'es trop assisté ? que Gnome est mis d'office ? que
+jui 20 22:10:49 <Gniarf>	il y a tellement d'assistants et autres que ce qui manque est encore plus criant ?
+jui 20 22:12:11 <fky>	trop assisté sans doute peut-etre mais surtout pas réactif, une impression général de lourdeur, une approche qui ne me vas pas trop
+jui 20 22:12:39 <fky>	merde les accents
+jui 20 22:12:43 <Gniarf>	beuh
+jui 20 22:12:44 <fky>	pff
+jui 20 22:12:59 <Gniarf>	gnome (cairo) pue du cul, sinon...
+jui 20 22:13:13 <fky>	je crois que j'aime pas trop gnome en effet
+jui 20 22:13:28 <PulkoMandy>	fky: ubuntu et knoppix sont toutes les deux basées sur Debian
+jui 20 22:13:38 <PulkoMandy>	donc si t'as un peu trainer là dedans il vaut mieux y rester
+jui 20 22:13:58 <Gniarf>	quoique ubuntu en livecd c'est moins fait pour
+jui 20 22:14:23 <fky>	j'hésite entre Mdv, Etch et Fedora
+jui 20 22:15:02 <Gniarf>	fedora ils sortent trop vite leurs versions
+jui 20 22:15:07 <Gniarf>	et debian cai le contraire
+jui 20 22:15:42 *	Pinkilla_ (n=Pinkilla@49.160-200-80.adsl-dyn.isp.belgacom.be) a rejoint #linuxfr
+jui 20 22:16:28 <PulkoMandy>	personne n'est parfait :)
+jui 20 22:17:40 <Gniarf>	les fedora, c'est du jetable
+jui 20 22:17:46 <Gniarf>	comme ubuntu en fait
+jui 20 22:17:53 <Gniarf>	et mandriva à un moindre niveau
+jui 20 22:17:56 <fky>	mdv ça me parait etre un bon compromis
+jui 20 22:19:23 <Gniarf>	ils ont beau te dire "on va s'en occuper pendant 3/5 ans" tu te fais jeter par un "mais pourquoi tu utilises pas le tout nouvel Omo sorti demain matin absolument pas testai"
+jui 20 22:20:16 <PulkoMandy>	Debian, quand c'est sorti en stable, ça bouge plus. Le problème c'est que ça sort rarement.
+jui 20 22:21:00 <Mr_shadock>	des fois ça bouge plus que c'est pas encore sorti
+jui 20 22:21:08 *	AToMiSeR est parti ("Lost terminal")
+jui 20 22:25:00 <fky>	si j'installe la mdv de base (1 live-CD+install) et que je rajoute ce que je veux via le réseau, ça peut le faire non?
+jui 20 22:25:13 <fky>	plutot que de charger le DVD complet direct
+jui 20 22:25:44 <Mr_shadock>	oui
+jui 20 22:26:51 *	Pinkilla est parti (Read error: 110 (Connection timed out))
+jui 20 22:28:04 *	pheex est parti (Remote closed the connection)
+jui 20 22:28:25 <fky>	a priori je m'y connais suffisemment pour me debrouiller
+jui 20 22:29:14 *	pheex (i=pheex@unaffiliated/pheex) a rejoint #linuxfr
+jui 20 22:29:15 <fky>	je veux juste 2 ou 3 trucs pour coder, d/l, un peu de bureautique et de l'emulation
+jui 20 22:30:24 <fky>	encore desole pour le tefuite, mais je suis sur d'autres chan ou c'est impose' ;o)
+jui 20 22:30:33 <Gniarf>	LA MORT !
+jui 20 22:30:48 <Gniarf>	ces chans de NAZIS qui IMPOSENT l'utf-8 !
+jui 20 22:31:20 <Gniarf>	bah
+jui 20 22:31:25 *	Madvax a expulsé fky de #linuxfr (et ici on impose l'ISO)
+jui 20 22:31:37 *	fky (n=fky@lns-bzn-40-82-251-159-6.adsl.proxad.net) a rejoint #linuxfr
+jui 20 22:32:11 <fky>	il faut vraiment que j'installe ce script en python
+jui 20 22:32:35 <fky>	bon, ce sera une mdk, merci pour les conseils
+jui 20 22:32:36 <fky>	+
+jui 20 22:33:09 <Gniarf>	du moment que tu pars sur le principe que tu vas installer du jetable et que tu fous tout ton bordel à toi sur une partition ou un disque à part...
+jui 20 22:33:22 <Gniarf>	elles seront presque toutes ok
+jui 20 22:34:36 <Madvax>	si tu veux pas repartitionner tu fout du vmware
+jui 20 22:34:57 <Madvax>	vmware server est gratos
+jui 20 22:44:50 *	Pinkilla_ s'appelle maintenant Pinkilla
+jui 20 22:44:53 *	elliptic (n=greg@ALille-251-1-32-246.w82-127.abo.wanadoo.fr) a rejoint #linuxfr
+jui 20 22:51:40 *	pikapika (n=pikapika@mar75-8-88-164-227-147.fbx.proxad.net) a rejoint #linuxfr
+jui 20 22:51:44 *	MrFreeze- est parti (Read error: 104 (Connection reset by peer))
+jui 20 22:52:17 <pikapika>	yo
+jui 20 22:55:28 *	pikapika est parti (Client Quit)
+jui 20 22:58:28 *	ValiSystM (n=vali@crb44-1-82-67-125-160.fbx.proxad.net) a rejoint #linuxfr
+jui 20 22:59:39 *	pheex est parti ("Client exiting")
+jui 20 23:01:07 <PulkoMandy>	+++
+jui 20 23:01:12 *	PulkoMandy est parti (Remote closed the connection)
+jui 20 23:07:45 *	Dr`Maison est parti ("bouh")
+jui 20 23:07:53 *	cqst (n=unix@ras75-4-82-229-152-200.fbx.proxad.net) a rejoint #linuxfr
+jui 20 23:08:40 *	_jal (n=JaL@ims92-3-88-173-112-52.fbx.proxad.net) a rejoint #linuxfr
+jui 20 23:09:37 *	SMKpoil est parti (Read error: 110 (Connection timed out))
+jui 20 23:09:49 *	jal est parti (Read error: 104 (Connection reset by peer))
+jui 20 23:10:39 *	pheex (i=pheex@unaffiliated/pheex) a rejoint #linuxfr
+jui 20 23:20:39 *	Wil_ est parti (Read error: 104 (Connection reset by peer))
+jui 20 23:20:40 *	Wil__ (n=Thibault@195.154.157.120) a rejoint #linuxfr
+jui 20 23:23:53 *	azerty2 (n=azerty2@sd454.sivit.org) a rejoint #linuxfr
+jui 20 23:26:29 <azerty2>	http://urlx.org/90077
+jui 20 23:26:34 <azerty2>	oups, mauvaise fenetre
+jui 20 23:26:55 *	mmu_man (n=revol@vaf26-2-82-244-111-82.fbx.proxad.net) a rejoint #linuxfr
+jui 20 23:27:21 *	Pinkilla_ (n=Pinkilla@143.139-240-81.adsl-dyn.isp.belgacom.be) a rejoint #linuxfr
+jui 20 23:31:21 *	fky est parti ("Leaving")
+jui 20 23:31:43 *	paradises_ (n=paradise@d83-189-163-199.cust.tele2.ch) a rejoint #linuxfr
+jui 20 23:33:59 *	tite est parti (Read error: 110 (Connection timed out))
+jui 20 23:35:59 *	azerty2 est parti ("leaving")
+jui 20 23:36:59 *	Yoda-BZH est parti ("http://blog.yoda-bzh.net - Un message qu'on pense pas à vérifier souvent ...")
+jui 20 23:39:17 *	Pinkilla_ est parti ("A+")
+jui 20 23:39:30 *	Pinkilla est parti (Read error: 110 (Connection timed out))
+jui 20 23:39:32 *	kernelsensei est parti (Read error: 104 (Connection reset by peer))
+jui 20 23:42:53 *	kernelsensei (n=boris@gentoo/developer/kernelsensei) a rejoint #linuxfr
+jui 20 23:51:58 *	KaldenFr est parti (No route to host)
+jui 20 23:52:13 *	Solozerk (n=Solozerk@lau06-3-82-240-152-12.fbx.proxad.net) a rejoint #linuxfr
+jui 20 23:52:26 *	JiBEsH (n=Oo@202.90.91.77) a rejoint #linuxfr
+jui 20 23:52:53 *	JiBEsH est parti (SendQ exceeded)
+jui 20 23:53:55 *	JiBEsH (n=Oo@202.90.91.77) a rejoint #linuxfr
+jui 20 23:54:14 *	elliptic est parti ("Bye")
+**** FIN DU JOURNAL À Sat Jul 21 00:06:39 2007
+
+**** DÉBUT DU JOURNAL À Thu Aug 16 16:20:45 2007
+
+aoû 16 16:20:45 *	Vous parlez maintenant sur #linuxfr
+aoû 16 16:20:45 *	Le sujet de #linuxfr est : http://linuxfr.org | linuxfr@chat.jabberfr.org | ISO8859-15 UNIQUEMENT (pas d'utf8) | http://www.linux-france.org/article/these/smart-questions/smart-questions-fr.html | Merci de nous épargner les trolls politiques et le programme télé
+aoû 16 16:20:45 *	Sujet de #linuxfr défini par Gniarf le Tue Aug 14 23:50:27 2007
+aoû 16 16:20:45 -ChanServ-	[#linuxfr] Bienvenue sur #linuxfr. Merci d'écrire en ISO-8859-15 et en bon français si vous désirez rester parmi nous.
+aoû 16 16:25:12 *	bellule est parti ()
+aoû 16 16:40:23 *	nael (n=nael@ras75-1-81-57-62-96.fbx.proxad.net) a rejoint #linuxfr
+aoû 16 16:41:06 *	trublion est parti ()
+aoû 16 16:50:25 *	Sano est parti (Remote closed the connection)
+aoû 16 16:57:39 *	PeP` (n=PeP@128.179-66-87.adsl-dyn.isp.belgacom.be) a rejoint #linuxfr
+aoû 16 17:18:09 *	Zb est parti ("leaving")
+aoû 16 17:18:22 *	Zb (n=cninucci@194.250.0.192) a rejoint #linuxfr
+aoû 16 17:22:51 *	brayan1 (n=brayan@cpc1-brig9-0-0-cust936.brig.cable.ntl.com) a rejoint #linuxfr
+aoû 16 17:34:36 *	brayan est parti (Read error: 110 (Connection timed out))
+aoû 16 17:48:23 *	krionux (n=seb@86.67.10.12) a rejoint #linuxfr
+aoû 16 17:51:04 *	krionux est parti (Client Quit)
+aoû 16 17:57:34 *	fortitou est parti ("connection reset by beer")
+aoû 16 18:07:29 *	Oa` (n=oa@AMontsouris-151-1-88-196.w86-212.abo.wanadoo.fr) a rejoint #linuxfr
+aoû 16 18:10:32 *	ced-2 (n=ced@dyn-83-157-60-84.ppp.tiscali.fr) a rejoint #linuxfr
+aoû 16 18:12:40 <ker2x>	vous conaissez Nvidia CUDA ?
+aoû 16 18:13:24 <Jolidragon>	jconnai juste la voiture moi
+aoû 16 18:14:30 *	brayan2 (n=brayan@cpc1-brig9-0-0-cust936.brig.cable.ntl.com) a rejoint #linuxfr
+aoû 16 18:16:01 <Gniarf>	kerker
+aoû 16 18:16:30 <ker2x>	gniarf gniarf
+aoû 16 18:17:08 <ker2x>	ca permet d'utiliser les core de ta NVidia 8800 pour des applications non-graphique, codée en bon vieux C (et utiliser les 64 cores de la carte)
+aoû 16 18:17:31 <Gniarf>	64 cores sur ça ?
+aoû 16 18:17:34 <Gniarf>	pffft
+aoû 16 18:18:15 <Gniarf>	bientot le pc tiendra dans une boite d'allumetts et le gpu fera la taille d'un baril de lessive des années 80
+aoû 16 18:18:46 <ker2x>	bah des petits cores :p
+aoû 16 18:19:04 <ker2x>	NVidia a deja ffait qques applis
+aoû 16 18:20:10 <Gniarf>	ca s'appellait autrement avant, ca, nan ?
+aoû 16 18:20:12 <Gniarf>	Cg
+aoû 16 18:21:35 <ker2x>	c'est 2 trucs differents
+aoû 16 18:22:06 <ker2x>	Cg c'est surtout pour coder des shaders, bien que tu puisses faire autre chose que du graphisme avec, il fallait utiliser les fonctions dediée au graphisme
+aoû 16 18:24:19 *	kernelsensei est parti (Read error: 104 (Connection reset by peer))
+aoû 16 18:24:46 *	Oa`` est parti (Read error: 110 (Connection timed out))
+aoû 16 18:25:37 *	brayan1 est parti (Read error: 110 (Connection timed out))
+aoû 16 18:26:53 *	KaldenFr (n=kalden@fac34-3-82-231-26-11.fbx.proxad.net) a rejoint #linuxfr
+aoû 16 18:27:38 *	kernelsensei (n=boris@gentoo/developer/kernelsensei) a rejoint #linuxfr
+aoû 16 18:29:33 *	brancaleone est parti ("WeeChat 0.2.5")
+aoû 16 18:32:30 <phh>	ker2x: evite de faire ca, sinon tu voudra porter linux sur CUDA :p
+aoû 16 18:32:40 <phh>	GNU/KDE/Xorg/.../Linux
+aoû 16 18:33:34 <ker2x>	avec 7668Mo de ram sur la carte c'est jouable
+aoû 16 18:33:38 <ker2x>	768
+aoû 16 18:35:11 <ker2x>	de toute facon il me semble que de cette maniere le GPU est capable d'acceder a la memoire systeme
+aoû 16 18:35:29 <ker2x>	mais j'ai plutot envie de coder un spectrographe en fait
+aoû 16 18:35:49 <phh>	ah.
+aoû 16 18:36:35 <ker2x>	en fait, de toute facon
+aoû 16 18:36:40 <ker2x>	je coderai ce que j'arriverai a coder
+aoû 16 18:36:55 <ker2x>	mais le GPU est adapté au FFT
+aoû 16 18:37:03 <ker2x>	donc ca serai pas une mauvaise idée
+aoû 16 18:37:23 <ker2x>	et de toute facon j'vais demarer comme d'hab, j'vais coder un viewer de mandelbrot
+aoû 16 18:37:32 <ker2x>	C'est un bon debut
+aoû 16 18:38:06 <Gniarf>	768 ?
+aoû 16 18:38:12 <Gniarf>	alors kde oui mais pas gnome
+aoû 16 18:38:14 *	selmak est parti ("My damn controlling terminal disappeared!")
+aoû 16 18:38:17 <ker2x>	hehehe
+aoû 16 18:38:48 <ker2x>	d'ailleur CUDA fonctionne sous linux aussi
+aoû 16 18:48:06 *	KaldenFr est parti (Read error: 104 (Connection reset by peer))
+aoû 16 18:52:09 *	KaldenFr (n=kalden@fac34-3-82-231-26-11.fbx.proxad.net) a rejoint #linuxfr
+aoû 16 19:01:18 *	selmak (n=selmak@cla92-2-82-224-116-93.fbx.proxad.net) a rejoint #linuxfr
+aoû 16 19:01:28 <selmak>	hello hello
+aoû 16 19:01:34 <selmak>	bonjour bonjour
+aoû 16 19:01:47 <hhhcz>	salut
+aoû 16 19:01:58 <selmak>	tiens, un vivant
+aoû 16 19:02:34 <selmak>	tiens, petite question pratique
+aoû 16 19:02:56 <selmak>	j'imagine que comme tout bon linuxien tu as un serveur ssh sur ta machine?
+aoû 16 19:03:00 <manx86>	[18:38:46] <ker2x> d'ailleur CUDA fonctionne sous linux aussi < avec un driver proprio?
+aoû 16 19:03:41 <hhhcz>	pourquoi cette question selmak ?
+aoû 16 19:04:07 <selmak>	je demande parce que je viens de consulter le log "auth", et je me suis pris de panique voyant que depuis environ 3 jours un mec tantait de craquer mon mot de passe root
+aoû 16 19:04:13 <ker2x>	j'en sais rien, ca me semble logique oui, RTFM : http://developer.nvidia.com/object/cuda.html
+aoû 16 19:04:23 <selmak>	enfin, il l'a pas trouvé, mais ca m'inquiet
+aoû 16 19:04:46 <selmak>	c'est normal que régulièrement des pirates essaie de violer ma propriété privé?
+aoû 16 19:04:59 <ker2x>	bein ca serait pas des pirates autrement, heh, cong
+aoû 16 19:05:02 <hhhcz>	c pas des pirates
+aoû 16 19:05:03 <hhhcz>	c des bot
+aoû 16 19:05:16 <selmak>	je pense ouai..
+aoû 16 19:05:21 <selmak>	mais quand même
+aoû 16 19:05:28 *	Sano (n=sano@mol92-4-82-227-96-95.fbx.proxad.net) a rejoint #linuxfr
+aoû 16 19:05:36 <m8t>	selmak: en mm temps on autorise pas une connexion directe sur root
+aoû 16 19:05:48 *	Oni` (n=Oni@nan92-1-81-57-214-2.fbx.proxad.net) a rejoint #linuxfr
+aoû 16 19:05:53 <selmak>	je me demande si mon mot de passe root 8 caractère avec chiffre lettre et caractère spéciaux, va faire l'affaire très longtemps à ce rythme là..
+aoû 16 19:06:29 <selmak>	ouai, alors ca c'est a voir.. justement je crois que ma config ssh pose de gros problème de sécurité
+aoû 16 19:06:40 <selmak>	mais a dire vrai la lecture de la doc ne m'a pas tanté
+aoû 16 19:06:45 <selmak>	:-/
+aoû 16 19:07:10 *	Sano est parti (Remote closed the connection)
+aoû 16 19:07:27 <selmak>	enfin je me demandais juste si c'était la même chez vous..
+aoû 16 19:08:20 *	ValiSystM est parti ()
+aoû 16 19:08:35 <selmak>	au pire, je réfléchissait avec mon cousin l'autre jours a créer/ trouver un programme qui n'autoriserais plus l'accès à une IP qui aurait fait 3 faute lors de l'identification
+aoû 16 19:08:43 *	manx86 est parti ()
+aoû 16 19:09:11 <selmak>	personne a entendu parler d'un outil qui ferait ça?
+aoû 16 19:10:02 *	manx86 (n=coin@194.117.100-84.rev.gaoland.net) a rejoint #linuxfr
+aoû 16 19:11:56 *	krionux (n=seb@86.67.10.12) a rejoint #linuxfr
+aoû 16 19:12:13 <krionux>	salut
+aoû 16 19:12:47 <selmak>	salutation
+aoû 16 19:24:10 <Pulko_Mandy>	selmak: je sais qu'il y a un réglage quelque part
+aoû 16 19:24:42 <Pulko_Mandy>	si dans une session tu fais 3 échecs il te jette et y'a un timoeut avat d'autoriser une nouvelle connexion mais par défaut ça doit être moins de 10 secondes
+aoû 16 19:24:50 <Pulko_Mandy>	par contre je sais plus du tout ou ça s'ajuste ...
+aoû 16 19:24:56 <Pulko_Mandy>	man login peut-être ...
+aoû 16 19:26:00 *	Sano (n=sano@mol92-4-82-227-96-95.fbx.proxad.net) a rejoint #linuxfr
+aoû 16 19:28:55 *	Pulko_Mandy s'appelle maintenant PulkoMandy
+aoû 16 19:29:25 <hhhcz>	selmak: fais ecouter ton sshd sur un autre port que le 22 et tu seras tranquille
+aoû 16 19:32:38 <selmak>	ouai
+aoû 16 19:32:41 <selmak>	pas bête
+aoû 16 19:32:48 <selmak>	bon
+aoû 16 19:32:49 *	Sano est parti (Remote closed the connection)
+aoû 16 19:33:13 <selmak>	il faut savoir que ce qui est intéressant pour moi c'est de pouvoir me connecter sur ma machine depuis n'importe ou
+aoû 16 19:33:21 <selmak>	y compris depuis windaube
+aoû 16 19:33:40 <selmak>	j'ai effectivement trouver un logiciel qui permet de le faire depuis windows
+aoû 16 19:33:47 <selmak>	avec une console et tout
+aoû 16 19:33:59 <selmak>	mais pas moyen de reconnaitre ma clef
+aoû 16 19:34:36 <selmak>	et en plus.. le port 22 est par défaut sur tout les clients, alors ca risque d'être assez galère
+aoû 16 19:35:28 <hhhcz>	????????!!!!??
+aoû 16 19:35:29 <Axioplase>	selmak: ca existe.
+aoû 16 19:35:32 <Gniarf>	c'est quoi, windaube ?
+aoû 16 19:35:38 <Axioplase>	cherche des trucs genre "sshban"
+aoû 16 19:35:41 <hhhcz>	t'as assayé putty?
+aoû 16 19:35:50 *	trublion (n=trublion@lns-bzn-49f-62-147-169-81.adsl.proxad.net) a rejoint #linuxfr
+aoû 16 19:36:51 <hhhcz>	windaube c'est l'autre OS gratuit
+aoû 16 19:37:09 <Gniarf>	ah, freebsd
+aoû 16 19:37:16 <Axioplase>	nan, FreeBSD est LIBRE
+aoû 16 19:37:27 <Axioplase>	BSD vaincraa !!
+aoû 16 19:37:39 <Gniarf>	parce que windaube je connais pas
+aoû 16 19:37:53 *	Sano (n=sano@mol92-4-82-227-96-95.fbx.proxad.net) a rejoint #linuxfr
+aoû 16 19:38:29 *	Sano est parti (Remote closed the connection)
+aoû 16 19:38:37 <PulkoMandy>	Gniarf: tu rates rien :)
+aoû 16 19:38:40 <Axioplase>	Gniarf: pour faire simple, c'est un alias vers "Microsoft Windows Vista 2007 Family Millenium Edition Professional Plus for Students"
+aoû 16 19:38:42 *	Sano (n=sano@mol92-4-82-227-96-95.fbx.proxad.net) a rejoint #linuxfr
+aoû 16 19:38:52 <Gniarf>	alors tu dis Windows et tu arretes de faire le mongol
+aoû 16 19:38:56 <Axioplase>	service pack 1.
+aoû 16 19:39:17 <PulkoMandy>	Axioplase: non, il faut le laisser macérer sur un disque dur pendant un ou deux ans pour avoir tous les spywares en option
+aoû 16 19:39:23 <PulkoMandy>	sinon ça va pas :)
+aoû 16 19:39:33 <Axioplase>	berk
+aoû 16 19:39:43 <Axioplase>	ton ordi sent l'OS mort !
+aoû 16 19:40:07 <Madvax>	bonsoir
+aoû 16 19:40:13 <selmak>	loool
+aoû 16 19:40:14 <hhhcz>	bonsoir
+aoû 16 19:40:23 <selmak>	finalement, je crois que je me suis fait pirater
+aoû 16 19:40:31 <selmak>	ce matin.. j'avais éteint la machine a café
+aoû 16 19:40:35 <selmak>	et ce soir, elle est allumé
+aoû 16 19:40:43 <Axioplase>	elle est sur ethernet ?
+aoû 16 19:40:44 <Madvax>	haha! microchiotte windaube!
+aoû 16 19:40:59 <selmak>	je savais que j'aurais du mettre un firewall entre la freebox et la machine a café !!
+aoû 16 19:41:01 <selmak>	rolala
+aoû 16 19:41:07 <hhhcz>	Axioplase: non, y a un GPS dans l'alim
+aoû 16 19:41:15 <selmak>	il va me faire payer la facture d'electricité le con
+aoû 16 19:41:27 <Axioplase>	hhhcz: haa ! une machine a cafe' chinoise ! ca explique tout !
+aoû 16 19:41:46 <Axioplase>	C'est quoi la marque ? FBI ?
+aoû 16 19:41:58 <selmak>	loool
+aoû 16 19:42:25 <selmak>	non mais on vous a jamais dit que senseo foutait des puce electronique/wifi/GPS dans ses machine a café
+aoû 16 19:42:27 <selmak>	?
+aoû 16 19:42:57 <Madvax>	ouais, pour savoir quel café vous buvez, tout ça
+aoû 16 19:42:59 <selmak>	du coup, tu ouvre ton shell, tu tape : cd /pub/; more coffe
+aoû 16 19:45:23 <selmak>	trêve de connerie (pas pour longtemps... ouf!) j'ai essayé putty
+aoû 16 19:45:39 <selmak>	justement c'est lui qui voulais pas que je lui donne les clefs de la maison
+aoû 16 19:49:35 *	Sano est parti (Remote closed the connection)
+aoû 16 19:52:52 *	brayan2 est parti (Read error: 110 (Connection timed out))
+aoû 16 19:52:55 *	brayan2 (n=brayan@cpc1-brig9-0-0-cust936.brig.cable.ntl.com) a rejoint #linuxfr
+aoû 16 19:56:09 <Gniarf>	.
+aoû 16 19:59:18 *	Pinkilla est parti ("Répet ce soir ... bonne soirée")
+aoû 16 20:03:17 *	Mr_Moustache (n=Punk@car62-1-82-238-47-209.fbx.proxad.net) a rejoint #linuxfr
+aoû 16 20:08:08 *	manx86 est parti ()
+aoû 16 20:09:41 *	manx86 (n=coin@194.117.100-84.rev.gaoland.net) a rejoint #linuxfr
+aoû 16 20:11:08 <selmak>	tant que je suis dans la config de shh
+aoû 16 20:11:36 <selmak>	a votre avis, est-il plus sécurisé d'utiliser l'identification par clef ou par mot de passe?
+aoû 16 20:12:00 <selmak>	et si par clef, alors peut-on INTERDIRE l'identification par mot de passe?
+aoû 16 20:12:18 <ced-2>	oui
+aoû 16 20:12:20 <hhhcz>	oui
+aoû 16 20:12:56 <selmak>	ah
+aoû 16 20:13:00 <selmak>	ca m'intéresse
+aoû 16 20:13:06 <selmak>	dans le sshd_config?
+aoû 16 20:14:17 <selmak>	en fait je me tais
+aoû 16 20:14:21 <selmak>	google est mon ami
+aoû 16 20:14:59 *	moa (n=moa@lns-bzn-54-82-251-65-178.adsl.proxad.net) a rejoint #linuxfr
+aoû 16 20:15:35 <PulkoMandy>	man ssh même :>
+aoû 16 20:16:40 <selmak>	je dirais même plus man sshd_config :p
+aoû 16 20:17:38 *	Klibre est parti (Read error: 110 (Connection timed out))
+aoû 16 20:18:45 *	mmu_man (n=revol@vaf26-2-82-244-111-82.fbx.proxad.net) a rejoint #linuxfr
+aoû 16 20:19:22 <selmak>	"PuTTY doesn't support this natively (see the wishlist entry for reasons why not), but as of 0.53 PuTTYgen can convert both OpenSSH and ssh.com private key files into PuTTY's format.
+aoû 16 20:19:25 <selmak>	"
+aoû 16 20:19:48 *	tibal (n=tibal@vbo91.hd.free.fr) a rejoint #linuxfr
+aoû 16 20:19:49 <selmak>	je savais bien qu'il avait pas voulu me garder les clefs de la maison
+aoû 16 20:20:09 <mmu_man>	c'est un peu ba-clé tout ça :)
+aoû 16 20:21:49 <selmak>	loool
+aoû 16 20:24:26 *	ker2x est parti (Read error: 104 (Connection reset by peer))
+aoû 16 20:41:15 *	ker2x (n=chatzill@AToulouse-257-1-23-225.w90-5.abo.wanadoo.fr) a rejoint #linuxfr
+aoû 16 20:45:30 <hhhcz>	je vois pas pourquoi tu aurais envie d'importer une clef privée ssh vers putty
+aoû 16 20:45:52 <selmak>	pour pouvoir me connecté à mon pc depuis une machine sous windows
+aoû 16 20:45:59 <hhhcz>	faut regenerer une paire de clefs avece puttygen
+aoû 16 20:46:09 <hhhcz>	et rajouter la clef plublique sur ton linux
+aoû 16 20:46:14 <selmak>	ouai
+aoû 16 20:46:21 <selmak>	je peux aussi faire ça
+aoû 16 20:46:29 <selmak>	mais de toute façon,
+aoû 16 20:46:30 <hhhcz>	c la seule facon censée de faire
+aoû 16 20:46:49 <selmak>	même après avoir fait ca : # Change to no to disable tunnelled clear text passwords
+aoû 16 20:46:50 <selmak>	#PasswordAuthentication no
+aoû 16 20:47:04 <PulkoMandy>	faut enlever le # :)
+aoû 16 20:47:08 <selmak>	arg
+aoû 16 20:47:14 <selmak>	quel débile
+aoû 16 20:47:14 <hhhcz>	et UsePAM no
+aoû 16 20:47:19 <selmak>	ah?
+aoû 16 20:47:21 <selmak>	pourquoi pas?
+aoû 16 20:47:38 <hhhcz>	essaye avec, tu verras
+aoû 16 20:47:53 <selmak>	Pam c'est pas le module qui permet l'identification?
+aoû 16 20:48:01 <selmak>	ya une version USB de ce truc non?
+aoû 16 20:48:09 <selmak>	pour s'identifier par clef usb je crois
+aoû 16 20:48:19 <selmak>	pam_usb ca doit être
+aoû 16 20:54:19 *	ayeuu est parti (Read error: 113 (No route to host))
+aoû 16 20:55:18 *	ayeuu (n=ayeuu@tss37-1-82-228-161-185.fbx.proxad.net) a rejoint #linuxfr
+aoû 16 20:55:34 *	trublion est parti ()
+aoû 16 20:59:03 <selmak>	voila voila
+aoû 16 20:59:05 <selmak>	ca marche
+aoû 16 20:59:08 *	pikapika (n=pikapika@mar75-8-88-164-227-147.fbx.proxad.net) a rejoint #linuxfr
+aoû 16 20:59:18 <selmak>	finalement, j'ai converti ma clef openssh :-p
+aoû 16 20:59:29 <selmak>	(il est tétu le mec...)
+aoû 16 20:59:42 <pikapika>	yo
+aoû 16 20:59:51 <selmak>	yep
+aoû 16 21:00:52 *	Sano (n=sano@mol92-4-82-227-96-95.fbx.proxad.net) a rejoint #linuxfr
+aoû 16 21:02:10 <ker2x>	http://www.nvidia.com/object/tesla_computing_solutions.html <- boh !
+aoû 16 21:03:01 <ker2x>	NVIDIA is the catalyst for the largest GPU computing developer community. <- erf... le jeu de mot ? :)
+aoû 16 21:08:47 *	ayeuu est parti (Remote closed the connection)
+aoû 16 21:09:49 *	brayan2 est parti (Read error: 110 (Connection timed out))
+aoû 16 21:10:22 *	brayan2 (n=brayan@cpc1-brig9-0-0-cust936.brig.cable.ntl.com) a rejoint #linuxfr
+aoû 16 21:12:45 *	ayeuu (n=ayeuu@tss37-1-82-228-161-185.fbx.proxad.net) a rejoint #linuxfr
+aoû 16 21:21:30 *	slainer68 (n=nicolas@AStrasbourg-254-1-64-15.w90-33.abo.wanadoo.fr) a rejoint #linuxfr
+aoû 16 21:22:20 <Axioplase>	le jeu de mot ?
+aoû 16 21:26:10 <PulkoMandy>	euh.. Catalyst c'est chez ATI nan ?
+aoû 16 21:27:20 <ker2x>	c'est le nom des criver ATI oui
+aoû 16 21:27:23 <ker2x>	driver
+aoû 16 21:27:49 <phh>	mais e vrai ca veut dire catalysateur ?
+aoû 16 21:28:07 <ker2x>	catalyseur plus probablement
+aoû 16 21:28:16 <phh>	.
+aoû 16 21:31:16 <Madvax>	:-)
+aoû 16 21:36:21 *	manx86 est parti (Read error: 104 (Connection reset by peer))
+aoû 16 21:38:13 *	manx86 (n=coin@194.117.100-84.rev.gaoland.net) a rejoint #linuxfr
+aoû 16 21:38:31 *	mmu_man est parti ("Vision[0.9.7-Z-101305]: i've been blurred!")
+aoû 16 21:51:13 *	PeP` est parti (Remote closed the connection)
+aoû 16 21:51:38 *	Nounours` (n=pipo@ANantes-256-1-90-3.w86-210.abo.wanadoo.fr) a rejoint #linuxfr
+aoû 16 21:53:34 *	nael est parti (Read error: 113 (No route to host))
+aoû 16 21:53:42 *	Nounours_ est parti (Read error: 110 (Connection timed out))
+aoû 16 22:00:32 *	GomGom (n=dtc@edgomez.kicks-ass.org) a rejoint #linuxfr
+aoû 16 22:09:48 <ker2x>	on devrait pouvoir porter pov en cuda :)
+aoû 16 22:11:01 <ker2x>	ok... c'est( deja prevu ^^
+aoû 16 22:13:22 <phh>	etonnant
+aoû 16 22:13:27 <hhhcz>	curieux
+aoû 16 22:15:48 *	moa est parti ("Ce n'est qu'un au-revoir ... :-)")
+aoû 16 22:15:55 <ker2x>	bon... en fait c'est pas prevu, ils sont plutot en train de se dire que c'est trop galere (et povray est codé en C++ visiblement)
+aoû 16 22:16:10 <ker2x>	ils sont plutot en train de fantasmer sur le cell
+aoû 16 22:17:47 <phh>	y a de quoi
+aoû 16 22:18:43 <ker2x>	ouai m'enfin leur tesla a l'air bandant aussi
+aoû 16 22:20:34 *	Nounours_ (n=pipo@ANantes-256-1-14-151.w86-195.abo.wanadoo.fr) a rejoint #linuxfr
+aoû 16 22:20:38 <ker2x>	128 thread par carte, 4 carte par U, 21504 core par baie
+aoû 16 22:20:53 <ker2x>	s/thread/core/
+aoû 16 22:21:38 <ker2x>	(et jusqu'a 33Kw de conso par baie)
+aoû 16 22:22:42 <phh>	combien de thread par core ?
+aoû 16 22:22:43 *	Nounours` est parti (Read error: 110 (Connection timed out))
+aoû 16 22:23:04 <ker2x>	bah 1
+aoû 16 22:23:11 <phh>	pff sainul
+aoû 16 22:23:26 <ker2x>	j'ai pas fini de lire le pavé :)
+aoû 16 22:23:39 *	Klibre (n=BackTrac@ARouen-251-1-21-158.w90-23.abo.wanadoo.fr) a rejoint #linuxfr
+aoû 16 22:23:50 <ker2x>	t'as pas obligé de faire tourner les 128 core sur le meme code
+aoû 16 22:24:03 <phh>	encore heureux :s
+aoû 16 22:24:13 <Klibre>	bonsoir ici
+aoû 16 22:25:05 <ker2x>	phh, mais bon, si j'ai bien compris quand meme, l'utilisation optimale c'est de faire tourner x fois le meme code sur x core avec des data differentes a traiter
+aoû 16 22:26:01 <ced-2>	j'ai une FX 5200, j'imagine que CUDA marche pas dessus ?
+aoû 16 22:26:07 <phh>	ced-2: non.
+aoû 16 22:26:12 <phh>	mais Cg oui tu peux déjà faire des choses avec
+aoû 16 22:26:47 <ced-2>	faut que je jette un oeil alors
+aoû 16 22:26:52 <ker2x>	ouai mais Cg t'es obligé de te taper une api graphique, ce qui est pas franchement intuitif pour faire autre chose que du traintement graphique
+aoû 16 22:27:07 <ced-2>	effectivement le but serait de faire du pas graphique du tout
+aoû 16 22:27:23 <ced-2>	mais on peut bricoler
+aoû 16 22:27:26 <ker2x>	bein tu peux, mais c'est pete couille
+aoû 16 22:27:55 <ker2x>	obliger de travailler avec des pixel et des textures, alors que tes vraies data n'ont rien a voir avec des pixels et des textures
+aoû 16 22:28:33 <ker2x>	(ca pourrait tout aussi bien etre de l'audio, de la crypto, ... )
+aoû 16 22:28:52 <ced-2>	'ffectivement
+aoû 16 22:28:59 <ced-2>	faut quoi comme carte mini pour CUDA ?
+aoû 16 22:29:06 <ker2x>	Serie 8
+aoû 16 22:29:32 <ker2x>	8800 ou 8600 (qui est une 8800 downgradée)
+aoû 16 22:29:48 <ker2x>	bref, un G80
+aoû 16 22:31:20 <ced-2>	ça douille :/
+aoû 16 22:31:33 <ced-2>	en plus je suis encore en AGP moi
+aoû 16 22:31:37 <ker2x>	Devices with the same major revision number are of the same core architecture. The GeForce 8 Series, Quadro FX 5600/4600, and Tesla solutions are of compute capability 1.x (Their major revision number is 1).
+aoû 16 22:31:39 <ker2x>	The minor revision number corresponds to an incremental improvement to the core architecture, possibly including new features. The GeForce 8800 Series, Quadro FX 5600/4600, and Tesla solutions are of compute capability 1.0 (their minor revision number is 0) and the GeForce 8600 and 8500 Series of compute capability 1.1.
+aoû 16 22:32:21 <ker2x>	ouai il ramerai ton cuda avec de l'agp
+aoû 16 22:32:32 <ker2x>	(et y'a aucun carte agp qui supporte cuda je crois)
+aoû 16 22:32:49 *	Jolidragon est parti (Remote closed the connection)
+aoû 16 22:32:53 <ced-2>	ah 8500 c'est déjà plus abordable
+aoû 16 22:33:07 <phh>	ker2x: et les G8X X!=0 ?
+aoû 16 22:33:23 <ker2x>	phh, y'a autre chose que le G80 ?
+aoû 16 22:33:30 <phh>	ouéch
+aoû 16 22:33:39 <ker2x>	j'vais pas :)
+aoû 16 22:33:43 <ker2x>	j'savais pas
+aoû 16 22:34:24 <ker2x>	de toute facon cuda fait abstraction du matos, donc ton code devrait marcher pareil pour toutes les cartes nvidia a venir
+aoû 16 22:35:03 <ker2x>	je sais plus ou j'ai lu ca, mais NVidia recommande de penser dors et deja en terme de milliers de thread, pas seulement a coup de 128
+aoû 16 22:35:27 *	Celelibi (i=celelibi@APoitiers-258-1-100-125.w86-217.abo.wanadoo.fr) a rejoint #linuxfr
+aoû 16 22:35:36 <ker2x>	deja Tesla ca met une claque. et visiblement ils ont prevu encore plus bourrin
+aoû 16 22:36:36 <ced-2>	faut que je matte l'API de plus près, c'est quand même vraiment intéressant comme approche
+aoû 16 22:36:43 <ced-2>	y'a quelque chose de similaire dans la concurrence ?
+aoû 16 22:37:12 <ker2x>	bein y'a ATI, mais ATI ils en sont encore a l'approche style Cg
+aoû 16 22:37:23 <ker2x>	Nvidia leur a mis n claque la
+aoû 16 22:37:51 <ced-2>	ok
+aoû 16 22:38:00 <ker2x>	deja que amd se fait gifler par intel ...
+aoû 16 22:38:27 <ker2x>	va plus rester grand chose a amd/ati
+aoû 16 22:38:57 <ker2x>	ils vont retourner la ou ils etaient y'a quelques années on dirait :)
+aoû 16 22:39:35 <ced-2>	c'est bien dommage
+aoû 16 22:39:45 <ker2x>	oui
+aoû 16 22:40:13 <ker2x>	m'enfin bon, quand intel etnvidia ont merdés ils se sont pas dit "c'est dommage" :)
+aoû 16 22:40:31 <ker2x>	(intel avec son netburst, nvidia avec sa FX)
+aoû 16 22:42:23 <ced-2>	ouais enfin c'est dommage pour le consommateur je veux dire
+aoû 16 22:42:28 <ced-2>	la concurrence ça fait pas de mal
+aoû 16 22:42:37 <selmak>	le mailing par telnet, ya rien a dire, c'est mortel
+aoû 16 22:43:02 <selmak>	je sais, je sais... merci de mon intervention, on se passera de mes commentaire ----> [ ]
+aoû 16 22:43:23 <ced-2>	bloub d'or
+aoû 16 22:45:04 *	Nounours_ est parti (Read error: 110 (Connection timed out))
+aoû 16 22:45:30 *	Nounours_ (n=pipo@ANantes-256-1-161-117.w90-25.abo.wanadoo.fr) a rejoint #linuxfr
+aoû 16 22:52:40 *	KaldenFr est parti ("Parti")
+aoû 16 22:53:43 *	KaldenFr (n=kalden@fac34-3-82-231-26-11.fbx.proxad.net) a rejoint #linuxfr
+aoû 16 23:00:32 <ker2x>	cudaMalloc((void**)&devPtr, 256 * sizeof(float)); <-- Heu... qqun peut me traduire le (void**) &devPtr ? :)
+aoû 16 23:00:49 *	trublion (n=trublion@62.147.169.81) a rejoint #linuxfr
+aoû 16 23:02:16 *	Anti-T_ est parti (Read error: 110 (Connection timed out))
+aoû 16 23:02:57 *	Anti-T_ (n=Anti-T@ALamentin-104-1-39-178.w80-8.abo.wanadoo.fr) a rejoint #linuxfr
+aoû 16 23:03:16 *	slainer68 est parti ("This computer has gone to sleep")
+aoû 16 23:04:01 *	trublion_ (n=trublion@lns-bzn-49f-62-147-169-81.adsl.proxad.net) a rejoint #linuxfr
+aoû 16 23:04:37 *	Nounours` (n=pipo@ANantes-256-1-58-13.w86-199.abo.wanadoo.fr) a rejoint #linuxfr
+aoû 16 23:04:43 *	manx86 est parti ()
+aoû 16 23:05:56 *	tibal`taff est parti (Remote closed the connection)
+aoû 16 23:06:32 <ced-2>	ça fait quand même cher d'investissement pour faire du bench de produits de matrices... (personnellement je ferai pas grand chose de mieux)
+aoû 16 23:06:48 *	Nounours_ est parti (Read error: 110 (Connection timed out))
+aoû 16 23:07:00 <ced-2>	un pointeur de pointeur ?
+aoû 16 23:07:41 <ced-2>	et le cudaMalloc déréfrence un coup avant de faire le boulot ? ça sera so [:lovev]^Hly
+aoû 16 23:08:44 <ker2x>	A multiprocessor takes 4 clock cycles to issue one memory instruction for a warp. When accessing global memory, there are, in addition, 400 to 600 clock cycles of memory latency. <- mpff
+aoû 16 23:09:15 <ced-2>	t'as pas assez de mémoire sur la carte ?
+aoû 16 23:09:43 <ker2x>	heu si. mais "global memory" c'est la memoire de la carte je crois
+aoû 16 23:10:21 <ced-2>	si c'est ça c'est avouer l'échec du truc, ça serait étonnant
+aoû 16 23:10:55 <ker2x>	je lis en diagonale. j'peux pas installer cuda sur mon PC la ...
+aoû 16 23:10:58 <ker2x>	vista :/
+aoû 16 23:11:38 <ker2x>	The global memory space is not cached, so it is all the more important to follow the right access pattern to get maximum memory bandwidth, especially given how costly accesses to device memory are.
+aoû 16 23:12:39 *	krionux est parti ("Lost terminal")
+aoû 16 23:16:21 <ker2x>	j'dois me planter :)
+aoû 16 23:17:21 <tite>	salut ker2x
+aoû 16 23:17:32 <ker2x>	coucou
+aoû 16 23:17:41 *	selmak est parti (Read error: 113 (No route to host))
+aoû 16 23:17:43 <tite>	huhu coment va ?
+aoû 16 23:20:05 *	selmak (n=selmak@cla92-2-82-224-116-93.fbx.proxad.net) a rejoint #linuxfr
+aoû 16 23:20:14 <selmak>	tiens..
+aoû 16 23:20:18 *	Duke` est parti ("Fatal signal: Segmentation Fault")
+aoû 16 23:20:23 <selmak>	voila  un an que je suis sous Debian
+aoû 16 23:20:36 <selmak>	et pour la première fois, j'ai buggé
+aoû 16 23:20:40 *	trublion est parti (Read error: 110 (Connection timed out))
+aoû 16 23:20:41 <selmak>	étrange..
+aoû 16 23:20:45 <selmak>	on aurait dit windows
+aoû 16 23:23:46 *	selmak est parti (Read error: 104 (Connection reset by peer))
+aoû 16 23:24:42 *	Sano est parti (Remote closed the connection)
+aoû 16 23:26:21 *	selmak (n=selmak@cla92-2-82-224-116-93.fbx.proxad.net) a rejoint #linuxfr
+aoû 16 23:26:26 <selmak>	deuxième fois...
+aoû 16 23:26:37 <ker2x>	tite, tranquille, la routine
+aoû 16 23:26:39 <ker2x>	ou presque
+aoû 16 23:27:07 <selmak>	a croire qu'il y a un conflit d'interet entre camorama et rhythmbox..
+aoû 16 23:27:29 <selmak>	ou entre camorama et Placebo
+aoû 16 23:27:32 <selmak>	à voir..
+aoû 16 23:27:34 *	slainer68 (n=nicolas@AStrasbourg-254-1-64-15.w90-33.abo.wanadoo.fr) a rejoint #linuxfr
+aoû 16 23:28:18 <PulkoMandy>	+++
+aoû 16 23:28:22 *	PulkoMandy est parti (Remote closed the connection)
+aoû 16 23:29:03 *	ced-2 est parti (Read error: 110 (Connection timed out))
+aoû 16 23:31:47 *	Gniarf (i=gniarf@gniarf.net1.nerim.net) a quitté #linuxfr
+aoû 16 23:36:14 *	balkantools (n=theo@unaffiliated/balkantools) a rejoint #linuxfr
+aoû 16 23:36:35 *	balkantool est parti (Read error: 104 (Connection reset by peer))
+aoû 16 23:37:32 <ker2x>	brb
+aoû 16 23:39:47 *	Sano (n=sano@mol92-4-82-227-96-95.fbx.proxad.net) a rejoint #linuxfr
+aoû 16 23:40:24 *	trublion_ est parti ()
+aoû 16 23:42:20 *	ced-2 (n=ced@dyn-83-153-85-53.ppp.tiscali.fr) a rejoint #linuxfr
+aoû 16 23:42:36 *	GomGom est parti (Remote closed the connection)
+aoû 16 23:54:21 *	Oni` est parti ("No CPUs found.  System halted.")
+aoû 16 23:55:15 *	nael (n=nael@ras75-1-81-57-62-96.fbx.proxad.net) a rejoint #linuxfr
+aoû 17 00:00:13 <clemux>	bonjour
+aoû 17 00:01:04 <m8t>	swar
+aoû 17 00:01:59 *	Sano est parti (Remote closed the connection)
+aoû 17 00:07:09 *	Gniarf (i=gniarf@gniarf.net1.nerim.net) a rejoint #linuxfr
+aoû 17 00:16:13 *	Anti-T__ (n=Anti-T@ALamentin-104-1-44-235.w80-8.abo.wanadoo.fr) a rejoint #linuxfr
+aoû 17 00:21:21 *	slainer68 est parti ("Leaving")
+aoû 17 00:23:52 *	zir0faive est parti ("woof")
+aoû 17 00:28:59 *	Nounours_ (n=pipo@ANantes-256-1-150-92.w90-31.abo.wanadoo.fr) a rejoint #linuxfr
+aoû 17 00:31:15 *	Nounours` est parti (Read error: 110 (Connection timed out))
+aoû 17 00:31:57 *	Anti-T_ est parti (Read error: 110 (Connection timed out))
+aoû 17 00:51:11 *	mr_blue est parti (Read error: 104 (Connection reset by peer))
+aoû 17 00:51:33 *	brayan2 est parti (Read error: 110 (Connection timed out))
+aoû 17 00:52:10 *	brayan2 (n=brayan@cpc1-brig9-0-0-cust936.brig.cable.ntl.com) a rejoint #linuxfr
+aoû 17 00:53:22 *	Klibre est parti ("En vieillissant, on s'aperçoit que la vengeance est encore la forme la plus sûre de la justice.")
+aoû 17 01:01:03 *	Mr_Moustache est parti ("use Slackware; use strict;")
+aoû 17 01:08:14 *	Anti-T_ (n=Anti-T@ALamentin-104-1-15-200.w81-248.abo.wanadoo.fr) a rejoint #linuxfr
+aoû 17 01:08:52 *	mr_blue (n=mr_darks@LNeuilly-152-22-96-178.w193-251.abo.wanadoo.fr) a rejoint #linuxfr
+**** DÉBUT DU JOURNAL À Thu Mar 27 19:50:07 2008
+
+mar 27 19:50:07 *	Vous parlez maintenant sur #linuxfr
+mar 27 19:50:07 *	Le sujet de #linuxfr est : 88.191.250.104 pour linuxfr.org | ISO8859-15 UNIQUEMENT (pas d'utf8) | http://www.linux-france.org/article/these/smart-questions/smart-questions-fr.html | Merci de vous appliquer à écrire correctement (pas de sms) et de nous épargner les trolls politiques, utf8 et le programme télé
+mar 27 19:50:07 *	Sujet de #linuxfr défini par Gniarf le Thu Mar 27 15:07:44 2008
+mar 27 19:50:10 -ChanServ-	[#linuxfr] Bienvenue sur #linuxfr. Merci d'écrire en ISO-8859-15 et en bon français si vous désirez rester parmi nous.
+mar 27 20:00:41 *	CMoi est parti ("Leaving")
+mar 27 20:04:54 *	jose__ (n=jose@cable-78.29.241.125.coditel.net) a rejoint #linuxfr
+mar 27 20:04:57 <jose__>	salut
+mar 27 20:05:45 <jose__>	josé rulez
+mar 27 20:07:38 *	Mick_ (n=mick@obs92-3-82-232-110-30.fbx.proxad.net) a rejoint #linuxfr
+mar 27 20:10:37 *	ValiSystM est parti ()
+mar 27 20:14:14 *	tigrou3tac (n=tigrou@tigrou3tac.org) a rejoint #linuxfr
+mar 27 20:14:19 *	harobed (n=harobed@arl57-1-82-231-110-14.fbx.proxad.net) a rejoint #linuxfr
+mar 27 20:17:35 <tigrou3tac>	'soir
+mar 27 20:18:32 <tigrou3tac>	suite au plantos serveur linuxfr, il n'y a pas eu des moules qui ont proposé de gérer la zone linuxfr.org ?
+mar 27 20:20:33 <Gniarf>	très drole
+mar 27 20:20:58 <jose__>	oûi
+mar 27 20:21:03 *	captainchris est parti ("Leaving")
+mar 27 20:23:21 *	Vincent_49 est parti ("Konversation terminated!")
+mar 27 20:26:53 *	poipoi (n=poipoi@d75-157-210-10.bchsia.telus.net) a rejoint #linuxfr
+mar 27 20:28:43 *	polytan (n=polytan@lns-bzn-57-82-249-46-96.adsl.proxad.net) a rejoint #linuxfr
+mar 27 20:31:17 *	Vincent_49 (n=vincent@d04m-89-83-118-103.d4.club-internet.fr) a rejoint #linuxfr
+mar 27 20:36:37 *	wolog (n=wolog@AOrleans-152-1-50-32.w90-21.abo.wanadoo.fr) a rejoint #linuxfr
+mar 27 20:54:01 *	bernard (n=bernard@massot.ath.cx) a rejoint #linuxfr
+mar 27 21:14:20 *	sputnick_ est parti (Remote closed the connection)
+mar 27 21:27:44 *	mmu_man (n=revol@vaf26-2-82-244-111-82.fbx.proxad.net) a rejoint #linuxfr
+mar 27 21:33:48 *	conqueror est parti (Remote closed the connection)
+mar 27 21:38:00 *	Mr_Moustache (n=Punk@car62-1-82-238-47-209.fbx.proxad.net) a rejoint #linuxfr
+mar 27 21:38:18 *	jose__ est parti ("Quitte")
+mar 27 21:51:07 *	EdB est parti ("Konversation terminated!")
+mar 27 21:52:49 *	pikapika (n=pikapika@mar75-8-88-164-227-147.fbx.proxad.net) a rejoint #linuxfr
+mar 27 22:10:15 *	`Duke` (n=gnu@AVelizy-751-1-23-65.w90-62.abo.wanadoo.fr) a rejoint #linuxfr
+mar 27 22:12:51 *	iip2 (n=iip2@bugness.org) a rejoint #linuxfr
+mar 27 22:20:30 *	fkz est parti (Client Quit)
+mar 27 22:25:49 *	Vincent_49 est parti ("Konversation terminated!")
+mar 27 22:26:35 *	Duke` est parti (Connection timed out)
+**** FIN DU JOURNAL À Thu Mar 27 22:30:26 2008
+
+**** DÉBUT DU JOURNAL À Fri Mar 28 11:00:52 2008
+
+mar 28 11:00:52 *	Vous parlez maintenant sur #linuxfr
+mar 28 11:00:52 *	Le sujet de #linuxfr est : 88.191.250.104 pour linuxfr.org | ISO8859-15 UNIQUEMENT (pas d'utf8) | http://www.linux-france.org/article/these/smart-questions/smart-questions-fr.html | Merci de vous appliquer à écrire correctement (pas de sms) et de nous épargner les trolls politiques, utf8 et le programme télé
+mar 28 11:00:52 *	Sujet de #linuxfr défini par Gniarf le Thu Mar 27 15:07:44 2008
+mar 28 11:00:52 -ChanServ-	[#linuxfr] Bienvenue sur #linuxfr. Merci d'écrire en ISO-8859-15 et en bon français si vous désirez rester parmi nous.
+mar 28 11:00:52 *	zir0faive (n=zir0faiv@mar92-2-82-67-214-216.fbx.proxad.net) a rejoint #linuxfr
+mar 28 11:01:50 *	boing est parti ("boing...boing...boing")
+mar 28 11:06:53 *	gnumdk (n=gnumdk@LSt-Amand-152-33-49-162.w217-128.abo.wanadoo.fr) a rejoint #linuxfr
+mar 28 11:09:55 *	wolog est parti (Read error: 104 (Connection reset by peer))
+mar 28 11:10:01 *	sarcastic (n=sacastic@AMarseille-253-1-44-188.w83-205.abo.wanadoo.fr) a rejoint #linuxfr
+mar 28 11:10:47 *	wolog (n=wolog@s15209028.onlinehome-server.info) a rejoint #linuxfr
+mar 28 11:13:23 *	wolog est parti (Read error: 104 (Connection reset by peer))
+mar 28 11:14:18 *	wolog (n=wolog@s15209028.onlinehome-server.info) a rejoint #linuxfr
+**** FIN DU JOURNAL À Fri Mar 28 11:15:27 2008
+
+**** DÉBUT DU JOURNAL À Fri Mar 28 18:59:59 2008
+
+mar 28 18:59:59 *	Vous parlez maintenant sur #linuxfr
+mar 28 18:59:59 *	Le sujet de #linuxfr est : 88.191.250.104 pour linuxfr.org | ISO8859-15 UNIQUEMENT (pas d'utf8) | http://www.linux-france.org/article/these/smart-questions/smart-questions-fr.html | Merci de vous appliquer à écrire correctement (pas de sms) et de nous épargner les trolls politiques, utf8 et le programme télé
+mar 28 18:59:59 *	Sujet de #linuxfr défini par Gniarf le Thu Mar 27 15:07:44 2008
+mar 28 18:59:59 -ChanServ-	[#linuxfr] Bienvenue sur #linuxfr. Merci d'écrire en ISO-8859-15 et en bon français si vous désirez rester parmi nous.
+mar 28 19:04:13 *	Mick_ (n=mick@obs92-3-82-232-110-30.fbx.proxad.net) a rejoint #linuxfr
+mar 28 19:08:13 *	Oxbow (n=Oxbow@cvl92-1-82-227-103-149.fbx.proxad.net) a rejoint #Linuxfr
+mar 28 19:11:03 *	Mr_Moustache (n=Punk@car62-1-82-238-47-209.fbx.proxad.net) a rejoint #linuxfr
+**** FIN DU JOURNAL À Fri Mar 28 19:18:48 2008
+
+**** DÉBUT DU JOURNAL À Sat Feb 13 15:51:53 2010
+
+févr. 13 15:51:53 *	Vous parlez maintenant sur #linuxfr
+févr. 13 15:51:53 *	Le sujet de #linuxfr est : http://www.linuxfr.org/ (sauf quand le serveur est en vacances) - ISO8859-15 UNIQUEMENT (pas d'utf8)(trop pas)(les contestataires on les fusille)
+févr. 13 15:51:53 *	Sujet de #linuxfr défini par Madvax le Tue Sep  1 06:04:17 2009
+févr. 13 15:51:53 -ChanServ-	[#linuxfr] Bienvenue sur #linuxfr. Merci d'écrire en ISO-8859-15 et en bon français si vous désirez rester parmi nous.
+févr. 13 16:10:01 *	daimrod est parti (Quit: Lost terminal)
+févr. 13 16:12:00 *	daimrod (~daimrod@ANantes-552-1-113-13.w92-144.abo.wanadoo.fr) a rejoint #linuxfr
+févr. 13 16:43:20 *	geo27 (~quassel@lns-bzn-51f-81-56-141-30.adsl.proxad.net) a rejoint #linuxfr
+févr. 13 17:09:38 *	GomGom est parti (Ping timeout: 256 seconds)
+févr. 13 17:29:57 *	hard_shooter (~hardshoot@78.234.124.105) a rejoint #linuxfr
+févr. 13 17:39:22 *	efyx_ est parti (Quit: Quitte)
+févr. 13 17:48:16 *	ivsb2 (~ivsb2@AToulouse-159-1-105-46.w92-134.abo.wanadoo.fr) a rejoint #linuxfr
+févr. 13 17:51:01 *	efyx_ (~efyx@lap34-1-82-225-185-146.fbx.proxad.net) a rejoint #linuxfr
+févr. 13 18:10:01 *	gui13 est parti (Ping timeout: 264 seconds)
+févr. 13 18:23:56 *	gui13 (~gui13@ip-23.net-82-216-248.rev.numericable.fr) a rejoint #linuxfr
+févr. 13 18:25:18 *	geo27 (~quassel@lns-bzn-51f-81-56-141-30.adsl.proxad.net) a quitté #linuxfr ("http://quassel-irc.org - Chat comfortably. Anywhere.")
+févr. 13 18:33:02 *	adame (~adame@ble59-4-82-228-191-99.fbx.proxad.net) a rejoint #linuxfr
+févr. 14 01:08:37 *	Déconnecté (Connection reset by peer).
+**** FIN DU JOURNAL À Sun Feb 14 01:08:38 2010
+
+**** DÉBUT DU JOURNAL À Sun Feb 14 01:09:05 2010
+
+févr. 14 01:09:05 *	Vous parlez maintenant sur #linuxfr
+févr. 14 01:09:05 *	Le sujet de #linuxfr est : http://www.linuxfr.org/ (sauf quand le serveur est en vacances) - ISO8859-15 UNIQUEMENT (pas d'utf8)(trop pas)(les contestataires on les fusille)
+févr. 14 01:09:05 *	Sujet de #linuxfr défini par Madvax le Tue Sep  1 06:04:17 2009
+févr. 14 01:09:06 -ChanServ-	[#linuxfr] Bienvenue sur #linuxfr. Merci d'écrire en ISO-8859-15 et en bon français si vous désirez rester parmi nous.
+févr. 14 01:14:29 *	GomGom est parti (Ping timeout: 260 seconds)
+févr. 14 01:19:42 *	iip2 est parti (Quit: quit)
+**** FIN DU JOURNAL À Sun Feb 14 01:22:47 2010
+
+**** DÉBUT DU JOURNAL À Sat May 22 13:26:44 2010
+
+mai 22 13:26:44 *	Vous parlez maintenant sur #linuxfr
+mai 22 13:26:44 *	Le sujet de #linuxfr est : http://www.linuxfr.org/ (sauf quand le serveur est en vacances) - ISO8859-15 UNIQUEMENT (pas d'utf8)(trop pas)(les contestataires on les fusille)
+mai 22 13:26:44 *	Sujet de #linuxfr défini par Madvax le Tue Sep  1 06:04:17 2009
+mai 22 13:26:44 -ChanServ-	[#linuxfr] Bienvenue sur #linuxfr. Merci d'écrire en ISO-8859-15 et en bon français si vous désirez rester parmi nous.
+mai 22 13:30:43 *	__Obsidian__ (~Obs@lis91-1-82-238-228-77.fbx.proxad.net) a rejoint #linuxfr
+mai 22 13:30:54 <__Obsidian__>	Bonjour, tous le monde.
+mai 22 13:35:15 *	__Obsidian__ (~Obs@lis91-1-82-238-228-77.fbx.proxad.net) a quitté #linuxfr
+mai 22 13:35:43 *	Hypergraphe (~plip@unaffiliated/hypergraphe) a rejoint #linuxfr
+mai 22 13:46:35 *	mirlipili (~fredo@83.101.40.223) a rejoint #linuxfr
+mai 22 13:48:16 *	__Obsidian__ (~Obs@lis91-1-82-238-228-77.fbx.proxad.net) a rejoint #linuxfr
+mai 22 13:52:11 <__Obsidian__>	Le serveur est parti en week-end, donc.
+mai 22 13:52:53 <__Obsidian__>	(ainsi que le reste du canal).
+mai 22 13:53:01 <nabero>	un seul être vous manque et tout est dépeuplé...
+mai 22 13:53:56 <__Obsidian__>	En même temps, c'est une bonne raison pour aller profiter du soleil. Donc : zou.
+mai 22 13:54:19 <nabero>	bah, les fenêtres c'est pas fait pour les chiens :)
+mai 22 13:54:28 *	Krunch_ est coincé au bural
+mai 22 13:54:52 *	__Obsidian__ trouve que Krunch_ n'a pas de chance.
+mai 22 13:55:13 <Krunch_>	bon je suis payé et j'ai de la récup' aussi donc je me plains pas
+mai 22 13:55:25 <Krunch_>	mon prochain week-end va durer 5 jours :op
+mai 22 13:55:40 <__Obsidian__>	Good. Je fais un barbecue le week-end prochain ! :-)
+mai 22 13:55:52 <Krunch_>	c'est une invitation ? :op
+mai 22 13:56:13 <__Obsidian__>	C'est sur Evry, cela dit. Ca depend d'ou tu te trouves ! :-)
+mai 22 13:56:59 <Krunch_>	dans le sens où je compte traverser la France le weekend prochain, je crois qu'il y a moyen :op
+mai 22 13:57:06 <Krunch_>	de faire une escale
+mai 22 13:58:04 *	debianero est parti (Quit: leaving)
+mai 22 13:58:06 <__Obsidian__>	Enfin, pour l'instant ce n'est pas gagné. J'ai envoyé pas mal d'invitations, mais ai reçu quelques refus et des fins de non-recevoir.
+mai 22 13:58:15 <__Obsidian__>	Donc, on verra.
+mai 22 13:58:47 *	Krunch_ pense organiser un bbq à un moment en juin
+mai 22 13:59:31 <__Obsidian__>	Bon, en fait, j'étais venu parce que le serveur est tombé pendant que je faisais une C.S.S. Apparement, pas de retour prévu dans les prochaines heures.
+mai 22 13:59:54 <Krunch_>	c'est down depuis qq heures et si les admins sont en vacances ça va pas changer avant un moment
+mai 22 13:59:59 <__Obsidian__>	Donc, on va passer à autre chose.
+mai 22 14:00:27 <__Obsidian__>	C'est down depuis hier soir en fait, entre 23h00 et 02h00 je dirais.
+mai 22 14:02:25 <__Obsidian__>	Allez je filoche. Bon app' à ceux qui font des BBQ, et bonne aprêm' aux autres. A++ tous.
+mai 22 14:03:22 *	__Obsidian__ (~Obs@lis91-1-82-238-228-77.fbx.proxad.net) a quitté #linuxfr
+mai 22 14:04:02 *	Spack (~spack@78-20-145-183.access.telenet.be) a quitté #linuxfr
+mai 22 14:07:00 *	ludo2 est parti (Remote host closed the connection)
+mai 22 14:11:03 <boa13>	C'est down depuis 01h15 environ
+mai 22 14:12:03 *	mirlipili est parti (Quit: Ex-Chat)
+mai 22 14:26:40 *	efyx (~efyx@lap34-1-82-225-185-146.fbx.proxad.net) a rejoint #linuxfr
+mai 22 14:30:20 *	Barzogh est parti (Quit: This computer has gone to sleep)
+mai 22 14:31:08 *	Barzogh (~Ash@212-198-210-23.rev.numericable.fr) a rejoint #linuxfr
+mai 22 14:35:49 *	hugsy_75 est parti (Quit: leaving)
+mai 22 14:36:36 *	hugsy_75 (hugsy@gateway/shell/bshellz.net/x-jovmaogrtvwhomfj) a rejoint #linuxfr
+mai 22 14:36:48 <Duke`>	qu'est ce que je vais faire sans DLFP ? :x
+mai 22 14:39:02 <boa13>	sortir ?
+mai 22 14:44:05 *	Barzogh est parti (Quit: Leaving)
+mai 22 14:51:56 <Duke`>	sorquoi ?
+mai 22 15:02:45 *	phh_ (~quassel@2a01:e35:2e4b:b2b0:250:8dff:fee1:c793) a rejoint #linuxfr
+mai 22 15:02:47 *	phh est parti (Quit: No Ping reply in 180 seconds.)
+mai 22 15:03:50 *	phh_ s'appelle maintenant phh
+**** FIN DU JOURNAL À Sat May 22 15:32:53 2010
+
+**** DÉBUT DU JOURNAL À Fri May 28 16:17:26 2010
+
+mai 28 16:17:26 *	Vous parlez maintenant sur #linuxfr
+mai 28 16:17:27 *	Le sujet de #linuxfr est : http://www.linuxfr.org/ (sauf quand le serveur est en vacances) - ISO8859-15 UNIQUEMENT (pas d'utf8)(trop pas)(les contestataires on les fusille)
+mai 28 16:17:27 *	Sujet de #linuxfr défini par Madvax le Tue Sep  1 06:04:17 2009
+mai 28 16:17:27 *	[freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+mai 28 16:17:27 -ChanServ-	[#linuxfr] Bienvenue sur #linuxfr. Merci d'écrire en ISO-8859-15 et en bon français si vous désirez rester parmi nous.
+mai 28 16:45:43 *	Barzogh (~Ash@212-198-219-193.rev.numericable.fr) a rejoint #linuxfr
+mai 28 16:52:31 *	geo27 est parti (Remote host closed the connection)
+mai 29 11:59:55 *	Déconnecté (Connection reset by peer).
+**** FIN DU JOURNAL À Sat May 29 11:59:55 2010
+
+**** DÉBUT DU JOURNAL À Sat May 29 12:00:12 2010
+
+mai 29 12:00:12 *	Vous parlez maintenant sur #linuxfr
+mai 29 12:00:12 *	Le sujet de #linuxfr est : http://www.linuxfr.org/ (sauf quand le serveur est en vacances) - ISO8859-15 UNIQUEMENT (pas d'utf8)(trop pas)(les contestataires on les fusille)
+mai 29 12:00:12 *	Sujet de #linuxfr défini par Madvax le Tue Sep  1 06:04:17 2009
+mai 29 12:00:12 -ChanServ-	[#linuxfr] Bienvenue sur #linuxfr. Merci d'écrire en ISO-8859-15 et en bon français si vous désirez rester parmi nous.
+mai 29 12:18:23 *	Spami|Thug est parti (Ping timeout: 264 seconds)
+mai 29 12:33:56 *	Texou (~Texou@pat35-5-78-226-56-130.fbx.proxad.net) a rejoint #linuxfr
+mai 29 12:33:59 *	Texou est parti (Changing host)
+mai 29 12:33:59 *	Texou (~Texou@unaffiliated/texou) a rejoint #linuxfr
+mai 29 12:35:23 *	Sano est parti (Read error: Operation timed out)
+mai 29 12:56:34 *	Sano (~sano@mol92-6-82-240-252-239.fbx.proxad.net) a rejoint #linuxfr
+mai 29 14:31:38 *	Déconnecté (No route to host).
+**** FIN DU JOURNAL À Sat May 29 14:31:38 2010
+
+**** DÉBUT DU JOURNAL À Sat May 29 14:36:19 2010
+
+mai 29 14:36:19 *	Vous parlez maintenant sur #linuxfr
+mai 29 14:36:21 *	Le sujet de #linuxfr est : http://www.linuxfr.org/ (sauf quand le serveur est en vacances) - ISO8859-15 UNIQUEMENT (pas d'utf8)(trop pas)(les contestataires on les fusille)
+mai 29 14:36:21 *	Sujet de #linuxfr défini par Madvax le Tue Sep  1 06:04:17 2009
+mai 29 14:36:22 -ChanServ-	[#linuxfr] Bienvenue sur #linuxfr. Merci d'écrire en ISO-8859-15 et en bon français si vous désirez rester parmi nous.
+mai 29 14:41:40 *	zir0faive est parti (Ping timeout: 276 seconds)
+mai 29 14:42:24 *	woof_ est parti (Ping timeout: 258 seconds)
+mai 29 14:42:25 *	woof_ (~woof@sd-329.dedibox.fr) a rejoint #linuxfr
+mai 29 14:43:11 *	zir0faive (~zir0faive@mar92-2-82-66-58-60.fbx.proxad.net) a rejoint #linuxfr
+mai 29 14:47:04 *	efyx (~efyx@lap34-1-82-225-185-146.fbx.proxad.net) a rejoint #linuxfr
+mai 29 14:51:16 *	Duke` est parti (Ping timeout: 240 seconds)
+mai 29 15:05:21 *	Duke` (~henry@ANantes-158-1-109-106.w86-199.abo.wanadoo.fr) a rejoint #linuxfr
+mai 29 15:15:29 *	Spami|Thug (~Spami|Thu@unaffiliated/spamithug/x-9927323) a rejoint #linuxfr
+mai 29 15:36:33 *	jordinateur (~jordinate@188.121.236.49) a rejoint #linuxfr
+mai 29 15:37:03 *	moOn (~moOn@211.203-225-89.dsl.completel.net) a rejoint #linuxfr
+mai 29 15:38:21 *	moOn est parti (Client Quit)
+mai 29 15:39:12 *	jordinateur s'appelle maintenant Mounque
+mai 29 15:43:38 *	nnj est parti (Quit: Leaving)
+mai 29 15:56:22 *	iip2 (~iip2@2a01:e35:2ef3:b360::f4:9e) a rejoint #linuxfr
+mai 29 16:00:06 *	nnj (~nnj@2a01:e34:ee0e:3610:21f:29ff:fe81:a88f) a rejoint #linuxfr
+mai 29 16:22:55 <Mounque>	yoooooooooo
+mai 29 16:22:57 <Mounque>	oooooo
+mai 29 16:23:01 <Mounque>	y a qqn?
+mai 29 16:23:59 *	Mounque s'appelle maintenant SMoun
+mai 29 16:24:13 *	SMoun s'appelle maintenant SergMounkePD
+mai 29 16:24:49 *	SergMounkePD s'appelle maintenant SergMounkeGrOsPo
+mai 29 16:25:03 *	SergMounkeGrOsPo s'appelle maintenant SrgMounkGrOsPoRc
+mai 29 16:25:14 <nnj>	non
+mai 29 16:41:25 *	Hypergraphe (~oxy@unaffiliated/hypergraphe) a rejoint #linuxfr
+mai 29 17:37:28 *	SrgMounkGrOsPoRc est parti (Quit: KVIrc Insomnia 4.0.0, revision: 3900, sources date: 20100125, built on: 2010-02-15 08:27:55 UTC 3900 http://www.kvirc.net/)
+mai 29 17:50:00 *	sano_ (~sano@mol92-6-82-240-252-239.fbx.proxad.net) a rejoint #linuxfr
+mai 29 17:50:49 *	Sano est parti (Read error: Connection reset by peer)
+mai 29 17:54:06 *	sano_ s'appelle maintenant Sano
+mai 30 20:33:36 *	Déconnecté (Connection reset by peer).
+**** FIN DU JOURNAL À Sun May 30 20:33:36 2010
+
+**** DÉBUT DU JOURNAL À Sun May 30 20:33:51 2010
+
+mai 30 20:33:51 *	Vous parlez maintenant sur #linuxfr
+mai 30 20:33:51 *	Le sujet de #linuxfr est : http://www.linuxfr.org/ (sauf quand le serveur est en vacances) - ISO8859-15 UNIQUEMENT (pas d'utf8)(trop pas)(les contestataires on les fusille)
+mai 30 20:33:51 *	Sujet de #linuxfr défini par Madvax le Tue Sep  1 06:04:17 2009
+mai 30 20:33:51 -ChanServ-	[#linuxfr] Bienvenue sur #linuxfr. Merci d'écrire en ISO-8859-15 et en bon français si vous désirez rester parmi nous.
+mai 30 20:34:26 *	Spami|Thug_ est parti (Ping timeout: 260 seconds)
+mai 30 20:35:59 *	pazof est parti (Quit:  )
+mai 30 20:48:27 *	Spami|Thug_ (~Spami|Thu@ALyon-153-1-11-99.w86-194.abo.wanadoo.fr) a rejoint #linuxfr
+mai 30 20:52:28 *	GomGom (~dtc@88.182.232.203) a rejoint #linuxfr
+mai 30 20:56:16 *	Astar (~astar@ARennes-553-1-3-73.w90-54.abo.wanadoo.fr) a quitté #linuxfr
+mai 30 21:13:02 *	efyx (~efyx@lap34-1-82-225-185-146.fbx.proxad.net) a rejoint #linuxfr
+mai 30 21:26:48 *	efyx est parti (Remote host closed the connection)
+mai 30 21:29:11 *	efyx (~efyx@lap34-1-82-225-185-146.fbx.proxad.net) a rejoint #linuxfr
+mai 30 21:41:27 *	nnj est parti (Quit: Leaving)
+mai 30 21:46:47 *	GomGom est parti (Ping timeout: 240 seconds)
+mai 30 21:47:56 *	Duke` (~henry@AVelizy-551-1-127-56.w90-2.abo.wanadoo.fr) a rejoint #linuxfr
+mai 30 22:00:48 *	Poil est parti (Quit: ( www.nnscript.com :: NoNameScript 4.22 :: www.esnation.com ))
+**** FIN DU JOURNAL À Sun May 30 23:00:05 2010
+
+**** DÉBUT DU JOURNAL À Fri Mar 25 12:26:22 2011
+
+mars 25 12:26:22 *	Vous parlez maintenant sur #linuxfr
+mars 25 12:26:22 *	Le sujet de #linuxfr est : http://www.linuxfr.org - nouvelle version en ligne (au fait cai pas nous qu'on s'en occupe)
+mars 25 12:26:22 *	Sujet de #linuxfr défini par Gniarf!gniarf@gniarf.net1.nerim.net le Mon Mar  7 22:04:20 2011
+mars 25 12:26:22 -ChanServ-	[#linuxfr] Bienvenue sur #linuxfr. Merci d'écrire en ISO-8859-15 et en bon français si vous désirez rester parmi nous.
+mars 25 12:33:57 *	Madvax (~chatzilla@AMontsouris-755-1-32-231.w90-46.abo.wanadoo.fr) a rejoint #linuxfr
+mars 25 12:45:15 *	efyx est parti (Quit: Quitte)
+mars 25 12:54:50 *	Iiiak_[AFK_miam] s'appelle maintenant Iiiak
+mars 25 12:57:25 *	Madvax est parti (Quit: puisque c'est ça, je me casse!)
+mars 25 13:22:41 *	pazof (~paul@reverse-81.fdn.fr) a rejoint #linuxfr
+mars 25 13:32:57 *	golgoth est parti (Read error: Connection reset by peer)
+mars 25 13:46:51 *	Iiiak_ (~Iiiak@121.214.102-84.rev.gaoland.net) a rejoint #linuxfr
+mars 25 13:46:54 *	Iiiak_ est parti (Client Quit)
+mars 25 13:47:33 *	Iiiak_ (~Iiiak@121.214.102-84.rev.gaoland.net) a rejoint #linuxfr
+mars 25 13:48:13 *	Iiiak est parti (Quit: WeeChat 0.3.4)
+mars 25 13:48:37 *	Iiiak_ s'appelle maintenant Iiiak
+mars 25 13:48:38 *	efyx_ est parti (Ping timeout: 255 seconds)
+mars 25 13:56:18 *	Iiiak est parti (Quit: leaving)
+mars 25 13:58:23 *	Iiiak (~Iiiak@121.214.102-84.rev.gaoland.net) a rejoint #linuxfr
+mars 25 14:00:02 *	dneary est parti (Ping timeout: 276 seconds)
+mars 25 14:03:55 *	efyx_ (~efyx@lap34-1-82-225-185-146.fbx.proxad.net) a rejoint #linuxfr
+mars 25 14:15:34 *	Cacatoes (~CACA@lib59-2-82-237-110-249.fbx.proxad.net) a rejoint #linuxfr
+mars 25 14:28:57 *	Greg` (~Greg@194.154.202.122) a rejoint #linuxfr
+mars 25 14:38:09 *	GniarfBis (gniarf@gniarf.net1.nerim.net) a rejoint #linuxfr
+mars 25 14:38:09 *	Gniarf est parti (Read error: Connection reset by peer)
+mars 25 14:45:13 *	pazof est parti (Quit: Lost terminal)
+mars 25 15:06:29 *	NULL[0] (~fred@e181034131.adsl.alicedsl.de) a rejoint #linuxfr
+mars 25 15:09:31 *	NULL[NULL[0]] est parti (Ping timeout: 248 seconds)
+mars 25 15:11:37 *	tigrou3tac (~fabien@81.57.213.124) a rejoint #linuxfr
+mars 25 15:11:52 <tigrou3tac>	salut
+mars 25 15:12:52 <manuel>	hello tigrou3tac
+mars 25 15:13:03 <tigrou3tac>	ohhh
+mars 25 15:13:07 <tigrou3tac>	salut manuel
+mars 25 15:13:18 <tigrou3tac>	comment ça va ?
+mars 25 15:13:38 <manuel>	ça roule, j'arpente les rues de Montreuil :P
+mars 25 15:13:39 <manuel>	et toi ?
+mars 25 15:13:57 <tigrou3tac>	moi, je reste cloisonné dans mon appart à Montreuil
+mars 25 15:14:18 *	patch__ (d5299dcf@gateway/web/freenode/ip.213.41.157.207) a rejoint #linuxfr
+mars 25 15:14:48 *	patch__ bonjour
+mars 25 15:14:50 <tigrou3tac>	manuel, tu fais quoi désormais ?
+mars 25 15:15:30 <manuel>	je bosse assez loin de montreuil, au conseil régional
+mars 25 15:15:39 <manuel>	mais pendant les élections, je redeviens montreuillois /o\
+mars 25 15:16:05 <jaroug>	meumeu o//
+mars 25 15:16:12 <manuel>	jarougz !
+mars 25 15:16:32 <manuel>	ça change pas ici, à part que ça dort :p
+mars 25 15:16:46 <tigrou3tac>	ils sont tous sur facebook ou twiter
+mars 25 15:17:01 *	efyx_ est parti (Remote host closed the connection)
+mars 25 15:17:16 *	efyx (~efyx@lap34-1-82-225-185-146.fbx.proxad.net) a rejoint #linuxfr
+mars 25 15:24:06 *	patch__ est parti (Quit: A+)
+mars 25 15:33:48 *	Iiiak est parti (Quit: Lost terminal)
+mars 25 15:34:16 *	golgoth (~golgoth@bel42-1-82-232-172-191.fbx.proxad.net) a rejoint #linuxfr
+mars 25 15:39:29 *	efyx est parti (Remote host closed the connection)
+mars 25 15:42:41 *	efyx (~efyx@lap34-1-82-225-185-146.fbx.proxad.net) a rejoint #linuxfr
+mars 25 15:45:54 *	efyx est parti (Read error: Operation timed out)
+mars 25 16:02:19 *	efyx (~efyx@lap34-1-82-225-185-146.fbx.proxad.net) a rejoint #linuxfr
+mars 25 16:02:58 *	brancaleone est parti (Read error: Operation timed out)
+mars 25 16:10:33 *	ValiSystM est parti (Quit: ZNC - http://znc.sourceforge.net)
+mars 25 16:32:17 <jrlamoule>	non c'est faux
+mars 25 16:32:28 <jrlamoule>	mais bon, la ca va etre l'heure de mon tgv
+mars 25 17:10:06 *	GniarfBis s'appelle maintenant Gniarf
+mars 25 17:25:25 *	Duke` (~henry@AVelizy-551-1-139-35.w90-44.abo.wanadoo.fr) a rejoint #linuxfr
+mars 25 17:54:11 *	Gniarf est parti (Quit: You can't get to the moon by climbing successively taller trees.)
+mars 25 17:58:23 *	gko (~gko@122-116-15-138.HINET-IP.hinet.net) a rejoint #linuxfr
+mars 25 18:07:48 *	Dinde est parti (Ping timeout: 276 seconds)
+mars 25 18:07:49 *	ludo2 est parti (Quit: Leaving.)
+mars 25 18:08:51 *	Wilkins est parti (Read error: Operation timed out)
+mars 25 18:10:41 *	sativouf est parti (Remote host closed the connection)
+mars 25 18:12:55 *	Dinde (kayser@sur-internet.net) a rejoint #linuxfr
+mars 25 18:20:27 *	Soulou est parti (Ping timeout: 248 seconds)
+mars 25 18:22:17 *	brancaleone (~brancaleo@cust-222-185-108-94.dyn.as47377.net) a rejoint #linuxfr
+mars 25 18:22:56 *	Soulou (~leo@soulou.fr) a rejoint #linuxfr
+mars 25 18:23:25 *	zir0faive (~zir0faive@rc137-1-82-233-159-60.fbx.proxad.net) a rejoint #linuxfr
+mars 25 18:30:30 *	Greg` est parti (Quit: Ex-Chat)
+mars 25 18:31:14 *	gko est parti ()
+mars 25 18:35:24 *	Renault (~couretca@89.95.129.3) a rejoint #linuxfr
+mars 25 18:51:27 *	Gniarf (gniarf@gniarf.net1.nerim.net) a rejoint #linuxfr
+mars 25 18:55:47 *	golgoth est parti (Quit: init 6)
+mars 25 18:57:28 *	ValiSystM (~ValiSystM@2a01:e35:2437:da00:222:68ff:fe86:b94b) a rejoint #linuxfr
+**** FIN DU JOURNAL À Fri Mar 25 18:57:54 2011
+
+**** DÉBUT DU JOURNAL À Fri Jun 17 17:06:15 2011
+
+juin 17 17:06:15 *	Vous parlez maintenant sur #linuxfr
+juin 17 17:06:15 *	Le sujet de #linuxfr est : http://www.linuxfr.org (la bas, ca se passe en UTF-8)
+juin 17 17:06:15 *	Sujet de #linuxfr défini par Gniarf!gniarf@gniarf.net1.nerim.net le Sun May  1 03:28:50 2011
+juin 17 17:06:15 -ChanServ-	[#linuxfr] Bienvenue sur #linuxfr. Merci d'écrire en ISO-8859-15 et en bon français si vous désirez rester parmi nous.
+juin 17 17:10:20 *	madvax (~chatzilla@AMontsouris-755-1-17-240.w90-46.abo.wanadoo.fr) a rejoint #linuxfr
+juin 17 17:13:23 *	Anti-T (~Anti-T@213.16.1.249) a rejoint #linuxfr
+juin 17 17:26:25 *	madvax est parti (Quit: puisque c'est ça, je me casse!)
+juin 17 17:37:01 *	Oleti (~Jack@sim31-1-88-176-210-164.fbx.proxad.net) a rejoint #linuxfr
+juin 17 17:49:55 *	GniarfBis (gniarf@gniarf.net1.nerim.net) a rejoint #linuxfr
+juin 17 17:50:04 *	Gniarf est parti (Read error: Connection reset by peer)
+juin 17 17:52:52 *	GniarfBis s'appelle maintenant Gniarf
+juin 17 17:54:26 *	ludo21 (~lchevalie@142.10.101.84.rev.sfr.net) a rejoint #linuxfr
+juin 17 18:11:33 *	Wilkins est parti (Ping timeout: 264 seconds)
+juin 17 18:14:19 *	Itwer_ est parti (Ping timeout: 250 seconds)
+juin 17 18:16:55 *	Itwer (~Itwer@unaffiliated/itwer) a rejoint #linuxfr
+juin 17 18:21:26 *	zir0faive (~zir0faive@rc137-1-82-233-159-60.fbx.proxad.net) a rejoint #linuxfr
+juin 17 18:36:01 *	zir0faive est parti (Remote host closed the connection)
+juin 17 18:45:51 *	harobed est parti (Ping timeout: 244 seconds)
+**** FIN DU JOURNAL À Fri Jun 17 19:02:09 2011
+
+**** DÉBUT DU JOURNAL À Mon Nov 28 21:21:51 2011
+
+nov. 28 21:21:51 *	Vous parlez maintenant sur #linuxfr
+nov. 28 21:21:51 *	Le sujet de #linuxfr est : http://www.linuxfr.org (la bas, ca se passe en UTF-8)
+nov. 28 21:21:51 *	Sujet de #linuxfr défini par Gniarf!gniarf@gniarf.net1.nerim.net le Sun May  1 03:28:50 2011
+nov. 28 21:21:52 -ChanServ-	[#linuxfr] Bienvenue sur #linuxfr. Merci d'écrire en ISO-8859-15 et en bon français si vous désirez rester parmi nous.
+nov. 28 21:41:16 *	pierre80 (~pierre@AAmiens-152-1-58-66.w83-198.abo.wanadoo.fr) a rejoint #linuxfr
+nov. 28 21:46:28 *	NULL[0] (~fred@g230176194.adsl.alicedsl.de) a rejoint #linuxfr
+nov. 28 21:49:47 *	NULL[NULL[0]] est parti (Ping timeout: 252 seconds)
+nov. 28 22:01:50 *	brancaleone est parti (Ping timeout: 240 seconds)
+nov. 28 22:05:04 *	brancaleone (~brancaleo@cust-123-253-108-94.dyn.as47377.net) a rejoint #linuxfr
+nov. 28 22:10:08 *	pierre80 est parti (Ping timeout: 248 seconds)
+nov. 28 22:50:38 *	wolfy (~youple@ARennes-556-1-303-191.w81-53.abo.wanadoo.fr) a rejoint #linuxfr
+nov. 28 22:50:48 *	wolfy s'appelle maintenant Guest165
+**** FIN DU JOURNAL À Mon Nov 28 22:52:55 2011
+

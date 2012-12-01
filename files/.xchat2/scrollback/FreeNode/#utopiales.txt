@@ -1,0 +1,302 @@
+T 1221921212 19*	19Vous parlez maintenant sur #utopiales
+T 1221921212 22*	simmons.freenode.net active le mode +n #utopiales
+T 1221921212 22*	simmons.freenode.net active le mode +s #utopiales
+T 1221921212 22*	#utopiales :[freenode-info] channel flooding and no channel staff around to help? please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+T 1221996583 19*	19Vous parlez maintenant sur #utopiales
+T 1221996583 22*	brown.freenode.net active le mode +n #utopiales
+T 1221996583 22*	brown.freenode.net active le mode +s #utopiales
+T 1222192113 19*	19Vous parlez maintenant sur #utopiales
+T 1222192113 22*	niven.freenode.net active le mode +n #utopiales
+T 1222192113 22*	niven.freenode.net active le mode +s #utopiales
+T 1222369784 19*	19Vous parlez maintenant sur #utopiales
+T 1222369784 22*	kornbluth.freenode.net active le mode +n #utopiales
+T 1222369784 22*	kornbluth.freenode.net active le mode +s #utopiales
+T 1222369794 22*	#utopiales :[freenode-info] channel flooding and no channel staff around to help? please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+T 1222523143 19*	19Vous parlez maintenant sur #utopiales
+T 1222523143 22*	zelazny.freenode.net active le mode +n #utopiales
+T 1222523143 22*	zelazny.freenode.net active le mode +s #utopiales
+T 1222850891 19*	19Vous parlez maintenant sur #utopiales
+T 1222850891 22*	wolfe.freenode.net active le mode +n #utopiales
+T 1222850891 22*	wolfe.freenode.net active le mode +s #utopiales
+T 1223057532 19*	19Vous parlez maintenant sur #utopiales
+T 1223057532 22*	kornbluth.freenode.net active le mode +n #utopiales
+T 1223057532 22*	kornbluth.freenode.net active le mode +s #utopiales
+T 1223125841 19*	19T0mTom (i=tom@crb44-3-82-235-63-125.fbx.proxad.net) a rejoint #utopiales
+T 1223125841 19*	19Vous parlez maintenant sur #utopiales
+T 1223126433 23*	23TomT0m est parti (23"Quitte"23)
+T 1224326086 19*	19Vous parlez maintenant sur #utopiales
+T 1224326086 22*	heinlein.freenode.net active le mode +n #utopiales
+T 1224326086 22*	heinlein.freenode.net active le mode +s #utopiales
+T 1224326091 22*	Un CTCP VERSION de freenode-connect a été reçu
+T 1224407789 19*	19Vous parlez maintenant sur #utopiales
+T 1224407789 22*	clarke.freenode.net active le mode +n #utopiales
+T 1224407789 22*	clarke.freenode.net active le mode +s #utopiales
+T 1225633487 19*	19Vous parlez maintenant sur #utopiales
+T 1225633487 22*	brown.freenode.net active le mode +n #utopiales
+T 1225633487 22*	brown.freenode.net active le mode +s #utopiales
+T 1225633504 22*	Un CTCP VERSION de freenode-connect a été reçu
+T 1225917792 19*	19Vous parlez maintenant sur #utopiales
+T 1225917792 22*	tolkien.freenode.net active le mode +n #utopiales
+T 1225917792 22*	tolkien.freenode.net active le mode +s #utopiales
+T 1225917793 22*	Un CTCP VERSION de freenode-connect a été reçu
+T 1227649693 19*	19Vous parlez maintenant sur #utopiales
+T 1227649693 22*	clarke.freenode.net active le mode +n #utopiales
+T 1227649693 22*	clarke.freenode.net active le mode +s #utopiales
+T 1227649694 22*	Un CTCP VERSION de freenode-connect a été reçu
+T 1228156701 19*	19Vous parlez maintenant sur #utopiales
+T 1228156701 22*	wolfe.freenode.net active le mode +n #utopiales
+T 1228156701 22*	wolfe.freenode.net active le mode +s #utopiales
+T 1229018891 19*	19Vous parlez maintenant sur #utopiales
+T 1229018891 22*	kornbluth.freenode.net active le mode +n #utopiales
+T 1229018891 22*	kornbluth.freenode.net active le mode +s #utopiales
+T 1229018906 22*	#utopiales :[freenode-info] channel flooding and no channel staff around to help? please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+T 1229108205 19*	19Vous parlez maintenant sur #utopiales
+T 1229108205 22*	niven.freenode.net active le mode +n #utopiales
+T 1229108205 22*	niven.freenode.net active le mode +s #utopiales
+T 1229108206 22*	Un CTCP VERSION de freenode-connect a été reçu
+T 1230843897 19*	19Vous parlez maintenant sur #utopiales
+T 1230843897 22*	simmons.freenode.net active le mode +n #utopiales
+T 1230843897 22*	simmons.freenode.net active le mode +s #utopiales
+T 1230987171 19*	19Vous parlez maintenant sur #utopiales
+T 1230987172 22*	kubrick.freenode.net active le mode +n #utopiales
+T 1230987172 22*	kubrick.freenode.net active le mode +s #utopiales
+T 1231594227 19*	19Vous parlez maintenant sur #utopiales
+T 1231594227 22*	lindbohm.freenode.net active le mode +n #utopiales
+T 1231594227 22*	lindbohm.freenode.net active le mode +s #utopiales
+T 1231594229 28-29NickServ28-	This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+T 1231594229 28-29NickServ28-	You are now identified for TomT0m.
+T 1231594229 22*	services. active le mode +e TomT0m
+T 1253887980 19*	19Vous parlez maintenant sur #utopiales
+T 1253887980 22*	farmer.freenode.net active le mode +n #utopiales
+T 1253887980 22*	farmer.freenode.net active le mode +s #utopiales
+T 1259099745 19*	19Vous parlez maintenant sur #utopiales
+T 1259099745 22*	orwell.freenode.net active le mode +n #utopiales
+T 1259099745 22*	orwell.freenode.net active le mode +s #utopiales
+T 1259145156 22*	Déconnecté (Connection reset by peer).
+T 1259145171 19*	19Vous parlez maintenant sur #utopiales
+T 1259145171 22*	leguin.freenode.net active le mode +n #utopiales
+T 1259145171 22*	leguin.freenode.net active le mode +s #utopiales
+T 1259183472 19*	19Vous parlez maintenant sur #utopiales
+T 1259183472 22*	brown.freenode.net active le mode +n #utopiales
+T 1259183472 22*	brown.freenode.net active le mode +s #utopiales
+T 1259351729 19*	19Vous parlez maintenant sur #utopiales
+T 1259351729 22*	niven.freenode.net active le mode +n #utopiales
+T 1259351729 22*	niven.freenode.net active le mode +s #utopiales
+T 1262698728 19*	19Vous parlez maintenant sur #utopiales
+T 1262698728 22*	leguin.freenode.net active le mode +n #utopiales
+T 1262698728 22*	leguin.freenode.net active le mode +s #utopiales
+T 1262734452 22*	Déconnecté (Connection reset by peer).
+T 1262734469 19*	19Vous parlez maintenant sur #utopiales
+T 1262734469 22*	zelazny.freenode.net active le mode +n #utopiales
+T 1262734469 22*	zelazny.freenode.net active le mode +s #utopiales
+T 1263328143 19*	19Vous parlez maintenant sur #utopiales
+T 1263328143 22*	kubrick.freenode.net active le mode +n #utopiales
+T 1263328143 22*	kubrick.freenode.net active le mode +s #utopiales
+T 1265824561 19*	19Vous parlez maintenant sur #utopiales
+T 1265824561 22*	bartol.freenode.net active le mode +n #utopiales
+T 1265824561 22*	bartol.freenode.net active le mode +t #utopiales
+T 1265882106 22*	Déconnecté (Connection reset by peer).
+T 1265882182 19*	19Vous parlez maintenant sur #utopiales
+T 1265882182 22*	bartol.freenode.net active le mode +n #utopiales
+T 1265882182 22*	bartol.freenode.net active le mode +t #utopiales
+T 1265907668 22*	Déconnecté (Connection reset by peer).
+T 1265907715 19*	19Vous parlez maintenant sur #utopiales
+T 1265907715 22*	bartol.freenode.net active le mode +n #utopiales
+T 1265907715 22*	bartol.freenode.net active le mode +t #utopiales
+T 1266068852 19*	19Vous parlez maintenant sur #utopiales
+T 1266068852 22*	bartol.freenode.net active le mode +n #utopiales
+T 1266068852 22*	bartol.freenode.net active le mode +t #utopiales
+T 1266106118 22*	Déconnecté (Connection reset by peer).
+T 1266106145 19*	19Vous parlez maintenant sur #utopiales
+T 1266106145 22*	bartol.freenode.net active le mode +n #utopiales
+T 1266106145 22*	bartol.freenode.net active le mode +t #utopiales
+T 1266261939 19*	19Vous parlez maintenant sur #utopiales
+T 1266261939 22*	bartol.freenode.net active le mode +n #utopiales
+T 1266261939 22*	bartol.freenode.net active le mode +t #utopiales
+T 1266261939 22*	[freenode-info] why register and identify? your IRC nick is how people know you. http://freenode.net/faq.shtml#nicksetup
+T 1272826132 19*	19Vous parlez maintenant sur #utopiales
+T 1272826132 22*	bartol.freenode.net active le mode +n #utopiales
+T 1272826132 22*	bartol.freenode.net active le mode +s #utopiales
+T 1272831217 19*	19Vous parlez maintenant sur #utopiales
+T 1272831217 22*	bartol.freenode.net active le mode +n #utopiales
+T 1272831217 22*	bartol.freenode.net active le mode +s #utopiales
+T 1273310361 19*	19Vous parlez maintenant sur #utopiales
+T 1273310361 22*	bartol.freenode.net active le mode +n #utopiales
+T 1273310361 22*	bartol.freenode.net active le mode +s #utopiales
+T 1273430499 22*	Déconnecté (Connection reset by peer).
+T 1273430511 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430521 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430532 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430543 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430554 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430567 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430579 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430590 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430601 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430612 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430623 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430634 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430645 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430657 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430668 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430679 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430690 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430701 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430712 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430723 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430734 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430745 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430756 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430766 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430777 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430788 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430799 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430811 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430822 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430833 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430844 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430855 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430866 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430877 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430888 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430899 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430910 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430921 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430932 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430943 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430954 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430965 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430976 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430987 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273430998 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431010 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431021 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431032 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431043 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431055 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431066 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431077 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431088 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431099 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431110 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431122 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431133 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431144 22*	Déconnecté (L'hôte distant a fermé la socket).
+T 1273431159 19*	19Vous parlez maintenant sur #utopiales
+T 1273431159 22*	wolfe.freenode.net active le mode +n #utopiales
+T 1273431159 22*	wolfe.freenode.net active le mode +s #utopiales
+T 1273480721 22*	Déconnecté (Connection reset by peer).
+T 1273480747 19*	19Vous parlez maintenant sur #utopiales
+T 1273480747 22*	leguin.freenode.net active le mode +n #utopiales
+T 1273480747 22*	leguin.freenode.net active le mode +s #utopiales
+T 1274527590 19*	19Vous parlez maintenant sur #utopiales
+T 1274527590 22*	calvino.freenode.net active le mode +n #utopiales
+T 1274527590 22*	calvino.freenode.net active le mode +t #utopiales
+T 1274623533 19*	19Vous parlez maintenant sur #utopiales
+T 1274623533 22*	leguin.freenode.net active le mode +n #utopiales
+T 1274623533 22*	leguin.freenode.net active le mode +s #utopiales
+T 1274802726 19*	19Vous parlez maintenant sur #utopiales
+T 1274802726 22*	calvino.freenode.net active le mode +n #utopiales
+T 1274802726 22*	calvino.freenode.net active le mode +t #utopiales
+T 1274802726 22*	[freenode-info] please register your nickname...don't forget to auto-identify! http://freenode.net/faq.shtml#nicksetup
+T 1274867490 22*	Déconnecté (Connection reset by peer).
+T 1274867520 19*	19Vous parlez maintenant sur #utopiales
+T 1274867521 22*	lindbohm.freenode.net active le mode +n #utopiales
+T 1274867521 22*	lindbohm.freenode.net active le mode +s #utopiales
+T 1274947484 22*	Déconnecté (Connection reset by peer).
+T 1274947503 19*	19Vous parlez maintenant sur #utopiales
+T 1274947503 22*	verne.freenode.net active le mode +n #utopiales
+T 1274947503 22*	verne.freenode.net active le mode +s #utopiales
+T 1274972457 22*	Déconnecté (Connection reset by peer).
+T 1274972492 19*	19Vous parlez maintenant sur #utopiales
+T 1274972492 22*	verne.freenode.net active le mode +n #utopiales
+T 1274972492 22*	verne.freenode.net active le mode +s #utopiales
+T 1275056125 19*	19Vous parlez maintenant sur #utopiales
+T 1275056125 22*	lindbohm.freenode.net active le mode +n #utopiales
+T 1275056125 22*	lindbohm.freenode.net active le mode +s #utopiales
+T 1275056125 22*	[freenode-info] help freenode weed out clonebots -- please register your IRC nick and auto-identify: http://freenode.net/faq.shtml#nicksetup
+T 1275127195 22*	Déconnecté (Connection reset by peer).
+T 1275127212 19*	19Vous parlez maintenant sur #utopiales
+T 1275127212 22*	verne.freenode.net active le mode +n #utopiales
+T 1275127212 22*	verne.freenode.net active le mode +s #utopiales
+T 1275136298 22*	Déconnecté (No route to host).
+T 1275136581 19*	19Vous parlez maintenant sur #utopiales
+T 1275136581 22*	lindbohm.freenode.net active le mode +n #utopiales
+T 1275136581 22*	lindbohm.freenode.net active le mode +s #utopiales
+T 1275244416 22*	Déconnecté (Connection reset by peer).
+T 1275244432 19*	19Vous parlez maintenant sur #utopiales
+T 1275244432 22*	verne.freenode.net active le mode +n #utopiales
+T 1275244432 22*	verne.freenode.net active le mode +s #utopiales
+T 1276023086 19*	19Vous parlez maintenant sur #utopiales
+T 1276023086 22*	calvino.freenode.net active le mode +n #utopiales
+T 1276023086 22*	calvino.freenode.net active le mode +t #utopiales
+T 1276023086 22*	[freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+T 1276188328 19*	19Vous parlez maintenant sur #utopiales
+T 1276188328 22*	lindbohm.freenode.net active le mode +n #utopiales
+T 1276188328 22*	lindbohm.freenode.net active le mode +s #utopiales
+T 1276423237 19*	19Vous parlez maintenant sur #utopiales
+T 1276423237 22*	leguin.freenode.net active le mode +n #utopiales
+T 1276423237 22*	leguin.freenode.net active le mode +s #utopiales
+T 1276461887 22*	Déconnecté (Connection reset by peer).
+T 1276461904 22*	TomT0m active le mode +i TomT0m
+T 1276461904 28-29NickServ28-	This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+T 1276461905 22*	Un CTCP VERSION de frigg a été reçu
+T 1276461907 28-29NickServ28-	Invalid password for TomT0m.
+T 1276461907 19*	19Vous parlez maintenant sur #utopiales
+T 1276461907 22*	lindbohm.freenode.net active le mode +n #utopiales
+T 1276461907 22*	lindbohm.freenode.net active le mode +s #utopiales
+T 1276504425 22*	Déconnecté (Connection reset by peer).
+T 1276504441 19*	19Vous parlez maintenant sur #utopiales
+T 1276504441 22*	verne.freenode.net active le mode +n #utopiales
+T 1276504441 22*	verne.freenode.net active le mode +s #utopiales
+T 1277731048 19*	19Vous parlez maintenant sur #utopiales
+T 1277731048 22*	calvino.freenode.net active le mode +n #utopiales
+T 1277731048 22*	calvino.freenode.net active le mode +t #utopiales
+T 1277731048 22*	[freenode-info] please register your nickname...don't forget to auto-identify! http://freenode.net/faq.shtml#nicksetup
+T 1277801115 22*	Déconnecté (Connection reset by peer).
+T 1277801131 19*	19Vous parlez maintenant sur #utopiales
+T 1277801131 22*	verne.freenode.net active le mode +n #utopiales
+T 1277801131 22*	verne.freenode.net active le mode +s #utopiales
+T 1278510107 19*	19Vous parlez maintenant sur #utopiales
+T 1278510107 22*	verne.freenode.net active le mode +n #utopiales
+T 1278510107 22*	verne.freenode.net active le mode +s #utopiales
+T 1278703846 19*	19Vous parlez maintenant sur #utopiales
+T 1278703846 22*	calvino.freenode.net active le mode +n #utopiales
+T 1278703846 22*	calvino.freenode.net active le mode +t #utopiales
+T 1278756485 22*	Déconnecté (Connection reset by peer).
+T 1278756548 19*	19Vous parlez maintenant sur #utopiales
+T 1278756548 22*	calvino.freenode.net active le mode +n #utopiales
+T 1278756548 22*	calvino.freenode.net active le mode +t #utopiales
+T 1278838726 22*	Déconnecté (Connection reset by peer).
+T 1278838742 19*	19Vous parlez maintenant sur #utopiales
+T 1278838742 22*	wolfe.freenode.net active le mode +n #utopiales
+T 1278838742 22*	wolfe.freenode.net active le mode +s #utopiales
+T 1278868773 22*	Déconnecté (Connection reset by peer).
+T 1278868813 19*	19Vous parlez maintenant sur #utopiales
+T 1278868813 22*	calvino.freenode.net active le mode +n #utopiales
+T 1278868813 22*	calvino.freenode.net active le mode +t #utopiales
+T 1278924002 22*	Déconnecté (Connection reset by peer).
+T 1278924023 19*	19Vous parlez maintenant sur #utopiales
+T 1278924023 22*	wolfe.freenode.net active le mode +n #utopiales
+T 1278924023 22*	wolfe.freenode.net active le mode +s #utopiales
+T 1278971577 22*	Déconnecté (Connection reset by peer).
+T 1278971603 19*	19Vous parlez maintenant sur #utopiales
+T 1278971603 22*	verne.freenode.net active le mode +n #utopiales
+T 1278971603 22*	verne.freenode.net active le mode +s #utopiales
+T 1279011548 22*	Déconnecté (Connection reset by peer).
+T 1279011562 19*	19Vous parlez maintenant sur #utopiales
+T 1279011563 22*	calvino.freenode.net active le mode +n #utopiales
+T 1279011563 22*	calvino.freenode.net active le mode +t #utopiales
+T 1279061058 22*	Déconnecté (Connection reset by peer).
+T 1279061083 19*	19Vous parlez maintenant sur #utopiales
+T 1279061083 22*	lindbohm.freenode.net active le mode +n #utopiales
+T 1279061083 22*	lindbohm.freenode.net active le mode +s #utopiales
+T 1280246433 19*	19Vous parlez maintenant sur #utopiales
+T 1280246433 22*	lindbohm.freenode.net active le mode +n #utopiales
+T 1280246433 22*	lindbohm.freenode.net active le mode +s #utopiales
+T 1281382655 19*	19Vous parlez maintenant sur #utopiales
+T 1281382655 22*	leguin.freenode.net active le mode +n #utopiales
+T 1281382655 22*	leguin.freenode.net active le mode +s #utopiales
+T 1281899734 19*	19Vous parlez maintenant sur #utopiales
+T 1281899734 22*	wolfe.freenode.net active le mode +n #utopiales
+T 1281899734 22*	wolfe.freenode.net active le mode +s #utopiales

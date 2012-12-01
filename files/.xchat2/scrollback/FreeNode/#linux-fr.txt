@@ -1,0 +1,26 @@
+T 1206646014 19*	19Vous parlez maintenant sur #linux-fr
+T 1206646014 29*	29Le sujet de #linux-fr 29est : Bienvenue sur #linux-fr - This is a french speaking, non-loling channel, non-trolling channel - Merci de vous exprimer dans un français correct. - < cmathieu> plus c'est gros plus c'est mieux
+T 1206646014 29*	29Sujet de #linux-fr 29défini par snz 29le Tue Oct  9 14:00:45 2007
+T 1206646089 19*	19Deubeuliou (n=david@AFontenayssB-151-1-17-58.w82-121.abo.wanadoo.fr) a rejoint #linux-fr
+T 1206646277 19*	19Vincent_49 (n=vincent@d04m-89-83-118-103.d4.club-internet.fr) a rejoint #linux-fr
+T 1206646647 19*	19Klibre (i=Hostile@gateway/tor/x-cb101f4dee3da0d9) a rejoint #linux-fr
+T 1206646830 18<28Klibre>	hello
+T 1206646900 18<22amad3us>	ok cykl
+T 1206647647 18<27shakka>	bonne nuit
+T 1206647722 23*	23shakka est parti (23"Bye"23)
+T 1206648184 23*	23rom est parti (23Remote closed the connection23)
+T 1206648304 23*	23Nanthrax est parti (23"WeeChat 0.2.6"23)
+T 1206649870 19*	19sMuNiX (n=sMuNiX@smunix1.maisel.int-evry.fr) a rejoint #linux-fr
+T 1206649934 23*	23sMuNiX est parti (23Client Quit23)
+T 1206649954 19*	19sMuNiX (n=sMuNiX@lor-maknavic4.int-evry.fr) a rejoint #linux-fr
+T 1206650964 19*	19elyx (n=Provide@157.159.231.162) a rejoint #linux-fr
+T 1206651050 23*	23DHX est parti (23"This computer has gone to sleep"23)
+T 1206651122 23*	23cauliergilles est parti (23Connection timed out23)
+T 1206651137 19*	19cauliergilles (n=gilles@78.114.168.73) a rejoint #linux-fr
+T 1206651687 19*	19desegnis_ (n=malte@p57BD4330.dip.t-dialin.net) a rejoint #linux-fr
+T 1206651984 23*	23elyx est parti (23Remote closed the connection23)
+T 1206652800 23*	23Klibre est parti (23Remote closed the connection23)
+T 1206653093 22*	desegnis_ s'appelle maintenant desegnis
+T 1206653149 23*	23Vincent_49 est parti (23"Konversation terminated!"23)
+T 1206653187 23*	23ke_v_in est parti (23"Leaving"23)
+T 1206653241 19*	19GoNoGo (n=GoNoGo@cro34-3-82-236-93-215.fbx.proxad.net) a rejoint #linux-fr

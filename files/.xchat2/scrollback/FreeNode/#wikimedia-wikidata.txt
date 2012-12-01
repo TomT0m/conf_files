@@ -1,0 +1,6 @@
+T 1347827096 19*	19Vous parlez maintenant sur #wikimedia-wikidata
+T 1347827096 29*	29Le sujet de #wikimedia-wikidata 29est : general discussion about the Wikidata project | http://meta.wikimedia.org/wiki/Wikidata | FAQ: http://meta.wikimedia.org/wiki/Wikidata/FAQ | demo: http://wikidata-test.wikimedia.de | logs at http://bots.wmflabs.org/~wm-bot/logs/%23wikimedia-wikidata/
+T 1347827096 29*	29Sujet de #wikimedia-wikidata 29défini par Lydia_WMDE!~lydia@wikimedia/Lydia-Pintscher-WMDE 29le Tue Sep 11 22:03:46 2012
+T 1347827552 19*	19Sannita (~chatzilla@wikipedia/Sannita) a rejoint #wikimedia-wikidata
+T 1347827810 23*	23JeroenDeDauw est parti (23Quit: Leaving.23)
+T 1347828098 19*	19JeroenDeDauw (~j@unaffiliated/jeroendedauw) a rejoint #wikimedia-wikidata

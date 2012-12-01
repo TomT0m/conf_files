@@ -1,0 +1,303 @@
+T 1294238695 29*	29Le sujet de #mandrivafr 29est : Canal francophone en ISO-8859-15 autour de Mandriva Linux | Ne pas flooder, utiliser http://pastebin.mandriva.com/ Merci!
+T 1294238695 29*	29Sujet de #mandrivafr 29défini par pterjan!~pterjan@94-193-181-143.zone7.bethere.co.uk 29le Fri Aug 27 22:11:00 2010
+T 1294238696 28-29ChanServ28-	[#mandrivafr] Bienvenue sur #mandrivafr
+T 1294238951 19*	19Highlander_ (~Highlande@mek33-4-82-236-45-205.fbx.proxad.net) a rejoint #mandrivafr
+T 1294239893 19*	19patrick24100 (~patrickri@lns-bzn-35-82-250-238-164.adsl.proxad.net) a rejoint #mandrivafr
+T 1294239912 23*	23Highlander_ est parti (23Quit: Quitte23)
+T 1294240615 18<24gu1om>	Jehane: t'as raison de la garder pour toi, imagine, on pourrait avoir la réponse...
+T 1294240641 18<22Jehane>	gu1om: tu t'y connais en chaine PXE linux - WDS ?
+T 1294240655 18<22Jehane>	chainage
+T 1294240663 18<24gu1om>	jusqua pxe linux, ca allait :-)
+T 1294240697 18<22Jehane>	comment faire dire à un PXE linux, si telle entrée choisie, envoie sur le WDS
+T 1294240820 18<24gu1om>	perso, deja quand j'avais eu le choix entre RIS et injecter une image disque w$ a grand coup de partimage, j'avais pas choisi RIS :-)
+T 1294240832 18<24gu1om>	alors la surcouche...
+T 1294240845 18<24gu1om>	(je savais meme pas ce que c'etait avant que tu m'en causes :-)
+T 1294240918 18<22Jehane>	gu1om: on teste
+T 1294241136 18<24gu1om>	j'ai l'impression que c'est plus souvent l'inverse qui se fait, un pxelinux dans un serveur wds
+T 1294241275 18<20guillomovitch>	:v puppet
+T 1294241277 18<25Sophie>	guillomovitch: 2.6.4-1mdv2011.0 // contrib-release (Mdv, cooker, i586), contrib-release (Mdv, cooker, x86_64)
+T 1294241327 18<20guillomovitch>	Jehane: demande à erwan_taf plutôt
+T 1294241337 18<22Jehane>	guillomovitch: k
+T 1294241338 18<20guillomovitch>	s'il répond :)
+T 1294241342 18<22Jehane>	erwan_taf: ?
+T 1294241366 18<20guillomovitch>	http://syslinux.zytor.com/wiki/index.php/PXELINUX
+T 1294241369 18<24erzulie>	[ PXELINUX - Syslinux Wiki ]
+T 1294241372 18<20guillomovitch>	Deploy Linux from Windows WDS/RIS server using PXELinux
+T 1294242210 19*	19alastor666 (~alastor@bel42-4-78-236-109-249.fbx.proxad.net) a rejoint #mandrivafr
+T 1294242287 23*	23MaJaX_ est parti (23Remote host closed the connection23)
+T 1294242481 19*	19MaJaX_ (~MaJaX_@APuteaux-651-1-108-242.w82-124.abo.wanadoo.fr) a rejoint #mandrivafr
+T 1294242482 23*	23MaJaX_ (23~MaJaX_@APuteaux-651-1-108-242.w82-124.abo.wanadoo.fr) a quitté #mandrivafr
+T 1294242494 23*	23patrick24100 est parti (23Ping timeout: 240 seconds23)
+T 1294242836 23*	23_obook est parti (23Remote host closed the connection23)
+T 1294242916 23*	23Peuc est parti (23Remote host closed the connection23)
+T 1294243197 23*	23Brioche est parti (23Quit: Quitte23)
+T 1294243214 19*	19patrick24100 (~patrickri@lns-bzn-43-82-249-135-115.adsl.proxad.net) a rejoint #mandrivafr
+T 1294243614 23*	23Dice-Man est parti (23Read error: Operation timed out23)
+T 1294243669 19*	19lafeebleue (~lafeebleu@mol92-1-81-57-136-23.fbx.proxad.net) a rejoint #mandrivafr
+T 1294243935 23*	23Big_Death est parti (23Quit: Lost terminal23)
+T 1294246334 23*	23Zeck est parti (23Quit: leaving23)
+T 1294248170 23*	23stormi est parti (23Remote host closed the connection23)
+T 1294248409 23*	23Tauop est parti (23Read error: Connection reset by peer23)
+T 1294248940 19*	19MaJaX_ (~MaJaX_@APuteaux-651-1-140-102.w86-217.abo.wanadoo.fr) a rejoint #mandrivafr
+T 1294249330 19*	19Peuc (~Peuc@bdv75-13-78-237-140-44.fbx.proxad.net) a rejoint #mandrivafr
+T 1294249706 19*	19maat (~maat@78.125.60.109) a rejoint #mandrivafr
+T 1294249713 23*	23maat est parti (23Changing host23)
+T 1294249714 19*	19maat (~maat@unaffiliated/maat) a rejoint #mandrivafr
+T 1294249830 19*	19Dice-Man (~Dice-Man@unaffiliated/dice-man) a rejoint #mandrivafr
+T 1294250053 23*	23Peuc est parti (23Read error: Connection reset by peer23)
+T 1294250595 19*	19sobralnet (~luis@andlu.info) a rejoint #mandrivafr
+T 1294250779 19*	19ofaurax (~leo@2a01:e35:8aa7:e430:21a:6bff:fe67:da7e) a rejoint #mandrivafr
+T 1294251006 23*	23arkub est parti (23Quit: Leaving23)
+T 1294251138 19*	19sobral_net (~luis@andlu.info) a rejoint #mandrivafr
+T 1294251168 23*	23sobral_net est parti (23Client Quit23)
+T 1294251179 19*	19sobral_net (~luis@andlu.info) a rejoint #mandrivafr
+T 1294251298 18<27erwan_taf>	Jehane: utilise pxechain mais ca marche plus sur les nouvelles versions de 2K8
+T 1301052352 19*	19Vous parlez maintenant sur #mandrivafr
+T 1301052352 29*	29Le sujet de #mandrivafr 29est : Canal francophone en ISO-8859-15 autour de Mandriva Linux | Ne pas flooder, utiliser http://pastebin.mandriva.com/ Merci!
+T 1301052352 29*	29Sujet de #mandrivafr 29défini par pterjan!~pterjan@94-193-181-143.zone7.bethere.co.uk 29le Fri Aug 27 22:11:00 2010
+T 1301052352 28-29ChanServ28-	[#mandrivafr] Bienvenue sur #mandrivafr
+T 1301052710 23*	23Dice-Man est parti (23Read error: Connection reset by peer23)
+T 1301052731 19*	19Dice-Man (~Dice-Man@unaffiliated/dice-man) a rejoint #mandrivafr
+T 1301054364 23*	23penthotal est parti (23Remote host closed the connection23)
+T 1301055263 19*	19MUILTFN (~MLINTH@adsl-80-221-139.mcn.bellsouth.net) a rejoint #mandrivafr
+T 1301055576 19*	19lebipbip (~quassel@i01v-212-195-141-205.d4.club-internet.fr) a rejoint #mandrivafr
+T 1301057117 19*	19Kharec (~Kharec@88.141.210.62) a rejoint #mandrivafr
+T 1301057120 18<26Kharec>	hi
+T 1301057807 23*	23Jehane est parti (23Quit: Inside every fat girl, there is a thin girl waiting to get out (and a lot of chocolate)23)
+T 1301059051 19*	19Diceman__ (~Dice-Man@jds.guyancourt.pck.nerim.net) a rejoint #mandrivafr
+T 1301059081 23*	23Dice-Man est parti (23Read error: Operation timed out23)
+T 1301059350 19*	19Dice-Man (~Dice-Man@unaffiliated/dice-man) a rejoint #mandrivafr
+T 1301059526 23*	23Diceman__ est parti (23Ping timeout: 250 seconds23)
+T 1301059611 23*	23Dice-Man est parti (23Ping timeout: 248 seconds23)
+T 1301059651 19*	19Dice-Man (~Dice-Man@unaffiliated/dice-man) a rejoint #mandrivafr
+T 1301059823 18<29ashledombos>	Nanar: hello, il faudrait peut être retirer le flux de pascal http://planetmandriva.zarb.org/ :)
+T 1301059824 18<24erzulie>	[ Planet Mandriva ]
+T 1301060056 23*	23Dice-Man est parti (23Read error: Connection reset by peer23)
+T 1301060064 19*	19Diceman__ (~Dice-Man@LSt-Amand-152-31-19-226.w193-253.abo.wanadoo.fr) a rejoint #mandrivafr
+T 1301060122 23*	23MUILTFN est parti (23Ping timeout: 240 seconds23)
+T 1301060365 19*	19Dice-Man (~Dice-Man@unaffiliated/dice-man) a rejoint #mandrivafr
+T 1301060470 23*	23Diceman__ est parti (23Read error: Connection reset by peer23)
+T 1301060667 19*	19MUILTFN (~MLINTH@adsl-80-221-139.mcn.bellsouth.net) a rejoint #mandrivafr
+T 1301060670 19*	19Diceman__ (~Dice-Man@LSt-Amand-152-31-19-226.w193-253.abo.wanadoo.fr) a rejoint #mandrivafr
+T 1301060693 23*	23Dice-Man est parti (23Ping timeout: 276 seconds23)
+T 1301061539 23*	23ahmed-tux est parti (23Ping timeout: 240 seconds23)
+T 1301061813 19*	19ahmed-tux (~rhapsody@41.140.32.3) a rejoint #mandrivafr
+T 1301062286 23*	23MUILTFN est parti (23Ping timeout: 255 seconds23)
+T 1301062309 18<20Nanar>	ashledombos: cf misc
+T 1301062974 23*	23Diceman__ est parti (23Quit: Reconnecting23)
+T 1301062987 19*	19Dice-Man (~Dice-Man@unaffiliated/dice-man) a rejoint #mandrivafr
+T 1301063440 23*	23Dice-Man est parti (23Remote host closed the connection23)
+T 1301063607 19*	19Dice-Man (~Dice-Man@unaffiliated/dice-man) a rejoint #mandrivafr
+T 1301064116 19*	19Dr_ST (~Dr_ST@bastion3.d101.univ-nantes.fr) a rejoint #mandrivafr
+T 1301065378 23*	23brancaleone est parti (23Read error: Operation timed out23)
+T 1301065450 18<29ashledombos>	misc: hello, il faudrait peut être retirer le flux de pascal http://planetmandriva.zarb.org/
+T 1301065450 18<24erzulie>	[ Planet Mandriva ]
+T 1301065796 19*	19ofaurax_boulot (~ofaurax@62.161.47.150) a rejoint #mandrivafr
+T 1301065820 19*	19Majax (~Blow.Me@APuteaux-651-1-129-117.w86-217.abo.wanadoo.fr) a rejoint #mandrivafr
+T 1301067287 23*	23Majax est parti (23Ping timeout: 240 seconds23)
+T 1301067885 19*	19Majax (~Blow.Me@APuteaux-651-1-150-208.w92-154.abo.wanadoo.fr) a rejoint #mandrivafr
+T 1301069840 19*	19Peuc (~peuc@bdv75-13-78-237-140-44.fbx.proxad.net) a rejoint #mandrivafr
+T 1301070025 23*	23Zeck est parti (23Quit: leaving23)
+T 1301070224 23*	23Peuc est parti (23Ping timeout: 255 seconds23)
+T 1301070523 23*	23ashledombos est parti (23Remote host closed the connection23)
+T 1301070545 19*	19Peuc (~peuc@bdv75-13-78-237-140-44.fbx.proxad.net) a rejoint #mandrivafr
+T 1301070948 18<26Kharec>	'soir
+T 1301073184 18<20guillomovitch>	:v perl-Test-Simple
+T 1301073185 18<25Sophie>	guillomovitch: 0.980.0-1 // contrib-release (Mdv, cooker, i586), contrib-release (Mdv, cooker, x86_64)
+T 1301073189 18<20guillomovitch>	:v perl-HTML-Format
+T 1301073189 18<25Sophie>	guillomovitch: 2.40.0-1mdv2011.0 // main-release (Mdv, cooker, i586), main-release (Mdv, cooker, x86_64)
+T 1301073470 23*	23Torpeo est parti (23Ping timeout: 264 seconds23)
+T 1301073476 19*	19MUILTFN (~MLINTH@adsl-80-203-153.mcn.bellsouth.net) a rejoint #mandrivafr
+T 1301073545 19*	19Torpeo (~Torpeo@torpeo.fr) a rejoint #mandrivafr
+T 1301073737 19*	19brancaleone (~brancaleo@cust-222-185-108-94.dyn.as47377.net) a rejoint #mandrivafr
+T 1301073771 18<20guillomovitch>	:v nss-pam-ldapd
+T 1301073772 18<25Sophie>	guillomovitch: 0.8.0-1mdv2011.0 // contrib-release (Mdv, cooker, i586)
+T 1301073775 18<20guillomovitch>	:v nss-pam-ldapd -v 2010.1
+T 1301073776 18<25Sophie>	guillomovitch: 0.8.0-1mdv2010.2 // contrib-backports (Mdv, 2010.1, i586), contrib-backports (Mdv, 2010.2, i586), contrib-backports (Mdv, current, i586)
+T 1301073776 18<25Sophie>	guillomovitch: 0.7.3-1mdv2010.1 // contrib-release (Mdv, 2010.1, i586), contrib-release (Mdv, 2010.2, i586), contrib-release (Mdv, current, i586)
+T 1301074155 23*	23ofaurax_boulot est parti (23Quit: Quitte23)
+T 1301074631 23*	23Dr_ST est parti (23Quit: A+23)
+T 1301075027 23*	23Scara est parti (23Read error: Connection reset by peer23)
+T 1301075251 19*	19mortalius (~mortalius@AAmiens-155-1-51-218.w92-142.abo.wanadoo.fr) a rejoint #mandrivafr
+T 1301075469 23*	23stormi est parti (23Remote host closed the connection23)
+T 1301430140 19*	19Vous parlez maintenant sur #mandrivafr
+T 1301430140 29*	29Le sujet de #mandrivafr 29est : Canal francophone en ISO-8859-15 autour de Mandriva Linux | Ne pas flooder, utiliser http://pastebin.mandriva.com/ Merci!
+T 1301430140 29*	29Sujet de #mandrivafr 29défini par pterjan!~pterjan@94-193-181-143.zone7.bethere.co.uk 29le Fri Aug 27 22:11:00 2010
+T 1301430140 28-29ChanServ28-	[#mandrivafr] Bienvenue sur #mandrivafr
+T 1301431034 23*	23sebgue est parti (23Remote host closed the connection23)
+T 1305738610 19*	19Vous parlez maintenant sur #mandrivafr
+T 1305738610 29*	29Le sujet de #mandrivafr 29est : Canal francophone en ISO-8859-15 autour de Mandriva Linux | Ne pas flooder, utiliser http://pastebin.mandriva.com/ Merci!
+T 1305738610 29*	29Sujet de #mandrivafr 29défini par pterjan!~pterjan@94-193-181-143.zone7.bethere.co.uk 29le Fri Aug 27 22:11:00 2010
+T 1305738610 22*	[freenode-info] help freenode weed out clonebots -- please register your IRC nick and auto-identify: http://freenode.net/faq.shtml#nicksetup
+T 1305738610 28-29ChanServ28-	[#mandrivafr] Bienvenue sur #mandrivafr
+T 1305739015 19*	19Muxy (~muxy@AAnnecy-157-1-74-89.w90-4.abo.wanadoo.fr) a rejoint #mandrivafr
+T 1305739473 23*	23Muxy est parti (23Quit: Quitte23)
+T 1305739967 19*	19Mr-Hide (~Mr_Hide@89-156-48-174.rev.numericable.fr) a rejoint #mandrivafr
+T 1305740306 23*	23lafeebleue est parti (23Remote host closed the connection23)
+T 1305741748 23*	23arkub est parti (23Quit: Leaving23)
+T 1305744152 23*	23Zborg est parti (23Remote host closed the connection23)
+T 1305745944 23*	23DTux est parti (23Remote host closed the connection23)
+T 1305746577 23*	23Penthotal-mobile est parti (23Ping timeout: 250 seconds23)
+T 1305746639 19*	19Penthotal-mobile (~yaaic@80.10.46.74) a rejoint #mandrivafr
+T 1305747231 19*	19neoneurone (~neoneuron@2a01:e35:2f2d:7870:226:18ff:fe3a:af4a) a rejoint #mandrivafr
+T 1305747852 19*	19mortalius (~mortalius@AAmiens-155-1-11-76.w92-142.abo.wanadoo.fr) a rejoint #mandrivafr
+T 1305747995 19*	19lafeebleue (~lafeebleu@92.90.17.66) a rejoint #mandrivafr
+T 1305748017 19*	19Dr_ST_home (~stephane@pir44-1-82-231-147-236.fbx.proxad.net) a rejoint #mandrivafr
+T 1305748039 23*	23mortalius_ est parti (23Ping timeout: 260 seconds23)
+T 1305748189 23*	23neoneurone est parti (23Quit: Leaving23)
+T 1305748543 18<20guillomovitch>	oPi
+T 1305748577 18<25DjeZAeL>	loupé
+T 1305748609 18<20guillomovitch>	caramba
+T 1305748841 23*	23_ViNuX_ est parti (23Remote host closed the connection23)
+T 1305749570 23*	23brancaleone est parti (23Ping timeout: 248 seconds23)
+T 1305749578 19*	19guerini (~sebgue@seb44-1-88-163-78-221.fbx.proxad.net) a rejoint #mandrivafr
+T 1305749605 23*	23Dr_ST_home est parti (23Quit: Quitte23)
+T 1305749879 23*	23lafeebleue est parti (23Ping timeout: 250 seconds23)
+T 1305749938 19*	19lafeebleue (~lafeebleu@92.90.21.66) a rejoint #mandrivafr
+T 1305750018 23*	23Kharec est parti (23Quit: Lost terminal23)
+T 1305750276 19*	19Zborg (~zborg@zone0.gcu-squad.org) a rejoint #mandrivafr
+T 1305750276 23*	23Zborg est parti (23Changing host23)
+T 1305750276 19*	19Zborg (~zborg@unaffiliated/zborg) a rejoint #mandrivafr
+T 1305750438 19*	19brancaleone (~brancaleo@109.128.50.193) a rejoint #mandrivafr
+T 1305750883 19*	19mortalius_ (~mortalius@AAmiens-155-1-10-81.w92-142.abo.wanadoo.fr) a rejoint #mandrivafr
+T 1305750896 23*	23mortalius est parti (23Read error: Operation timed out23)
+T 1305751216 19*	19mortalius (~mortalius@AAmiens-155-1-43-108.w92-142.abo.wanadoo.fr) a rejoint #mandrivafr
+T 1305751387 23*	23mortalius_ est parti (23Ping timeout: 258 seconds23)
+T 1305753060 23*	23lafeebleue est parti (23Quit: La fée s'envole...23)
+T 1305754013 23*	23Penthotal-mobile est parti (23Quit: Good bye23)
+T 1305754536 19*	19lebipbip (~quassel@i01v-212-195-141-205.d4.club-internet.fr) a rejoint #mandrivafr
+T 1305754647 23*	23lebipbip est parti (23Remote host closed the connection23)
+T 1305754730 23*	23niko est parti (23Read error: Operation timed out23)
+T 1305754731 23*	23oliwer est parti (23Read error: Operation timed out23)
+T 1305754761 19*	19niko (~niko@freenode/staff/ubuntu.member.niko) a rejoint #mandrivafr
+T 1305754831 19*	19oliwer (~oliwer@193.56.60.160) a rejoint #mandrivafr
+T 1305755438 23*	23niko est parti (23Read error: Connection reset by peer23)
+T 1305755457 19*	19niko (~niko@freenode/staff/ubuntu.member.niko) a rejoint #mandrivafr
+T 1305756426 23*	23guerini est parti (23Remote host closed the connection23)
+T 1305756907 19*	19Peter17 (~peter@asa-eclille.ec-lille.fr) a rejoint #mandrivafr
+T 1305756907 23*	23Peter17 est parti (23Changing host23)
+T 1305756907 19*	19Peter17 (~peter@wikipedia/Peter17) a rejoint #mandrivafr
+T 1305757206 23*	23brancaleone est parti (23Ping timeout: 276 seconds23)
+T 1308323134 19*	19Vous parlez maintenant sur #mandrivafr
+T 1308323134 29*	29Le sujet de #mandrivafr 29est : Canal francophone en ISO-8859-15 autour de Mandriva Linux | Ne pas flooder, utiliser http://pastebin.mandriva.com/ Merci!
+T 1308323134 29*	29Sujet de #mandrivafr 29défini par pterjan!~pterjan@94-193-181-143.zone7.bethere.co.uk 29le Fri Aug 27 22:11:00 2010
+T 1308323135 28-29ChanServ28-	[#mandrivafr] Bienvenue sur #mandrivafr
+T 1308324815 19*	19trem (~trem@bny93-7-88-161-33-221.fbx.proxad.net) a rejoint #mandrivafr
+T 1308325606 19*	19_ViNuX_ (~quassel@AReims-551-1-139-4.w90-18.abo.wanadoo.fr) a rejoint #mandrivafr
+T 1308326563 23*	23Galsungen est parti (23Quit: Konversation terminated!23)
+T 1308327205 19*	19sobralnet (~luis@andlu.info) a rejoint #mandrivafr
+T 1308327256 19*	19Kharec (~Kharec@90.173.139.88.rev.sfr.net) a rejoint #mandrivafr
+T 1308327259 23*	23Itwer_ est parti (23Ping timeout: 250 seconds23)
+T 1308327413 19*	19Itwer (~Itwer@unaffiliated/itwer) a rejoint #mandrivafr
+T 1308328137 23*	23lolotux est parti (23Remote host closed the connection23)
+T 1308328211 23*	23stormi est parti (23Remote host closed the connection23)
+T 1308328245 19*	19neoneurone (~neoneuron@2a01:e35:2f2d:7870:226:18ff:fe3a:af4a) a rejoint #mandrivafr
+T 1308328717 23*	23neoclust est parti (23Ping timeout: 244 seconds23)
+T 1308328826 23*	23neoneurone est parti (23Quit: Leaving23)
+T 1308328837 19*	19neoclust (~neoclust@pel44-1-78-229-240-215.fbx.proxad.net) a rejoint #mandrivafr
+T 1313858632 19*	19Vous parlez maintenant sur #mandrivafr
+T 1313858632 29*	29Le sujet de #mandrivafr 29est : Canal francophone en ISO-8859-15 autour de Mandriva Linux | Ne pas flooder, utiliser http://pastebin.mandriva.com/ Merci!
+T 1313858632 29*	29Sujet de #mandrivafr 29défini par pterjan!~pterjan@94-193-181-143.zone7.bethere.co.uk 29le Fri Aug 27 22:11:00 2010
+T 1313858632 28-29ChanServ28-	[#mandrivafr] Bienvenue sur #mandrivafr
+T 1318686270 19*	19Vous parlez maintenant sur #mandrivafr
+T 1318686270 29*	29Le sujet de #mandrivafr 29est : Canal francophone en ISO-8859-15 autour de Mandriva Linux | Ne pas flooder, utiliser http://pastebin.mandriva.com/ Merci!
+T 1318686270 29*	29Sujet de #mandrivafr 29défini par pterjan!~pterjan@94-193-181-143.zone7.bethere.co.uk 29le Fri Aug 27 22:11:00 2010
+T 1318686270 22*	[freenode-info] help freenode weed out clonebots -- please register your IRC nick and auto-identify: http://freenode.net/faq.shtml#nicksetup
+T 1318686271 28-29ChanServ28-	[#mandrivafr] Bienvenue sur #mandrivafr
+T 1318686636 19*	19neoneurone (~neoneuron@2a01:e35:2f2d:7870:226:18ff:fe3a:af4a) a rejoint #mandrivafr
+T 1318687507 23*	23Dice-Man est parti (23Ping timeout: 258 seconds23)
+T 1318688157 19*	19Dice-Man (~Dice-Man@unaffiliated/dice-man) a rejoint #mandrivafr
+T 1318691183 18<25neoclust>	ashledombos: pas a jour ?
+T 1318691214 23*	23neoneurone est parti (23Quit: Leaving23)
+T 1318692397 23*	23piernov est parti (23Ping timeout: 240 seconds23)
+T 1318693629 19*	19sobralnet (~luis@andlu.info) a rejoint #mandrivafr
+T 1318694332 18<26misc>	neoclust: bah, shika a du partir de mandriva, comme la majorité des contributeurs
+T 1318694447 23*	23Stormi est parti (23Remote host closed the connection23)
+T 1318694832 19*	19david_david (~david@AStrasbourg-156-1-105-213.w90-13.abo.wanadoo.fr) a rejoint #mandrivafr
+T 1318696141 23*	23DTux est parti (23Remote host closed the connection23)
+T 1318696228 23*	23ashledombos est parti (23Read error: Operation timed out23)
+T 1318698128 19*	19Scara (~Annaig@62.160.23.122) a rejoint #mandrivafr
+T 1318718115 22*	Déconnecté (Connection reset by peer).
+T 1322511636 19*	19Vous parlez maintenant sur #mandrivafr
+T 1322511636 29*	29Le sujet de #mandrivafr 29est : Canal francophone en ISO-8859-15 autour de Mandriva Linux | Ne pas flooder, utiliser http://pastebin.mandriva.com/ Merci!
+T 1322511636 29*	29Sujet de #mandrivafr 29défini par pterjan!~pterjan@94-193-181-143.zone7.bethere.co.uk 29le Fri Aug 27 22:11:00 2010
+T 1322511638 28-29ChanServ28-	[#mandrivafr] Bienvenue sur #mandrivafr
+T 1322512354 19*	19textarea (~guest@chp75-2-78-192-128-200.fbxo.proxad.net) a rejoint #mandrivafr
+T 1322512472 23*	23textarea est parti (23Remote host closed the connection23)
+T 1322512597 23*	23lebipbip est parti (23Remote host closed the connection23)
+T 1322512664 19*	19lebipbip (~quassel@i01v-212-195-141-205.d4.club-internet.fr) a rejoint #mandrivafr
+T 1322513018 23*	23lebipbip est parti (23Remote host closed the connection23)
+T 1322513548 23*	23trem est parti (23Quit: Quitte23)
+T 1322513637 23*	23nizou est parti (23Read error: Connection timed out23)
+T 1322513739 19*	19nizou (~nizou@2002:55a9:3042:e472:1ec1:deff:fe96:32e2) a rejoint #mandrivafr
+T 1322514056 23*	23trem_ est parti (23Quit: Ex-Chat23)
+T 1322514110 23*	23brancaleone est parti (23Ping timeout: 240 seconds23)
+T 1322514304 19*	19brancaleone (~brancaleo@cust-123-253-108-94.dyn.as47377.net) a rejoint #mandrivafr
+T 1322515071 23*	23toff (23~toff@89.94.4.172) a quitté #mandrivafr
+T 1322515351 23*	23mortalius est parti (23Quit: WeeChat 0.3.623)
+T 1322516263 23*	23lafeebleue est parti (23Quit: Quitte23)
+T 1328444165 19*	19Vous parlez maintenant sur #mandrivafr
+T 1328444165 29*	29Le sujet de #mandrivafr 29est : Canal francophone en ISO-8859-15 autour de Mandriva Linux | Ne pas flooder, utiliser http://pastebin.mandriva.com/ Merci!
+T 1328444165 29*	29Sujet de #mandrivafr 29défini par pterjan!~pterjan@94-193-181-143.zone7.bethere.co.uk 29le Fri Aug 27 22:11:00 2010
+T 1328444166 28-29ChanServ28-	[#mandrivafr] Bienvenue sur #mandrivafr
+T 1328444559 23*	23brancaleone est parti (23Ping timeout: 255 seconds23)
+T 1328444675 19*	19brancaleone (~brancaleo@cust-124-247-108-94.dyn.as47377.net) a rejoint #mandrivafr
+T 1328445477 23*	23brancaleone est parti (23Ping timeout: 255 seconds23)
+T 1328447371 23*	23pounard est parti (23Quit: Une baguette, et bien cuite s'il vous plaît! -Lao Tseu23)
+T 1328449082 19*	19pounard (~pounard@hydralisk.processus.org) a rejoint #mandrivafr
+T 1328450996 23*	23pounard est parti (23Quit: Une baguette, et bien cuite s'il vous plaît! -Lao Tseu23)
+T 1328453725 19*	19Munto (~sabayonus@2a01:e35:139d:91e0:221:85ff:fee1:5c3c) a rejoint #mandrivafr
+T 1328459189 19*	19pounard (~pounard@hydralisk.processus.org) a rejoint #mandrivafr
+T 1328462171 19*	19brancaleone (~brancaleo@cust-124-247-108-94.dyn.as47377.net) a rejoint #mandrivafr
+T 1328463897 19*	19Stormi (~sam@vil69-5-82-235-47-188.fbx.proxad.net) a rejoint #mandrivafr
+T 1344539622 19*	19Vous parlez maintenant sur #mandrivafr
+T 1344539622 29*	29Le sujet de #mandrivafr 29est : Canal francophone en ISO-8859-15 autour de Mandriva Linux | Ne pas flooder, utiliser http://pastebin.mandriva.com/ Merci!
+T 1344539622 29*	29Sujet de #mandrivafr 29défini par pterjan!~pterjan@94-193-181-143.zone7.bethere.co.uk 29le Fri Aug 27 22:11:00 2010
+T 1344539622 28-29ChanServ28-	[#mandrivafr] Bienvenue sur #mandrivafr
+T 1344543249 19*	19lafeebleue (~regine@bny93-7-88-161-33-221.fbx.proxad.net) a rejoint #mandrivafr
+T 1344544373 23*	23DiliaK est parti (23Remote host closed the connection23)
+T 1344544487 19*	19DiliaK (~quassel@78.193.102.77) a rejoint #mandrivafr
+T 1344550159 23*	23david_david est parti (23Quit: Konversation terminated!23)
+T 1346859718 19*	19Vous parlez maintenant sur #mandrivafr
+T 1346859718 29*	29Le sujet de #mandrivafr 29est : Canal francophone en ISO-8859-15 autour de Mandriva Linux | Ne pas flooder, utiliser http://pastebin.mandriva.com/ Merci!
+T 1346859718 29*	29Sujet de #mandrivafr 29défini par pterjan!~pterjan@94-193-181-143.zone7.bethere.co.uk 29le Fri Aug 27 22:11:00 2010
+T 1346859718 22*	[freenode-info] channel trolls and no channel staff around to help? please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+T 1346859718 28-29ChanServ28-	[#mandrivafr] Bienvenue sur #mandrivafr
+T 1346860531 19*	19lafeebleue (~regine@bny93-7-88-161-33-221.fbx.proxad.net) a rejoint #mandrivafr
+T 1346863861 23*	23stormi est parti (23Quit: Konversation terminated!23)
+T 1346865390 19*	19Stormi (~sam@vil69-5-82-235-47-188.fbx.proxad.net) a rejoint #mandrivafr
+T 1346870191 23*	23Nanar est parti (23Ping timeout: 246 seconds23)
+T 1346870296 19*	19Nanar (~nanardon@82.238.220.82) a rejoint #mandrivafr
+T 1346871334 23*	23DiliaK est parti (23Remote host closed the connection23)
+T 1346871452 19*	19DiliaK (~quassel@78.193.102.77) a rejoint #mandrivafr
+T 1346872853 19*	19Dice-Man (~Dice-Man@unaffiliated/dice-man) a rejoint #mandrivafr
+T 1346873612 23*	23lafeebleue est parti (23Quit: Quitte23)
+T 1346874622 23*	23Stormi est parti (23Remote host closed the connection23)
+T 1346878084 19*	19imad (~imad@197.253.203.212) a rejoint #mandrivafr
+T 1346878116 22*	imad s'appelle maintenant djuls
+T 1346878864 23*	23djuls est parti (23Quit: Colloquy for iPad - http://colloquy.mobi23)
+T 1346879595 23*	23Dice-Man est parti (23Quit: N'achetez pas de livebox Do not buy livebox23)
+T 1346879947 19*	19imad (~imad@197.253.203.212) a rejoint #mandrivafr
+T 1346880011 22*	imad s'appelle maintenant djuls
+T 1347095703 19*	19Vous parlez maintenant sur #mandrivafr
+T 1347095703 29*	29Le sujet de #mandrivafr 29est : Canal francophone en ISO-8859-15 autour de Mandriva Linux | Ne pas flooder, utiliser http://pastebin.mandriva.com/ Merci!
+T 1347095703 29*	29Sujet de #mandrivafr 29défini par pterjan!~pterjan@94-193-181-143.zone7.bethere.co.uk 29le Fri Aug 27 22:11:00 2010
+T 1347095703 22*	[freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+T 1347095703 28-29ChanServ28-	[#mandrivafr] Bienvenue sur #mandrivafr
+T 1347098510 23*	23hopp est parti (23Read error: Operation timed out23)
+T 1347098551 19*	19hopp (~supybot@lns-bzn-31-82-252-242-192.adsl.proxad.net) a rejoint #mandrivafr
+T 1347102172 19*	19pilule (~pilule@unaffiliated/niko/bot/piqure) a rejoint #mandrivafr
+T 1347102352 23*	23lafeebleue est parti (23Remote host closed the connection23)
+T 1347106400 23*	23pilule est parti (23Read error: Connection reset by peer23)
+T 1347108065 19*	19pilule (~pilule@unaffiliated/niko/bot/piqure) a rejoint #mandrivafr
+T 1347112775 19*	19neoneurone (~neoneuron@2a01:e35:2f2d:7870:226:18ff:fe3a:af4a) a rejoint #mandrivafr
+T 1347113428 23*	23neoneurone est parti (23Quit: Leaving23)
+T 1347122645 19*	19david_david (~david_dav@unaffiliated/daviddavid/x-1597212) a rejoint #mandrivafr
+T 1347128363 23*	23Nanar est parti (23Ping timeout: 272 seconds23)
+T 1347128673 19*	19Nanar (~nanardon@nanardon.zarb.org) a rejoint #mandrivafr
+T 1347129577 19*	19lafeebleue (~regine@bny93-7-88-161-33-221.fbx.proxad.net) a rejoint #mandrivafr
+T 1347133236 23*	23mortalius est parti (23Quit: WeeChat 0.3.823)
+T 1347822541 19*	19Vous parlez maintenant sur #mandrivafr
+T 1347822541 29*	29Le sujet de #mandrivafr 29est : Canal francophone en ISO-8859-15 autour de Mandriva Linux | Ne pas flooder, utiliser http://pastebin.mandriva.com/ Merci!
+T 1347822541 29*	29Sujet de #mandrivafr 29défini par pterjan!~pterjan@94-193-181-143.zone7.bethere.co.uk 29le Fri Aug 27 22:11:00 2010
+T 1347822542 28-29ChanServ28-	[#mandrivafr] Bienvenue sur #mandrivafr

@@ -1,0 +1,451 @@
+T 1273431911 18<25Sophie>	maat: oblin@mandriva.com
+T 1273431914 23*	23psychoslave est parti (23Quit: Leaving.23)
+T 1273431936 18<26maat>	moué
+T 1273431936 18<28ironie>	eBay c'est mieux que PokerStars ; on perd du fric, mais on gagne des objets. :)
+T 1273431947 18*	25darkoneko voulais juste faire une comparaison et s'en tape comme de l'an 40, de la politique belge
+T 1273431951 18<26Rhadamante>	tiens Merkel a perdu la majorité au Budensrat
+T 1273431987 18<20GL01>	oui
+T 1273431996 18<20GL01>	la CDU et le FDP sont en chute libre en NRW
+T 1273432008 18<26Rhadamante>	c'était pourtant un fief CDU ça
+T 1273432024 18<20GL01>	non, je crois pas
+T 1273432035 18<26misc>	:maint powerdns
+T 1273432035 18<25Sophie>	misc: Can't find the maintainer of `powerdns'
+T 1273432039 18<26misc>	:maint pdns
+T 1273432042 18<27Zil>	Rhadamante, elle avait la majorité ? Ah oui depuis les dernières élections...
+T 1273432042 18<25Sophie>	misc: misc@mandriva.org
+T 1273432042 18<26misc>	\o/
+T 1273432049 18<20GL01>	y a la Ruhr
+T 1273432057 18<26Rhadamante>	Zil: au bindesrat, pas au Budenstag hein
+T 1273432060 18<26Rhadamante>	*Buden
+T 1273432068 18<26Rhadamante>	*Bunden
+T 1273432068 18<27Zil>	Rhadamante, ah merde...
+T 1273432072 19*	19serval (~quassel@ANice-754-1-7-77.w90-52.abo.wanadoo.fr) a rejoint #mandrivafr
+T 1273432078 18<29Dereckson>	Zil > le premier ministre peut présenter la démission de son gouvernement au Roi, qui l'accepte ou non
+T 1273432082 18<26Rhadamante>	en gros elle vient de perdre la majorité au sénar
+T 1273432084 18<26Rhadamante>	*t
+T 1273432095 18<20GL01>	Bundesrat
+T 1273432097 18<29Dereckson>	Zil > on nomme alors un nouvel informateur pour tenter de reformer une majorité 
+T 1273432097 18<27Zil>	Je ne suivais pas...
+T 1273432113 18<29Dereckson>	Zil > si ça échoue, il ne reste plus qu'à convoquer de nouvelles élections
+T 1273432114 18<27Zil>	Rhadamante, ok.
+T 1273432120 18<29Dereckson>	pour y échouer encore
+T 1273432149 18<29Dereckson>	GL01 ouais c'est dingue en France quand ils forment en 48 heures leur gouvernement
+T 1273432160 18<29Dereckson>	ça fait très peur un pays sans coalition
+T 1273432162 18<20GL01>	y a eu plus de ministre-présidents SPD que CDU là-bas
+T 1273432185 18*	27Zil pense créé [[Liste des pays en Europe avec un gouvernement]]
+T 1273432188 18<20GL01>	en fait, avant Rüttgers c'était SPD (avec diverses coalitions) depuis 1967
+T 1273432191 18<29Dereckson>	:D Zil
+T 1273432192 18<27Zil>	Avant qu'elle ne soit vide.
+T 1273432205 18<27Zil>	*créer
+T 1273432289 18<27Zil>	Adieu ma concubine, c'est bien mais c'est chiant... J'ai été visité la maison où le film a été tourné...
+T 1273432343 18*	25darkoneko lis les sections a propos de commons sur le bidstro d'frwiki et se dis que, s'il a trouvé qques liens interressants, ya quand même beaucoup de conneries, de ejetées de rancoeur, de conneries et de mensonges ehontés.
+T 1273432367 19*	19|Zil| (~Zil@ven06-1-82-234-156-2.fbx.proxad.net) a rejoint #wikipedia-fr
+T 1273432405 18<26Kharec>	:)
+T 1273432436 18<20GL01>	Wales a retiré globalgrouppermissions vers 18:00
+T 1273432444 18<24esby>	saloperie de shl
+T 1273432446 18<20GL01>	ça veut dire qu'il ne peut plus changer ses droits maintenant ?
+T 1273432460 18<25darkoneko>	bwahhaha yen a qui se m"ettent en greve"
+T 1273432462 18<24esby>	dix minutes que je cherche un bug alors que j'avais tappé X shl 2; au lieu de X shl 1;
+T 1273432464 18*	25darkoneko est mort de rire
+T 1273432473 18<26misc>	:maint masqmail
+T 1273432475 18<25Sophie>	misc: nomaintainer@mandriva.com
+T 1273432482 18<26misc>	chiez
+T 1273432496 18<27Zil>	darkoneko, y a une différence avec le bistrot de fr qui ne parle pas de commons ?
+T 1273432507 18<26Kharec>	misc: pour l'import de nouveau paquets, c'est aussi "stop it" ce soir?
+T 1273432523 22*	garfieldairlines a changé le sujet en : Canal en français | 946k | UTF-8 | En cas d'urgence, tapez un !admin suivi de votre requête. | Wikipédiaaaaaa, ton univers impitoyaaableuh
+T 1273432524 18<25darkoneko>	Zil, chais pas, je ne le lis pas (ou si peu)
+T 1273432524 22*	Moipaulochon s'appelle maintenant Paulochon-away
+T 1273432530 18<25darkoneko>	garfieldairlines, arrete de faire joujou
+T 1273432540 18<27Zil>	GL01, d'après ce que j'ai compris, il peut se redonner le droit...
+T 1273432561 18<20GL01>	Zil: ce matin oui mais il a encore enlevé des choses ce soir
+T 1273432563 18<22garfieldairlines>	darkoneko: +1k
+T 1273432583 18<25darkoneko>	.
+T 1273432598 18<25darkoneko>	je comprend mieux le contexte, en tout cas
+T 1273432609 18<25darkoneko>	vu comme ça
+T 1273432628 18<26misc>	Kharec: bah, ç'est pas interdit, mais bon, je pense qu'il faut plus concentrer les ressources sur la correction des bugs :)
+T 1273432640 18<26misc>	( et les tests aussi, genre j'ai testé sympa, et j'ai 2 bugs )
+T 1273432644 18<25darkoneko>	sanger est vraiment qu'un sale con (grande découverte)
+T 1273432649 18<26Kharec>	d'acc :)
+T 1273432650 18<27Zil>	GL01, enfin, c'est la rumeur du jour.
+T 1273432650 22*	Zil a changé le sujet en : Canal en français | 946k | UTF-8 | En cas d'urgence, tapez un !admin suivi de votre requête.
+T 1273432651 22*	Zil a changé le sujet en : Canal en français | 946k | UTF-8 | En cas d'urgence, tapez un !admin suivi de votre requête.
+T 1273432651 18<27Zil>	garfieldairlines, t'as connu Dallas ?
+T 1273432665 18<22garfieldairlines>	toooooon uniiiiveeeers impitoyaaaaableeeeuuuuuh
+T 1273432672 18<22garfieldairlines>	tam tam .. tam tam tam !
+T 1273432672 18<20GL01>	oui c'est ça
+T 1273432686 18<27Zil>	GL01, ah....
+T 1273432727 18<20GL01>	Quentinv57: c'est bien le founder flag et en particulier le droit globalgrouppermissions qui lui permettait de se donner le droit de supprimer des choses
+T 1273432731 19*	19erwan (~erwan@lns-bzn-48f-62-147-157-222.adsl.proxad.net) a rejoint #mandrivafr
+T 1273432741 18<20GL01>	il ne l'a jamais fait en se nommant sysop
+T 1273432754 18*	25darkoneko mérite le fouet
+T 1273432756 18<24Quentinv57>	GL01: oui, d'accord
+T 1273432768 18<24Quentinv57>	GL01: mais c'est pas ce droit qui lui permet de désysopper
+T 1273432771 18<22garfieldairlines>	|SM|: darkoneko est un client !
+T 1273432780 18<27Zil>	Tout ça, c'est la faute à darkoneko... Car c'est lui qui lui a donné ces droits...
+T 1273432784 18<24|SM|>	\o/
+T 1273432791 18<20GL01>	Quentinv57: non ça lui permettait aussi de se donner le droit de desysopper
+T 1273432829 18<26misc>	ennael: sauf erreur de ma part, tu connais sympa toi, ça marche sans l'interface web ?
+T 1273432846 18<27ennael>	oui c'est sense marcher
+T 1273432848 23*	23ahmed-tux est parti (23Ping timeout: 260 seconds23)
+T 1273432861 18<26misc>	parce que la, ça tire apache2-fastcgi, donc je me demande si on peut pas faire un paquet plus modulaire
+T 1273432884 18<27ennael>	a voir mais ca fait un moment que je n'ai pas teste
+T 1273432892 18<27ennael>	je ne sais pas ce qu'il en est des dernieres versions
+T 1273432913 18*	26misc se souvient de l'epoque ou ennael trollait mailman par rapport à sympa
+T 1273432966 18<27ennael>	ah mon bon monsieur... c'etait mieux avant
+T 1273433011 18<26misc>	mhhhh
+T 1273433014 18<22Jehane>	ennael: quand 64m de RAM suffisait pour tout ?
+T 1273433018 18*	26misc tente une invocation de Nanar 
+T 1273433051 18*	22Jehane passe un DrWho à misc pour l'appel
+T 1273433054 18<26misc>	( ou de quelqu'un qui peut me dire si mettre un repertoire dans 2 rpms, ça vaut mieux que de le mettre dans 0 )
+T 1273433205 18<26misc>	2eme bug sur sympa, guillomovitch va m'adorer
+T 1273433215 18<26Kharec>	:)
+T 1273433240 18<26misc>	:v sendmail
+T 1273433241 18<25Sophie>	misc: 8.14.4-3mdv2010.1 in main/release, cooker for i586
+T 1273433351 23*	23serval est parti (23Remote host closed the connection23)
+T 1273433392 18<19pterjan>	misc: oui
+T 1273433413 18<19pterjan>	misc: dans 0 il va pas etre supprimé
+T 1273433433 18<19pterjan>	misc: dans 2 il va etre supprimé quand les 2 le seront
+T 1273433451 23*	23brancaleone est parti (23Quit: Que de pression dans les bars23)
+T 1273433543 18<26misc>	pterjan: mais y le probléme si les 2 rpms ont des droits différents
+T 1273433561 18<26misc>	( même si c'est rare )
+T 1273433604 18<25neoclust>	misc: tiens pour kdelibs4, sur la page du BS ça met:  Failed to contact buildnode: code 2.Failed to contact buildnode: code 2.
+T 1273433653 18<26misc>	neoclust: mhh ça me semble pas cool
+T 1273433669 18<26misc>	http://kenobi.mandriva.com/bs//package.php?key=20100509115835.neoclust.kenobi.1524 ?
+T 1273433670 18<24erzulie>	[ Mandriva Build System - package ]
+T 1273433729 18<25neoclust>	http://kenobi.mandriva.com/bs//package.php?key=20100509191621.neoclust.kenobi.9955
+T 1273433729 18<24erzulie>	[ Mandriva Build System - package ]
+T 1273433731 18<25neoclust>	misc: li
+T 1273433734 18<25neoclust>	lui
+T 1273433762 18<26misc>	neoclust: ben le paquet est sur rsync ?
+T 1273433863 18<25neoclust>	misc: ?  il est pas fini de faire, mais j'ai l'impression que la page web deconne
+T 1273433874 18<26misc>	neoclust: en effet
+T 1273433881 18<25neoclust>	là le 64bit est fini tt a l'heure ça mettait juste le pb de contact du buildhost
+T 1273433889 18<26misc>	neoclust: mais le necronomicon est dans les commentaires du code php de kenobi
+T 1273433890 18<25neoclust>	misc: je vais laisser faire alors :)
+T 1273433905 18<22Jehane>	misc: tu l'as lu ?
+T 1273434305 18<26misc>	et un 3eme truc sur sympa
+T 1273434324 18<26misc>	( guillomovitch va m'adorer, je lui refourgue ça pendant le freeze )
+T 1273434617 18<26Kharec>	DjeZAeL: !! :)
+T 1273434624 18<25DjeZAeL>	ah Kharec m'a vue :)
+T 1273434632 18<26Kharec>	tu sais te servir de la notice :)
+T 1273434649 19*	19ahmed-tux (~hsn@41.140.30.182) a rejoint #mandrivafr
+T 1273434654 18<25DjeZAeL>	Kharec: vivi
+T 1273434661 18*	26Kharec go #djezael
+T 1273434687 18<25DjeZAeL>	:)
+T 1273434734 23*	23erwan est parti (23Read error: Operation timed out23)
+T 1273434752 18<25DjeZAeL>	Kharec: goes* :p
+T 1273434758 18<26Kharec>	oups.
+T 1273434760 18<26Kharec>	Honteux.
+T 1273436168 19*	19Fallenou (~fallen@157.159.46.47) a rejoint #mandrivafr
+T 1273436192 23*	23Kharec est parti (23Quit: Lost terminal23)
+T 1273436488 23*	23glyj est parti (23Ping timeout: 246 seconds23)
+T 1273436583 19*	19Remaille (~remi@abo-5-155-68.bdx.modulonet.fr) a rejoint #mandrivafr
+T 1273436721 23*	23sterus est parti (23Ping timeout: 246 seconds23)
+T 1273436896 19*	19glyj (~jy@ADijon-551-1-37-32.w90-26.abo.wanadoo.fr) a rejoint #mandrivafr
+T 1273436901 18<25neoclust>	misc: la misere ça bouge pas :/
+T 1273436934 18<26misc>	neoclust: je vais regarder
+T 1273436950 18<25neoclust>	misc: merci
+T 1273437145 18<26misc>	visiblement, n4 me dit build ok"
+T 1273437187 18<26misc>	neoclust: ç'est bon maintenant ?
+T 1277801128 22*	TomT0m active le mode +i TomT0m
+T 1277801128 28-29NickServ28-	This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+T 1277801130 28-29NickServ28-	Invalid password for TomT0m.
+T 1277801131 19*	19Vous parlez maintenant sur #wikipedia-fr
+T 1277801131 29*	29Le sujet de #wikipedia-fr 29est : Wikipédia en français | 962 k | En cas d'urgence, tapez !admin suivi de votre requête
+T 1277801131 29*	29Sujet de #wikipedia-fr 29défini par Kyro!~Kyro@mut38-6-88-167-71-251.fbx.proxad.net 29le Thu Jun 24 17:17:47 2010
+T 1277801131 28-29ChanServ28-	[#wikipedia-fr] Canal en UTF-8. La diffusion publique de journaux de ce canal est interdite. Merci de lire http://meta.wikimedia.org/wiki/Canal_IRC et de contribuer à la bonne humeur du canal. Bonne journée !
+T 1277801131 22*	#wikipedia-fr :http://fr.wikipedia.org
+T 1277801135 18<19Arria>	"Peintre illustrateur", c'est quoi exactement ?
+T 1277801197 18<19Arria>	Y'a "peintre", y'a "illustrateur"... mais ils semblent essentiellement illustrer des livres.
+T 1277801201 18<29Ludo-->	Arria: à l'instinct je te dirai un peintre dont les ouevres ont pour but de représenter le plus fidèlement les objets
+T 1277801231 18<19Arria>	Ludo--: J'aurais dit moi aussi, à première lecture, mais voilà : http://www.unpi.net/
+T 1277801254 18<19Arria>	C'est presque exclusivement des illustrations pour livres d'enfants.
+T 1277801262 23*	23Savant-fou est parti (23Quit: Leaving.23)
+T 1277801285 18<29Ludo-->	Arria: ... regroupe les artistes peintres et illustrateurs
+T 1277801289 18<29Ludo-->	ET
+T 1277801295 18<29Ludo-->	ce sont les deux 
+T 1277801304 18<29Ludo-->	des peitntres et des illustrateurs 
+T 1277801334 18<19Arria>	Normalement oui, mais en haut de la page d'accueil ils écrivent "Peintres-Illustrateurs".
+T 1277801342 18<19Arria>	Comme si c'était un titre à part.
+T 1277801364 18<19Arria>	Et le nom du site ne dit pas "peintres et illustrateurs".
+T 1277801369 18*	19Arria se gratte la tête
+T 1277801382 18*	22garfieldairlines saute sur les genoux de Arria
+T 1277801397 18*	19Arria gratouille derrière les oreilles de garfieldairlines
+T 1277801405 18*	22garfieldairlines ronronne
+T 1277801414 18*	22garfieldairlines réflechis aussi
+T 1277801854 19*	19Arria_ (~Arria@vol21-3-82-244-44-177.fbx.proxad.net) a rejoint #wikipedia-fr
+T 1277801855 23*	23Arria est parti (23Read error: Connection reset by peer23)
+T 1277801859 22*	Arria_ s'appelle maintenant Arria
+T 1277801874 23*	23Arria est parti (23Changing host23)
+T 1277801874 19*	19Arria (~Arria@Wikimedia/Arria-Belli) a rejoint #wikipedia-fr
+T 1277801874 22*	26ChanServ donne la parole à26 Arria
+T 1277801970 19*	19I-on (~chatzilla@oh-71-2-8-171.sta.embarqhsd.net) a rejoint #wikipedia-fr
+T 1277802186 19*	19fosscon (~fosscon@81.184.108.103.dyn.user.ono.com) a rejoint #wikipedia-fr
+T 1277802189 18<20Poulpy>	nojhan: oh, toi aussi, tu piges pas très bien Pierrot ?
+T 1277802218 22*	fosscon s'appelle maintenant pticochon
+T 1277802238 22*	pticochon s'appelle maintenant fosscon
+T 1277802313 19*	19jdv (~jd@af83-1.dd.bearstech.net) a rejoint #wikipedia-fr
+T 1277802338 23*	23I-on est parti (23Ping timeout: 248 seconds23)
+T 1277802357 19*	19Sir48 (~Thyge@wikipedia/Sir48) a rejoint #wikipedia-fr
+T 1277802429 18<22garfieldairlines>	chandres: t'as fait une faute dans ton post sur ton blog
+T 1277802447 18<24chandres>	garfieldairlines: une seule?? c'est un miracle!
+T 1277802449 18<24chandres>	:-D
+T 1277802477 18*	20Poulpy demande le blocage de chandres.
+T 1277802499 23*	23pandark est parti (23Remote host closed the connection23)
+T 1277802611 19*	19Celelaptop (~hiddy@193.50.110.171) a rejoint #wikipedia-fr
+T 1277802715 19*	19|Zil| (~AndChat@92.90.20.41) a rejoint #wikipedia-fr
+T 1277802721 18<22|Zil|>	Re
+T 1277802742 18<24chandres>	Poulpy: pas la peine, y'a vigneron et edhral qui l'ont déjà fait
+T 1277802749 18<22|Zil|>	La Malarone, c'est trop cher.
+T 1277802767 18*	24chandres doit penser à dmander un blocage d'une semaine pendant qu'il est en congrés
+T 1277802890 18<22|Zil|>	300 euros de pharmacie. 
+T 1277803308 19*	19I-on (~chatzilla@oh-71-2-8-171.sta.embarqhsd.net) a rejoint #wikipedia-fr
+T 1277803527 19*	19scullder (~scullder@2a01:e35:8ad6:a3b0:222:19ff:fee0:e268) a rejoint #wikipedia-fr
+T 1277803785 18<22|Zil|>	Sur Facebook, les groupes consacrés au poney se multiplient... Alibouch
+T 1277803814 18<22|Zil|>	 - 
+T 1277803825 19*	19theoliane (~helen@ARouen-256-1-104-38.w92-132.abo.wanadoo.fr) a rejoint #wikipedia-fr
+T 1277803825 22*	26ChanServ donne la parole à26 theoliane
+T 1277803839 18<22|Zil|>	Saleté de clavier.  C'est sur libé. 
+T 1277803915 18<22|Zil|>	Mais bon, on voit que lilyu est passée sur autre chose.
+T 1277804007 19*	19fr-Zil (~AndChat@92.90.20.41) a rejoint #wikipedia-fr
+T 1277804007 23*	23|Zil| est parti (23Read error: Connection reset by peer23)
+T 1277804124 19*	19micke (4012acbc@gateway/web/freenode/ip.64.18.172.188) a rejoint #wikipedia-fr
+T 1277804352 19*	19dolorian (~soso___@70.60.89-79.rev.gaoland.net) a rejoint #wikipedia-fr
+T 1277804405 23*	23Peter17 est parti (2323)
+T 1277804567 23*	23Sir48 est parti (23Ping timeout: 245 seconds23)
+T 1277804581 23*	23micke est parti (23Quit: Page closed23)
+T 1277804694 19*	19Sir48 (~Thyge@wikipedia/Sir48) a rejoint #wikipedia-fr
+T 1277805078 19*	19GL01 (~GL01@wikipedia/GL) a rejoint #wikipedia-fr
+T 1277805078 22*	26ChanServ donne la parole à26 GL01
+T 1277805122 18<20GL01>	yo
+T 1277805140 18<19Elfix>	yo
+T 1277805163 18<29Ludo-->	hello GL01  et Elfix 
+T 1277805169 18<19Elfix>	salut Ludo-- u
+T 1277805318 18<28ironie>	Au format d'origine (252x203), l'image est nette http://upload.wikimedia.org/wikipedia/fr/d/d3/WikiGnomes_43.png mais incorporée avec [[Image:WikiGnomes_43.png|right|252px]] elle est floue. :(
+T 1277805349 18<28ironie>	C'est quoi cette bouteille de lait ?
+T 1277805538 22*	Carbidfischer s'appelle maintenant CarbidAway
+T 1277805550 23*	23theoliane est parti (23Quit: Retour dans la vraie vie23)
+T 1277805613 23*	23fr-Zil est parti (23Quit: Bye23)
+T 1277805762 18<20GL01>	Addacat c'est du bon
+T 1277805777 18<20GL01>	on aurait pu croire que Wikipédia s'endormait doucement pour l'été
+T 1277805799 18<20GL01>	mais là RA, BA, nouvel arbitrage qui part en sucette
+T 1277805800 18<20GL01>	la totale
+T 1277805928 19*	19fabriceferrer (~FabriceFe@78.159.14.28) a rejoint #wikipedia-fr
+T 1277805930 22*	26ChanServ donne la parole à26 fabriceferrer
+T 1277805933 18<20Poulpy>	Ceux qui s'opposent à Addacat veulent déstabiliser l'encyclopédie.
+T 1277805949 19*	19DainDwarf (~Dain@wikipedia/daindwarf) a rejoint #wikipedia-fr
+T 1277806005 18<20GL01>	je comprends pas ce que dit Popo sur le BA
+T 1277806022 18<20GL01>	l'arbitrage est pas recevable, Popo se récuse mais il demande une mesure conservatoire
+T 1277806032 18<20GL01>	alors que c'est le boulot du coordinateur en principe
+T 1277806034 23*	23I-on est parti (23Ping timeout: 260 seconds23)
+T 1277806040 18<20GL01>	et qu'il y en aura pas
+T 1277806111 18*	20Poulpy coule du veldspar sur DainDwarf.
+T 1277806189 23*	23Ludo-- est parti (23Ping timeout: 240 seconds23)
+T 1277806331 22*	S`Sleep`Sleep s'appelle maintenant Myst
+T 1277806363 18*	28DainDwarf coule.
+T 1277806377 19*	19Ludo-- (~Ludovic@wikipedia/Ludo29) a rejoint #wikipedia-fr
+T 1277806377 22*	26ChanServ donne la parole à26 Ludo--
+T 1277806379 18<28DainDwarf>	Mouais, bon, j'ai du boulot today.
+T 1277806406 18*	28DainDwarf a tenté le lançage de boulette de papier avec rebond sur le tableau blanc.
+T 1277806413 18<28DainDwarf>	Pas loin, mais raté la poubelle.
+T 1277806481 18<27Myst>	essaye encore
+T 1277806500 18<28DainDwarf>	Nan.
+T 1277806501 19*	19Kyro (~Kyro@mut38-6-88-167-71-251.fbx.proxad.net) a rejoint #wikipedia-fr
+T 1277806501 22*	26ChanServ donne la parole à26 Kyro
+T 1277806507 18<28Kyro>	Yop
+T 1277806519 18<28Kyro>	dites faut utiliser quel modèle à la place de commonscat déjà N 
+T 1277806520 18<28Kyro>	? 
+T 1277806595 18<24esby>	Kyro: vaut mieux utiliser commonsCat :D
+T 1277806610 18<24esby>	(d'un point de vue commons )
+T 1277806610 18<28Kyro>	esby: il est indiqué comme obsolète 
+T 1277806622 18<24esby>	Kyro: oui mais il fait bugger les bots de commons
+T 1277806631 18<28Kyro>	spa not pb :D
+T 1277806635 18<24esby>	etant donné que l'autre modele est utilisé coté fr
+T 1277806639 18<24esby>	uniquement
+T 1277806648 18<24esby>	et que tous les wikipedias ont un commonscat
+T 1277806651 18<24esby>	sauf nous...
+T 1277806652 18<28Kyro>	c'est des bots statistiques non ? 
+T 1277806662 18<20GL01>	merde pour les bots !
+T 1277806663 18<28Kyro>	esby: en même temps il fait doublon ce modèle
+T 1277806664 18<24esby>	Kyro: pas sur, ca peut etre aussi interwikis
+T 1277806678 18<28Kyro>	pour les interwiki o0 ? 
+T 1277806680 18<27sam>	je me demande ce que c'est, commonScat
+T 1277806683 18<24esby>	Kyro: techniquement parlant il devrait meme pas exister
+T 1277806703 18<28Kyro>	sam: un truc de scatophiles
+T 1277806712 19*	19adomps (~adomps@121.187.66-86.rev.gaoland.net) a rejoint #wikipedia-fr
+T 1277806722 18<20GL01>	y a un modèle {{Autres projets}}, c'est ce que tu cherches ?
+T 1277806732 18<24esby>	sam: on te voit arriver a 200m a vouloir nous refourguer ta libcaca
+T 1277806744 18<28Kyro>	GL01: c'est ce que j'ai pris
+T 1277806744 18<27sam>	non pas du tout
+T 1277806758 23*	23adomps (23~adomps@121.187.66-86.rev.gaoland.net) a quitté #wikipedia-fr
+T 1277806759 18<28Kyro>	esby: libcaca ? 
+T 1277806761 18<29Ludo-->	quelqu'un peut m'expliquer comment faire une courte url pour tweeter ?
+T 1277806763 18<28Kyro>	une librairie ? :D
+T 1277806772 18<27sam>	je comptais faire un article sur le caractère Unicode 0x1F4A9
+T 1277806775 18<28Kyro>	Ludo--: twitter le faire pour toi
+T 1277806782 18<29Ludo-->	ah ?
+T 1277806795 18<29Ludo-->	nan
+T 1277806804 18<29Ludo-->	j'ai mis un message et une url
+T 1277806807 18<29Ludo-->	et il en veut pas
+T 1277806903 18<29Ludo-->	Kyro: hein ?
+T 1277806915 18<20GL01>	c'est un peu lourd les retweet
+T 1277806922 18<28Kyro>	Ludo--: normalement Twitter te reduit tes Url 
+T 1277806930 19*	19I-on (~chatzilla@oh-71-2-8-171.sta.embarqhsd.net) a rejoint #wikipedia-fr
+T 1277806932 18<29Ludo-->	visiblement pas
+T 1277806933 19*	19Savant-fou (~savantfou@121.187.66-86.rev.gaoland.net) a rejoint #wikipedia-fr
+T 1277806934 22*	26ChanServ donne la parole à26 Savant-fou
+T 1277806941 18<29Ludo-->	je veux twitter
+T 1277806946 18<29Ludo-->	OUINH
+T 1277806984 18<24esby>	Ludo--: http://tinyurl.com/
+T 1277807007 23*	23Savant-fou est parti (23Remote host closed the connection23)
+T 1282583054 28-29NickServ28-	Invalid password for TomT0m.
+T 1282583055 19*	19Vous parlez maintenant sur #wikipedia-fr
+T 1282583055 29*	29Le sujet de #wikipedia-fr 29est : Wikipédia en français | 984 k | En cas d'urgence, tapez !admin suivi de votre requête
+T 1282583055 29*	29Sujet de #wikipedia-fr 29défini par garfieldairlines!~garfielda@wikipedia/garfieldairlines 29le Mon Aug 23 14:09:25 2010
+T 1282583056 28-29ChanServ28-	[#wikipedia-fr] Canal en UTF-8. La diffusion publique de journaux de ce canal est interdite. Merci de lire http://meta.wikimedia.org/wiki/Canal_IRC et de contribuer à la bonne humeur du canal. Bonne journée !
+T 1282583056 22*	#wikipedia-fr :http://fr.wikipedia.org
+T 1282583103 19*	19Kelson42 (~Kelson42@154-200.106-92.cust.bluewin.ch) a rejoint #wikipedia-fr
+T 1282583191 23*	23frakir est parti (23Ping timeout: 260 seconds23)
+T 1282583239 18<24Harmonia_Amanda>	Aelfgar: :p
+T 1282583328 18<20Otourly>	Harmonia_Amanda: ah et les inscriptions au wikiconcours sont toutes vertes mais comme c'est un classique...
+T 1282583340 18<24Harmonia_Amanda>	menfou
+T 1282583348 18<24Harmonia_Amanda>	:)
+T 1282583362 18<20Otourly>	je sais pas pourquoi mais je le savais
+T 1282583363 18<20Otourly>	:p
+T 1282583423 18<27Aelfgar>	C'est effectivement des plus surprenants.
+T 1282583441 18<29Dereckson>	WAZZZZZZZZZZZZZZZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+T 1282583453 18*	29Dereckson avait juste envie de crier sur le canal.
+T 1282583455 18*	29Dereckson se rendort.
+T 1282583479 18*	24Harmonia_Amanda a les cheveux qui se sont dressés, raides, sur la tête
+T 1282583480 23*	23Arria est parti (23Read error: Connection reset by peer23)
+T 1282583484 19*	19Arria_ (~Arria@vol21-3-82-244-44-177.fbx.proxad.net) a rejoint #wikipedia-fr
+T 1282583492 18*	24Harmonia_Amanda a failli faire une crise cardiaque
+T 1282583492 22*	Arria_ s'appelle maintenant Arria
+T 1282583499 18*	24Harmonia_Amanda jette un regard noir à Dereckson
+T 1282583531 18<29Dereckson>	Coucou Harmonia_Amanda :)
+T 1282583532 18<20Otourly>	Harmonia_Amanda: you're a punk ?
+T 1282583537 18<29Dereckson>	Tu as passé de bonnes vacances ?
+T 1282583545 18<24Harmonia_Amanda>	oui, plutôt
+T 1282583546 18*	29Dereckson met du bérurier noir sur le canal #punk rock rulez
+T 1282583561 18<24Harmonia_Amanda>	Otourly: depuis le cri de Dereckson, oui
+T 1282583577 18<29Dereckson>	Harmonia_Amanda > nous avons surveiller les articles du portail fantasy
+T 1282583580 18<20Otourly>	Harmonia_Amanda: tu veux de la laque rouge ?
+T 1282583588 18<29Dereckson>	és
+T 1282583592 18<20Otourly>	é
+T 1282583594 18<29Dereckson>	4 articles étaient en copyvio
+T 1282583605 18<29Dereckson>	(purgées évidemment)
+T 1282583609 18<24Harmonia_Amanda>	Dereckson: j'ai fait un peu de ménage de rentrée, mais en effet, ça a l'air plutôt calme
+T 1282583614 18<24Harmonia_Amanda>	merci
+T 1282583616 18<29Dereckson>	et de même, un nouveau contributeur s'était excité sur Arielle Queen
+T 1282583623 18<24Harmonia_Amanda>	Otourly: non, sans façon
+T 1282583630 18<29Dereckson>	il a gentillement été guidé vers l'art du formattage correct des articles.
+T 1282583637 18<24Harmonia_Amanda>	:)
+T 1282583677 19*	19BigGamer95 (~biggamer9@1.114.72-86.rev.gaoland.net) a rejoint #wikipedia-fr
+T 1282583772 18<24Harmonia_Amanda>	peut-être une ou deux PàS à lancer, mais les nouveaux articles ont l'air calmes
+T 1282583774 18<29Dereckson>	Tiens par contre grâceà toi Harmonia_Amanda theoliane okki et moi avons appris une exception aux règles de toponymies
+T 1282583774 19*	19Raminagrobis (~raminagro@232.20.73-86.rev.gaoland.net) a rejoint #wikipedia-fr
+T 1282583777 18<25Raminagrobis>	coucou les geeks
+T 1282583780 18<24Harmonia_Amanda>	vous avez fait du bon boulot
+T 1282583780 18<29Dereckson>	"Les Sept Clefs du pouvoir"
+T 1282583795 18<24Harmonia_Amanda>	en quoi c'est une exception ?
+T 1282583798 18<29Dereckson>	Nous avions eu du mal avec le sept 
+T 1282583804 19*	19garfieldairlines (~garfielda@wikipedia/garfieldairlines) a rejoint #wikipedia-fr
+T 1282583805 22*	26ChanServ donne la parole à26 garfieldairlines
+T 1282583815 18<24Harmonia_Amanda>	les adjectifs placés avant le premier nom portent une majuscule
+T 1282583816 18*	20Otourly gratt gratt garfieldairlines 
+T 1282583819 18<29Dereckson>	On s'est tous planté en pensant que c'était Les Sept clefs du pouvoir
+T 1282583821 18<24Harmonia_Amanda>	c'est la règle
+T 1282583822 18<29Dereckson>	sans penser à l'adjectif
+T 1282583833 18<24Harmonia_Amanda>	la Petite Maison dans la prairie
+T 1282583837 18<24Harmonia_Amanda>	:p
+T 1282583842 23*	23Evelyne14 est parti (23Ping timeout: 255 seconds23)
+T 1282583846 18<29Dereckson>	Tu avoueras qu'un sept c'est plutôt discret comme adjectif ;)
+T 1282583852 19*	19twen (~twen@65.118.202.62.cust.bluewin.ch) a rejoint #wikipedia-fr
+T 1282583857 18<24Harmonia_Amanda>	ben quand j'arrive c'est le nom correct, donc nickel
+T 1282583871 18*	22garfieldairlines ronronron Otourly
+T 1282584103 18<25Raminagrobis>	c'est un adjectif?
+T 1282584108 18<25Raminagrobis>	sept dans cette phrase?
+T 1282584109 18*	29DainHome se demande quoi manger ce soir.
+T 1282584134 23*	23vev est parti (23Ping timeout: 258 seconds23)
+T 1282584144 18<29DainHome>	J'ai flemme d'aller chercher du jap, car 'faut attendre. Livrer une pizza, c'est cher. Macdo, j'ai fait un quick il y a peu.
+T 1282584145 23*	23jd_ est parti (23Quit: WeeChat 0.3.223)
+T 1282584153 18<29DainHome>	(Et celà va sans dire, y'a rien dans mon frigo, hein)
+T 1282584166 18<25Raminagrobis>	moi je me fais du "nutella" maison, na
+T 1282584212 18<29Dereckson>	Raminagrobis a minima pour les conventions sur les titres :p
+T 1282584249 18<29Dereckson>	Paris est une ville étrange
+T 1282584250 18<29Dereckson>	J'ai flemme d'aller chercher du jap, car 'faut attendre. Livrer une pizza, c'est cher.
+T 1282584256 18<29Dereckson>	Y a d'autres villes
+T 1282584259 18<29Dereckson>	où les japs sont hors de prix
+T 1282584265 18<29Dereckson>	car tous des restos et aucun snack
+T 1282584266 18<29DainHome>	J'peux me faire un kébab, aussi...
+T 1282584271 18<29Dereckson>	mais où les pizza sont super bon marchés
+T 1282584280 18<29Dereckson>	faudrait faire une étude sur les villes européennes
+T 1282584288 18<29Dereckson>	selon le type de fast food à emporter et à livrer les moins chers
+T 1282584339 18<29DainHome>	Qu'est-ce que j'oublie comme fast-food qui pourrait être sympa, là?
+T 1282584353 18<29DainHome>	Le soucis du kébab auquel je pense, c'est que ses frites sont vraiment mauvaises.
+T 1282584357 18<29DainHome>	Pire que macdo.
+T 1282584370 18<29theoliane>	DainHome: Subway ? 
+T 1282584382 18<29DainHome>	Ah oui mais ça c'est pas étonnant que j'oublie.
+T 1282584407 18<29DainHome>	Déjà, y'en a pas près de chez moi, et en plus, l'odeur me donne envie de gerber, après un an à en faire une fois par semaine.
+T 1282584471 19*	19frakir (~nemesis@93.27.220.127) a rejoint #wikipedia-fr
+T 1282584472 23*	23frakir est parti (23Changing host23)
+T 1282584472 19*	19frakir (~nemesis@unaffiliated/frakir) a rejoint #wikipedia-fr
+T 1282584655 18*	27Aelfgar a créé sa première circonscription. :(
+T 1282584693 18<29Dereckson>	DainHome tu sous-entend qu'il existe des kebabs où les frites sont bonnes ? oO
+T 1282584708 18<29Dereckson>	je vois un kebab près de châtelet où les frites sont "pas dégueu"
+T 1282584714 18<29Dereckson>	et un près de Bastille où elles sont "mouais"
+T 1282584717 18<29DainHome>	Ça doit bien exister, oui.
+T 1282584728 18<29Dereckson>	mais j'ai jamais été satisfait par leurs frites
+T 1282584738 18<24|SM|>	Dereckson: elle est comment la devanture de ton kebab près de Châtelet ?
+T 1282584740 18<29DainHome>	Bon, ça vaudra jamais la friterie belge, c'est sûr.
+T 1282584755 18<29Dereckson>	|SM| tu vois le bar gay bear avec une patte de loup à l'entrée ?
+T 1282584768 18<29Dereckson>	dans la rue perpendiculaire à celle là
+T 1282584780 18<29Dereckson>	parallèle à une rue où t'as un magasin pour skater 
+T 1282584786 18<24|SM|>	mmmmmmmm
+T 1282584803 18*	29Dereckson adore sa façon de donner l'emplacemnent d'un kebab
+T 1282584810 18<24|SM|>	XD
+T 1282584819 18<29Dereckson>	|SM| désolé j'ai un trou de mémoire sur le nom de ces rues
+T 1282584824 23*	23Savant-fou (23~baptiste@ALyon-258-1-51-124.w90-48.abo.wanadoo.fr) a quitté #wikipedia-fr
+T 1282584825 18<29Dereckson>	je lance google maps :p
+T 1282584836 18*	24|SM| allait parfois à un kebab à Châtelet, c'est pour ça
+T 1282584837 18<24|SM|>	pareil
+T 1282584889 18<19Elfix>	11
+T 1282584892 18<19Elfix>	oups
+T 1282584907 18<24Harmonia_Amanda>	Aelfgar: faut bien commencer avec une
+T 1282584921 18<24Harmonia_Amanda>	Aelfgar: il s'est rien passé, sur la TdM au mois d'août ?
+T 1282584925 18<27Aelfgar>	Harmonia : plus que 649 !!!
+T 1282584931 18<27Aelfgar>	(sans compter celles qui ont disparu...)
+T 1282584938 18<27Aelfgar>	Que dalle, non.
+T 1282584945 23*	23zMoo est parti (23Quit: Ex-Chat23)
+T 1282584957 18<24|SM|>	rue Saint-Denis
+T 1282584964 18*	24|SM| recherchait le nom de la rue
+T 1282584968 18<27Aelfgar>	J'ai traduit vite fait http://fr.wikipedia.org/wiki/Music_Inspired_by_Lord_of_the_Rings mais c'est pas follement intéressant.
+T 1282584971 18<29Dereckson>	ouais c'est ça |SM|
+T 1282584972 18<29Dereckson>	bien vu
+T 1282585001 18<29Dereckson>	près d'un magasin qui s'imagine vendre des vêtements style banlieue
+T 1282585009 18<24Harmonia_Amanda>	Aelfgar: c'est pas mal
+T 1282585014 18<29Dereckson>	mais qui sont de trucs louches genre militaire urban, trop fashion victime c'est ça ?
+T 1282585048 18<24|SM|>	Dereckson: ;)
+T 1282585099 18*	29Dereckson a une description très pitoresque du quartier
+T 1282585115 18*	29Dereckson s'appliquera à mieux étudier le nom des rues et des VRAIS points de repère
+T 1282585248 18<29Dereckson>	|SM| tiens vas y
+T 1282585250 18<29Dereckson>	décris moi le quartier
+T 1282585256 18<29Dereckson>	avec les VRAIS poins de repère qui comptent :p
+T 1282585263 18<24|SM|>	boah
+T 1282585282 18<24|SM|>	la rue est entre le théâtre et la Fontaine (des innocents) en fait
+T 1282585295 18<29DainHome>	Mbon, ça sera kébab.
+T 1282585299 18*	29DainHome parti.
+T 1282585299 18<29Dereckson>	quel théâtre ?
+T 1282585302 18<24|SM|>	tu pars de la place Chatelet
+T 1282585302 18<27Aelfgar>	Harmonia : sinon Beeper s'est lancé sur les tengwar... faudra voir ce que ça donne.
+T 1282585303 18<29Dereckson>	bon kebab DainHome
+T 1282585307 18<24|SM|>	Dereckson: celui de la ville
+T 1282585311 18<29Dereckson>	Aelfgar ha ?
+T 1282585312 18<24Harmonia_Amanda>	Aelfgar: ok, j'irai voir
+T 1282585318 18*	27Aelfgar se rappelle douloureusement qu'il doit encore relire tous les articles améliorés par Beeper pour le WCC
+T 1282585323 18<24|SM|>	t'arrives à une intersection où t'as une banque CIC
+T 1282585337 18<24|SM|>	tu prends la rue de droite de l'espèce d'empattement, rue qui est piétonne
+T 1282585338 18<24Harmonia_Amanda>	Aelfgar: moi je vais peaufiner Bilbo et lancer l'AdQ
+T 1282585350 18<24|SM|>	cette rue va vers la Fontaine, tout près du Forum des Halles
+T 1282585357 18<24|SM|>	t'as le Hide Out dans la rue-là
+T 1282585366 18<24|SM|>	l'Australian Bar aussi

@@ -1,0 +1,89 @@
+T 1259184176 19*	19Vous parlez maintenant sur #wikimedia-commons
+T 1259184176 29*	29Le sujet de #wikimedia-commons 29est : Wikimedia Commons | Status: UP | For urgent admin help, say "!admin@commons + your request" | Countervandalism: #cvn-commons | New uploads: #commons-image-uploads | Preparation for picture of the year (POTY)  contest: http://bit.ly/254a6W and #wikimedia-commons-poty
+T 1259184176 29*	29Sujet de #wikimedia-commons 29défini par Huib 29le Thu Nov 12 19:30:16 2009
+T 1259184177 22*	#wikimedia-commons :http://commons.wikimedia.org
+T 1259184235 22*	Quagmire s'appelle maintenant Quagmire|GONE
+T 1259184279 23*	23alhen est parti (23Connection timed out23)
+T 1259184580 18<27zscout370>	MGA73, now I am trying to bring the quick delete to the en.wikipedia
+T 1259184584 18<27zscout370>	to help us with the deletions
+T 1259184619 18<25MGA73>	Yeah... If you get thousand of nominations you will die :-p
+T 1259184649 18<26Huib>	Quick delete?
+T 1259184659 18<26Huib>	Not needed
+T 1259184663 18<26Huib>	:P
+T 1259184704 18<27zscout370>	MGA73 and huib; in the toolbar, you know we have "no permission", "no source" ?
+T 1259184729 23*	23Beta|away est parti (23Read error: 113 (No route to host)23)
+T 1259184760 18<24Multichil>	MGA73 : You can link pagelinks on it too
+T 1259184782 18<26Huib>	Sorry i don't use en.wiki its evil.
+T 1259184887 18<20PeterSymonds>	Only at night, when we all turn into vampires.
+T 1259184932 18<26Huib>	Your night or my night?
+T 1259184967 18<25MGA73>	Hehe... Author died 140 years ago (2 x 70)? XD
+T 1259184982 18<25MGA73>	http://commons.wikimedia.org/wiki/File:Wise001_p01.gif
+T 1259184985 18<20PeterSymonds>	Huib, it matters? Naturally we're all evil. :-)
+T 1259184989 22*	closedmouth s'appelle maintenant closedmouth|away
+T 1259185060 23*	23barras_ est parti (23"good night"23)
+T 1259185074 18<26Huib>	Peter only that user what is his name ...
+T 1259185074 18<26Huib>	... O yeah Abigor
+T 1259185074 18<26Huib>	Is evil, he makes me affraid
+T 1259185078 18<26Huib>	:p
+T 1259185117 18<20PeterSymonds>	Yeah, what an ass.
+T 1259185574 23*	23Otourly (23n=florian@Wikipedia/Otourly) a quitté #wikimedia-commons
+T 1259185643 23*	23Huib est parti (23"used jmIrc"23)
+T 1259185813 19*	19Romaine2 (n=R@94.214.82.244) a rejoint #Wikimedia-Commons
+T 1259185842 23*	23Romaine est parti (23Nick collision from services.23)
+T 1259185844 22*	Romaine2 s'appelle maintenant Romaine
+T 1259185889 19*	19Masur (n=m@88.73.231.57) a rejoint #wikimedia-commons
+T 1259186087 23*	23Pymouss est parti (23"++ http://pymouss.blogspot.com"23)
+T 1259186408 23*	23Masur est parti (2323)
+T 1259186440 18<27zscout370>	MGA73, the code would not work on en.wp, so I gave up
+T 1259186466 19*	19JC (n=JC@wikimedia/Juliancolton) a rejoint #wikimedia-commons
+T 1259186467 22*	26ChanServ donne la parole à26 JC
+T 1259186482 18<26thedj>	zscout370: of quickdelete ?
+T 1259186488 18<27zscout370>	thedj, yeah
+T 1259186490 18<25MGA73>	yeah it can take a lot of time to get things to work
+T 1259186504 18<26thedj>	tell me where it is, i'll look at it in an hour or 2.
+T 1259186520 18<27zscout370>	thedj, let me restore them
+T 1259186572 18<27zscout370>	http://en.wikipedia.org/wiki/User:Zscout370/Quick-delete-code.js
+T 1259186572 19*	19Orango (n=s-e@wikimedia/Orango) a rejoint #wikimedia-commons
+T 1259186572 22*	26ChanServ donne la parole à26 Orango
+T 1259186583 18<27zscout370>	I am also trying to bring the associated templates over to en.wp
+T 1259186587 18<27zscout370>	err..pages
+T 1259186671 18<26thedj>	ok, i'll be back in an hour or so.
+T 1259186694 18<27zscout370>	alrright
+T 1259186702 18<27zscout370>	I will be back around 10ish CST
+T 1259186742 23*	23MayaSan est parti (23"This is not a restart."23)
+T 1259186839 23*	23Bryan est parti (23"ChatZilla 0.9.85 [Firefox 3.5.5/20091102152451]"23)
+T 1259186882 19*	19Majorly_ (n=chatzill@wikimedia/Majorly) a rejoint #wikimedia-commons
+T 1259186883 22*	26ChanServ donne la parole à26 Majorly_
+T 1259186885 23*	23Majorly est parti (23Read error: 113 (No route to host)23)
+T 1259186888 22*	Majorly_ s'appelle maintenant Majorly
+T 1259186920 18<27zscout370>	thanks
+T 1259187340 19*	19Wiki-Bot (n=Upload@pool-96-241-225-160.washdc.fios.verizon.net) a rejoint #wikimedia-commons
+T 1259187342 22*	26ChanServ donne la parole à26 Wiki-Bot
+T 1259187377 23*	23Wiki-Bot est parti (23Excess Flood23)
+T 1259187767 19*	19Majorly_ (n=chatzill@wikimedia/Majorly) a rejoint #wikimedia-commons
+T 1259187768 22*	26ChanServ donne la parole à26 Majorly_
+T 1259187852 23*	23Majorly est parti (23Nick collision from services.23)
+T 1259187853 22*	Majorly_ s'appelle maintenant Majorly
+T 1259188304 19*	19Dragonfly6-7 (n=test@bas1-montreal48-1176432122.dsl.bell.ca) a rejoint #wikimedia-commons
+T 1259188337 18<29Dragonfly6-7>	http://commons.wikimedia.org/wiki/Commons:Bundesarchiv - are we allowed to trim and clip the images here?
+T 1259188343 18<29Dragonfly6-7>	"The German Federal Archive guarantees an authentic representation only using the originals (negative and/or positive), resp. the digitalization of the originals as provided by the Digital Image Archive. "
+T 1259188475 23*	23Suiseiseki est parti (23Read error: 104 (Connection reset by peer)23)
+T 1259188497 19*	19Suiseiseki (n=desudesu@wikipedia/Antonio-Lopez) a rejoint #wikimedia-commons
+T 1259188498 22*	26ChanServ donne la parole à26 Suiseiseki
+T 1259188661 18<29Dragonfly6-7>	Hello hello?
+T 1259188669 18<29Dragonfly6-7>	"The German Federal Archive guarantees an authentic representation only using the originals (negative and/or positive), resp. the digitalization of the originals as provided by the Digital Image Archive. " Does this mean we can't edit the images?
+T 1259188673 18<29Dragonfly6-7>	!admin@commons
+T 1259188697 23*	23JC est parti (23Remote closed the connection23)
+T 1259188722 18<29Platonides>	the Federal Archive won't guarantee anything about the modified files
+T 1259188728 18<29Platonides>	but I don't see how that restricts us
+T 1259188843 19*	19Wiki-Bot (n=Upload@pool-96-241-225-160.washdc.fios.verizon.net) a rejoint #wikimedia-commons
+T 1259188847 22*	26ChanServ donne la parole à26 Wiki-Bot
+T 1259188873 23*	23Wiki-Bot est parti (23Excess Flood23)
+T 1259189161 18<24Multichil>	Dragonfly6-7 : Of course you can crop them
+T 1259189167 23*	23yannf est parti (23"Like the Truth, I am elsewhere..."23)
+T 1259189372 19*	19Majorly_ (n=chatzill@wikimedia/Majorly) a rejoint #wikimedia-commons
+T 1259189373 22*	26ChanServ donne la parole à26 Majorly_
+T 1259189463 23*	23Majorly est parti (23Nick collision from services.23)
+T 1259189464 22*	Majorly_ s'appelle maintenant Majorly
+T 1259189759 23*	23Orango est parti (23"Leaving"23)
+T 1259189777 23*	23Duesentrieb est parti (23Read error: 113 (No route to host)23)

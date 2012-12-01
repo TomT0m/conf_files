@@ -1,0 +1,6 @@
+T 1206646079 19*	19Vous parlez maintenant sur #frlinux
+T 1206646079 22*	anthony.freenode.net active le mode +n #frlinux
+T 1206646079 22*	anthony.freenode.net active le mode +s #frlinux
+T 1206646083 Paramètres de la commande utilisateur erronés.
+T 1206646090 Utilisation : PART [<canal>] [<raison>], quitter le canal, par défaut le canal actuel
+T 1206646100 23*	Vous avez quitté le canal #frlinux (23"toubidou"23)
