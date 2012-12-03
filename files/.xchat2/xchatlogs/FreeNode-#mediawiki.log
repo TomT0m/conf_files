@@ -1,0 +1,337 @@
+**** DÉBUT DU JOURNAL À Thu Aug  9 21:14:34 2012
+
+août 09 21:14:34 *	Vous parlez maintenant sur #mediawiki
+août 09 21:14:35 *	Le sujet de #mediawiki est : MediaWiki software support and dev: https://www.mediawiki.org/ | Bugs: https://bugs.mediawiki.org | Read the FAQ http://bit.ly/yr0aC | Releases: 1.19.1 /1.18.4, 1.17.5 (legacy releases) | Don't flood, use http://dpaste.com/ | Channel logged: http://bit.ly/Ks9kYa | WMF-specific dev: #wikimedia-dev | mediawiki.org/wiki/Git/Tutorial
+août 09 21:14:35 *	Sujet de #mediawiki défini par sumanah!~sumanah@mediawiki/sumanah le Fri Jul 20 20:38:40 2012
+août 09 21:15:03 <wikibugs>	(mod) The countries drop-down in Special:BannerAllocation is not ordered in the user's language - https://bugzilla.wikimedia.org/36798  +comment (Amir E. Aharoni)
+août 09 21:15:55 *	rmoen est parti (Quit: Leaving.)
+août 09 21:16:49 *	James_F|Busy s'appelle maintenant James_F|Away
+août 09 21:17:14 *	tewwy (~tychay@216.38.130.167) a rejoint #mediawiki
+août 09 21:17:14 *	tewwy est parti (Changing host)
+août 09 21:17:14 *	tewwy (~tychay@wikimedia/Tychay) a rejoint #mediawiki
+août 09 21:17:28 <wikibugs>	(FIXED) Uninstall CustomUserSignup extension from Wikimedia wikis - https://bugzilla.wikimedia.org/37787  +comment (Steven Walling)
+août 09 21:17:49 *	dtcrshr (~datacrush@unaffiliated/datacrusher) a rejoint #mediawiki
+août 09 21:18:00 *	altin__ (~altin@46.19.230.21) a rejoint #mediawiki
+août 09 21:18:10 *	MaxSem s'appelle maintenant Max|thinking
+août 09 21:18:40 <gerrit-wm>	Change merged: IAlex; [mediawiki/core] (master) - https://gerrit.wikimedia.org/r/18253
+août 09 21:18:59 <wikibugs>	(mod) The countries drop-down in Special:BannerAllocation is not ordered in the user's language - https://bugzilla.wikimedia.org/36798  +comment (Adam Wight)
+août 09 21:19:00 <gerrit-wm>	New review: Jeroen De Dauw; "I would still like to see this be made non-ask specific :)" [mediawiki/extensions/SemanticMediaWiki] (querycache); V: 1 C: 2;  - https://gerrit.wikimedia.org/r/17953
+août 09 21:19:02 <gerrit-wm>	Change merged: Jeroen De Dauw; [mediawiki/extensions/SemanticMediaWiki] (querycache) - https://gerrit.wikimedia.org/r/17953
+août 09 21:19:47 <wikibugs>	(mod) The countries drop-down in Special:BannerAllocation is not ordered in the user's language - https://bugzilla.wikimedia.org/36798  +comment (Amir E. Aharoni)
+août 09 21:20:03 *	aharoni (~aharoni@di8-36142.dialin.huji.ac.il) a rejoint #mediawiki
+août 09 21:20:06 <wikibugs>	(mod) [patch] Add support for natural sort ordermethod. - https://bugzilla.wikimedia.org/39198  +comment (Bawolff)
+août 09 21:21:04 <aharoni>	StevenW: Thank you for mentioning me in your essay. Few things could me more flattering :)
+août 09 21:21:32 <StevenW>	It's David Gerard you should thank, he added the link to the comments
+août 09 21:21:34 <StevenW>	:)
+août 09 21:21:54 <StevenW>	I fully agree it's a perfect example of a takedown of that redesign thought
+août 09 21:24:37 <aharoni>	Oh. I was quite amazed to read that he actually made it all the way down to the point where I mention the Hebrew Wikipedia.
+août 09 21:25:13 <aharoni>	I've been mentioning stuff about the Hebrew for years on foundation-l... I wish more people from other projects would mention how they do things there.
+août 09 21:25:46 <aharoni>	For example, I don't have the slightest idea about anything that goes in, say, the Danish Wikipedia.
+août 09 21:25:47 <wikibugs>	(mod) Users shouldn't be given "Upload a new version of this file" when a file is protected - https://bugzilla.wikimedia.org/24491  enhancement->normal;  +easy; +comment (MZMcBride)
+août 09 21:25:50 <gerrit-wm>	Change merged: Kaldari; [mediawiki/core] (wmf/1.20wmf8) - https://gerrit.wikimedia.org/r/18275
+août 09 21:25:52 <StevenW>	Agreed. I suspect the language barrier + intimidation factor of posting to such a high traffic list is what keeps people from doing so. 
+août 09 21:25:59 *	sayan (~sayanchow@fedora/sayan) a rejoint #mediawiki
+août 09 21:28:05 <TomT0m>	Hi, I think I found a bug in category search. 
+août 09 21:28:30 *	RoanKattouw est parti (Remote host closed the connection)
+août 09 21:28:50 *	RoanKattouw (~chatzilla@216.38.130.164) a rejoint #mediawiki
+août 09 21:28:50 *	RoanKattouw est parti (Changing host)
+août 09 21:28:50 *	RoanKattouw (~chatzilla@mediawiki/Catrope) a rejoint #mediawiki
+août 09 21:29:18 <marktraceur>	TomT0m: You should describe it!
+août 09 21:30:27 <TomT0m>	I've got a non empty category ( http://fr.wikipedia.org/wiki/Cat%C3%A9gorie:R%C3%A9f%C3%A9rence_en_informatique)
+août 09 21:30:50 <gerrit-wm>	New review: Bsitu; "I don't think we will deploy PageTriage massively to other wikis since each wiki has different tags ..." [mediawiki/extensions/PageTriage] (master) - https://gerrit.wikimedia.org/r/18128
+août 09 21:31:18 <TomT0m>	but whatever I try ( http://fr.wikipedia.org/w/index.php?title=Sp%C3%A9cial%3ARecherche&profile=advanced&search=incategory%3A%22R%C3%A9f%C3%A9rence+en+informatique%22&fulltext=Search&ns0=1&ns1=1&ns2=1&ns3=1&ns4=1&ns5=1&ns6=1&ns7=1&ns8=1&ns9=1&ns10=1&ns11=1&ns12=1&ns13=1&ns14=1&ns15=1&ns100=1&ns101=1&ns102=1&ns103=1&ns104=1&ns105=1&redirs=1&profile=advanced ) for example, there is no results
+août 09 21:32:04 <TomT0m>	it might be because of the spaces, or the accent, or I missed something
+août 09 21:32:29 <wikibugs>	(mod) Merge the Wikidata ContentHandler branch - https://bugzilla.wikimedia.org/38622  +comment (Daniel Kinzler)
+août 09 21:33:20 *	chughakshay16 (7aa18ac5@gateway/web/freenode/ip.122.161.138.197) a rejoint #mediawiki
+août 09 21:33:25 *	toniher (~Earlybird@77.228.227.203) a rejoint #mediawiki
+août 09 21:33:26 *	James_F|Away s'appelle maintenant James_F|Busy
+août 09 21:33:32 <wikibugs>	(mod) Merge the Wikidata ContentHandler branch - https://bugzilla.wikimedia.org/38622  +comment (Daniel Kinzler)
+août 09 21:33:47 *	freakolowsky (~jure@tm.213.143.85.182.dc.telemach.net) a quitté #mediawiki
+août 09 21:34:03 *	freakolowsky (~jure@tm.213.143.85.182.dc.telemach.net) a rejoint #mediawiki
+août 09 21:34:32 *	izhak est parti (Remote host closed the connection)
+août 09 21:35:21 *	p858snake|l (~p858snake@unaffiliated/p858snake) a rejoint #mediawiki
+août 09 21:35:29 *	tonymec__ (~tonymec@109.128.165.227) a rejoint #mediawiki
+août 09 21:35:29 *	tonymec__ est parti (Changing host)
+août 09 21:35:30 *	tonymec__ (~tonymec@unaffiliated/tonymec) a rejoint #mediawiki
+août 09 21:36:06 *	tonymec__ s'appelle maintenant tonymec|away
+août 09 21:36:36 <gerrit-wm>	New patchset: Catrope; "Rename wikiLink to WikiLink everywhere" [mediawiki/extensions/VisualEditor] (master) - https://gerrit.wikimedia.org/r/18405
+août 09 21:37:45 *	devunt (~devunt@218.38.12.12) a rejoint #mediawiki
+août 09 21:37:46 *	devunt est parti (Changing host)
+août 09 21:37:46 *	devunt (~devunt@mediawiki/devunt) a rejoint #mediawiki
+août 09 21:39:05 *	tfinc est parti (Quit: Leaving...)
+août 09 21:39:16 <TomT0m>	marktraceur, where should I file the bug ;) ?
+août 09 21:39:16 *	srikanthlogic est parti (Quit: srikanthlogic)
+août 09 21:39:31 *	sayan est parti (Quit: Leaving)
+août 09 21:39:32 <codurr>	raymond * <https://www.mediawiki.org/wiki/Special:Code/MediaWiki/115652> /trunk/extensions/ (92 files in 92 dirs): Localisation updates from http://translatewiki.net.
+août 09 21:39:44 *	srikanthlogic (~logic@wikipedia/Logicwiki) a rejoint #mediawiki
+août 09 21:39:46 *	srikanthlogic est parti (Remote host closed the connection)
+août 09 21:40:03 <wikibugs>	(mod) Enable Narayam and Webfonts extenstion - https://bugzilla.wikimedia.org/39200  normal->enhancement;  +shell (Sam Reed (reedy))
+août 09 21:40:13 *	srikanthlogic (~logic@wikipedia/Logicwiki) a rejoint #mediawiki
+août 09 21:40:15 *	srikanthlogic est parti (Remote host closed the connection)
+août 09 21:40:48 *	srikanthlogic (~logic@wikipedia/Logicwiki) a rejoint #mediawiki
+août 09 21:40:50 *	srikanthlogic est parti (Remote host closed the connection)
+août 09 21:41:13 <Jarry1250>	TomT0M: You only created it today
+août 09 21:41:26 <Jarry1250>	It's probably just not in the search index yet
+août 09 21:41:41 *	srikanthlogic (~logic@wikipedia/Logicwiki) a rejoint #mediawiki
+août 09 21:41:43 *	srikanthlogic est parti (Remote host closed the connection)
+août 09 21:41:49 <TomT0m>	Jarry1250, ok, I'll try with an older one
+août 09 21:41:51 *	StevenW est parti (Quit: Computer has gone to sleep.)
+août 09 21:41:56 <Jarry1250>	Sure.
+août 09 21:42:42 <wikibugs>	(mod) VisualEditor: Messages minoredit, watchthis not parsed in "save page" dialog box - https://bugzilla.wikimedia.org/37819  +comment (Roan Kattouw)
+août 09 21:43:23 *	Daniel_WMDE_ (~daniel@wikipedia/duesentrieb) a rejoint #mediawiki
+août 09 21:43:28 *	srikanthlogic (~logic@wikipedia/Logicwiki) a rejoint #mediawiki
+août 09 21:43:30 *	srikanthlogic est parti (Remote host closed the connection)
+août 09 21:44:26 *	Juandev (~Juandev@89.24.182.66) a rejoint #mediawiki
+août 09 21:45:11 *	awjr s'appelle maintenant awjr_lunch
+août 09 21:45:21 <gerrit-wm>	Change merged: Krinkle; [mediawiki/extensions/VisualEditor] (master) - https://gerrit.wikimedia.org/r/18405
+août 09 21:45:32 <gerrit-wm>	New patchset: Adamw; "(bug 36798) sort country names in the UI language" [mediawiki/extensions/cldr] (master) - https://gerrit.wikimedia.org/r/18415
+août 09 21:45:55 *	thedj est parti (Ping timeout: 276 seconds)
+août 09 21:46:37 <wikibugs>	(mod) The countries drop-down in Special:BannerAllocation is not ordered in the user's language - https://bugzilla.wikimedia.org/36798   +patch-need-review; +comment (Adam Wight)
+août 09 21:46:49 *	Daniel_WMDE est parti (Ping timeout: 268 seconds)
+août 09 21:46:54 <gerrit-wm>	New review: Brian Wolff; "Consider the category Category:Cmexactprefixtest that i set up on testwiki." [mediawiki/core] (master) C: -1;  - https://gerrit.wikimedia.org/r/9960
+août 09 21:47:05 <gerrit-wm>	New patchset: Catrope; "Update VisualEditor" [mediawiki/core] (wmf/1.20wmf9) - https://gerrit.wikimedia.org/r/18416
+août 09 21:47:16 <gerrit-wm>	Change merged: Catrope; [mediawiki/core] (wmf/1.20wmf9) - https://gerrit.wikimedia.org/r/18416
+août 09 21:47:45 <gerrit-wm>	New review: Markus Kroetzsch; "I already replied to an email about this earlier this week. Is there a public page where one can see..." [mediawiki/extensions/SemanticResultFormats] (master); V: 0 C: 0;  - https://gerrit.wikimedia.org/r/17165
+août 09 21:47:57 *	srikanthlogic (~logic@wikipedia/Logicwiki) a rejoint #mediawiki
+août 09 21:47:59 *	srikanthlogic est parti (Remote host closed the connection)
+août 09 21:49:22 *	StevenW (~textual@wikimedia/steven-walling) a rejoint #mediawiki
+août 09 21:49:40 <TomT0m>	Jarry1250, you are right, it worked
+août 09 21:49:58 <Jarry1250>	TomT0m: Great, I guess :)
+août 09 21:50:12 <gerrit-wm>	New patchset: Raimond Spekking; "Remove CustomUserSignup" [translatewiki] (master) - https://gerrit.wikimedia.org/r/18417
+août 09 21:50:47 <gerrit-wm>	Change merged: Raimond Spekking; [translatewiki] (master) - https://gerrit.wikimedia.org/r/18417
+août 09 21:52:24 *	Raymond__ (~chatzilla@wikipedia/Raymond) a rejoint #mediawiki
+août 09 21:52:59 *	JeroenDeDauw est parti (Ping timeout: 268 seconds)
+août 09 21:53:25 *	ses1984 est parti (Read error: Connection reset by peer)
+août 09 21:54:09 <gerrit-wm>	New patchset: Matmarex; "support for interwikis in experimental JS preview" [mediawiki/core] (master) - https://gerrit.wikimedia.org/r/18224
+août 09 21:54:11 *	chughakshay16 est parti (Ping timeout: 245 seconds)
+août 09 21:54:16 <gerrit-wm>	New patchset: Catrope; "Rename external link RDFa types to keep up with Parsoid" [mediawiki/extensions/VisualEditor] (master) - https://gerrit.wikimedia.org/r/18418
+août 09 21:55:01 *	Raymond_ est parti (Ping timeout: 276 seconds)
+août 09 21:55:02 *	Raymond__ s'appelle maintenant Raymond_
+août 09 21:55:52 *	Daniel_WMDE_ est parti (Ping timeout: 245 seconds)
+août 09 21:56:24 *	Jarry1250_ (~chatzilla@wikipedia/Jarry1250) a rejoint #mediawiki
+août 09 21:57:44 *	Jarry1250 est parti (Ping timeout: 246 seconds)
+août 09 21:57:45 *	chrismcmahon est parti (Read error: Connection reset by peer)
+août 09 21:57:55 *	Jarry1250_ s'appelle maintenant Jarry1250
+août 09 21:58:03 *	chombium est parti (Ping timeout: 240 seconds)
+août 09 21:58:13 *	DarTar est parti (Quit: DarTar)
+août 09 21:58:47 *	chrismcmahon (~chrismcma@wikimedia/Cmmcmahon) a rejoint #mediawiki
+août 09 21:59:18 *	DarTar (~DarTar@wikimedia/DarTar) a rejoint #mediawiki
+août 09 22:00:33 *	srikanthlogic (~logic@wikipedia/Logicwiki) a rejoint #mediawiki
+août 09 22:00:35 *	srikanthlogic est parti (Remote host closed the connection)
+août 09 22:01:47 *	LikeLakers2-1 est parti (Read error: Connection reset by peer)
+août 09 22:02:06 <wikibugs>	(WONTFIX) Allow mw.loader.using adding dependency without loading the module - https://bugzilla.wikimedia.org/38782  +comment (Umherirrender)
+août 09 22:02:11 *	LikeLakers2-1 (~LikeLaker@wikipedia/LikeLakers2) a rejoint #mediawiki
+août 09 22:02:47 *	thedj (~pjotr@82.197.216.241) a rejoint #mediawiki
+août 09 22:02:48 *	thedj est parti (Changing host)
+août 09 22:02:48 *	thedj (~pjotr@unaffiliated/thedj) a rejoint #mediawiki
+août 09 22:03:51 *	klrmn (~klrmn@adsl-99-25-118-150.dsl.pltn13.sbcglobal.net) a rejoint #mediawiki
+août 09 22:03:58 <TomT0m>	Jarry1250, http://fr.wikipedia.org/wiki/Sp%C3%A9cial:Recherche?search=Turing+incategory%3A%22Mod%C3%A8le+de+source+pour+l%27informatique%22&ns10=1&fulltext=rechercher+un+mod%C3%A8le&fulltext=Search and http://fr.wikipedia.org/w/index.php?title=Sp%C3%A9cial%3ARecherche&profile=advanced&search=incategory%3A%22Mod%C3%A8le+de+source+pour+l%27informatique%22+Turing&fulltext=Search&ns10=1&redirs=1&profile=advanced does not returns the same
+août 09 22:03:58 <TomT0m>	 results, that is strange
+août 09 22:03:58 *	klrmn (~klrmn@adsl-99-25-118-150.dsl.pltn13.sbcglobal.net) a quitté #mediawiki
+août 09 22:04:22 <gerrit-wm>	New review: IAlex; "Also please rebase this change to master, since there are few conflicts between this change and more..." [mediawiki/core] (master); V: 0 C: -1;  - https://gerrit.wikimedia.org/r/16464
+août 09 22:04:37 <Jarry1250>	TomT0m: I think incategory: continues
+août 09 22:04:53 <gerrit-wm>	New patchset: Matmarex; "(bug 8618) support for summary preview in live preview" [mediawiki/core] (master) - https://gerrit.wikimedia.org/r/18261
+août 09 22:05:42 <AaronSchulz>	^demon|away: https://gerrit.wikimedia.org/r/#/c/18203/
+août 09 22:06:10 <gerrit-wm>	New patchset: Parent5446; "Added accessors to Message class." [mediawiki/core] (master) - https://gerrit.wikimedia.org/r/17961
+août 09 22:06:18 <^demon|away>	AaronSchulz: I'm away ;-)
+août 09 22:06:38 <TomT0m>	Jarry1250, strange, the ' " ' would not be needed, ans it does not work without them ( http://fr.wikipedia.org/w/index.php?title=Sp%C3%A9cial%3ARecherche&profile=advanced&search=Turing+incategory%3AMod%C3%A8le+de+source+pour+l%27informatique&fulltext=Search&ns0=1&ns10=1&ns12=1&ns100=1&ns102=1&redirs=1&profile=advanced ) 
+août 09 22:07:22 *	awjr_lunch s'appelle maintenant awjr
+août 09 22:07:34 <gerrit-wm>	New patchset: Matmarex; "support for interwikis in experimental JS preview" [mediawiki/core] (master) - https://gerrit.wikimedia.org/r/18224
+août 09 22:07:39 <Jarry1250>	TomT0m: Hmm, not my area of expertise, someone else might know though :)
+août 09 22:07:49 <gerrit-wm>	Change merged: Demon; [mediawiki/core] (master) - https://gerrit.wikimedia.org/r/18203
+août 09 22:08:03 <gerrit-wm>	New patchset: Jarry1250; "Commit SVGFormatReader, cornerstone of TranslateSvg" [mediawiki/extensions/TranslateSvg] (master) - https://gerrit.wikimedia.org/r/18182
+août 09 22:08:24 *	chombium (~chombium@g231096192.adsl.alicedsl.de) a rejoint #mediawiki
+août 09 22:09:42 <wikibugs>	(mod) Merge the Wikidata ContentHandler branch - https://bugzilla.wikimedia.org/38622  +comment (Rob Lanphier)
+août 09 22:11:59 <Danwe_WMDE>	shouldn't a function given to $( document ).ready() be executed AFTER all requested resourceloader stuff was loaded?
+août 09 22:12:56 <RoanKattouw>	Danwe_WMDE: No, it's executed when the document is ready
+août 09 22:13:02 <RoanKattouw>	Because that's what you asked it to do
+août 09 22:13:37 <Danwe_WMDE>	RoanKattouw: then I should use mw.using() within if I want it to be executed then or is there any shortcut?
+août 09 22:13:43 <RoanKattouw>	Yes
+août 09 22:14:34 <Danwe_WMDE>	actually, can mw.using() ever fire before $.ready() ?
+août 09 22:14:58 <gerrit-wm>	New review: Mwjames; "I'm not aware of any public site where this is being used (our site is an internal site). " [mediawiki/extensions/SemanticResultFormats] (master) C: 0;  - https://gerrit.wikimedia.org/r/17165
+août 09 22:15:48 *	Tanvir est parti (Ping timeout: 268 seconds)
+août 09 22:16:08 <gerrit-wm>	New patchset: Raimond Spekking; "Fix typo" [mediawiki/extensions/Wikibase] (master) - https://gerrit.wikimedia.org/r/18420
+août 09 22:16:09 <gerrit-wm>	New patchset: Parent5446; "Changed Status class to allow passing of Message objects." [mediawiki/core] (master) - https://gerrit.wikimedia.org/r/17962
+août 09 22:16:12 <gerrit-wm>	New patchset: SPQRobin; "Add a list of all ISO 639 languages to MediaWiki" [mediawiki/core] (master) - https://gerrit.wikimedia.org/r/11829
+août 09 22:16:13 <gerrit-wm>	New patchset: Parent5446; "Changed LoginForm::addNewaccountInternal() to return Status." [mediawiki/core] (master) - https://gerrit.wikimedia.org/r/17952
+août 09 22:16:16 <gerrit-wm>	New patchset: Parent5446; "Added account creation API." [mediawiki/core] (master) - https://gerrit.wikimedia.org/r/18127
+août 09 22:16:31 *	BigKing est parti (Remote host closed the connection)
+août 09 22:16:38 <gerrit-wm>	New patchset: SPQRobin; "Add a list of all ISO 639 languages to MediaWiki" [mediawiki/core] (master) - https://gerrit.wikimedia.org/r/11829
+août 09 22:16:49 <gerrit-wm>	New review: Adamw; "Nice.  Let's hold off on the merge until checking with K4 about the priority of this patch vs the la..." [mediawiki/extensions/DonationInterface] (master); V: 0 C: 1;  - https://gerrit.wikimedia.org/r/17895
+août 09 22:16:55 *	hectorh30 est parti (Ping timeout: 244 seconds)
+août 09 22:17:01 <gerrit-wm>	New patchset: Matmarex; "(bug 8618) support for summary preview in live preview" [mediawiki/core] (master) - https://gerrit.wikimedia.org/r/18261
+août 09 22:17:36 *	Juandev est parti (Quit: Vivat Vrba!)
+août 09 22:20:09 *	chrismcmahon est parti (Read error: Connection reset by peer)
+août 09 22:20:22 *	Jarry1250 est parti (Ping timeout: 276 seconds)
+août 09 22:20:31 <gerrit-wm>	Change merged: Aude; [mediawiki/extensions/Wikibase] (master) - https://gerrit.wikimedia.org/r/18420
+août 09 22:20:49 *	chrismcmahon (~chrismcma@wikimedia/Cmmcmahon) a rejoint #mediawiki
+août 09 22:21:15 <wikibugs>	(NEW) Parsoid: Use relative URLs in wiki links - https://bugzilla.wikimedia.org/39202 normal; Parsoid: JS/DOM; (gwicke)
+août 09 22:21:47 <wikibugs>	(ASSIGNED) Parsoid: Use relative URLs in wiki links - https://bugzilla.wikimedia.org/39202  (Gabriel Wicke)
+août 09 22:22:31 <gerrit-wm>	New patchset: Mwjames; "Fixed parameter names, add docu (no added functionality)" [mediawiki/extensions/SemanticResultFormats] (master) - https://gerrit.wikimedia.org/r/17151
+août 09 22:23:43 *	LikeLakers2-2 (~LikeLaker@173.171.64.254) a rejoint #mediawiki
+août 09 22:25:12 *	chrismcmahon est parti (Read error: Connection reset by peer)
+août 09 22:25:35 *	chrismcmahon (~chrismcma@wikimedia/Cmmcmahon) a rejoint #mediawiki
+août 09 22:26:47 *	chrismcmahon est parti (Read error: Connection reset by peer)
+août 09 22:26:50 <Dantman>	Danwe_WMDE: Sure... if the module was already loaded by some actual dependency
+août 09 22:26:51 *	LikeLakers2-2 est parti (Read error: Connection reset by peer)
+août 09 22:26:57 <Dantman>	presumably
+août 09 22:27:08 *	LikeLakers2-1 est parti (Ping timeout: 240 seconds)
+août 09 22:27:13 *	tfinc (~flyingcli@wikipedia/Tfinc) a rejoint #mediawiki
+août 09 22:27:14 *	LikeLakers2-2 (~LikeLaker@173.171.64.254) a rejoint #mediawiki
+août 09 22:27:37 *	LikeLakers2-2 est parti (Client Quit)
+août 09 22:28:56 <Danwe_WMDE>	Dantman: except if the loading of modules would just start after the document is ready.
+août 09 22:29:10 *	chrismcmahon (~chrismcma@wikimedia/Cmmcmahon) a rejoint #mediawiki
+août 09 22:29:11 *	Tanvir (~tanvir@wikimedia/wikitanvir) a rejoint #mediawiki
+août 09 22:30:47 *	hectorh30 (~hectorh30@200.49.162.41) a rejoint #mediawiki
+août 09 22:31:00 *	srikanthlogic (~logic@wikipedia/Logicwiki) a rejoint #mediawiki
+août 09 22:31:02 *	srikanthlogic est parti (Remote host closed the connection)
+août 09 22:31:20 <gerrit-wm>	New patchset: Catrope; "Preserve HTML attributes for textStyle/* annotations" [mediawiki/extensions/VisualEditor] (master) - https://gerrit.wikimedia.org/r/18421
+août 09 22:32:28 *	gwicke s'appelle maintenant gwicke_lunch
+août 09 22:32:32 *	todd_dsm (~todd_dsm@mail.ptest.us) a rejoint #mediawiki
+août 09 22:33:11 *	rmoen (~Adium@216.38.130.165) a rejoint #mediawiki
+août 09 22:33:13 *	rmoen est parti (Changing host)
+août 09 22:33:13 *	rmoen (~Adium@wikimedia/Robmoen) a rejoint #mediawiki
+août 09 22:33:30 *	rmoen est parti (Client Quit)
+août 09 22:34:02 *	rmoen (~Adium@wikimedia/Robmoen) a rejoint #mediawiki
+août 09 22:37:17 *	robla est parti (Ping timeout: 246 seconds)
+août 09 22:38:05 *	RoanKattouw s'appelle maintenant RoanKattouw_away
+août 09 22:38:57 <gerrit-wm>	New patchset: Subramanya Sastry; "Add back ISBN length checks" [mediawiki/extensions/Parsoid] (master) - https://gerrit.wikimedia.org/r/18422
+août 09 22:41:24 *	Saruman est parti (Quit: Bedtime now)
+août 09 22:43:47 <wikibugs>	(NEW) "remove article" link does not work - https://bugzilla.wikimedia.org/39203 normal; MediaWiki extensions: EducationProgram; (ragesoss)
+août 09 22:44:19 *	Raymond_ est parti (Ping timeout: 245 seconds)
+août 09 22:48:12 *	freakolowsky est parti (Quit: freakolowsky)
+août 09 22:49:36 <gerrit-wm>	New patchset: Alex Monk; "Use wfMessage instead of deprecated wfMsg*" [mediawiki/core] (master) - https://gerrit.wikimedia.org/r/16464
+août 09 22:49:50 *	p858snake|l est parti (Quit: User has quit this network.)
+août 09 22:50:49 <wikibugs>	(NEW) Special:MyCourses does not list courses where I am an instructor or ambassador - https://bugzilla.wikimedia.org/39204 normal; MediaWiki extensions: EducationProgram; (ragesoss)
+août 09 22:50:50 <gerrit-wm>	New review: Krinkle; "I don't know anything about EP." [mediawiki/extensions/EducationProgram] (master); V: 0 C: 1;  - https://gerrit.wikimedia.org/r/18272
+août 09 22:50:59 *	hectorh30 est parti (Ping timeout: 245 seconds)
+août 09 22:52:07 *	Frakir est parti ()
+août 09 22:53:24 <wikibugs>	(NEW) Special:OnlineAmbassadors gives internal error message - https://bugzilla.wikimedia.org/39205 normal; MediaWiki extensions: EducationProgram; (ragesoss)
+août 09 22:54:57 *	chrismcmahon est parti (Read error: Connection reset by peer)
+août 09 22:55:06 <wikibugs>	(mod) Special:OnlineAmbassadors gives internal error message - https://bugzilla.wikimedia.org/39205  +comment (Sage Ross)
+août 09 22:56:01 *	DarTar est parti (Quit: DarTar)
+août 09 22:56:23 <gerrit-wm>	New patchset: SPQRobin; "Language name fix" [mediawiki/extensions/WikimediaIncubator] (master) - https://gerrit.wikimedia.org/r/18425
+août 09 22:56:51 <gerrit-wm>	New patchset: Ori.livneh; "Update E3Experiments on wmf8" [mediawiki/core] (wmf/1.20wmf8) - https://gerrit.wikimedia.org/r/18426
+août 09 22:57:03 *	chrismcmahon (~chrismcma@wikimedia/Cmmcmahon) a rejoint #mediawiki
+août 09 22:57:43 *	DarTar (~DarTar@wikimedia/DarTar) a rejoint #mediawiki
+août 09 22:57:53 *	gwicke_lunch s'appelle maintenant gwicke
+août 09 22:59:18 <gerrit-wm>	Change merged: Ori.livneh; [mediawiki/core] (wmf/1.20wmf8) - https://gerrit.wikimedia.org/r/18426
+août 09 22:59:35 *	guillom s'appelle maintenant basile
+août 09 23:00:25 *	Amgine_ (~Amgine@wikinews/Amgine) a rejoint #mediawiki
+août 09 23:00:40 <wikibugs>	(NEW) Add portal namespace at sewiki - https://bugzilla.wikimedia.org/39206 normal; Wikimedia: Site configuration; (jeblad)
+août 09 23:01:00 <gerrit-wm>	Change merged: Siebrand; [mediawiki/extensions/UniversalLanguageSelector] (master) - https://gerrit.wikimedia.org/r/17905
+août 09 23:01:26 *	srikanthlogic (~logic@wikipedia/Logicwiki) a rejoint #mediawiki
+août 09 23:03:28 *	Tanvir est parti (Ping timeout: 240 seconds)
+août 09 23:03:33 *	RoanKattouw_away s'appelle maintenant RoanKattouw
+août 09 23:04:44 *	kevindanko (~kevindank@c-76-99-194-133.hsd1.de.comcast.net) a rejoint #mediawiki
+août 09 23:05:18 <gerrit-wm>	Change merged: Siebrand; [mediawiki/extensions/EducationProgram] (master) - https://gerrit.wikimedia.org/r/18246
+août 09 23:06:53 *	robla (~robla@wikimedia/robla) a rejoint #mediawiki
+août 09 23:07:24 <wikibugs>	(mod) Empty 'Possible problems' section - https://bugzilla.wikimedia.org/38773  (bsitu)
+août 09 23:07:27 <gerrit-wm>	New patchset: Ori.livneh; "Update E3Experiments to master on wmf8" [mediawiki/core] (wmf/1.20wmf8) - https://gerrit.wikimedia.org/r/18427
+août 09 23:07:56 <gerrit-wm>	Change merged: Ori.livneh; [mediawiki/core] (wmf/1.20wmf8) - https://gerrit.wikimedia.org/r/18427
+août 09 23:10:42 *	AaronSchulz est parti (Read error: Operation timed out)
+août 09 23:12:39 <gerrit-wm>	New patchset: GWicke; "Add back ISBN length checks, and clean up production in general" [mediawiki/extensions/Parsoid] (master) - https://gerrit.wikimedia.org/r/18422
+août 09 23:12:47 <gerrit-wm>	New patchset: AABoyles; "Updated for compatibility with 1.16.0 > 1.18.0." [mediawiki/extensions/BreadCrumbs] (master) - https://gerrit.wikimedia.org/r/18428
+août 09 23:13:01 <wikibugs>	(mod) New Pages Feed - History section links - https://bugzilla.wikimedia.org/38778  (bsitu)
+août 09 23:14:11 *	rmoen est parti (Quit: Leaving.)
+août 09 23:15:02 *	pill est parti (Ping timeout: 248 seconds)
+août 09 23:15:02 *	srikanthlogic est parti (Quit: srikanthlogic)
+août 09 23:15:30 <gerrit-wm>	Change merged: Subramanya Sastry; [mediawiki/extensions/Parsoid] (master) - https://gerrit.wikimedia.org/r/18422
+août 09 23:16:21 <gerrit-wm>	Change merged: Mdale; [mediawiki/extensions/UploadWizard] (master) - https://gerrit.wikimedia.org/r/16791
+août 09 23:17:35 *	Jasper_Deng s'appelle maintenant Jasper_Deng_away
+août 09 23:18:23 <wikibugs>	(NEW) EP: An error occurred while invoking the map callback - https://bugzilla.wikimedia.org/39207 normal; MediaWiki extensions: EducationProgram; (sam)
+août 09 23:19:44 *	DarTar_clone (~DarTar@216.38.130.167) a rejoint #mediawiki
+août 09 23:19:44 *	DarTar_clone est parti (Changing host)
+août 09 23:19:44 *	DarTar_clone (~DarTar@wikimedia/DarTar) a rejoint #mediawiki
+août 09 23:19:45 <ashley>	StevenW: re: http://www.mediawiki.org/w/index.php?title=Admin_tools_development%2FRoadmap&diff=570614&oldid=570564 , you might be interested in knowing that Phalanx (http://www.mediawiki.org/wiki/Extension:Phalanx) already supports blocking both registered users and IP addresses globally (but Phalanx is written for a bit different setup than what the WMF's is); tweaking it accordingly shouldn't be a huge issue, I hope...
+août 09 23:19:59 *	yuvipanda est parti (Quit: sleep at home + sleep at college)
+août 09 23:20:24 *	Bombo est parti (Ping timeout: 265 seconds)
+août 09 23:20:33 <StevenW>	Awesome. Feel free to rm my addition if the plan is to refactor Phalanx and get it deployed for WMF use. :)
+août 09 23:20:40 <ashley>	StevenW: I'm hoping to publish Phalanx's source code soon-ish and getting some folks in reviewing the code and maybe, just maybe we could roll it out on WMF sites one day...as biased as I am, I like it; it's a handy solution to many different problems, such as offensive page move summaries, spam content, etc.
+août 09 23:21:09 <wikibugs>	(mod) EP: An error occurred while invoking the map callback - https://bugzilla.wikimedia.org/39207  +comment (Roan Kattouw)
+août 09 23:21:52 *	Bombo (~bombo@dslb-084-060-211-063.pools.arcor-ip.net) a rejoint #mediawiki
+août 09 23:22:03 <ashley>	StevenW: the UI screenshot (http://www.mediawiki.org/wiki/File:Phalanx_MediaWiki_extension_UI.png) gives you a general idea of what the extension is like; since the big plan is to eventually refactor all current ad hoc implementations into one implementation that does not suck, I figured we could do it sooner than later since a lot of it has already been built
+août 09 23:22:48 *	DarTar est parti (Ping timeout: 240 seconds)
+août 09 23:22:48 *	DarTar_clone s'appelle maintenant DarTar
+août 09 23:24:45 *	ialex est parti (Quit: ialex)
+août 09 23:24:54 *	ty (~ty@wikia/vstf/TyA) a rejoint #mediawiki
+août 09 23:25:56 *	chrismcmahon est parti (Read error: Connection reset by peer)
+août 09 23:26:02 <gerrit-wm>	New patchset: Adamw; "(bug 36798) sort country names in the UI language" [mediawiki/extensions/cldr] (master) - https://gerrit.wikimedia.org/r/18415
+août 09 23:27:02 <gerrit-wm>	New review: Siebrand; "If its that hard to deploy, I'd even think there may be a fundamental flaw in the way it currently e..." [mediawiki/extensions/PageTriage] (master) - https://gerrit.wikimedia.org/r/18128
+août 09 23:27:05 <gerrit-wm>	New review: Adamw; "Yikes!  Thanks for noticing that, pgehres" [mediawiki/extensions/cldr] (master) C: 0;  - https://gerrit.wikimedia.org/r/18415
+août 09 23:27:15 *	henna est parti (Remote host closed the connection)
+août 09 23:27:17 *	chrismcmahon (~chrismcma@wikimedia/Cmmcmahon) a rejoint #mediawiki
+août 09 23:27:22 *	henna (~jeg@fuzzybeans.net) a rejoint #mediawiki
+août 09 23:28:02 *	phyrex1an est parti (Ping timeout: 246 seconds)
+août 09 23:28:47 <gerrit-wm>	New patchset: Trevor Parscal; "Added basic ve.dm.SurfaceFragment class" [mediawiki/extensions/VisualEditor] (master) - https://gerrit.wikimedia.org/r/17369
+août 09 23:29:13 *	dungodung s'appelle maintenant dungodung|away
+août 09 23:30:34 <wikibugs>	(mod) Make "Hide" Cookies notice independent - https://bugzilla.wikimedia.org/17108  +comment (Matt Walker)
+août 09 23:30:54 <gerrit-wm>	New review: Krinkle; "See also inline comments in the previous patch versions." [mediawiki/core] (master); V: 0 C: -1;  - https://gerrit.wikimedia.org/r/17519
+août 09 23:31:13 <gerrit-wm>	Change merged: Trevor Parscal; [mediawiki/extensions/VisualEditor] (master) - https://gerrit.wikimedia.org/r/18421
+août 09 23:31:20 <wikibugs>	(NEW) Marking something for deletion should automatically review it - https://bugzilla.wikimedia.org/39208 enhancement; MediaWiki extensions: PageTriage; (okeyes)
+août 09 23:31:23 <Danwe_WMDE>	just had a funny bug using jQuery.load() to load the content of another wiki page with parameter action=purge... The problem is, if the user is not logged in, I won't get the actual page but a page asking whether the page should really be purged. Any idea how to avoid this?
+août 09 23:33:18 <wikibugs>	(NEW) "patrolled" pages do not highlight the "reviewed" button in the curation toolbar - https://bugzilla.wikimedia.org/39209 normal; MediaWiki extensions: PageTriage; (okeyes)
+août 09 23:33:19 <gerrit-wm>	New patchset: Chughakshay16; "Util classes for the extension" [mediawiki/extensions/ConventionExtension] (master) - https://gerrit.wikimedia.org/r/14051
+août 09 23:33:25 <wikibugs>	(mod) "patrolled" pages do not highlight the "reviewed" button in the curation toolbar - https://bugzilla.wikimedia.org/39209  normal->enhancement (Oliver Keyes)
+août 09 23:33:29 <Krinkle>	Danwe_WMDE: Yes mw.user can fire before domready, and vica versa.
+août 09 23:33:50 <gerrit-wm>	New review: Siebrand; "Why abbreviate chararacter to char?" [mediawiki/extensions/PageTriage] (master) - https://gerrit.wikimedia.org/r/18269
+août 09 23:33:55 <Krinkle>	Danwe_WMDE: if you need both, start with mw.using
+août 09 23:33:57 <Krinkle>	e.g. mw.using callback > domready > callback
+août 09 23:33:57 <Krinkle>	not the other way around
+août 09 23:33:58 <Krinkle>	there is no point in waiting for the document to be ready to start downloading the module
+août 09 23:34:12 <gerrit-wm>	New patchset: Aude; "tweak wording for tags tooltip" [mediawiki/extensions/PageTriage] (master) - https://gerrit.wikimedia.org/r/18429
+août 09 23:34:16 <wikibugs>	(mod) Add portal namespace at sewiki - https://bugzilla.wikimedia.org/39206  (jeblad)
+août 09 23:35:05 *	rmoen (~Adium@wikimedia/Robmoen) a rejoint #mediawiki
+août 09 23:35:32 *	AaronSchulz (~chatzilla@216.38.130.168) a rejoint #mediawiki
+août 09 23:36:35 *	siebrand est parti (Quit: siebrand)
+août 09 23:36:46 <gerrit-wm>	New review: Chughakshay16; "Creating title objects with Title::newFromId() and fetching page titles with getDBKey() calls." [mediawiki/extensions/ConventionExtension] (master); V: 0 C: 0;  - https://gerrit.wikimedia.org/r/14051
+août 09 23:36:50 <wikibugs>	(NEW) more expressive edit summaries - https://bugzilla.wikimedia.org/39210 enhancement; MediaWiki extensions: PageTriage; (okeyes)
+août 09 23:37:17 *	chrismcmahon (~chrismcma@wikimedia/Cmmcmahon) a quitté #mediawiki
+août 09 23:37:39 *	siebrand (~siebrand@5353A6DC.cm-6-4c.dynamic.ziggo.nl) a rejoint #mediawiki
+août 09 23:38:40 *	tfinc est parti (Quit: Leaving...)
+août 09 23:39:20 *	chrismcmahon (~chrismcma@wikimedia/Cmmcmahon) a rejoint #mediawiki
+août 09 23:39:56 <wikibugs>	(NEW) close and minimise icons should not appear together - https://bugzilla.wikimedia.org/39211 enhancement; MediaWiki extensions: PageTriage; (okeyes)
+août 09 23:40:44 *	tfinc (~flyingcli@216.38.130.165) a rejoint #mediawiki
+août 09 23:40:45 *	tfinc est parti (Changing host)
+août 09 23:40:45 *	tfinc (~flyingcli@wikipedia/Tfinc) a rejoint #mediawiki
+août 09 23:41:12 <wikibugs>	(NEW) CentralNotice banner paging needs to be aware of banner filtering - https://bugzilla.wikimedia.org/39212 minor; MediaWiki extensions: CentralNotice; (mwalker)
+août 09 23:42:20 <wikibugs>	(mod) The fix of the "move" bug fixed it too well - https://bugzilla.wikimedia.org/36617  (bsitu)
+août 09 23:44:39 *	kevindanko est parti (Remote host closed the connection)
+août 09 23:44:58 <wikibugs>	(mod) Curation Toolbar Tag Wizard: Tag Index - https://bugzilla.wikimedia.org/38052  (bsitu)
+août 09 23:45:06 <gerrit-wm>	New patchset: Siebrand; "Use Message class where possible." [mediawiki/extensions/ConfirmAccount] (master) - https://gerrit.wikimedia.org/r/17702
+août 09 23:45:20 *	Zeph__5 (~Zeph@180.148.88.91.rev.sfr.net) a rejoint #mediawiki
+août 09 23:46:02 <gerrit-wm>	Change merged: Daniel Werner; [mediawiki/extensions/StickToThatLanguage] (master) - https://gerrit.wikimedia.org/r/17948
+août 09 23:46:41 <gerrit-wm>	New review: Siebrand; "Fixed in next ps. Thanks." [mediawiki/extensions/ConfirmAccount] (master) - https://gerrit.wikimedia.org/r/17702
+août 09 23:46:42 <wikibugs>	(NEW) Block interface after "Get users" check should allow talk page/send email blocking - https://bugzilla.wikimedia.org/39213 normal; MediaWiki extensions: CheckUser; (marcin.cieslak)
+août 09 23:47:01 *	James_F|Away (~Jdforrest@216.38.130.166) a rejoint #mediawiki
+août 09 23:47:01 *	James_F|Away est parti (Changing host)
+août 09 23:47:01 *	James_F|Away (~Jdforrest@wikimedia/JamesF) a rejoint #mediawiki
+août 09 23:47:26 <gerrit-wm>	New patchset: Trevor Parscal; "Make use of new jshint options" [mediawiki/extensions/VisualEditor] (master) - https://gerrit.wikimedia.org/r/17930
+août 09 23:48:02 *	awjr s'appelle maintenant awjr_postoffice
+août 09 23:48:20 *	Zeph_5 est parti (Ping timeout: 246 seconds)
+août 09 23:49:54 *	James_F|Busy est parti (Ping timeout: 246 seconds)
+août 09 23:50:32 <gerrit-wm>	New patchset: Trevor Parscal; "Add ve.dm.BreakNode to represent <br>" [mediawiki/extensions/VisualEditor] (master) - https://gerrit.wikimedia.org/r/18195
+août 09 23:50:42 <gerrit-wm>	Change merged: Trevor Parscal; [mediawiki/extensions/VisualEditor] (master) - https://gerrit.wikimedia.org/r/18195
+août 09 23:50:52 *	K4-713 (~khorn@wikimedia/katiehorn) a rejoint #mediawiki
+août 09 23:52:19 <wikibugs>	(mod) Copyedit the "showing" line - https://bugzilla.wikimedia.org/36621  (bsitu)
+août 09 23:53:30 <gerrit-wm>	New patchset: Trevor Parscal; "Removing redundant overrides for canHaveSlug* methods" [mediawiki/extensions/VisualEditor] (master) - https://gerrit.wikimedia.org/r/18430
+août 09 23:56:02 *	TrevorParscal (~tparscal@wikimedia/TrevorParscal) a rejoint #mediawiki
+août 09 23:58:54 *	gwicke est parti (Quit: Bye!)
+août 09 23:59:08 *	gwicke (~gabriel@wikimedia/gwicke) a rejoint #mediawiki
+août 09 23:59:38 <gerrit-wm>	New patchset: Daniel Werner; "Lots of clean-up. Extension works with new MW versions now." [mediawiki/extensions/SemanticExpressiveness] (master) - https://gerrit.wikimedia.org/r/18431
+août 09 23:59:55 *	Krinkle s'appelle maintenant SomebodyThatYouU
+août 10 00:00:12 <gerrit-wm>	Change merged: Daniel Werner; [mediawiki/extensions/SemanticExpressiveness] (master) - https://gerrit.wikimedia.org/r/18431
+août 10 00:00:32 *	Yaron est parti (Quit: Leaving.)
+août 10 00:01:50 *	SomebodyThatYouU s'appelle maintenant Krinkle|detached
+août 10 00:03:13 <wikibugs>	(mod) Mark as reviewed flyout text prompts - https://bugzilla.wikimedia.org/38938  (bsitu)
+août 10 00:03:13 *	Krinkle|detached s'appelle maintenant Krinkle
+août 10 00:05:02 *	Yaron (~Lee@cpe-68-175-122-145.nyc.res.rr.com) a rejoint #mediawiki
+août 10 00:05:11 *	multichill est parti (Ping timeout: 272 seconds)
+août 10 00:06:51 *	Hakisho est parti (Excess Flood)
+août 10 00:07:54 *	awjr_postoffice s'appelle maintenant awjr
+août 10 00:08:12 <gerrit-wm>	New patchset: Adamw; "FR #543 get rid of old opt-in fields" [mediawiki/extensions/DonationInterface] (master) - https://gerrit.wikimedia.org/r/18433
+août 10 00:08:20 *	Hakisho (~Hakisho@unaffiliated/hakisho) a rejoint #mediawiki
+août 10 00:12:20 Tcl interface unloaded
+août 10 00:12:23 Python interface unloaded
+**** FIN DU JOURNAL À Fri Aug 10 00:12:23 2012
+

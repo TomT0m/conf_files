@@ -1,0 +1,20 @@
+**** DÉBUT DU JOURNAL À Fri Sep 25 16:13:10 2009
+
+sep 25 16:13:10 *	Vous parlez maintenant sur #hal
+sep 25 16:13:10 *	Le sujet de #hal est : HAL is in maintenance mode - no new features, and don't expect any active development.  http://hal.freedesktop.org
+sep 25 16:13:10 *	Sujet de #hal défini par rworkman le Mon Aug 31 05:39:22 2009
+sep 25 16:13:17 *	Un CTCP VERSION de freenode-connect a été reçu
+sep 25 16:15:50 <TomT0m>	hi
+sep 25 16:17:25 <TomT0m>	if I type hal-find-by-capability --capability input.mouse I am supposed to find the hal device for my mouse ?
+sep 25 16:18:24 <TomT0m>	because the device I find when I type this is some strange "Macintosh mouse button emulation"
+sep 25 16:18:54 <TomT0m>	and the device "Optical wheel Mouse" or something like that is not listed at all$
+sep 25 16:19:20 <TomT0m>	I'm not on a Mac, the mouse is a Dell one
+sep 25 16:19:52 <TomT0m>	Could it explain that the mouse doesn't work in X ?
+sep 25 16:20:18 <TomT0m>	(I'm on a Debian unstable)
+sep 25 16:32:55 <TomT0m>	Ok, it is the model of the mouse, I tried with a different one and it worked well
+sep 25 16:36:48 *	jnettlet (n=jnettlet@216-19-186-197.dyn.novuscom.net) a rejoint #hal
+sep 25 17:35:10 *	veritos (n=veritos@swallow.ee.washington.edu) a rejoint #hal
+sep 25 17:35:24 *	veritos (n=veritos@swallow.ee.washington.edu) a quitté #hal ("Leaving")
+sep 25 18:05:05 *	hughsie s'appelle maintenant hughsie-afk
+**** FIN DU JOURNAL À Fri Sep 25 18:19:02 2009
+

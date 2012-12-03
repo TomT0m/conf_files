@@ -1,0 +1,126 @@
+**** DÉBUT DU JOURNAL À Thu Aug 21 18:47:14 2008
+
+aoû 21 18:47:14 *	Vous parlez maintenant sur #openmoko
+aoû 21 18:47:14 *	Le sujet de #openmoko est : Developers, please join #openmoko-cdevel | DO NOT USE buildhost.openmoko.org TO UPGRADE 2008.8 IT WILL NEVER EVER WORK |Freerunner is in stock in some resellers. |http://wiki.openmoko.org/wiki/Quickstart | Software status - NOT a stable or usable  phone yet. | See http://wiki.openmoko.org/wiki/GPS_Problems |Keyboard numbers for 2008.8 : slide finger up on the keyboard
+aoû 21 18:47:14 *	Sujet de #openmoko défini par SpeedEvil le Tue Aug 19 06:18:56 2008
+aoû 21 18:47:16 <TAsn>	hossi, how much will it cost me to get one to one of those places?
+aoû 21 18:47:57 <OMZ_Zepher>	Question: Is the following URL the correct uboot file for me to upload? ( http://buildhost.openmoko.org/daily/freerunner/200808/20080820/uboot-gta02v5-latest.bin )
+aoû 21 18:48:38 *	andlo (n=andlo@x1-6-00-16-d3-2f-5f-f2.k954.webspeed.dk) a rejoint #openmoko
+aoû 21 18:48:47 *	arzej (n=user@dgb173.neoplus.adsl.tpnet.pl) a rejoint #openmoko
+aoû 21 18:49:56 *	polz_ (n=polz@cpe-90-157-225-119.dynamic.amis.net) a rejoint #openmoko
+aoû 21 18:50:16 <bricode>	TAsn: I can guarantee that we have 900's in stock.
+aoû 21 18:51:01 <OMZ_Zepher>	Wewt, it booted
+aoû 21 18:51:32 <tunys>	bricode: I can guarantee that your company is my best friend right now and will be for a little bit.
+aoû 21 18:52:25 <tunys>	so you know those prepaid phones?
+aoû 21 18:52:28 <hossi>	tunys, if you buy it from the states (and you live there) it will be cheaper than from sweden
+aoû 21 18:52:45 *	hiciu (n=hiciu@host-91-200-27-218.leon.com.pl) a rejoint #openmoko
+aoû 21 18:52:50 <super>	what is the status on development on the 2007.2 and 2008.8?? I like gnome, but if its not being developed it would be a shame to use
+aoû 21 18:52:53 <TAsn>	bricode, so why does it take 2 weeks to ship?
+aoû 21 18:53:11 <TAsn>	bricode, well i guess i will order tomorrow then :)
+aoû 21 18:53:26 <OMZ_Zepher>	Memo to me: The powerbutton has a different function now
+aoû 21 18:53:36 <bricode>	TAsn: it's easier to say that instead of changing the website daily.
+aoû 21 18:53:51 <TAsn>	bricode, that is correct.
+aoû 21 18:53:54 <tunys>	hossi: Sweden? I'm buying from Koolu, isn't that Canada?
+aoû 21 18:54:00 <TAsn>	well i will get mine tomorrow :)
+aoû 21 18:54:08 <hossi>	tunys, yes ofcourse canada
+aoû 21 18:54:20 <tunys>	hossi: I don't think anyone in US is selling FreeRunners ATM
+aoû 21 18:54:32 <hossi>	haha
+aoû 21 18:54:36 <hossi>	suckers
+aoû 21 18:54:46 <tunys>	and my order has already been placed with my new best friend
+aoû 21 18:54:52 <bricode>	tunys: We ship worldwide. Koolu also has 850s in stock.
+aoû 21 18:54:56 <TAsn>	bricode, before i fill all of my details
+aoû 21 18:55:05 <TAsn>	how can i pay
+aoû 21 18:55:12 *	tunys gossips with Koolu
+aoû 21 18:55:17 <TAsn>	and do you ship to addresses other the the cc owner address?
+aoû 21 18:55:32 <hossi>	bricode, are you working Koolu?
+aoû 21 18:55:40 <hossi>	on
+aoû 21 18:55:41 *	tunys PSST... I heard the GP2XStore likes you!
+aoû 21 18:55:43 <TAsn>	Hobart, he is.
+aoû 21 18:55:50 <bricode>	TAsn: Paypal, or credit card (visa/mastercard) via Paypal (you don't need a paypal account).
+aoû 21 18:56:04 <TAsn>	bricode, you rock :)
+aoû 21 18:56:10 <bricode>	TAsn: We usually review the orders before they ship. If there's something odd, we'll follow up.
+aoû 21 18:56:17 <bricode>	hossi: Yes.
+aoû 21 18:56:24 <TAsn>	bricode, well remember me
+aoû 21 18:56:31 <TAsn>	a cc from israel shipping to the us :)
+aoû 21 18:56:54 <TAsn>	i gotta admit im pretty excited.
+aoû 21 18:57:10 <tunys>	i gotta excite im pretty admitted.
+aoû 21 18:57:20 *	OMZ_Zepher already got his and he is still excited
+aoû 21 18:57:33 *	tunys already excited his and he is still gotten
+aoû 21 18:57:54 <tunys>	I should make a mIRC script of this
+aoû 21 18:58:06 *	wolog (n=wolog@AOrleans-152-1-20-103.w90-21.abo.wanadoo.fr) a rejoint #openmoko
+aoû 21 18:58:12 <tunys>	er, minus the m, because I don't use mIRC
+aoû 21 18:58:27 <hossi>	bricode, on your page you say that Koolu distribute to europe but you have your stock i canada?
+aoû 21 18:58:40 <TAsn>	bricode, btw, should i register with my cc owner address or shipping address?
+aoû 21 18:59:03 <tunys>	bricode,  you're so cool, can I have you autograph?
+aoû 21 18:59:05 <bricode>	hossi: Right now, yes. We're ramping up distribution centers in Europe, the US and investigating it elsewhere.
+aoû 21 18:59:09 <TAsn>	tunys, i guess you use pidgin on moko ;)
+aoû 21 18:59:33 <tunys>	wtf?
+aoû 21 18:59:36 <bricode>	TAsn: Whatever works for you. Probably your more regular address.
+aoû 21 18:59:44 <tunys>	Why did it say "Banana Hammock?"
+aoû 21 19:00:11 <tunys>	I... probably shouldn't have brought that into the channel
+aoû 21 19:00:24 <bricode>	tunys: I'm not famous enough for my signature to be worth anything.
+aoû 21 19:00:31 <TAsn>	bricode, my real question is, will it let me ship to an address other than the one im registered with?
+aoû 21 19:00:36 <bricode>	Yes.
+aoû 21 19:00:38 <tunys>	apparently that's what it returns when somebody CTCP VERSION's me
+aoû 21 19:00:46 <TAsn>	cool enough.
+aoû 21 19:01:14 <tunys>	I'm really using XChat, but this weird script I installed likes to take everything over
+aoû 21 19:01:35 <tunys>	Peter: Guns don't kill people, dangerous minorities do.
+aoû 21 19:01:42 <tunys>	whoops
+aoû 21 19:01:49 <TAsn>	tunys, don't lie to us. you just like bananas
+aoû 21 19:01:53 <mmontour>	bricode: any chance of koolu re-selling debug boards and spares packs in the near future?
+aoû 21 19:01:55 <tunys>	sorry, wrong menu, clicked on wrong item
+aoû 21 19:02:06 <cga>	hi folks
+aoû 21 19:02:10 <bricode>	mmontour: Working on it.
+aoû 21 19:02:16 <tunys>	 UberScript: CTCP Version request by TAsn - sending 'Banana Hammock IRC V.1.0
+aoû 21 19:02:16 <tunys>	'
+aoû 21 19:02:19 <mmaestri>	anyone using navit with libgarmin support?
+aoû 21 19:02:29 <cga>	hey mmontour Infoport Zorkman 
+aoû 21 19:02:54 <mmontour>	ok, glad to hear it. 
+aoû 21 19:06:03 <TAsn>	bricode, you rock. :)
+aoû 21 19:06:11 <TAsn>	cya all, and thanks.
+aoû 21 19:06:51 <tunys>	bricode: do you know if the SIM cards in those prepaid phones from AT&T work?
+aoû 21 19:07:15 <bricode>	tunys: Not sure. Best place to look would be the wiki.
+aoû 21 19:07:17 <asciiforever>	tunys: works for me
+aoû 21 19:07:26 <tunys>	asciiforever: kthx!
+aoû 21 19:08:02 <asciiforever>	i got the phone in question 3 years ago though
+aoû 21 19:08:14 *	russellb (n=russellb@asterisk/developer-and-stable-maintainer/drumkilla) a quitté #openmoko
+aoû 21 19:08:31 <asciiforever>	when it was cingular
+aoû 21 19:08:42 *	morricone est parti (Remote closed the connection)
+aoû 21 19:09:16 *	behdad est parti ("Leaving.")
+aoû 21 19:09:21 *	zlfita (i=atilla@turtle.stack.nl) a rejoint #openmoko
+aoû 21 19:09:32 <tunys>	cool
+aoû 21 19:09:45 *	write_erase est parti (Read error: 113 (No route to host))
+aoû 21 19:09:56 <tunys>	I"m going to go do some things now
+aoû 21 19:09:56 <tunys>	bai
+aoû 21 19:10:39 *	zlfita_ est parti (Read error: 110 (Connection timed out))
+aoû 21 19:10:56 *	bricode est parti ()
+aoû 21 19:10:56 *	cekay (n=cekay@xdsl-213-196-220-186.netcologne.de) a rejoint #openmoko
+aoû 21 19:11:10 *	Weiss est parti (Read error: 101 (Network is unreachable))
+aoû 21 19:12:30 <Tanuva>	the red aux led indicates kernel panic, doesn't it?
+aoû 21 19:13:36 <bumbl>	Tanuva: normally it indicates: charging
+aoû 21 19:13:46 <Tanuva>	hmm
+aoû 21 19:13:57 <mmontour>	is it flashing?
+aoû 21 19:14:43 <Tanuva>	8.8 crashed
+aoû 21 19:15:47 *	Weiss (i=taw27@pip.srcf.societies.cam.ac.uk) a rejoint #openmoko
+aoû 21 19:17:18 *	rjack (n=ritucci@adsl-ull-149-47.51-151.net24.it) a rejoint #openmoko
+aoû 21 19:17:19 *	Tanuva misses the matte grey surface under the shiny invisibleshield..
+aoû 21 19:17:44 *	Shlee est parti (Read error: 110 (Connection timed out))
+aoû 21 19:18:15 <CIA-47>	openmoko: zecke rsync-version * r7207f5d1f11f / (1368 files in 46 dirs): Rsync snapshot as of 2008-08-21
+aoû 21 19:19:20 <Tanuva>	and now it hangs with a black screen after booting :/
+aoû 21 19:19:38 <OMZ_Zepher>	Is there a GUI for configuring WIFI in om2008?
+aoû 21 19:19:39 *	tHc|Deubeuliou (n=david@AFontenayssB-151-1-28-19.w83-114.abo.wanadoo.fr) a rejoint #openmoko
+aoû 21 19:22:46 *	unlotto est parti (Remote closed the connection)
+aoû 21 19:22:57 *	arzej est parti ("Leaving.")
+aoû 21 19:23:15 *	unlotto (n=unlotto@ip114.rev112.brygge.net) a rejoint #openmoko
+aoû 21 19:24:07 *	OMZ_Zepher found wiki
+aoû 21 19:27:14 *	zlfita est parti (Read error: 110 (Connection timed out))
+aoû 21 19:30:45 *	tuXXX (n=damien@59.230.101-84.rev.gaoland.net) a rejoint #openmoko
+aoû 21 19:31:40 *	cheesy est parti ("ChatZilla 0.9.83 [Firefox 3.0.1/2008070206]")
+aoû 21 19:32:41 *	Yasumoto (n=Yasumoto@unaffiliated/yasumoto) a rejoint #openmoko
+aoû 21 19:32:45 *	deubeuliou est parti ("KABOOM")
+aoû 21 19:33:22 *	icman est parti ("leaving")
+aoû 21 19:33:40 *	andras (n=p2p@HSI-KBW-078-042-179-140.hsi3.kabel-badenwuerttemberg.de) a rejoint #openmoko
+aoû 21 19:33:43 *	MichaelShiloh est parti (Read error: 110 (Connection timed out))
+aoû 21 19:33:54 *	tauop est parti ("Lost terminal")
+aoû 21 19:35:01 <andras>	hey there, I'm having trouble accessing the GSM functions through frameworkd, I need help...
+aoû 21 19:36:08 *	Kev_ est parti ()

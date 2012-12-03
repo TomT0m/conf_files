@@ -1,0 +1,52 @@
+**** DÉBUT DU JOURNAL À Thu Aug 21 18:47:59 2008
+
+aoû 21 18:47:59 *	Vous parlez maintenant sur #openmoko-fr
+aoû 21 18:47:59 *	Le sujet de #openmoko-fr est : ---French channel for openmoko--- Soignez votre orthographe et grammaire, évitez d'écrire en sms --- Bonjour et bienvenue sur #openmoko-fr. Ceci est un canal francophone non officiel de discussion sur openmoko, les neo1973 et neo freerunner
+aoû 21 18:47:59 *	Sujet de #openmoko-fr défini par piti le Tue Jul  8 12:32:34 2008
+aoû 21 18:48:22 <PaiPai62`>	tien, quand on parle de MAP
+aoû 21 18:49:41 <TomT0m>	salut les enfants, il y a quelqu'un qui a une expérience en carte SIM orangge ?
+aoû 21 18:50:11 <TomT0m>	la mienne a l'air complètement grillée :/
+aoû 21 18:50:42 <PaiPai62`>	Quelle ages ta sim
+aoû 21 18:50:58 <TomT0m>	très jeune
+aoû 21 18:51:22 <PaiPai62`>	genre -1moi
+aoû 21 18:51:28 <TomT0m>	c'set une 3G, pas de celle listée suer le wiki commme marchant pas, mais pas de beaucoup
+aoû 21 18:51:39 <TomT0m>	nope, genre -6 mois
+aoû 21 18:52:13 <Gabriel>	hmmm la carte SD se met à l'endroit ou on met la carte SIM non ?
+aoû 21 18:52:33 <PaiPai62`>	sous
+aoû 21 18:52:37 <TomT0m>	je vais aller la faire changer, mais si je demande une carte SIM compatible poenmoko ils vont me regarder avec des yeux ronds :/
+aoû 21 18:52:41 <PaiPai62`>	Gabriel: cherche
+aoû 21 18:53:00 <PaiPai62`>	oui
+aoû 21 18:53:01 <TomT0m>	Gabriel, il y a des dessins sur le wiki openmoko
+aoû 21 18:53:17 <PaiPai62`>	[18:30]	<PaiPai62`>	http://fr.wikipedia.org/wiki/Subscriber_Identity_Module
+aoû 21 18:53:19 <PaiPai62`>	[18:31]	<PaiPai62`>	http://fr.wikipedia.org/wiki/Universal_Subscriber_Identity_Module
+aoû 21 18:53:21 <PaiPai62`>	[18:31]	<PaiPai62`>	La USIM se distingue de la SIM par sa tension d'alimentation : 1,8V contre 3V pour la SIM.
+aoû 21 18:53:30 <PaiPai62`>	et si tu demande un 3V...
+aoû 21 18:53:54 <PaiPai62`>	je crois que le résulta sera le même :p
+aoû 21 18:55:14 <TomT0m>	dac
+aoû 21 18:55:26 <PaiPai62`>	tu doit demande un SIM
+aoû 21 18:55:30 <TomT0m>	cela dit ça explique pas pouquoi elle a grillé une sous alimentation
+aoû 21 18:55:31 <PaiPai62`>	et pas une USIM ^^
+aoû 21 18:55:48 <PaiPai62`>	sur
+aoû 21 18:55:52 <PaiPai62`>	1.8
+aoû 21 18:56:01 <PaiPai62`>	mais normalement ça la grille pas :s
+aoû 21 18:56:26 <TomT0m>	ils en ont encore ou ils vont me dire de changer de téléphone ?
+aoû 21 18:56:28 *	PaiPai62` décolle a tout
+aoû 21 18:57:00 <PaiPai62`>	il doive encore en avoir, mais il te dirons de changer de tel :p
+aoû 21 18:57:14 <PaiPai62`>	c'est COMMERCIALE
+aoû 21 18:57:32 <PaiPai62`>	++
+aoû 21 18:57:35 *	PaiPai62` est parti ("ChatZilla 0.9.83 [Firefox 3.0.1/2008072820]")
+aoû 21 18:57:37 <TomT0m>	ouais, m'en doutes un peu, mais j'achèterai pas un Iphoine :)
+aoû 21 19:00:32 <Gabriel>	un iquoi ?
+aoû 21 19:00:38 <Gabriel>	:p
+aoû 21 19:04:55 <Gabriel>	MDR
+aoû 21 19:05:04 <Gabriel>	Sim pin :
+aoû 21 19:05:12 <Gabriel>	et j'ai un clavier avec que des lettres xD
+aoû 21 19:08:02 <TomT0m>	héhé
+aoû 21 19:08:07 <TomT0m>	c'est dans le topic
+aoû 21 19:08:18 <TomT0m>	fait un drag 'n drop dans le vide vers le bas
+aoû 21 19:08:19 <Gabriel>	ouep je lis justement
+aoû 21 19:10:16 *	damunix (n=damunix@ARennes-257-1-176-30.w86-214.abo.wanadoo.fr) a quitté #openmoko-fr
+aoû 21 19:18:56 <Gabriel>	bon il me trouve pas le réseau GSM mais il reconnait mon code SIM ...etc
+aoû 21 19:24:24 <Gabriel>	tiens bug bizarre, je peux recevoir un appelle téléphonique par contre quand je veux appeller il me dit qu'il trouve pas de reseau GSM
+aoû 21 19:24:34 <Gabriel>	seulement il doit bien exister si je recois un appel non ?
+aoû 21 19:33:54 *	tauop est parti ("Lost terminal")

@@ -1,0 +1,107 @@
+**** DÉBUT DU JOURNAL À Sat Sep  1 16:08:46 2007
+
+sep 01 16:08:46 *	Vous parlez maintenant sur #kopete
+sep 01 16:08:46 *	Le sujet de #kopete est : The place to talk about Kopete usage and development || Non-exhaustive roadmap for Kopete http://techbase.kde.org/Projects/Kopete/Roadmap
+sep 01 16:08:46 *	Sujet de #kopete défini par Bille_kopete le Wed Jul 25 11:59:17 2007
+sep 01 16:08:47 -ChanServ-	[#kopete] Welcome to #kopete! Make sure to read the FAQ at http://kopete.kde.org before asking questions
+sep 01 16:09:48 *	Gniarf (i=gniarf@gniarf.net1.nerim.net) a rejoint #kopete
+sep 01 16:09:55 *	Gniarf (i=gniarf@gniarf.net1.nerim.net) a quitté #kopete
+sep 01 16:32:52 *	robo_nefertum s'appelle maintenant nefertum
+sep 01 16:43:27 *	mattr (n=matt@adsl-70-136-110-107.dsl.rcsntx.sbcglobal.net) a rejoint #kopete
+sep 01 16:43:37 *	hermier est parti (Read error: 110 (Connection timed out))
+sep 01 16:43:56 *	mattr s'appelle maintenant mattr|kde4
+sep 01 16:44:19 *	hermier (n=hermier@frugalware/developer/hermier) a rejoint #kopete
+sep 01 16:44:24 *	dwmurphy est parti (Read error: 113 (No route to host))
+sep 01 16:45:12 *	ereslibre_laptop (n=ereslibr@196.Red-88-14-38.dynamicIP.rima-tde.net) a rejoint #kopete
+sep 01 16:47:11 *	Bille_home est parti (Remote closed the connection)
+sep 01 16:48:06 *	dwmurphy (n=konversa@cpe-76-188-20-61.neo.res.rr.com) a rejoint #kopete
+sep 01 16:55:30 *	mirshafie_ s'appelle maintenant mirshafie
+sep 01 16:59:59 *	uwolfer est parti (Remote closed the connection)
+sep 01 17:56:11 *	smacnay1 (n=smacnay@bas3-kitchener06-1096648713.dsl.bell.ca) a quitté #kopete ("Kopete 0.12.5 : http://kopete.kde.org")
+sep 01 18:02:04 *	mattr|kde4 est parti (Remote closed the connection)
+sep 01 18:04:33 <CIA-6>	ereslibre * r707351 kopete/trunk/KDE/kdenetwork/kopete/libkopete/ui/ (kopetestdaction.cpp kopetestdaction.h): 
+sep 01 18:04:33 <CIA-6>	Remove static declarations and initialization. Use
+sep 01 18:04:33 <CIA-6>	K_GLOBAL_STATIC_WITH_ARGS from kdelibs
+sep 01 18:09:36 *	Kite_DH (n=Kite_DH@p57B3774A.dip.t-dialin.net) a rejoint #kopete
+sep 01 18:24:50 *	ereslibre_laptop est parti (Remote closed the connection)
+sep 01 19:00:49 *	gaboo est parti (Remote closed the connection)
+sep 01 19:04:06 *	mirshafie est parti (Read error: 104 (Connection reset by peer))
+sep 01 19:04:56 *	mirshafie (n=mirshafi@84-217-160-193.tn.glocalnet.net) a rejoint #kopete
+sep 01 19:13:52 *	rorachan (n=rorachan@75-93-94-140.chc.clearwire-dns.net) a rejoint #kopete
+sep 01 19:14:08 <rorachan>	Could someone tell me where Kopete saves files sent to you from contacts?
+sep 01 19:19:35 <CIA-6>	pino * r707377 kopete/trunk/KDE/kdenetwork/kopete/libkopete/ui/kopetestdaction.cpp: extra ';'
+sep 01 19:20:44 <rorachan>	Nevermind, found it.
+sep 01 19:20:50 *	rorachan (n=rorachan@75-93-94-140.chc.clearwire-dns.net) a quitté #kopete ("Konversation terminated!")
+sep 01 19:42:25 *	gandy est parti (Read error: 104 (Connection reset by peer))
+sep 01 19:44:12 *	Baldrun (n=Baldrun@p5490BDEB.dip.t-dialin.net) a rejoint #kopete
+sep 01 19:47:08 *	pirata_ est parti (Read error: 104 (Connection reset by peer))
+sep 01 19:49:44 *	spaze (n=konversa@80-126-3-229.adsl.xs4all.nl) a rejoint #kopete
+sep 01 20:04:14 *	pirata_ (n=pirata@200.106.105.124) a rejoint #kopete
+sep 01 20:06:50 *	thiago_ (n=thiago@89.10.24.222) a rejoint #kopete
+sep 01 20:06:57 *	thiago_ s'appelle maintenant thiago2
+sep 01 20:09:19 *	thiago2 s'appelle maintenant thiago_home
+sep 01 20:15:06 *	AmyRose_laptop (n=djb@unaffiliated/amyrose) a rejoint #kopete
+sep 01 20:16:11 *	AmyRose est parti (Nick collision from services.)
+sep 01 20:16:20 *	AmyRose_laptop s'appelle maintenant AmyRose
+sep 01 20:20:41 *	gandy (n=gandy@d54C2F3EB.access.telenet.be) a rejoint #kopete
+sep 01 20:24:54 <s_20>	any effects the delayed kde will have on kopete, feature wise?
+sep 01 20:26:42 <benJIman>	s_20: I don't think kopete is going to ship with KDE 4.0
+sep 01 20:27:21 <s_20>	oh well.. is it now?
+sep 01 20:30:18 <Baldrun>	lo all
+sep 01 20:30:45 <Baldrun>	does universal kopete still work for the last stable kopete version? http://kde-apps.org/content/show.php/Universal+Kopete?content=10327
+sep 01 20:31:56 <gandy>	Baldrun: you should ask its developer, i do not think that anyone here uses it
+sep 01 20:32:10 <Baldrun>	k..I will write him a mail
+sep 01 20:33:11 <gandy>	and/or you could ask the same question in the kde-apps.org comment section
+sep 01 20:37:52 <Baldrun>	I shud register there
+sep 01 20:38:50 *	boiko (n=boiko@200-181-159-108.ctame706.dsl.brasiltelecom.net.br) a rejoint #kopete
+sep 01 20:53:47 *	Baldrun est parti ("...")
+sep 01 20:55:28 *	coekie est parti (kornbluth.freenode.net irc.freenode.net)
+sep 01 20:55:53 *	coekie (i=coekie@irssi/staff/coekie) a rejoint #kopete
+sep 01 21:28:15 *	noriX est parti (Nick collision from services.)
+sep 01 21:28:44 *	noriX (i=steganos@csbnc0001.250.clanserver4u.de) a rejoint #kopete
+sep 01 21:28:53 *	noriX est parti (Nick collision from services.)
+sep 01 21:29:13 *	noriX (i=steganos@csbnc0001.250.clanserver4u.de) a rejoint #kopete
+sep 01 21:29:45 *	noriX est parti (Nick collision from services.)
+sep 01 21:30:15 *	_noriX (i=steganos@csbnc0001.250.clanserver4u.de) a rejoint #kopete
+sep 01 21:42:12 *	brun0_ est parti (Remote closed the connection)
+sep 01 21:47:01 *	Fri13 (n=paristo@bb-62-165-186-90.dsl.phnet.fi) a rejoint #kopete
+sep 01 22:00:53 *	Fri13 est parti (Remote closed the connection)
+sep 01 22:01:41 *	Fri13 (n=paristo@bb-62-165-186-90.dsl.phnet.fi) a rejoint #kopete
+sep 01 22:42:06 *	uwolfer (n=uwolfer@kde/developer/uwolfer) a rejoint #kopete
+sep 01 22:48:56 *	Kite_DH est parti (Read error: 104 (Connection reset by peer))
+sep 01 22:49:07 *	evilsporkman (i=[U2FsdGV@dc3nep74.dc.umich.edu) a rejoint #kopete
+sep 01 22:50:43 *	evilsporkman (i=[U2FsdGV@dc3nep74.dc.umich.edu) a quitté #kopete
+sep 01 23:13:37 *	ereslibre (n=geo@84.76.208.119) a rejoint #kopete
+sep 01 23:20:13 *	tuubaaku (n=benjie@66.185.75.177) a rejoint #kopete
+sep 01 23:50:57 *	brun0_ (n=brun0_@che78-2-82-227-240-106.fbx.proxad.net) a rejoint #kopete
+sep 01 23:52:35 *	gvincke (n=gvincke@69.209-243-81.adsl-dyn.isp.belgacom.be) a rejoint #kopete
+sep 01 23:58:29 *	VFoX (n=v-fox@89.20.105.126) a rejoint #kopete
+sep 02 00:27:44 *	Catfish_Man (n=david@c-67-189-28-219.hsd1.or.comcast.net) a rejoint #kopete
+sep 02 00:31:18 *	uwolfer est parti (Remote closed the connection)
+sep 02 00:31:31 <CIA-6>	reitelbach * r707458 messages/trunk/l10n-kde4/de/messages/ (4 files in 2 dirs): 
+sep 02 00:31:31 <CIA-6>	translation updates by Martin Ereth
+sep 02 00:31:31 <CIA-6>	CCMAIL:martin.ereth@arcor.de
+sep 02 00:41:59 *	trumee (n=trumee@cpc3-seve11-0-0-cust396.popl.cable.ntl.com) a rejoint #kopete
+sep 02 00:43:07 *	tro|| (i=trotek@k.thnx.org) a rejoint #kopete
+sep 02 00:53:08 *	spaze est parti (Remote closed the connection)
+sep 02 00:55:36 *	boiko est parti (Remote closed the connection)
+sep 02 00:58:49 *	cbr est parti (Remote closed the connection)
+sep 02 00:59:48 *	tro est parti (Connection timed out)
+sep 02 00:59:49 *	tro|| s'appelle maintenant tro
+sep 02 01:04:48 *	AmyRose est parti ("Leaving.")
+sep 02 01:05:07 *	gvincke est parti (Remote closed the connection)
+sep 02 01:08:23 *	keith__ (n=keith@74.193.146.198) a rejoint #kopete
+sep 02 01:09:11 <keith__>	I was reading the Ubuntu forums on the thread about MySpace IM, and how the GAIM devs shuned the idea when suggested, but how willing is Kopete to try and get Myspace IM to work with it?  Just a simple question, not an official request.
+sep 02 01:09:24 *	AmyRose (n=djb@unaffiliated/amyrose) a rejoint #kopete
+sep 02 01:16:38 <benJIman>	keith__: I doubt it would be rejected if someone contributed it.
+sep 02 01:20:20 <keith__>	I submitted it as a wish, I'd try, but I haven't got a clue about programming
+sep 02 01:20:37 <gandy>	...and keeps maintaining it
+sep 02 01:21:03 *	keith__ s'appelle maintenant Myr
+sep 02 01:34:59 *	Myr est parti (Read error: 104 (Connection reset by peer))
+sep 02 01:46:08 *	AmyRose est parti (Remote closed the connection)
+sep 02 01:53:52 *	AmyRose (n=djb@unaffiliated/amyrose) a rejoint #kopete
+sep 02 01:54:44 *	gandy est parti (Remote closed the connection)
+sep 02 02:02:48 *	brun0_ est parti (Remote closed the connection)
+sep 02 02:16:22 *	d3ce1t (n=jose@144.Red-88-2-126.staticIP.rima-tde.net) a rejoint #kopete
+sep 02 02:18:08 *	d3ce1t s'appelle maintenant ^SaRgE^
+sep 02 02:46:07 *	johnyb est parti ("Konversation terminated!")
