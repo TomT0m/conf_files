@@ -16,6 +16,8 @@ setlocal autoindent
 setlocal indentexpr=GetPythonIndent(v:lnum)
 setlocal indentkeys=!^F,o,O,<:>,0),0],0},=elif,=except
 
+set noexpandtab
+
 let s:maxoff = 50
 
 " Find backwards the closest open parenthesis/bracket/brace.
