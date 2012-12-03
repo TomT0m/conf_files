@@ -13,13 +13,13 @@ list="$(for fichier in $@ ; do
 	if [ -d "$HOME/$fichier" ] ; then
 		pushd . &>/dev/null
 		cd "$HOME"
-		find "$fichier" -print0
+		find "$fichier" #-print0
 		popd &>/dev/null
 	elif [ -e "$HOME/$fichier" ] ; then
 		echo "$fichier"
 	fi
 done)"
-echo $list | for_all_input_files backup
+echo "$list" | for_all_input_files backup
 
 
 
