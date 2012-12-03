@@ -1,5 +1,0 @@
-T 1221426926 19*	19Vous parlez maintenant sur #debian-facile
-T 1221426926 29*	29Le sujet de #debian-facile 29est : Bienvenue sur Debian-Facile, chan d'entraide sur la distribution Debian  http://debian-facile.org/ , la documentation se trouve sur :http://debian-facile.org/wiki/doku.php | Posez votre question sans problème ici, évitez juste la pollution, utilisez : http://deb-facile.pastebin.ca/ , Accès au Wiki : même Login/pass que le forum
-T 1221426926 29*	29Sujet de #debian-facile 29défini par MaTTuX_CoDe 29le Sun Jul  6 12:59:01 2008
-T 1221426980 19*	19le-bemawi (n=bemawi@lns-bzn-49f-81-56-185-95.adsl.proxad.net) a rejoint #debian-facile
-T 1221427261 23*	23MiNi-ChiEuZ est parti (23""Obtenir ton Acces IRC" sans aller sur Orange avec Rastafarai c'est possible ( Salon Rastafar"23)
