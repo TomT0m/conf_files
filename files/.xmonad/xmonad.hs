@@ -28,7 +28,7 @@ myKeys conf@(XConfig {modMask = modm}) = M.fromList $
      ((mod1Mask .|. shiftMask, xK_Tab), windows W.focusUp),
      ((mod4Mask, xK_i), sendMessage NextLayout)] ++
     [((m .|. modm, k), windows $ f i)
-        | (i, k) <- zip (workspaces conf) numBepo,
+        | (i, k) <- zip (workspaces conf) numAzerty,
           (f, m) <- [(W.greedyView, 0), (W.shift, shiftMask)]]
 
 numBepo = [0x22,0xab,0xbb,0x28,0x29,0x40,0x2b,0x2d,0x2f,0x2a]
