@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=G\u00e9n\u00e9rer un svg \u00e0 partir du dot
+NoDisplay=false
+Name=dot2svg
+Exec=
+X-Zim-ShowInToolBar=true
+Version=1.0
+X-Zim-ReadOnly=true
+X-Zim-ExecTool=/home/tom/bin/dot2svg.sh %d %t
+Type=X-Zim-CustomTool
+Icon=
+X-Zim-ShowInContextMenu=Page
+
