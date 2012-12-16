@@ -9,7 +9,7 @@ import qualified XMonad.StackSet as W
 
 main = xmonad desktopConfig {
     modMask = mod4Mask,
-    terminal = "xterm",
+    terminal = "urxvt",
     keys = \c -> myKeys c `M.union` keys desktopConfig c,
     startupHook = startupHook desktopConfig >> setWMName "LG3D",
     logHook = logHook desktopConfig >> fadeInactiveLogHook 0xcccccccc,
@@ -35,7 +35,9 @@ numBepo = [0x22,0xab,0xbb,0x28,0x29,0x40,0x2b,0x2d,0x2f,0x2a]
 numAzerty = [0x26,0xe9,0x22,0x27,0x28,0x2d,0xe8,0x5f,0xe7,0xe0]
 
 myManageHook = composeAll [className =? c --> doShift w | (w, cs) <- wcs, c <- cs]
-    where wcs = [("2", ["Midori", "Firefox"]),
+    where wcs = [
+		 ("1", ["Vlc"]),
+		 ("2", ["Midori", "Firefox"]),
                  ("3", ["Gajim.py"]),
                  ("4", ["Claws-mail"]),
                  ("5", ["Gmpc"])]
