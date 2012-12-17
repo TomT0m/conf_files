@@ -1,0 +1,226 @@
+#! /usr/bin/python
+#encoding: utf-8
+
+"""
+# Description : change une chaine Vlc sur le PC principal. 
+# Paramètres: le nom de la chaine.
+Command:
+
+* parses a m3u playlist,
+* extracts corresponding matchs of
+"""
+
+# URL = "http://212.27.40.238/pub/playlist.m3u"
+URL = "http://mafreebox.freebox.fr/freeboxtv/playlist.m3u"
+
+COMMANDE = "play_on_pc"
+
+import urllib2
+
+import re
+import StringIO
+
+# chaines = []
+class ParseError(Exception):
+	""" Parsing error """
+	def __init__(self, descr):
+		Exception.__init__(self, descr)
+
+def parse_extinf(line):
+	""" Extracts id and name from description line
+	"""
+	print line
+	preamble = "#EXTINF:"
+	prop = "(\d+),(\d+)"
+	nom = "(\w|[ -\(\)])+"
+
+	regex = "^{}{}{}$".format(preamble, prop, nom)
+	regex = "^{}{} - ({})".format(preamble, prop, nom)
+	extracted = re.search(regex, line, re.UNICODE) 
+	if extracted:
+		return (int(extracted.group(2)), extracted.group(3))
+	else:
+		raise ParseError("Error parsing\n{}".format(line))
+
+	# return (id_chaine, nom chaine)
+
+class Chaine(object):
+	""" Chaine : urls, name of different versions of a chaine."""
+	def __init__(self, id_chaine):
+		self.id_chaine = id_chaine
+		self.urls = {}
+		self.nom = None
+	
+	def choisis_nom(self, nom):
+		""" internal method : choose main name
+			choose shortest name of different names
+		"""
+		if not self.nom:
+			self.nom = nom
+		else:
+			if len(nom) < len(self.nom):
+				self.nom = nom
+
+	def add_url(self, url, nom):
+		""" Adds a url & corresponding name to channels alternatives
+		"""
+		self.urls[nom] = url
+		self.choisis_nom(nom)
+	def match_name(self, sub):
+		""" returns true if the name matches a pattern """
+		return sub in self.nom
+
+def parse_m3uplaylist(playlist):
+	""" returns a dictionary of "Chaines" objects
+	indexed by their ids. """
+	id_chaine = None
+	nom_chaine = None
+	(id_chaine, nom_chaine) = (None, None)
+	chaines = {}
+
+	line = playlist.readline()
+	if line != "#EXTM3U\n":
+		print("Warning : unexpected first line")
+	for line in playlist:
+		if line[0] != "#":
+			url = line.strip()
+			assert(nom_chaine != None)
+			chaines[id_chaine].add_url(url, nom_chaine)
+		else:
+			try:
+				# print("parsing line '{}'".format(line))
+				(id_chaine, nom_chaine) = parse_extinf(line)
+				if not chaines.has_key(id_chaine):
+					chaines[id_chaine] = Chaine(id_chaine)
+
+			except ParseError : #as error:
+				pass
+				# print("parse error:\n{}".format(error))
+	return chaines
+
+
+def tests():
+	""" Test method """
+	
+	line = u"#EXTINF:0,699 - Record News (bas débit)\n"
+	(id_, nom) = parse_extinf(line)
+	print (id_)
+	assert(int(id_) == 699)
+	print(u"'{}'".format(nom))
+	assert(nom == u"Record News (bas débit)")
+
+	sample = """#EXTM3U
+#EXTINF:0,700 - Karusel (bas débit)
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=919&flavour=ld
+#EXTINF:0,999 - L'Aktu Freebox TV (bas débit)
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=896&flavour=ld
+#EXTINF:0,10001 - Europe 1
+#EXTVLCOPT:ts-es-id-pid
+#EXTVLCOPT:no-video
+#EXTVLCOPT:audio-track-id=1001
+rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=100004
+"""
+	plop = StringIO.StringIO(sample)
+
+	res = parse_m3uplaylist(plop)
+	assert(len(res) == 3)
+
+from optparse import OptionParser
+import sys
+
+import os
+
+def get_console_size():
+	rows, columns = os.popen('stty size', 'r').read().split()
+	return rows, columns
+
+def print_columns(col_size, liste):
+	line = ""
+	for name in liste :
+		rest = col_size - len(name)
+		line = line + name + (" " * rest)
+	print line
+
+def lister(chaines):
+	""" liste les noms des chaines """
+	# for chaine in chaines:
+	(rows, columns) = get_console_size()
+	names = [chaines[chaine].nom for chaine in chaines]
+	max_size = max([len(nom) for nom in names ])
+	num_cols = int(columns) // max_size
+	col_size = int(columns) // num_cols
+
+	names_1 = names[0:num_cols-1]
+	x = 0
+	while x <= len(names):
+		num = min(x + num_cols, len(names))
+		names_1 = names[x:num]
+		x = x + num_cols
+
+		print_columns(col_size, names_1)
+	
+
+import codecs
+
+def get_unicode_stream(url):
+	""" Stream conversion to en utf-8 stream """
+	playlist_stream = urllib2.urlopen(url)
+	# print(playlist_stream.headers['content-type'])
+	# print(playlist_stream.headers )
+	# output = StringIO.StringIO()
+	encoded_pl = codecs.EncodedFile(playlist_stream, 
+				 u"latin1", 
+				 u"utf8")
+
+	return encoded_pl 
+	# return playlist_stream # .write(playlist_stream)
+
+import subprocess
+
+def set_url(url):
+	""" command to change channel from url stream """ 
+	subprocess.Popen([COMMANDE, url])
+
+
+
+def get_url_from_name(name, chaines, quality=None):
+	""" returns url matching a channel name """
+	liste1 = [ chaines[chaine] for chaine in chaines ]
+	liste = [ chaine for chaine in liste1 if (chaine.match_name(name))]
+	if len(liste)>0:
+		
+		urls = liste[0].urls
+		for canal in urls:
+			if quality != None:
+				if quality in urls[canal]:
+					return urls[canal]
+			else:
+				return urls[canal]
+def main():
+	""" Main """
+	parser = OptionParser()
+	parser.add_option("-t", "--test", action = "store_true", default=False,
+		   help = "Launches unit tests", dest = "tests")
+	parser.add_option("-l", "--list", action = "store_true", 
+		   help = "Lister les chaines disponibles", dest="list")
+
+	(options, args) = parser.parse_args()
+
+	print(options)
+	if options.tests:
+		tests()
+		sys.exit(0)
+	
+
+	playlist_stream = get_unicode_stream(URL)
+	chaines = parse_m3uplaylist(playlist_stream)
+	# print(len(chaines))
+
+	if len(args) <= 0 or options.list:
+		lister(chaines)
+	else:
+		url = get_url_from_name((" ").join(args), chaines)
+		set_url(url)
+		
+if __name__ == "__main__":
+	main()	
