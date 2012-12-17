@@ -23,3 +23,12 @@ function for_all_input_files() {
         popd .
 }
 
+function for_all_conffiles() {
+	local command=$1
+	pushd .
+	cd files/
+	for fichier in $(find) ; do 
+		$command "$fichier"
+	done
+	popd
+}

@@ -11,27 +11,7 @@ function branch_exists(){
 }
 
 
-function for_all_conffiles() {
-	local command=$1
-	pushd .
-	cd files/
-	for fichier in $(find) ; do 
-		$command "$fichier"
-	done
-	popd
-}
 
-function backup() {
-	local fic="$1"
-
-	if [ -d "$HOME/$fic" -a -e "$HOME/$fic" ] ; then 
-		mkdir -p "$HOME/$fic"
-	elif [ -e "$HOME/$fic" ] ; then
-		mkdir -p "$(dirname "$fic")"
-		cp "$HOME/$fic" "$fic"
-		git add "$fic"
-	fi
-}
 
 function link_conf {
 	fic="$1"
