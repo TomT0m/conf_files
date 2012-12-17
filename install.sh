@@ -1,7 +1,7 @@
 #!/bin/bash 
 
 base="$(dirname $0)"
-cd base
+cd $base
 
 source functions
 
