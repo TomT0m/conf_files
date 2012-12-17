@@ -2,8 +2,8 @@
 
 source ~/.config/play_on_pc
 
-echo "
-$pass
+echo "$pass
 add $1
 play
+logout
 " | netcat $host $port
