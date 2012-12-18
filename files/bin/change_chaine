@@ -1,6 +1,5 @@
-#! /usr/bin/python
-#encoding: utf-8
-
+#! /usr/bin/python3
+# -*- coding: UTF-8 -*-
 """
 # Description : change une chaine Vlc sur le PC principal. 
 # Paramètres: le nom de la chaine.
@@ -10,26 +9,26 @@ Command:
 * extracts corresponding matchs of
 """
 
+
 # URL = "http://212.27.40.238/pub/playlist.m3u"
 URL = "http://mafreebox.freebox.fr/freeboxtv/playlist.m3u"
 
 COMMANDE = "play_on_pc"
 
-import urllib2
+import urllib.request, urllib.error, urllib.parse
 
 import re
-import StringIO
+import io
 
-# chaines = []
 class ParseError(Exception):
 	""" Parsing error """
 	def __init__(self, descr):
 		Exception.__init__(self, descr)
 
+
 def parse_extinf(line):
 	""" Extracts id and name from description line
 	"""
-	print line
 	preamble = "#EXTINF:"
 	prop = "(\d+),(\d+)"
 	nom = "(\w|[ -\(\)])+"
@@ -42,7 +41,7 @@ def parse_extinf(line):
 	else:
 		raise ParseError("Error parsing\n{}".format(line))
 
-	# return (id_chaine, nom chaine)
+	# return (id_chaine, nom_chaine)
 
 class Chaine(object):
 	""" Chaine : urls, name of different versions of a chaine."""
@@ -77,10 +76,11 @@ def parse_m3uplaylist(playlist):
 	nom_chaine = None
 	(id_chaine, nom_chaine) = (None, None)
 	chaines = {}
-
 	line = playlist.readline()
 	if line != "#EXTM3U\n":
 		print("Warning : unexpected first line")
+
+
 	for line in playlist:
 		if line[0] != "#":
 			url = line.strip()
@@ -88,26 +88,26 @@ def parse_m3uplaylist(playlist):
 			chaines[id_chaine].add_url(url, nom_chaine)
 		else:
 			try:
-				# print("parsing line '{}'".format(line))
 				(id_chaine, nom_chaine) = parse_extinf(line)
-				if not chaines.has_key(id_chaine):
+				if id_chaine not in chaines:
 					chaines[id_chaine] = Chaine(id_chaine)
 
-			except ParseError : #as error:
-				pass
-				# print("parse error:\n{}".format(error))
+			except ParseError as error:
+				print(error)
+				#pass
 	return chaines
 
 
 def tests():
 	""" Test method """
 	
-	line = u"#EXTINF:0,699 - Record News (bas débit)\n"
+	line = "#EXTINF:0,699 - Record News (bas débit)\n" # .bytes() #.decode("utf8")
+	print(line, type(line))
 	(id_, nom) = parse_extinf(line)
 	print (id_)
 	assert(int(id_) == 699)
-	print(u"'{}'".format(nom))
-	assert(nom == u"Record News (bas débit)")
+	print(("'{}'".format(nom)))
+	assert(nom == "Record News (bas débit)")
 
 	sample = """#EXTM3U
 #EXTINF:0,700 - Karusel (bas débit)
@@ -120,7 +120,7 @@ rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=896&flavour=ld
 #EXTVLCOPT:audio-track-id=1001
 rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=100004
 """
-	plop = StringIO.StringIO(sample)
+	plop = io.StringIO(bytes(sample,"utf-8"))
 
 	res = parse_m3uplaylist(plop)
 	assert(len(res) == 3)
@@ -131,49 +131,126 @@ import sys
 import os
 
 def get_console_size():
+	""" returns current text geometry of terminal"""
 	rows, columns = os.popen('stty size', 'r').read().split()
-	return rows, columns
+	return int(rows), int(columns)
+
+from fabulous.color import *
+from fabulous import xterm256
+
 
 def print_columns(col_size, liste):
+	""" prints ''liste'' elements 
+	arranged in columns of size ''col_size'' """
 	line = ""
 	for name in liste :
 		rest = col_size - len(name)
 		line = line + name + (" " * rest)
-	print line
+	print(line)
+
+def calc_columns(max_len):
+	""" get num & size of columns """
+	( _ , columns) = get_console_size()
+	num_cols = int(columns) // max_len
+	col_size = int(columns) // num_cols
+
+	return (num_cols, col_size)
+
+def column_lister(names):
+	""" lists by columns growing in same columns """
+	max_size = max([len(nom) for nom in names ])
+	
+	(num_cols, col_size) = calc_columns(max_size)
+
+	names_1 = names[0:num_cols-1]
+	name_iterator = 0
+	while name_iterator <= len(names):
+		num = min(name_iterator + num_cols, len(names))
+		names_1 = names[name_iterator:num]
+		name_iterator = name_iterator + num_cols
+
+		print_columns(col_size, names_1)
+
+def order_column_lister(names):
+	""" list by columns, growing left -> right then up -> down """
+	total = len(names)
+
+	max_size = max([len(nom) for nom in names ])
+
+	names = [highlight256('orangered', name) for name in names ]
+	
+	(num_cols, col_size) = calc_columns(max_size)
+
+	by_col = total // num_cols
+	if ( by_col * num_cols < total) : 
+		by_col = by_col + 1
+
+	assert(by_col * num_cols >= total)
+
+	slices = [list(range(x, x - 1 + by_col)) for x in range(0, total-1, by_col) ]
+	assert(max(slices[num_cols-1]) ==  total-1)
+	for line_num in slices[0]:
+		names_in_line = [ 
+			names[tranche[line_num]] 
+			   for tranche in slices 
+			   if line_num < len(tranche)
+		]
+		print_columns(col_size, names_in_line)
+
+def paged_printer(line):
+	""" printer with paged output : 
+		* prints a line
+		* pauses when printed ''heigth of terminal'' lines"""
+	num_line = 0
+	(rows, _ ) = get_console_size()
+	cont = True
+	while cont:
+		print(line)
+		num_line = num_line + 1
+		if(num_line == rows):
+			print("pause. Continue or quit")
+		# num_line = num_line + 1
+
+
 
 def lister(chaines):
 	""" liste les noms des chaines """
 	# for chaine in chaines:
-	(rows, columns) = get_console_size()
 	names = [chaines[chaine].nom for chaine in chaines]
-	max_size = max([len(nom) for nom in names ])
-	num_cols = int(columns) // max_size
-	col_size = int(columns) // num_cols
-
-	names_1 = names[0:num_cols-1]
-	x = 0
-	while x <= len(names):
-		num = min(x + num_cols, len(names))
-		names_1 = names[x:num]
-		x = x + num_cols
-
-		print_columns(col_size, names_1)
-	
+	order_column_lister(names)
 
 import codecs
 
+
 def get_unicode_stream(url):
 	""" Stream conversion to en utf-8 stream """
-	playlist_stream = urllib2.urlopen(url)
-	# print(playlist_stream.headers['content-type'])
-	# print(playlist_stream.headers )
-	# output = StringIO.StringIO()
-	encoded_pl = codecs.EncodedFile(playlist_stream, 
-				 u"latin1", 
-				 u"utf8")
+	playlist_stream = urllib.request.urlopen(url)
+	class ByteToUtf8Decoder(object):
+		""" Custom stream encapsulation 
+		performing line by line decoding to utf-8"""
+		def __init__(self, stream):
+			self.stream = stream
 
-	return encoded_pl 
-	# return playlist_stream # .write(playlist_stream)
+		def readline(self):
+			""" returns the iterator, conforming to stream interface"""
+			return self
+
+		def __next__(self):
+			line = self.stream.readline()
+			if line:
+				return str(line, 'utf-8')
+			else:
+				raise StopIteration
+
+		def __iter__(self):
+			return self
+
+	#encoded_pl = codecs.EncodedFile(playlist_stream, 
+	#			 "utf8", 
+	#			 "utf8")
+
+	# return encoded_pl 
+	return ByteToUtf8Decoder(playlist_stream) # .write(playlist_stream)
 
 import subprocess
 
@@ -206,7 +283,6 @@ def main():
 
 	(options, args) = parser.parse_args()
 
-	print(options)
 	if options.tests:
 		tests()
 		sys.exit(0)
@@ -214,8 +290,6 @@ def main():
 
 	playlist_stream = get_unicode_stream(URL)
 	chaines = parse_m3uplaylist(playlist_stream)
-	# print(len(chaines))
-
 	if len(args) <= 0 or options.list:
 		lister(chaines)
 	else:
