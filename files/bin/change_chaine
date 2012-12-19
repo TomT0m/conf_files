@@ -20,6 +20,43 @@ import urllib.request, urllib.error, urllib.parse
 import re
 import io
 
+class Chaine(object):
+	""" Chaine : urls, name of different versions of a chaine."""
+	def __init__(self, id_chaine):
+		self.id_chaine = id_chaine
+		self.urls = {}
+		self.nom = None
+		self._radio = False
+	
+	def choisis_nom(self, nom):
+		""" internal method : choose main name
+			choose shortest name of different names
+		"""
+		if not self.nom:
+			self.nom = nom
+		else:
+			if len(nom) < len(self.nom):
+				self.nom = nom
+
+	def add_url(self, url, nom):
+		""" Adds a url & corresponding name to channels alternatives
+		"""
+		self.urls[nom] = url
+		self.choisis_nom(nom)
+	def match_name(self, sub):
+		""" returns true if the name matches a pattern """
+		return sub in self.nom
+	
+	@property
+	def radio(self):
+		""" True if channel is a radio channel, default to False"""
+		return self._radio
+
+	def set_radio(self):
+		""" Sets _radio True 
+		call if channel is a radio channel""" 
+		self._radio = True
+
 class ParseError(Exception):
 	""" Parsing error """
 	def __init__(self, descr):
@@ -41,51 +78,42 @@ def parse_extinf(line):
 	else:
 		raise ParseError("Error parsing\n{}".format(line))
 
-	# return (id_chaine, nom_chaine)
+def parse_exttvcolopt(line, descr_obj):
+	""" extracts tvcolopts infos, 
+	extra streams infos
+	(stub)
+	Sample :
 
-class Chaine(object):
-	""" Chaine : urls, name of different versions of a chaine."""
-	def __init__(self, id_chaine):
-		self.id_chaine = id_chaine
-		self.urls = {}
-		self.nom = None
+	#EXTVLCOPT:ts-es-id-pid
+	#EXTVLCOPT:no-video
+	#EXTVLCOPT:audio-track-id=1007
 	
-	def choisis_nom(self, nom):
-		""" internal method : choose main name
-			choose shortest name of different names
-		"""
-		if not self.nom:
-			self.nom = nom
-		else:
-			if len(nom) < len(self.nom):
-				self.nom = nom
-
-	def add_url(self, url, nom):
-		""" Adds a url & corresponding name to channels alternatives
-		"""
-		self.urls[nom] = url
-		self.choisis_nom(nom)
-	def match_name(self, sub):
-		""" returns true if the name matches a pattern """
-		return sub in self.nom
+	"""
+	preamble = "#EXTVLCOPT:"
+	if preamble in line:
+		descr_obj["no-video"] = True
 
 def parse_m3uplaylist(playlist):
 	""" returns a dictionary of "Chaines" objects
 	indexed by their ids. """
 	id_chaine = None
 	nom_chaine = None
-	(id_chaine, nom_chaine) = (None, None)
 	chaines = {}
 	line = playlist.readline()
 	if line != "#EXTM3U\n":
+		print("'{line}'".format(line=line))
 		print("Warning : unexpected first line")
 
-
+	attributes = {}
 	for line in playlist:
 		if line[0] != "#":
 			url = line.strip()
 			assert(nom_chaine != None)
+			if "no-video" in attributes : 
+				chaines[id_chaine].set_radio()
 			chaines[id_chaine].add_url(url, nom_chaine)
+			
+			attributes = {}
 		else:
 			try:
 				(id_chaine, nom_chaine) = parse_extinf(line)
@@ -93,8 +121,9 @@ def parse_m3uplaylist(playlist):
 					chaines[id_chaine] = Chaine(id_chaine)
 
 			except ParseError as error:
-				print(error)
-				#pass
+				parse_exttvcolopt(line, attributes)
+				# print(error)
+				# pass
 	return chaines
 
 
@@ -171,13 +200,15 @@ def column_lister(names):
 
 		print_columns(col_size, names_1)
 
-def order_column_lister(names):
+def order_column_lister(names, to_draw = None):
 	""" list by columns, growing left -> right then up -> down """
 	total = len(names)
 
 	max_size = max([len(nom) for nom in names ])
+	"♪"
+	if to_draw:
+		names = to_draw
 
-	names = [highlight256('orangered', name) for name in names ]
 	
 	(num_cols, col_size) = calc_columns(max_size)
 
@@ -213,13 +244,24 @@ def paged_printer(line):
 
 
 
+def render_on_term (chaine) :
+	""" Prepare a string to be rendered on term, 
+	depending on channel type"""
+	name = chaine.nom
+	if (chaine.radio):
+		name = "(♪)" + name
+		name = highlight256('orangered', name)
+	return name
+
+
 def lister(chaines):
 	""" liste les noms des chaines """
 	# for chaine in chaines:
 	names = [chaines[chaine].nom for chaine in chaines]
-	order_column_lister(names)
 
-import codecs
+	to_draw = [render_on_term(chaines[chaine]) for chaine in chaines ]
+		
+	order_column_lister(names, to_draw)
 
 
 def get_unicode_stream(url):
@@ -233,23 +275,22 @@ def get_unicode_stream(url):
 
 		def readline(self):
 			""" returns the iterator, conforming to stream interface"""
-			return self
-
-		def __next__(self):
 			line = self.stream.readline()
 			if line:
 				return str(line, 'utf-8')
+			else:
+				return None
+
+		def __next__(self):
+			line = self.readline()
+			if line:
+				return line
 			else:
 				raise StopIteration
 
 		def __iter__(self):
 			return self
 
-	#encoded_pl = codecs.EncodedFile(playlist_stream, 
-	#			 "utf8", 
-	#			 "utf8")
-
-	# return encoded_pl 
 	return ByteToUtf8Decoder(playlist_stream) # .write(playlist_stream)
 
 import subprocess
