@@ -1,0 +1,82 @@
+#! /usr/bin/python3
+#encoding: utf-8
+
+"""
+#Description : a script listing & showing description of other scripts
+
+scripts listed must follow the following convention : a line beginning with # and matching 'Description( )?:(.*)'
+
+"""
+
+import os, sys
+import os.path as path
+
+import glob
+
+
+def matches_spec(scriptname):
+	""" Returns wether or not @scriptname 
+	matches our scripts managemement conventions
+	"""
+	#print(scriptname)
+	try:
+		with open(scriptname) as f:
+			for line in f:
+				if '#Description' in line:
+					return True
+	except Exception:
+		return False
+import re
+
+def extract_pair(line):
+	res = re.search('^#(\w+) *:(.*)$', line)
+	if res:
+		return [(res.group(1).strip(), res.group(2))]
+	return []
+
+def read_datas(scriptname):
+	datas = {}
+	with open(scriptname) as f:
+		datas = {key: val for line in f 
+	   			for (key, val) in 
+	   				extract_pair(line) }
+	   			
+
+	return datas
+
+DIRECTORY = path.expanduser("~/bin")
+
+class Script(object):
+	""" Storing infos about a script"""
+	def __init__(self, script, infos):
+		self.infos = infos
+		self.script = script
+	
+	@property
+	def path(self):
+		return os.path.dirname(self.script)
+	@property
+	def name(self):
+		return os.path.basename(self.script)
+	
+	@property
+	def description(self):
+		return self.infos["Description"]
+
+def analyse_directory(bin_path):
+	os.chdir(bin_path)
+	scripts = [path for path in glob.glob(path.join(bin_path, "*"))
+		if matches_spec(path) ]
+
+	for script in scripts:
+		script = Script(script, read_datas(script))
+		print("{} : {}".format(script.name, script.description))
+
+def main():
+	if len(sys.argv) == 2:
+		analyse_directory(sys.argv[1])
+	else:
+		analyse_directory(DIRECTORY)
+
+if __name__ == "__main__":
+	main()
