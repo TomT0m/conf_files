@@ -1,5 +1,8 @@
 #! /bin/bash 
 
+#Description: A script converting a .dot graphviz file into a svg file
+
+#Dependancies: dot2tex, pdflatex, inkscape
 
 base="$1/$2"
 

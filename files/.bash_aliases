@@ -11,7 +11,7 @@ alias clean='echo -n "Really clean this directory?";
 	   echo "Not cleaned.";
 	fi'
 alias h='history'
-alias j="jobs -l"
+alias jo="jobs -l"
 alias l="ls -l "
 alias ll="ls -l"
 alias ls="ls -F"
