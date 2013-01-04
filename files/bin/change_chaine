@@ -20,6 +20,12 @@ import urllib.request, urllib.error, urllib.parse
 import re
 import io
 
+def enum(*sequential, **named):
+	enums = dict(zip(sequential, range(len(sequential))), **named)
+	reverse = dict((value, key) for key, value in enums.items())
+	enums['reverse_mapping'] = reverse
+	return type('Enum', (), enums)
+
 class Chaine(object):
 	""" Chaine : urls, name of different versions of a chaine."""
 	def __init__(self, id_chaine):
@@ -43,6 +49,21 @@ class Chaine(object):
 		"""
 		self.urls[nom] = url
 		self.choisis_nom(nom)
+
+	quality = enum('LD', 'ND', 'HD')
+	
+	@classmethod
+	def rank(cls, url):
+		if 'HD' in url:
+			return cls.quality.HD
+		elif 'bas' in url:
+			return cls.quality.LD
+		else:
+			return cls.quality.ND
+
+	def get_highest_D_url(self):
+		return self.urls[max(self.urls, key = self.rank)]
+
 	def match_name(self, sub):
 		""" returns true if the name matches a pattern """
 		return sub in self.nom
@@ -313,7 +334,7 @@ def get_url_from_name(name, chaines, quality=None):
 				if quality in urls[canal]:
 					return urls[canal]
 			else:
-				return urls[canal]
+				return liste[0].get_highest_D_url()
 def main():
 	""" Main """
 	parser = OptionParser()

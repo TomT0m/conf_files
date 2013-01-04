@@ -1,5 +1,8 @@
 #!/bin/bash 
 
+#Description : backup & installs repos files into main directory
+
+
 base="$(dirname $0)"
 cd $base
 

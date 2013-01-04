@@ -1,5 +1,6 @@
 #! /bin/bash 
 
+# Description : adds a file into managed files
 name="$0"
 rep="$(dirname $0)"
 
