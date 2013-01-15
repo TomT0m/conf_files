@@ -101,6 +101,14 @@ if [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
 fi
 
+if [ -d ~/.config/bash/complete.d ] ; then
+	for script in ~/.config/bash/complete.d/* ; do
+		. $script
+	done
+fi
+
+
+# Pager : vim
 export PAGER="/bin/sh -c \"unset PAGER;col -b -x | \
     vim -R -c 'set ft=man nomod nolist' -c 'map q :q<CR>' \
     -c 'map <SPACE> <C-D>' -c 'map b <C-U>' \
@@ -112,7 +120,9 @@ if [ "$TERM" == "xterm" ]; then
     export TERM=xterm-256color
 fi
 
-source ~/src/liquidprompt/liquidprompt
-source /usr/share/autojump/autojump.sh
+if [ -z "$TEST_MODE" ] ; then 
+	source ~/src/liquidprompt/liquidprompt
+	source /usr/share/autojump/autojump.sh
+fi
 
 

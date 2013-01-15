@@ -6,13 +6,15 @@
 
 scripts listed must follow the following convention : a line beginning with # and matching 'Description( )?:(.*)'
 
+Other meta information includes : 
+	"Group" if command is a meta command, used as a simily path
 """
 
 import os, sys
 import os.path as path
 
 import glob
-
+from optparse import OptionParser
 
 def matches_spec(scriptname):
 	""" Returns wether or not @scriptname 
@@ -24,6 +26,8 @@ def matches_spec(scriptname):
 			for line in f:
 				if '#Description' in line:
 					return True
+				# if '#Group' in line:
+				#	return True
 	except Exception:
 		return False
 import re
@@ -54,29 +58,67 @@ class Script(object):
 	
 	@property
 	def path(self):
-		return os.path.dirname(self.script)
+		return path.dirname(self.script)
 	@property
 	def name(self):
-		return os.path.basename(self.script)
+		return path.basename(self.script)
 	
 	@property
 	def description(self):
 		return self.infos["Description"]
+	@property
+	def is_meta(self):
+		return "Meta" in self.infos
 
 def analyse_directory(bin_path):
 	os.chdir(bin_path)
-	scripts = [path for path in glob.glob(path.join(bin_path, "*"))
+	script_names = [path for path in glob.glob(path.join(bin_path, "*"))
 		if matches_spec(path) ]
+	scripts = []
 
-	for script in scripts:
+	for script in script_names:
 		script = Script(script, read_datas(script))
-		print("{} : {}".format(script.name, script.description))
+		scripts.append(script)
+
+	return scripts
+
+def create_cl_parser():
+	parser = OptionParser()
+	
+	parser.add_option("-c", "--complete", action = "store_true", default=False,
+		   help = "to be used by bash autocomplete", dest = "complete")
+	parser.add_option("-m", "--list-meta", action = "store_true", default=False,
+		   help = "list meta commands", dest = "complete_meta")
+	parser.add_option("-t", "--test", action = "store_true", default=False,
+		   help = "Launches unit tests", dest = "tests")
+	parser.add_option("-f", "--forward", metavar="DIR", default=False,
+		   help = "to set command directory to an arbitrary directory", dest = "forward")
+	return parser
 
 def main():
-	if len(sys.argv) == 2:
-		analyse_directory(sys.argv[1])
-	else:
-		analyse_directory(DIRECTORY)
+	scripts = None
+	parser = create_cl_parser()
+	(options, args) = parser.parse_args()
+
+	directory = DIRECTORY
+
+	if options.forward :
+		directory = options.forward
+	
+	scripts = analyse_directory(directory)
+	
+	if options.complete :
+		print(" ".join( [script.name for script in scripts] ))
+	elif options.complete_meta:
+		print(" ".join( [script.name for script in scripts 
+		   if script.is_meta]))
+	# elif len(args) == 1:
+	# 	com
+	elif len(scripts) > 0:
+		taille = max ( [len(script.name) for script in scripts])
+		for script in scripts:
+			
+			print(" {}: {} ".format(script.name.ljust(taille), script.description))
 
 if __name__ == "__main__":
 	main()
