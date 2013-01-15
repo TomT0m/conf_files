@@ -1,0 +1,32 @@
+
+_generic_command () {
+
+    local cur prev opts
+    COMPREPLY=()
+    
+    local command="$1"
+
+    cur="${COMP_WORDS[COMP_CWORD]}"
+    prev="${COMP_WORDS[COMP_CWORD-1]}"
+    opts="$($command -c)"
+
+    if [[ ${cur} == -* ]] ; then
+        return 0
+    else
+        COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
+    fi
+}
+
+_commands() 
+{
+	_generic_command commands $@
+}
+
+complete -F _commands commands
+
+for meta in $(commands -m); do
+	echo $meta
+	eval "function _${meta} { _generic_command ${meta} ; }"
+	complete -F _${meta} $meta
+done
+
