@@ -1,5 +1,5 @@
 #! /usr/bin/python3
-# -*- coding: UTF-8 -*-
+# -*- coding: utf8 -*-
 """
 # Description : change une chaine Vlc sur le PC principal. 
 # Paramètres: le nom de la chaine.

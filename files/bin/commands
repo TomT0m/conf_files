@@ -95,6 +95,13 @@ def create_cl_parser():
 		   help = "to set command directory to an arbitrary directory", dest = "forward")
 	return parser
 
+import subprocess
+def try_exec(directory, script_name, args):
+	command = [os.path.join(directory, script_name)]
+	command.extend(args)
+	print(command)
+	subprocess.call(command)
+
 def main():
 	scripts = None
 	parser = create_cl_parser()
@@ -112,8 +119,8 @@ def main():
 	elif options.complete_meta:
 		print(" ".join( [script.name for script in scripts 
 		   if script.is_meta]))
-	# elif len(args) == 1:
-	# 	com
+	elif len(args) >= 1:
+		try_exec(directory, args[0], args[1:])
 	elif len(scripts) > 0:
 		taille = max ( [len(script.name) for script in scripts])
 		for script in scripts:
@@ -121,4 +128,4 @@ def main():
 			print(" {}: {} ".format(script.name.ljust(taille), script.description))
 
 if __name__ == "__main__":
-	main()
+	main(),
