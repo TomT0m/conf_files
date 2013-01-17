@@ -74,8 +74,8 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-if [ -f ~/.config/tv_aliases ]; then
-    . ~/.config/tv_aliases
+if [ -f ~/.config/bash/tv_aliases ]; then
+    . ~/.config/bash/tv_aliases
 fi
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then

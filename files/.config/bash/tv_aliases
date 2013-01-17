@@ -1,0 +1,3 @@
+if [ -x ~/bin/gen_tv_aliases ] ; then
+	eval "$( ~/bin/gen_tv_aliases)"
+fi
