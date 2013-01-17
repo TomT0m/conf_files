@@ -1,0 +1,15 @@
+#! /usr/bin/python
+
+
+aliases = {
+"f5" : "France 5",
+"f2" : "France 2",
+"Arte": "Arte"
+}
+
+for alias in aliases :
+	print("alias {name}=\"{commande} {nom_chaine}\"".format(name=alias,
+							  commande="change_chaine",
+							  nom_chaine=aliases[alias])
+	)
+
