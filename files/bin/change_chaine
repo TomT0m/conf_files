@@ -151,7 +151,7 @@ def parse_m3uplaylist(playlist):
 def tests():
 	""" Test method """
 	
-	line = "#EXTINF:0,699 - Record News (bas débit)\n" # .bytes() #.decode("utf8")
+	line = "#EXTINF:0,699 - Record News (bas débit)\n" 
 	print(line, type(line))
 	(id_, nom) = parse_extinf(line)
 	print (id_)
@@ -170,7 +170,7 @@ rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=896&flavour=ld
 #EXTVLCOPT:audio-track-id=1001
 rtsp://mafreebox.freebox.fr/fbxtv_pub/stream?namespace=1&service=100004
 """
-	plop = io.StringIO(bytes(sample,"utf-8"))
+	plop = io.StringIO(sample)
 
 	res = parse_m3uplaylist(plop)
 	assert(len(res) == 3)
@@ -239,7 +239,10 @@ def order_column_lister(names, to_draw = None):
 
 	assert(by_col * num_cols >= total)
 
-	slices = [list(range(x, x - 1 + by_col)) for x in range(0, total-1, by_col) ]
+	slices = [list(range(x, min(x + by_col, total) )) for x in range(0, total, by_col) ]
+	
+	print(slices)
+	print(total)
 	assert(max(slices[num_cols-1]) ==  total-1)
 	for line_num in slices[0]:
 		names_in_line = [ 
