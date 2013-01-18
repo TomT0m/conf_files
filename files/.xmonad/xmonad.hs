@@ -7,7 +7,10 @@ import XMonad.Layout.HintedTile
 import qualified Data.Map as M
 import qualified XMonad.StackSet as W
 
-main = xmonad desktopConfig {
+main = do
+    spawn "vlc" 
+    spawn "xloadimage -onroot -fullscreen ~/.xmonad/wallpaper" 
+    xmonad $ desktopConfig {
     modMask = mod4Mask,
     terminal = "urxvt",
     keys = \c -> myKeys c `M.union` keys desktopConfig c,
