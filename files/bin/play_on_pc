@@ -9,7 +9,7 @@ pass="admin"
 host="localhost"
 port="4212"
 
-if [ -f "~/.config/play_on_pc" ] ; then
+if [ -f ~/.config/play_on_pc ] ; then
 	source ~/.config/play_on_pc
 fi
 
