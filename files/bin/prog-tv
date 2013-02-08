@@ -12,6 +12,7 @@ import lxml.html
 
 import my_utils
 
+#pylint: disable=W0401, W0614
 from fabulous.color import *
 from fabulous import xterm256
 
@@ -29,7 +30,9 @@ class Horaire(object):
 			return cls(int(elements[0]), int("0"+elements[1]))
 		else:
 			if 'mn' == string[-2:]:
-				return cls(0, int(string[:-2]))
+				return cls(0, int(string[:-3]))
+			else:
+				raise Exception(string)
 
 	@classmethod
 	def horaire_from_string(cls, string):
@@ -75,11 +78,12 @@ class Horaire(object):
 			return "{:2d}h{:02d}".format(self.hour, self.minute)
 from collections import namedtuple
 
-class ProgTuple (namedtuple('Program', 'channel title hour length nature subtitle')):
+class ProgTuple (namedtuple('Program', 'channel title hour length nature subtitle'), object):
+	""" base class for a tuple of program informations """
 	pass
 
 # class Program(namedtuple('Program', 'channel title hour length nature subtitle')):
-class Program(ProgTuple):
+class Program(ProgTuple, object):
 	""" TV program description """
 	__slots__ = ()
 
@@ -89,38 +93,6 @@ class Program(ProgTuple):
 		return self.hour + self.length
 
 	
-class ProgFormatter(ProgTuple):
-	""" formatter tuple : mapping Program attributes with formatting str function"""
-	__slots__ = ()
-
-
-	def render(self, program):
-		""" Prints """
-		def form(attr):
-			""" applies corresponding formatter """
-			return getattr(self, attr)(getattr(program, attr))
-
-		result = "({})- {} - {}\n".format(form('channel'), form('hour'), form('title'))
-		if program.subtitle:
-			result += "{}, Type {}, durée : {}\n".format(form('subtitle'), form('nature'), form('length')) 
-		elif program.nature:
-			result += "Type {}, durée : {}\n".format(form('nature'), form('length') )
-		else:
-			result += "durée : {}\n".format(form('length'))
-
-		return result 
-
-			
-def colorer(color):
-	""" Creates a closure for string colorer """
-	return lambda string: highlight256(color, string)
-
-def id_(x):
-	""" id func """
-	return x
-
-# namedtuple('Program', 'channel title hour length nature subtitle')):
-
 def parse_data(fic):
 	""" Parses & extracts TV informations """
 		
@@ -133,7 +105,7 @@ def parse_data(fic):
 	def create_list_progs(chaine):
 		"plop"
 		def create_prog(nom_chaine, prog_num, element, ):
-			""" Create progs list of a channel"""
+			""" Create progs list of a channel for an evening"""
 			titre = noms[prog_num]
 			
 			info_sup = chaine.xpath('p[{}+1]/em/text()'.format(prog_num))
@@ -148,14 +120,15 @@ def parse_data(fic):
 
 			if len(info_sup) == 2:
 				sous_titre = info_sup[0]
-				(typ, duree) = parse_type_duree(info_sup[1])
-				duree = Horaire.duree_from_string(duree)
+				(typ, s_duree) = parse_type_duree(info_sup[1])
 	
 			elif len(info_sup) == 1:
-			
-				(typ, duree) = parse_type_duree(info_sup[0])
+				(typ, s_duree) = parse_type_duree(info_sup[0])
 		
-			program = Program(nom_chaine, titre, heure, duree, typ, sous_titre)	
+			duree = Horaire.duree_from_string(s_duree)
+			horaire = Horaire.horaire_from_string(heure)
+		
+			program = Program(nom_chaine, titre, horaire, duree, typ, sous_titre)	
 			return program
 			
 		nom_chaine = chaine.xpath('a/@title')[0].split("de ")[1]
@@ -165,31 +138,63 @@ def parse_data(fic):
 
 	all_programs = [ programs for channel_progs in plop for programs in create_list_progs(channel_progs) ]
 	
-	colored_formatter = ProgFormatter(id_, colorer('orangered'), colorer('cyan'), id_, colorer('white'), bold)
+	return all_programs
+
+class ProgFormatter(ProgTuple):
+	""" formatter tuple : mapping Program attributes with formatting str function"""
+	__slots__ = ()
+
+
+	def render(self, program):
+		""" Prints """
+		def form(attr):
+			""" applies corresponding formatter """
+			return getattr(self, attr)(getattr(program, attr))
+
+		result = "({})\n {} - {}\n".format(form('channel'), form('hour'), form('title'))
+		if program.subtitle:
+			result += "{} ({} - {})\n".format(form('subtitle'), form('nature'), form('length')) 
+		elif program.nature:
+			result += "{} - {}\n".format(form('nature'), form('length') )
+		else:
+			result += "durée : {}\n".format(form('length'))
+
+		return result 
+
+			
+def colorer(color):
+	""" Creates a closure for string colorer """
+	return lambda string: highlight256(color, string)
+
+def id_(var):
+	""" id func """
+	return var
+
+def console_output(programs):
+	""" Outputs formated programes into console, with colors, columns an all """
+	colored_formatter = ProgFormatter(id_, colorer('white'), colorer('cyan'), id_, bold, colorer('orangered'))
 	no_formatter = ProgFormatter(id_, id_, id_, id_, id_, id_)
 	
-	size = max ([len(line) for 
-	      program in all_programs 
-	      	for line in (no_formatter.render(program)).split('\n') 
-	      		])
-	
-	colored_programs = [colored_formatter.render(program) for program in all_programs]
+	colored_programs = [colored_formatter.render(program) for program in programs]
 
 	lines = [ line  
 	  for lines in colored_programs
 	  for line in lines.split('\n')]
-
-	my_utils.order_column_lister(  
-			      [ line for 
-	      program in all_programs 
-	      	for line in (no_formatter.render(program)).split('\n') ], lines
-			     )
+	
+	print(h1("Yeah !!!"))
+	my_utils.order_column_lister(
+		[ line for program in programs 
+	      		for line in (no_formatter.render(program)).split('\n') ], 
+		lines
+	)
 
 def main():
 	""" Main function"""
 	content = urllib.request.urlopen(URL)
-	parse_data(content)
-
+	programs = parse_data(content)
+	# console_output(programs)
+	
+	console_output([ program for program in programs if program.hour < Horaire(21,30)])
 
 
 if __name__ == "__main__":
