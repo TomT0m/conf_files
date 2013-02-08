@@ -17,9 +17,9 @@ function branch_exists(){
 
 
 function link_conf {
+	# f
 	fic="$1"
 	echo "treating $1 ..."
-	# rm "$HOME/$fic"
 	rep="$(dirname "$fichier")"
 	if [ ! -d "$HOME/$rep" ] ; then
 		mkdir -p $HOME/"$rep"
@@ -29,7 +29,7 @@ function link_conf {
 	fi
 }
 
-# getting filename that will be erased
+# getting filename that will be erased to backup them later
 cd files
 new_conf_files="$( git ls-files )"
 cd ..

@@ -1,5 +1,7 @@
 #! /bin/bash
 
+#Description : moves conf files current version into repo
+
 name="$0"
 rep="$(dirname $0)"
 
