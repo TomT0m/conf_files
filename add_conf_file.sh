@@ -2,7 +2,6 @@
 
 #Description : adds a file into managed files
 
-/bin/bash: q : commande introuvable
 rep="$(dirname $0)"
 
 . "$rep/functions"

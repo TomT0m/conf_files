@@ -8,14 +8,16 @@ source functions
 
 cd files/
 
-function up_to_date () {
-	if ! cmp "$1" "$HOME/$1" &> /dev/null ; then
-		echo $1
+function up_to_date_file () {
+	if [ -f "$1" ] ; then
+		if ! cmp "$1" "$HOME/$1" &> /dev/null ; then
+			echo $1
+		fi
 	fi
 }
 
 diff=0
 
-for_all_conffiles up_to_date | while read fic; do
+for_all_conffiles up_to_date_file | while read fic; do
 	echo Différents : $fic
 done

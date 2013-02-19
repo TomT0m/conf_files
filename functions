@@ -15,20 +15,20 @@ function backup() {
 
 function for_all_input_files() {
         command=$1
-        pushd .
+        pushd . >/dev/null
         cd files/
         while read fichier ; do
                 $command "$fichier"
         done
-        popd .
+        popd . >/dev/null
 }
 
 function for_all_conffiles() {
 	local command=$1
-	pushd .
+	pushd . > /dev/null
 	cd files/
 	for fichier in $(find) ; do 
 		$command "$fichier"
 	done
-	popd
+	popd > /dev/null
 }
