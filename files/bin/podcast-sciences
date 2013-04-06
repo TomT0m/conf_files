@@ -1,0 +1,34 @@
+#! /usr/bin/python
+#encoding: utf-8
+URL = "http://feeds.feedburner.com/PodcastScience"
+
+import utils
+
+from fabulous.color import *
+from fabulous import xterm256
+
+from IPython import embed
+
+import feedparser
+
+def print_feed(feed, nb = None):
+	""" Feed console printer"""
+	to_print = feed
+	if nb:
+		to_print = feed[0:nb]
+	
+	for item in to_print:
+		print(item.title_detail.value)
+
+import subprocess
+
+def play(feed_item):
+	url = feed_item.feedburner_origenclosurelink
+	subprocess.call(["play_on_pc", url])
+
+def main():
+	feed = feedparser.parse(URL)
+	print_feed(feed.entries, 15)
+	play(feed.entries[0])
+
+main()
