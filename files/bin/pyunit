@@ -1,4 +1,4 @@
-#! /bin/python
+#! /usr/bin/python
 
 
 import sys
@@ -7,7 +7,7 @@ import os, subprocess
 def test_name(test):
 	return "test_" + test + ".py"
 
-args = [ test for test in "test_" + sys.argv + ".py" if os.path.exists(test_name(test))] 
+args = [ test_name(test) for test in sys.argv if os.path.exists(test_name(test))] 
 
 subprocess.Popen(["./test.sh"] + args)
 
