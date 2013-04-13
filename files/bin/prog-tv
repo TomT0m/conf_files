@@ -10,7 +10,7 @@ URL = "http://www.programme-tv.net/programme/programme-tnt.html"
 import urllib.request
 import lxml.html
 
-import my_utils
+import utils
 
 #pylint: disable=W0401, W0614
 from fabulous.color import *
@@ -182,7 +182,7 @@ def console_output(programs):
 	  for line in lines.split('\n')]
 	
 	print(h1("Yeah !!!"))
-	my_utils.order_column_lister(
+	utils.order_column_lister(
 		[ line for program in programs 
 	      		for line in (no_formatter.render(program)).split('\n') ], 
 		lines
