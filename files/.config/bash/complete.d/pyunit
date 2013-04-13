@@ -1,0 +1,23 @@
+
+_pyunit () {
+
+    local cur prev opts
+    COMPREPLY=()
+    
+    local command="$1"
+
+    cur="${COMP_WORDS[COMP_CWORD]}"
+    prev="${COMP_WORDS[COMP_CWORD-1]}"
+
+    tcands=test_*.py
+    cmpl=$(for tcand in $tcands ; do tmp=${tcand%%.py} ; echo -n ${tmp##test_}  " "; done)
+    
+    if [[ ${cur} == -* ]] ; then
+        return 0
+    else
+        COMPREPLY=( $(compgen -W "$(echo ${cmpl})" -- ${cur}) )
+    fi
+}
+
+complete -F _pyunit pyunit
+
