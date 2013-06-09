@@ -4,6 +4,6 @@
 [difftool]
 	prompt = false
 [diff]
-	tool = gvimdiff
+	tool = vimdiff
 [alias]
 	d = difftool

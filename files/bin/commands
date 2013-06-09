@@ -20,7 +20,6 @@ def matches_spec(scriptname):
 	""" Returns wether or not @scriptname 
 	matches our scripts managemement conventions
 	"""
-	#print(scriptname)
 	try:
 		with open(scriptname) as f:
 			for line in f:
@@ -99,8 +98,11 @@ import subprocess
 def try_exec(directory, script_name, args):
 	command = [os.path.join(directory, script_name)]
 	command.extend(args)
-	print(command)
-	subprocess.call(command)
+	
+	try:
+		subprocess.call(command)
+	except Exception:
+		print("impossible d'exécuter '{}'".format(script_name))
 
 def main():
 	scripts = None
@@ -125,7 +127,8 @@ def main():
 		taille = max ( [len(script.name) for script in scripts])
 		for script in scripts:
 			
-			print(" {}: {} ".format(script.name.ljust(taille), script.description))
+			print(" {} : {} ".format(script.name.ljust(taille), script.description))
 
 if __name__ == "__main__":
-	main(),
+	main()
+

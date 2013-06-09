@@ -1,7 +1,7 @@
 #! /bin/bash 
 
-# Description : adds a file into managed files
-name="$0"
+#Description : adds a file into managed files
+
 rep="$(dirname $0)"
 
 . "$rep/functions"
