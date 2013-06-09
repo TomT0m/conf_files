@@ -1,0 +1,205 @@
+#!/usr/bin/python3
+
+"""
+# Description : Voir le programme télé du soir
+# Group: Vidéo
+"""
+
+URL = "http://www.programme-tv.net/programme/programme-tnt.html"
+
+import urllib.request
+import lxml.html
+
+from utils import order_column_lister
+
+
+#pylint: disable=W0401, W0614
+from fabulous.color import *
+from fabulous import xterm256
+
+from functools import total_ordering
+
+
+@total_ordering
+class Horaire(object):
+	""" class representing program starting hour """
+	@classmethod
+	def duree_from_string(cls, string):
+		""" expects a '%%h%%' (eg. 1h50) or %%mn (eg. 20 mn string and returns a corresponding "horaire" object"""
+		elements = string.split('h')
+		if len(elements) == 2:
+			return cls(int(elements[0]), int("0"+elements[1]))
+		else:
+			if 'mn' == string[-2:]:
+				return cls(0, int(string[:-3]))
+			else:
+				raise Exception(string)
+
+	@classmethod
+	def horaire_from_string(cls, string):
+		""" Expects a hh:mm formated string and returns a corresponding new "Horaire" instance"""
+		elements = string.split(':')
+		return cls(int(elements[0]), int(elements[1]))
+
+
+
+	def __init__(self, hour, minute):
+		self._horaire = [ hour, minute ]
+	
+	@property
+	def hour(self):
+		""" Hour number getter """
+		return self._horaire[0]
+	
+	@property
+	def minute(self):
+		""" minutes number getter """
+		return self._horaire[1]
+	
+	def vectorize(self):
+		""" helper method for comparing : returns a [hour, minute] vector"""
+		return [self.hour, self.minute]
+
+	def __eq__(self, other):
+		return self._horaire == other.vectorize()
+	
+	def __lt__(self, other):
+		return self._horaire < other.vectorize()
+
+	def __add__(self, length):
+		minutes = self.minute + length.minute
+		minutes = minutes % 60
+		hour = (minutes // 60) + length.hour + self.hour
+		return self.__class__(hour, minutes)
+
+	def __repr__(self):
+		if self.hour == 0:
+			return "{} mn".format(self.minute)
+		else:
+			return "{:2d}h{:02d}".format(self.hour, self.minute)
+from collections import namedtuple
+
+class ProgTuple (namedtuple('Program', 'channel title hour length nature subtitle'), object):
+	""" base class for a tuple of program informations """
+	pass
+
+# class Program(namedtuple('Program', 'channel title hour length nature subtitle')):
+class Program(ProgTuple, object):
+	""" TV program description """
+	__slots__ = ()
+
+	@property
+	def end(self):
+		""" program ending hour """
+		return self.hour + self.length
+
+	
+def parse_data(fic):
+	""" Parses & extracts TV informations """
+		
+	# content div class : contenu grille grilleprimes
+	
+	page = lxml.html.parse(fic)
+	# res = tree.find('//div@.contenu.grille.grilleprimes')
+	plop  = [ elem for res in page.xpath('//div[@class="contenu grille grilleprimes"]') for elem in res.xpath("ul/li")]
+
+	def create_list_progs(chaine):
+		"plop"
+		def create_prog(nom_chaine, prog_num, element, ):
+			""" Create progs list of a channel for an evening"""
+			titre = noms[prog_num]
+			
+			info_sup = chaine.xpath('p[{}+1]/em/text()'.format(prog_num))
+			
+			heure = chaine.xpath('p[{}+1]/span/text()'.format(prog_num))[0]
+			duree, sous_titre = None, None
+			
+			def parse_type_duree(string):
+				""" extract types and length of a formated string """
+				parts = string.rsplit("(", 1)
+				return (parts[0], parts[1][:-1])
+
+			if len(info_sup) == 2:
+				sous_titre = info_sup[0]
+				(typ, s_duree) = parse_type_duree(info_sup[1])
+	
+			elif len(info_sup) == 1:
+				(typ, s_duree) = parse_type_duree(info_sup[0])
+		
+			duree = Horaire.duree_from_string(s_duree)
+			horaire = Horaire.horaire_from_string(heure)
+		
+			program = Program(nom_chaine, titre, horaire, duree, typ, sous_titre)	
+			return program
+			
+		nom_chaine = chaine.xpath('a/@title')[0].split("de ")[1]
+		noms = chaine.xpath('p/a[1]/@title')
+		programs = [ create_prog(nom_chaine, prog_num, chaine) for prog_num in range(len(noms))]
+		return programs
+
+	all_programs = [ programs for channel_progs in plop for programs in create_list_progs(channel_progs) ]
+	
+	return all_programs
+
+class ProgFormatter(ProgTuple):
+	""" formatter tuple : mapping Program attributes with formatting str function"""
+	__slots__ = ()
+
+
+	def render(self, program):
+		""" Prints """
+		def form(attr):
+			""" applies corresponding formatter """
+			return getattr(self, attr)(getattr(program, attr))
+
+		result = "({})\n {} - {}\n".format(form('channel'), form('hour'), form('title'))
+		if program.subtitle:
+			result += "{} ({} - {})\n".format(form('subtitle'), form('nature'), form('length')) 
+		elif program.nature:
+			result += "{} - {}\n".format(form('nature'), form('length') )
+		else:
+			result += "durée : {}\n".format(form('length'))
+
+		return result 
+
+			
+def colorer(color):
+	""" Creates a closure for string colorer """
+	return lambda string: highlight256(color, string)
+
+def id_(var):
+	""" id func """
+	return var
+
+def console_output(programs):
+	""" Outputs formated programes into console, with colors, columns an all """
+	colored_formatter = ProgFormatter(id_, colorer('white'), colorer('cyan'), id_, bold, colorer('orangered'))
+	no_formatter = ProgFormatter(id_, id_, id_, id_, id_, id_)
+	
+	colored_programs = [colored_formatter.render(program) for program in programs]
+
+	lines = [ line  
+	  for lines in colored_programs
+	  for line in lines.split('\n')]
+	
+	print(h1("Yeah !!!"))
+	order_column_lister(
+		[ line for program in programs 
+	      		for line in (no_formatter.render(program)).split('\n') ], 
+		lines
+	)
+
+def main():
+	""" Main function"""
+	content = urllib.request.urlopen(URL)
+	programs = parse_data(content)
+	# console_output(programs)
+	
+	console_output([ program for program in programs if program.hour < Horaire(21,30)])
+
+
+if __name__ == "__main__":
+	main()
+	
+
+
