@@ -3,18 +3,9 @@
 #Description : launches a url & starts it on vlc on video server
 #Group: Vidéos
 
-# default vlc config
-
-pass="admin"
-host="localhost"
-port="4212"
-
-if [ -f ~/.config/play_on_pc ] ; then
-	source ~/.config/play_on_pc
-fi
+source ~/.config/play_on_pc
 
 echo "$pass
-
 add $1
 play
 logout

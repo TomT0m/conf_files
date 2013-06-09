@@ -241,6 +241,8 @@ def order_column_lister(names, to_draw = None):
 
 	slices = [list(range(x, min(x + by_col, total) )) for x in range(0, total, by_col) ]
 	
+	print(slices)
+	print(total)
 	assert(max(slices[num_cols-1]) ==  total-1)
 	for line_num in slices[0]:
 		names_in_line = [ 

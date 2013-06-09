@@ -71,10 +71,3 @@ if [ -x /usr/bin/ipython ] ; then
 	alias python=ipython
 fi
 
-s(){
-	if [[ $# == 0 ]]; then
-		sudo $(history -p '!!')
-	else
-	        sudo "$@"
-	fi
-}

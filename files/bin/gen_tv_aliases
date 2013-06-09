@@ -4,8 +4,7 @@
 aliases = {
 "f5" : "France 5",
 "f2" : "France 2",
-"Arte": "Arte",
-"inter": "France Inter"
+"Arte": "Arte"
 }
 
 for alias in aliases :

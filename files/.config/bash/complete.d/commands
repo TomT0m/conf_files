@@ -13,7 +13,7 @@ _generic_command () {
     if [[ ${cur} == -* ]] ; then
         return 0
     else
-        COMPREPLY=( $(compgen -W "$(echo ${opts})" -- ${cur}) )
+        COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
     fi
 }
 
