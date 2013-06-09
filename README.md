@@ -10,6 +10,6 @@ To install :
 
 python:
 * python-pip
-** grapefruit : pip install grapefruit
+** grapefruit : pip-3.2 install grapefruit
 * python3-lxml (prog-tv)
 
