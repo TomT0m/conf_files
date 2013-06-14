@@ -1,0 +1,8 @@
+#!/bin/bash
+
+FONT=-adobe-*-*-*-*-*-34-*-*-*-*-*-*-*
+COLOUR=blue
+
+echo "$1" | osd_cat -f $FONT -c blue &
+
+
