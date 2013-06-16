@@ -7,3 +7,5 @@
 	tool = gvimdiff
 [alias]
 	d = difftool
+[push]
+	default = simple
