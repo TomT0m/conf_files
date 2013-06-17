@@ -6,8 +6,6 @@ cd "$(dirname $0)"
 
 source functions
 
-cd files/
-
 function up_to_date_file () {
 	if [ -f "$1" ] ; then
 		if ! cmp "$1" "$HOME/$1" &> /dev/null ; then

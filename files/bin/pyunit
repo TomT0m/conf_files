@@ -9,5 +9,7 @@ def test_name(test):
 
 args = [ test_name(test) for test in sys.argv if os.path.exists(test_name(test))] 
 
-subprocess.Popen(["./test.sh"] + args)
+proc = subprocess.Popen(["./test.sh"] + args)
+
+proc.wait()
 
