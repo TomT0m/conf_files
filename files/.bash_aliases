@@ -71,3 +71,4 @@ if [ -x /usr/bin/ipython ] ; then
 	alias python=ipython
 fi
 
+alias =''

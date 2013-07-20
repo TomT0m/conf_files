@@ -20,7 +20,6 @@ def matches_spec(scriptname):
 	""" Returns wether or not @scriptname 
 	matches our scripts managemement conventions
 	"""
-	#print(scriptname)
 	try:
 		with open(scriptname) as f:
 			for line in f:
@@ -99,18 +98,31 @@ import subprocess
 def try_exec(directory, script_name, args):
 	command = [os.path.join(directory, script_name)]
 	command.extend(args)
-	print(command)
-	subprocess.call(command)
+	cmd = subprocess.Popen(command, shell = False)
+	cmd.wait()
+
+def command_in(command_str, command_list):
+	return command_str in [ command.name for command in command_list]
 
 def main():
 	scripts = None
+	
+	
+	directory = DIRECTORY
+	scripts = analyse_directory(directory)
+	
+	# do we get a real command ?
+	if len(sys.argv) >= 4 and command_in(sys.argv[3], analyse_directory(sys.argv[2])):
+		try_exec(sys.argv[2], sys.argv[3], sys.argv[4:])
+		exit(0)
+
 	parser = create_cl_parser()
 	(options, args) = parser.parse_args()
 
-	directory = DIRECTORY
 
 	if options.forward :
 		directory = options.forward
+	
 	
 	scripts = analyse_directory(directory)
 	
@@ -119,8 +131,6 @@ def main():
 	elif options.complete_meta:
 		print(" ".join( [script.name for script in scripts 
 		   if script.is_meta]))
-	elif len(args) >= 1:
-		try_exec(directory, args[0], args[1:])
 	elif len(scripts) > 0:
 		taille = max ( [len(script.name) for script in scripts])
 		for script in scripts:
@@ -128,4 +138,4 @@ def main():
 			print(" {}: {} ".format(script.name.ljust(taille), script.description))
 
 if __name__ == "__main__":
-	main(),
+	main()
