@@ -1,6 +1,6 @@
 #! /usr/bin/perl
 
-use Text::vCard;
+use Text::vCard::Addressbook;
 
 # here are the perl modules you need to run this
 #	http://search.cpan.org/author/JLAWRENC/Text-vFile-0.5/
@@ -9,12 +9,14 @@ use Text::vCard;
 
 foreach $file (@ARGV) {
     print STDERR "\n$file\n";
-    my $cards = Text::vCard->load( $file );
+    my $cards = Text::vCard::Addressbook->new( { 'source_file' => $file, } );
 
-    foreach my $vcard (@{$cards}) {
+    foreach my $vcard ($cards->vcards()) {
 #	print "Got card for " . $vcard->fn() . "\n";
 
-	$name = $vcard->name();
+	$name = $vcard->fullname();
+	print($vcard->as_string());
+	print('plop');
 	$lastname = $name->family();
 	$firstname = $name->given();
 	print STDERR "Got card for " . $firstname ." ".$lastname . "\n";
