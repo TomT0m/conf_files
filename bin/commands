@@ -16,7 +16,6 @@ import os.path as path
 import glob
 from optparse import OptionParser
 
-
 def matches_spec(scriptname):
 	""" Returns wether or not @scriptname 
 	matches our scripts managemement conventions
@@ -94,17 +93,6 @@ def create_cl_parser():
 	parser.add_option("-f", "--forward", metavar="DIR", default=False,
 		   help = "to set command directory to an arbitrary directory", dest = "forward")
 	return parser
-
-import argparse
-def create_argument_parser(description = None):
-	""" New version with argparse """
-	parser = argparse.ArgumentParser(description = description)
-
-	parser.add_argument("-c", "--complete", action = "store_true", default=False,
-		   help = "to be used by bash autocomplete", dest = "complete")
-	
-	parser.add_argument("-t", "--test", action = "store_true", default=False,
-		   help = "Launches unit tests", dest = "tests")
 
 import subprocess
 def try_exec(directory, script_name, args):
