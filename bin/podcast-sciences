@@ -1,8 +1,14 @@
 #! /usr/bin/python3
 #encoding: utf-8
+
+#Description: Play the last "podcast sciences" podcast (or others)
+
 URL = "http://feeds.feedburner.com/PodcastScience"
 
+
 import utils
+
+import argparse
 
 from fabulous.color import *
 from fabulous import xterm256
@@ -26,9 +32,20 @@ def play(feed_item):
 	url = feed_item.feedburner_origenclosurelink
 	subprocess.call(["play_on_pc", url])
 
+def get_argument_parser():
+    parser = argparse.ArgumentParser(u"lancer des épisodes de Podcast sciences")
+    parser.add_argument('--epnum', metavar='N', type=int, help='podcast num in podcast list (negative: from last episode)')
+    return parser
+
 def main():
-	feed = feedparser.parse(URL)
-	print_feed(feed.entries, 15)
-	play(feed.entries[0])
+    feed = feedparser.parse(URL)
+    print_feed(feed.entries, 15)
+
+    parser = get_argument_parser()
+    args = parser.parse_args()
+    if args.epnum : 
+        play(feed.entries[-args.epnum])
+    else:
+        play(feed.entries[0])
 
 main()

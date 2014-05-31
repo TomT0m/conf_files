@@ -83,6 +83,10 @@ fi
 if [ -f ~/.config/bash/tv_aliases ]; then
     . ~/.config/bash/tv_aliases
 fi
+
+if [ -f ~/.config/bash/env ]; then
+    . ~/.config/bash/env
+fi
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     eval "`dircolors -b`"

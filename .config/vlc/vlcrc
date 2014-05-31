@@ -3500,7 +3500,7 @@ podcast-urls=itpc://feeds.feedburner.com/PodcastScience
 #audio=1
 
 # Default audio volume (integer)
-#volume=256
+volume=207
 
 # Audio output volume step (integer)
 #volume-step=32

@@ -9,8 +9,8 @@ _pyunit () {
     cur="${COMP_WORDS[COMP_CWORD]}"
     prev="${COMP_WORDS[COMP_CWORD-1]}"
 
-    tcands=test_*.py
-    cmpl=$(for tcand in $tcands ; do tmp=${tcand%%.py} ; echo -n ${tmp##test_}  " "; done)
+    tcands=test_*.py tests/test_*.py
+    cmpl=$(for tcand in $tcands ; do tmp=${tcand%%.py} ; tmp=${tmp##tests/};echo -n ${tmp##test_}  " "; done)
     
     if [[ ${cur} == -* ]] ; then
         return 0

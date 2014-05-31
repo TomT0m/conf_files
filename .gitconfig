@@ -5,7 +5,10 @@
 	prompt = false
 [diff]
 	tool = gvimdiff
+	external = git_diff_wrapper
 [alias]
 	d = difftool
 [push]
 	default = simple
+[pager]
+	  diff =

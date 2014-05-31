@@ -95,6 +95,17 @@ def create_cl_parser():
 		   help = "to set command directory to an arbitrary directory", dest = "forward")
 	return parser
 
+import argparse
+def create_argument_parser(description = None):
+	""" New version with argparse """
+	parser = argparse.ArgumentParser(description = description)
+
+	parser.add_argument("-c", "--complete", action = "store_true", default=False,
+		   help = "to be used by bash autocomplete", dest = "complete")
+	
+	parser.add_argument("-t", "--test", action = "store_true", default=False,
+		   help = "Launches unit tests", dest = "tests")
+
 import subprocess
 def try_exec(directory, script_name, args):
 	command = [os.path.join(directory, script_name)]

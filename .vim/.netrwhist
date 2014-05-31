@@ -1,7 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/usr/share/scribus/scripts'
-let g:netrw_dirhist_2='/home/tom/src/Twisted-13.0.0/debian'
-let g:netrw_dirhist_3='/home/tom/.config/bash/complete.d'
-let g:netrw_dirhist_4='/home/tom/src/wikipedia/mwparserfromhell/mwparserfromhell'
-let g:netrw_dirhist_5='/home/tom/src/wikipedia/mwparserfromhell/mwparserfromhell/parser'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/tom/src'
+let g:netrw_dirhist_2='/home/tom/src/wikimedia'
+let g:netrw_dirhist_3='/home/tom/src/wikimedia/scripts'
+let g:netrw_dirhist_4='/home/tom/conf/conf_files'

@@ -71,4 +71,7 @@ if [ -x /usr/bin/ipython ] ; then
 	alias python=ipython
 fi
 
-alias =''
+# alias =''
+function gg {
+	PAGER=less git grep $@
+}
