@@ -12,7 +12,7 @@ _generic_command () {
     
     opts="$($command -c)"
     glob_pattern="$(commands -c $prev)"
-    set -x 
+    
     if [[ ${cur} == -* ]] ; then
         return 0
     elif [[ "$COMP_CWORD" -eq 2  && -n "$glob_pattern" ]] ; then 
@@ -20,7 +20,6 @@ _generic_command () {
     else
         COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
     fi
-    set +x
 }
 
 _commands() 
