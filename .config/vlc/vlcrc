@@ -1,5 +1,5 @@
 ﻿###
-###  vlc 2.0.8
+###  vlc 2.1.4
 ###
 
 ###
@@ -22,7 +22,7 @@
 # Scrobbler URL (string)
 #scrobbler-url=post.audioscrobbler.com
 
-[vod_rtsp] # RTSP VoD server
+[vod_rtsp] # Legacy RTSP VoD server
 
 # MUX for RAW RTSP transport (string)
 #rtsp-raw-mux=ts
@@ -40,6 +40,9 @@
 
 # Log format (string)
 #logmode=text
+
+# Syslog ident (string)
+#syslog-ident=vlc
 
 # Syslog facility (string)
 #syslog-facility=user
@@ -100,8 +103,14 @@
 
 [access_output_file] # File stream output
 
+# Overwrite existing file (boolean)
+#sout-file-overwrite=1
+
 # Append to file (boolean)
 #sout-file-append=0
+
+# Format time and date (boolean)
+#sout-file-format=0
 
 # Synchronous writing (boolean)
 #sout-file-sync=0
@@ -123,11 +132,26 @@
 # Use muxers rate control mechanism (boolean)
 #sout-livehttp-ratecontrol=0
 
+# Allow cache (boolean)
+#sout-livehttp-caching=0
+
+# Use randomized IV for encryption (boolean)
+#sout-livehttp-generate-iv=0
+
 # Index file (string)
 #sout-livehttp-index=
 
 # Full URL to put in index file (string)
 #sout-livehttp-index-url=
+
+# AES key URI to place in playlist (string)
+#sout-livehttp-key-uri=
+
+# AES key file (string)
+#sout-livehttp-key-file=
+
+# File where vlc reads key-uri and keyfile-location (string)
+#sout-livehttp-key-loadfile=
 
 [lua] # Lua interpreter
 
@@ -136,6 +160,9 @@
 
 # Lua interface configuration (string)
 #lua-config=
+
+# Password (string)
+#http-password=
 
 # Source directory (string)
 #http-src=
@@ -156,7 +183,7 @@ telnet-host=0.0.0.0
 #telnet-port=4212
 
 # Password (string)
-#telnet-password=admin
+#telnet-password=
 
 [sepia] # Sepia video filter
 
@@ -317,13 +344,13 @@ telnet-host=0.0.0.0
 # Calculate a average zone (boolean)
 #atmo-zone-summary=0
 
-# Edge Weightning (integer)
+# Edge weightning (integer)
 #atmo-edgeweightning=3
 
 # Brightness (integer)
 #atmo-brightness=100
 
-# Darkness Limit (integer)
+# Darkness limit (integer)
 #atmo-darknesslimit=3
 
 # Hue windowing (integer)
@@ -341,7 +368,7 @@ telnet-host=0.0.0.0
 # Filter threshold (integer)
 #atmo-meanthreshold=40
 
-# Filter Smoothness (in %) (integer)
+# Filter smoothness (%) (integer)
 #atmo-percentnew=50
 
 # Frame delay (ms) (integer)
@@ -447,6 +474,11 @@ telnet-host=0.0.0.0
 
 # Posterize level (integer)
 #posterize-level=6
+
+[anaglyph] # Convert 3D picture to anaglyph image video filter
+
+# Color scheme (string)
+#anaglyph-scheme=red-cyan
 
 [dynamicoverlay] # Dynamic video overlay
 
@@ -582,32 +614,6 @@ telnet-host=0.0.0.0
 # Interval between disappearance and appearance (integer)
 #subsdelay-min-stop-start=1000
 
-[osdmenu] # On Screen Display menu
-
-# X coordinate (integer)
-#osdmenu-x=-1
-
-# Y coordinate (integer)
-#osdmenu-y=-1
-
-# Menu position (integer)
-#osdmenu-position=8
-
-# Configuration file (string)
-#osdmenu-file=/usr/share/vlc/osdmenu/default.cfg
-
-# Path to OSD menu images (string)
-#osdmenu-file-path=
-
-# Menu timeout (integer)
-#osdmenu-timeout=15
-
-# Menu update interval (integer)
-#osdmenu-update=300
-
-# Alpha transparency value (default 255) (integer)
-#osdmenu-alpha=255
-
 [gradient] # Gradient video filter
 
 # Distort mode (string)
@@ -693,8 +699,11 @@ telnet-host=0.0.0.0
 
 [rotate] # Rotate video filter
 
-# Angle in degrees (integer)
-#rotate-angle=30
+# Angle in degrees (float)
+#rotate-angle=30.000000
+
+# Use motion sensors (boolean)
+#rotate-use-motion=0
 
 [transform] # Video transformation filter
 
@@ -789,8 +798,29 @@ telnet-host=0.0.0.0
 # Number of puzzle columns (integer)
 #puzzle-cols=4
 
-# Make one tile a black slot (boolean)
-#puzzle-black-slot=0
+# Border (integer)
+#puzzle-border=3
+
+# Small preview (boolean)
+#puzzle-preview=0
+
+# Small preview size (integer)
+#puzzle-preview-size=15
+
+# Piece edge shape size (integer)
+#puzzle-shape-size=90
+
+# Auto shuffle (integer)
+#puzzle-auto-shuffle=0
+
+# Auto solve (integer)
+#puzzle-auto-solve=0
+
+# Rotation (integer)
+#puzzle-rotation=0
+
+# Game mode (integer)
+#puzzle-mode=0
 
 [hqdn3d] # High Quality 3D Denoiser filter
 
@@ -921,6 +951,9 @@ telnet-host=0.0.0.0
 # Text (string)
 #marq-marquee=VLC
 
+# Text file (string)
+#marq-file=
+
 # X offset (integer)
 #marq-x=0
 
@@ -953,7 +986,7 @@ telnet-host=0.0.0.0
 # Systray icon (boolean)
 #qt-system-tray=1
 
-# Show notification popup on track change (boolean)
+# Show notification popup on track change (integer)
 #qt-notification=1
 
 # Start VLC with only a systray icon (boolean)
@@ -982,9 +1015,6 @@ telnet-host=0.0.0.0
 
 # List of words separated by | to filter (string)
 #qt-recentplay-filter=
-
-# Automatically save the volume on exit (boolean)
-#qt-autosave-volume=1
 
 # Embed the file browser in open dialog (boolean)
 #qt-embedded-open=0
@@ -1016,49 +1046,8 @@ qt-privacy-ask=0
 # Allow automatic icon changes (boolean)
 #qt-icon-change=1
 
-[fbosd] # GNU/Linux osd/overlay framebuffer interface
-
-# Framebuffer device (string)
-#fbosd-dev=/dev/fb0
-
-# Video aspect ratio (string)
-#fbosd-aspect-ratio=
-
-# Image file (string)
-#fbosd-image=
-
-# Text (string)
-#fbosd-text=
-
-# Transparency of the image (integer)
-#fbosd-alpha=255
-
-# X coordinate (integer)
-#fbosd-x=0
-
-# Y coordinate (integer)
-#fbosd-y=0
-
-# Position (integer)
-#fbosd-position=8
-
-# Opacity (integer)
-#fbosd-font-opacity=255
-
-# Color (integer)
-#fbosd-font-color=16777215
-
-# Font size, pixels (integer)
-#fbosd-font-size=-1
-
-# Clear overlay framebuffer (boolean)
-#fbosd-clear=0
-
-# Render text or image (boolean)
-#fbosd-render=0
-
-# Display on overlay framebuffer (boolean)
-#fbosd-display=0
+# Maximum Volume displayed (integer)
+#qt-max-volume=125
 
 [skins2] # Skinnable Interface
 
@@ -1190,124 +1179,130 @@ qt-privacy-ask=0
 [avcodec] # FFmpeg audio/video decoder
 
 # Direct rendering (boolean)
-#ffmpeg-dr=1
+#avcodec-dr=1
 
 # Error resilience (integer)
-#ffmpeg-error-resilience=1
+#avcodec-error-resilience=1
 
 # Workaround bugs (integer)
-#ffmpeg-workaround-bugs=1
+#avcodec-workaround-bugs=1
 
 # Hurry up (boolean)
-#ffmpeg-hurry-up=1
+#avcodec-hurry-up=1
 
 # Skip frame (default=0) (integer)
-#ffmpeg-skip-frame=0
+#avcodec-skip-frame=0
 
 # Skip idct (default=0) (integer)
-#ffmpeg-skip-idct=0
+#avcodec-skip-idct=0
 
 # Visualize motion vectors (integer)
-#ffmpeg-vismv=0
-
-# Low resolution decoding (integer)
-#ffmpeg-lowres=0
+#avcodec-vismv=0
 
 # Allow speed tricks (boolean)
-#ffmpeg-fast=0
+#avcodec-fast=0
 
 # Skip the loop filter for H.264 decoding (integer)
-#ffmpeg-skiploopfilter=0
+#avcodec-skiploopfilter=0
+
+# Discard cropping information (boolean)
+#avcodec-ignorecrop=0
 
 # Debug mask (integer)
-#ffmpeg-debug=0
+#avcodec-debug=0
 
 # Codec name (string)
-#ffmpeg-codec=
+#avcodec-codec=
 
-# Hardware decoding (boolean)
-#ffmpeg-hw=0
+# Hardware decoding (string)
+#avcodec-hw=none
 
 # Threads (integer)
-#ffmpeg-threads=0
+#avcodec-threads=0
+
+# Advanced options. (string)
+#avcodec-options=
 
 # Codec name (string)
-#sout-ffmpeg-codec=
+#sout-avcodec-codec=
 
 # Quality level (string)
-#sout-ffmpeg-hq=simple
+#sout-avcodec-hq=rd
 
 # Ratio of key frames (integer)
-#sout-ffmpeg-keyint=0
+#sout-avcodec-keyint=0
 
 # Ratio of B frames (integer)
-#sout-ffmpeg-bframes=0
+#sout-avcodec-bframes=0
 
 # Hurry up (boolean)
-#sout-ffmpeg-hurry-up=0
+#sout-avcodec-hurry-up=0
 
 # Interlaced encoding (boolean)
-#sout-ffmpeg-interlace=0
+#sout-avcodec-interlace=0
 
 # Interlaced motion estimation (boolean)
-#sout-ffmpeg-interlace-me=1
+#sout-avcodec-interlace-me=1
 
 # Video bitrate tolerance (integer)
-#sout-ffmpeg-vt=0
+#sout-avcodec-vt=0
 
 # Pre-motion estimation (boolean)
-#sout-ffmpeg-pre-me=0
+#sout-avcodec-pre-me=0
 
 # Rate control buffer size (integer)
-#sout-ffmpeg-rc-buffer-size=0
+#sout-avcodec-rc-buffer-size=0
 
 # Rate control buffer aggressiveness (float)
-#sout-ffmpeg-rc-buffer-aggressivity=1.000000
+#sout-avcodec-rc-buffer-aggressivity=1.000000
 
 # I quantization factor (float)
-#sout-ffmpeg-i-quant-factor=0.000000
+#sout-avcodec-i-quant-factor=0.000000
 
 # Noise reduction (integer)
-#sout-ffmpeg-noise-reduction=0
+#sout-avcodec-noise-reduction=0
 
 # MPEG4 quantization matrix (boolean)
-#sout-ffmpeg-mpeg4-matrix=0
+#sout-avcodec-mpeg4-matrix=0
 
 # Minimum video quantizer scale (integer)
-#sout-ffmpeg-qmin=0
+#sout-avcodec-qmin=0
 
 # Maximum video quantizer scale (integer)
-#sout-ffmpeg-qmax=0
+#sout-avcodec-qmax=0
 
 # Trellis quantization (boolean)
-#sout-ffmpeg-trellis=0
+#sout-avcodec-trellis=0
 
 # Fixed quantizer scale (float)
-#sout-ffmpeg-qscale=0.000000
+#sout-avcodec-qscale=0.000000
 
 # Strict standard compliance (integer)
-#sout-ffmpeg-strict=0
+#sout-avcodec-strict=0
 
 # Luminance masking (float)
-#sout-ffmpeg-lumi-masking=0.000000
+#sout-avcodec-lumi-masking=0.000000
 
 # Darkness masking (float)
-#sout-ffmpeg-dark-masking=0.000000
+#sout-avcodec-dark-masking=0.000000
 
 # Motion masking (float)
-#sout-ffmpeg-p-masking=0.000000
+#sout-avcodec-p-masking=0.000000
 
 # Border masking (float)
-#sout-ffmpeg-border-masking=0.000000
+#sout-avcodec-border-masking=0.000000
 
 # Luminance elimination (integer)
-#sout-ffmpeg-luma-elim-threshold=0
+#sout-avcodec-luma-elim-threshold=0
 
 # Chrominance elimination (integer)
-#sout-ffmpeg-chroma-elim-threshold=0
+#sout-avcodec-chroma-elim-threshold=0
 
 # Specify AAC audio profile to use (string)
-#sout-ffmpeg-aac-profile=low
+#sout-avcodec-aac-profile=low
+
+# Advanced options. (string)
+#sout-avcodec-options=
 
 [twolame] # Libtwolame audio encoder
 
@@ -1430,15 +1425,15 @@ qt-privacy-ask=0
 # Encoding quality (integer)
 #sout-theora-quality=2
 
-[subsdec] # Text subtitles decoder
+[subsdec] # Text subtitle decoder
 
-# Subtitles justification (integer)
+# Subtitle justification (integer)
 #subsdec-align=0
 
-# Subtitles text encoding (string)
+# Subtitle text encoding (string)
 #subsdec-encoding=
 
-# UTF-8 subtitles autodetection (boolean)
+# UTF-8 subtitle autodetection (boolean)
 #subsdec-autodetect-utf8=1
 
 # Formatted Subtitles (boolean)
@@ -1485,7 +1480,7 @@ qt-privacy-ask=0
 # Save raw codec data (boolean)
 #dummy-save-es=0
 
-[x264] # H.264/MPEG4 AVC encoder (x264)
+[x264] # H.264/MPEG-4 Part 10/AVC encoder (x264)
 
 # Maximum GOP size (integer)
 #sout-x264-keyint=250
@@ -1517,6 +1512,9 @@ qt-privacy-ask=0
 # CABAC (boolean)
 #sout-x264-cabac=1
 
+# Use fullrange instead of TV colorrange (boolean)
+#sout-x264-fullrange=0
+
 # Number of reference frames (integer)
 #sout-x264-ref=3
 
@@ -1540,6 +1538,9 @@ qt-privacy-ask=0
 
 # Interlaced mode (boolean)
 #sout-x264-interlaced=0
+
+# Frame packing (integer)
+#sout-x264-frame-packing=-1
 
 # Force number of slices per frame (integer)
 #sout-x264-slices=0
@@ -1700,16 +1701,22 @@ qt-privacy-ask=0
 # Filename for 2 pass stats file (string)
 #sout-x264-stats=x264_2pass.log
 
-# Use preset as default settings. Overridden by user settings. (string)
+# Default preset setting used (string)
 #sout-x264-preset=
 
-# Tune the settings for a particular type of source or situation. Overridden by user settings. (string)
+# Default tune setting used (string)
 #sout-x264-tune=
+
+# x264 advanced options. (string)
+#sout-x264-options=
 
 [freetype] # Freetype2 font renderer
 
 # Font (string)
 freetype-font=Bitstream Vera Sans
+
+# Monospace Font (string)
+#freetype-monofont=Monospace
 
 # Font size in pixels (integer)
 #freetype-fontsize=0
@@ -1758,37 +1765,37 @@ freetype-rel-fontsize=12
 
 [audiobargraph_a] # Audio part of the BarGraph function
 
-# TCP address to use (default localhost) (string)
+# TCP address to use (string)
 #audiobargraph_a-address=localhost
 
-# TCP port to use (default 12345) (integer)
+# TCP port to use (integer)
 #audiobargraph_a-port=12345
 
-# Defines if BarGraph information should be sent (default 1) (integer)
+# Defines if BarGraph information should be sent (integer)
 #audiobargraph_a-bargraph=1
 
-# Sends the barGraph information every n audio packets (default 4) (integer)
+# Sends the barGraph information every n audio packets (integer)
 #audiobargraph_a-bargraph_repetition=4
 
-# Defines if silence alarm information should be sent (default 1) (integer)
+# Defines if silence alarm information should be sent (integer)
 #audiobargraph_a-silence=1
 
-# Time window to use in ms (default 5000) (integer)
+# Time window to use in ms (integer)
 #audiobargraph_a-time_window=5000
 
-# Minimum Audio level to raise the alarm (default 0.1) (float)
+# Minimum Audio level to raise the alarm (float)
 #audiobargraph_a-alarm_threshold=0.100000
 
-# Time between two alarm messages in ms (default 2000) (integer)
+# Time between two alarm messages in ms (integer)
 #audiobargraph_a-repetition_time=2000
 
-# Force connection reset regularly (default 1) (integer)
+# Force connection reset regularly (integer)
 #audiobargraph_a-connection_reset=1
 
 [chorus_flanger] # Sound Delay
 
 # Delay time (float)
-#delay-time=40.000000
+#delay-time=20.000000
 
 # Sweep Depth (float)
 #sweep-depth=6.000000
@@ -1796,7 +1803,7 @@ freetype-rel-fontsize=12
 # Sweep Rate (float)
 #sweep-rate=6.000000
 
-# Feedback Gain (float)
+# Feedback gain (float)
 #feedback-gain=0.500000
 
 # Wet mix (float)
@@ -1804,6 +1811,11 @@ freetype-rel-fontsize=12
 
 # Dry Mix (float)
 #dry-mix=0.400000
+
+[gain] # Gain control filter
+
+# Gain multiplier (float)
+#gain-value=1.000000
 
 [samplerate] # Secret Rabbit Code (libsamplerate) resampler
 
@@ -1861,6 +1873,20 @@ freetype-rel-fontsize=12
 # Resampling quality (integer)
 #speex-resampler-quality=4
 
+[stereo_widen] # Simple stereo widening effect
+
+# Delay time (float)
+#delay=20.000000
+
+# Feedback gain (float)
+#feedback=0.300000
+
+# Crossfeed (float)
+#crossfeed=0.300000
+
+# Dry mix (float)
+#dry-mix=0.800000
+
 [headphone_channel_mixer] # Headphone virtual spatialization effect
 
 # Characteristic dimension (integer)
@@ -1902,6 +1928,9 @@ freetype-rel-fontsize=12
 # Two pass (boolean)
 #equalizer-2pass=0
 
+# Use VLC frequency bands (boolean)
+#equalizer-vlcfreqs=1
+
 # Global gain (float)
 #equalizer-preamp=12.000000
 
@@ -1912,6 +1941,38 @@ freetype-rel-fontsize=12
 
 # Enable internal upmixing (boolean)
 #a52-upmix=0
+
+[remap] # Audio channel remapper
+
+# Left (integer)
+#aout-remap-channel-left=0
+
+# Center (integer)
+#aout-remap-channel-center=1
+
+# Right (integer)
+#aout-remap-channel-right=2
+
+# Rear left (integer)
+#aout-remap-channel-rearleft=3
+
+# Rear center (integer)
+#aout-remap-channel-rearcenter=4
+
+# Rear right (integer)
+#aout-remap-channel-rearright=5
+
+# Side left (integer)
+#aout-remap-channel-middleleft=6
+
+# Side right (integer)
+#aout-remap-channel-middleright=7
+
+# Low-frequency effects (integer)
+#aout-remap-channel-lfe=8
+
+# Normalize channels (boolean)
+#aout-remap-normalize=1
 
 [spatializer] # Audio Spatializer
 
@@ -2047,6 +2108,11 @@ freetype-rel-fontsize=12
 # X11 display (string)
 #x11-display=
 
+[gl] # OpenGL video output (experimental)
+
+# OpenGL extension (string)
+#gl=
+
 [vdummy] # Dummy video output
 
 # Dummy image chroma format (string)
@@ -2098,10 +2164,16 @@ freetype-rel-fontsize=12
 [avformat] # Avformat demuxer
 
 # Format name (string)
-#ffmpeg-format=
+#avformat-format=
+
+# Advanced options. (string)
+#avformat-options=
 
 # Avformat mux (string)
-#ffmpeg-mux=
+#sout-avformat-mux=
+
+# Advanced options. (string)
+#sout-avformat-options=
 
 [vc1] # VC1 video demuxer
 
@@ -2147,54 +2219,28 @@ freetype-rel-fontsize=12
 
 [demuxdump] # File dumper
 
+# Dump module (string)
+#demuxdump-access=file
+
 # Dump filename (string)
 #demuxdump-file=stream-demux.dump
 
 # Append to existing file (boolean)
 #demuxdump-append=0
 
-[subtitle] # Text subtitles parser
+[subtitle] # Text subtitle parser
 
-# Frames per second (float)
+# Frames per Second (float)
 #sub-fps=0.000000
 
-# Subtitles delay (integer)
+# Subtitle delay (integer)
 #sub-delay=0
 
-# Subtitles format (string)
+# Subtitle format (string)
 #sub-type=auto
 
-# Subtitles description (string)
+# Subtitle description (string)
 #sub-description=
-
-[live555] # RTP/RTSP/SDP demuxer (using Live555)
-
-# Use RTP over RTSP (TCP) (boolean)
-#rtsp-tcp=0
-
-# Client port (integer)
-#rtp-client-port=-1
-
-# Force multicast RTP via RTSP (boolean)
-#rtsp-mcast=0
-
-# Tunnel RTSP and RTP over HTTP (boolean)
-#rtsp-http=0
-
-# HTTP tunnel port (integer)
-#rtsp-http-port=80
-
-# Kasenna RTSP dialect (boolean)
-#rtsp-kasenna=0
-
-# WMServer RTSP dialect (boolean)
-#rtsp-wmserver=0
-
-# RTSP user name (string)
-#rtsp-user=
-
-# RTSP password (string)
-#rtsp-pwd=
 
 [mod] # MOD demuxer (libmodplug)
 
@@ -2306,18 +2352,6 @@ freetype-rel-fontsize=12
 
 # Packet size in bytes to decrypt (integer)
 #ts-csa-pkt=188
-
-# Silent mode (boolean)
-#ts-silent=0
-
-# Filename of dump (string)
-#ts-dump-file=
-
-# Append (boolean)
-#ts-dump-append=0
-
-# Dump buffer size (integer)
-#ts-dump-size=16384
 
 # Separate sub-streams (boolean)
 #ts-split-es=1
@@ -2437,6 +2471,11 @@ freetype-rel-fontsize=12
 # Bitrate override (integer)
 #sout-asf-bitrate-override=0
 
+[stream_out_chromaprint] # Chromaprint stream output
+
+# Duration of the fingerprinting (integer)
+#duration=90
+
 [stream_out_setid] # Change the id of an elementary stream
 
 # Elementary Stream ID (integer)
@@ -2450,17 +2489,6 @@ freetype-rel-fontsize=12
 
 # Language (string)
 #sout-setlang-lang=eng
-
-[stream_out_select] # Select individual es to enable or disable from stream
-
-# Command UDP port (integer)
-#sout-select-port=5001
-
-# Disable ES id (integer)
-#sout-select-disable=-1
-
-# Enable ES id (integer)
-#sout-select-enable=-1
 
 [stream_out_rtp] # RTP stream output
 
@@ -2612,7 +2640,7 @@ freetype-rel-fontsize=12
 #sout-transcode-fps=0.000000
 
 # Hurry up (boolean)
-#sout-transcode-hurry-up=1
+#sout-transcode-hurry-up=0
 
 # Deinterlace video (boolean)
 #sout-transcode-deinterlace=0
@@ -2644,7 +2672,7 @@ freetype-rel-fontsize=12
 # Audio bitrate (integer)
 #sout-transcode-ab=96
 
-# Audio Language (string)
+# Audio language (string)
 #sout-transcode-alang=
 
 # Audio channels (integer)
@@ -2659,13 +2687,13 @@ freetype-rel-fontsize=12
 # Audio filter (string)
 #sout-transcode-afilter=
 
-# Subtitles encoder (string)
+# Subtitle encoder (string)
 #sout-transcode-senc=
 
-# Destination subtitles codec (string)
+# Destination subtitle codec (string)
 #sout-transcode-scodec=
 
-# Destination subtitles codec (boolean)
+# Destination subtitle codec (boolean)
 #sout-transcode-soverlay=0
 
 # Overlays (string)
@@ -2817,7 +2845,7 @@ freetype-rel-fontsize=12
 #gestures-threshold=30
 
 # Trigger button (string)
-#gestures-button=right
+#gestures-button=left
 
 [oldrc] # Remote control interface
 
@@ -2838,15 +2866,7 @@ freetype-rel-fontsize=12
 # Change the lirc configuration file (string)
 #lirc-file=
 
-[hotkeys] # Hotkeys management interface
-
-# MouseWheel up-down axis Control (integer)
-#hotkeys-mousewheel-mode=0
-
 [motion] # motion control interface
-
-# Use the rotate video filter instead of transform (boolean)
-#motion-use-rotate=0
 
 [podcast] # Podcasts
 
@@ -2875,7 +2895,15 @@ podcast-urls=itpc://feeds.feedburner.com/PodcastScience
 # Audio output channels (integer)
 #alsa-audio-channels=6
 
-[aout_file] # File audio output
+# Software gain (float)
+#alsa-gain=1.000000
+
+[oss] # Open Sound System audio output
+
+# Audio output device (string)
+#oss-audio-device=
+
+[afile] # File audio output
 
 # Output file (string)
 #audiofile-file=audiofile.wav
@@ -2888,11 +2916,6 @@ podcast-urls=itpc://feeds.feedburner.com/PodcastScience
 
 # Add WAVE header (boolean)
 #audiofile-wav=1
-
-[oss] # Open Sound System
-
-# OSS DSP device (string)
-#oss-audio-device=/dev/dsp
 
 [amem] # Audio memory output
 
@@ -2918,6 +2941,11 @@ podcast-urls=itpc://feeds.feedburner.com/PodcastScience
 
 # Audio configuration (string)
 #linsys-hdsdi-audio=0=1,1
+
+[timecode] # Time code subpicture elementary stream generator
+
+# Frame rate (string)
+#timecode-fps=25/1
 
 [dvdread] # DVDRead Input (no menu support)
 
@@ -2947,10 +2975,13 @@ podcast-urls=itpc://feeds.feedburner.com/PodcastScience
 # Forward Cookies (boolean)
 #http-forward-cookies=1
 
-[v4l2] # Video4Linux2 input
+[v4l2] # Video4Linux input
 
-# Device (string)
+# Video capture device (string)
 #v4l2-dev=/dev/video0
+
+# VBI capture device (string)
+#v4l2-vbidev=
 
 # Standard (string)
 #v4l2-standard=
@@ -2965,28 +2996,22 @@ podcast-urls=itpc://feeds.feedburner.com/PodcastScience
 #v4l2-audio-input=-1
 
 # Width (integer)
-#v4l2-width=-1
+#v4l2-width=0
 
 # Height (integer)
-#v4l2-height=-1
+#v4l2-height=0
 
 # Picture aspect-ratio n:m (string)
 #v4l2-aspect-ratio=4:3
 
-# Framerate (float)
-#v4l2-fps=0.000000
-
-# Use libv4l2 (boolean)
-#v4l2-use-libv4l2=0
-
-# Tuner id (integer)
-#v4l2-tuner=0
+# Radio device (string)
+#v4l2-radio-dev=/dev/radio0
 
 # Frequency (integer)
 #v4l2-tuner-frequency=-1
 
 # Audio mode (integer)
-#v4l2-tuner-audio-mode=-1
+#v4l2-tuner-audio-mode=3
 
 # Reset controls (boolean)
 #v4l2-controls-reset=0
@@ -3095,19 +3120,13 @@ podcast-urls=itpc://feeds.feedburner.com/PodcastScience
 # FTP account (string)
 #ftp-account=anonymous
 
-[access_shm] # Shared memory framebuffer
+[access_avio] # FFmpeg access
 
-# Frame rate (float)
-#shm-fps=10.000000
+# Advanced options. (string)
+#avio-options=
 
-# Frame buffer width (integer)
-#shm-width=800
-
-# Frame buffer height (integer)
-#shm-height=480
-
-# Frame buffer depth (integer)
-#shm-depth=32
+# Advanced options. (string)
+#sout-avio-options=
 
 [cdda] # Audio CD input
 
@@ -3140,6 +3159,9 @@ podcast-urls=itpc://feeds.feedburner.com/PodcastScience
 
 # Ignored extensions (string)
 #ignore-filetypes=m3u,db,nfo,ini,jpg,jpeg,ljpg,gif,png,pgm,pgmyuv,pbm,pam,tga,bmp,pnm,xpm,xcf,pcx,tif,tiff,lbm,sfv,txt,sub,idx,srt,cue,ssa
+
+# Directory sort order (string)
+#directory-sort=collate
 
 [access_mms] # Microsoft Media Server (MMS) input
 
@@ -3254,52 +3276,27 @@ podcast-urls=itpc://feeds.feedburner.com/PodcastScience
 # Frame rate (float)
 #vdr-fps=25.000000
 
-[pvr] # IVTV MPEG Encoding cards input
+[dvb] # DVB input with v4l2 support
 
-# Device (string)
-#pvr-device=/dev/video0
+# Probe DVB card for capabilities (boolean)
+#dvb-probe=1
 
-# Radio device (string)
-#pvr-radio-device=/dev/radio0
+# Satellite scanning config (string)
+#dvb-satellite=
 
-# Norm (integer)
-#pvr-norm=0
+[rdp] # RDP Remote Desktop
 
-# Width (integer)
-#pvr-width=-1
+# RDP auth username (string)
+#rdp-user=
 
-# Height (integer)
-#pvr-height=-1
+# RDP auth password (string)
+#rdp-password=
 
-# Frequency (integer)
-#pvr-frequency=-1
+# Frame rate (float)
+#rdp-fps=5.000000
 
-# Framerate (integer)
-#pvr-framerate=-1
-
-# Key interval (integer)
-#pvr-keyint=-1
-
-# Framerate (integer)
-#pvr-bframes=-1
-
-# Bitrate (integer)
-#pvr-bitrate=-1
-
-# Bitrate peak (integer)
-#pvr-bitrate-peak=-1
-
-# Bitrate mode (integer)
-#pvr-bitrate-mode=-1
-
-# Audio bitmask (integer)
-#pvr-audio-bitmask=-1
-
-# Volume (integer)
-#pvr-audio-volume=-1
-
-# Channel (integer)
-#pvr-channel=-1
+# Encrypted connexion (boolean)
+#rdp-encrypt=0
 
 [dvdnav] # DVDnav Input
 
@@ -3319,6 +3316,20 @@ podcast-urls=itpc://feeds.feedburner.com/PodcastScience
 
 # SMB domain (string)
 #smb-domain=
+
+[shm] # Shared memory framebuffer
+
+# Frame rate (float)
+#shm-fps=10.000000
+
+# Frame buffer depth (integer)
+#shm-depth=0
+
+# Frame buffer width (integer)
+#shm-width=800
+
+# Frame buffer height (integer)
+#shm-height=480
 
 [access_imem] # Memory input
 
@@ -3358,20 +3369,49 @@ podcast-urls=itpc://feeds.feedburner.com/PodcastScience
 # Size (integer)
 #imem-size=0
 
-[libbluray] # Blu-Ray Disc support (libbluray)
+[live555] # RTP/RTSP/SDP demuxer (using Live555)
 
-# Bluray menus (boolean)
+# Use RTP over RTSP (TCP) (boolean)
+#rtsp-tcp=0
+
+# Client port (integer)
+#rtp-client-port=-1
+
+# Force multicast RTP via RTSP (boolean)
+#rtsp-mcast=0
+
+# Tunnel RTSP and RTP over HTTP (boolean)
+#rtsp-http=0
+
+# HTTP tunnel port (integer)
+#rtsp-http-port=80
+
+# Kasenna RTSP dialect (boolean)
+#rtsp-kasenna=0
+
+# WMServer RTSP dialect (boolean)
+#rtsp-wmserver=0
+
+# RTSP user name (string)
+#rtsp-user=
+
+# RTSP password (string)
+#rtsp-pwd=
+
+# RTSP frame buffer size (integer)
+#rtsp-frame-buffer-size=100000
+
+[libbluray] # Blu-ray Disc support (libbluray)
+
+# Blu-ray menus (boolean)
 #bluray-menu=0
 
-[access_alsa] # ALSA audio capture input
+[access_alsa] # ALSA audio capture
 
 # Stereo (boolean)
 #alsa-stereo=1
 
-# Capture format (default s16l) (string)
-#alsa-format=s16l
-
-# Samplerate (integer)
+# Sample rate (integer)
 #alsa-samplerate=48000
 
 [dtv] # Digital Television and Radio
@@ -3408,6 +3448,9 @@ podcast-urls=itpc://feeds.feedburner.com/PodcastScience
 
 # Hierarchy mode (integer)
 #dvb-hierarchy=-1
+
+# DVB-T2 Physical Layer Pipe (integer)
+#dvb-plp-id=0
 
 # Layer A modulation (string)
 #dvb-a-modulation=
@@ -3484,29 +3527,41 @@ podcast-urls=itpc://feeds.feedburner.com/PodcastScience
 # DiSEqC LNB number (integer)
 #dvb-satno=0
 
+# Uncommitted DiSEqC LNB number (integer)
+#dvb-uncommitted=0
+
 # Continuous 22kHz tone (integer)
 #dvb-tone=-1
-
-[telepathy] # Telepathy "Now Playing" (MissionControl)
 
 [notify] # LibNotify Notification Plugin
 
 # Timeout (ms) (integer)
 #notify-timeout=4000
 
+[dash] # Dynamic Adaptive Streaming over HTTP
+
+# Preferred Width (integer)
+#dash-prefwidth=480
+
+# Preferred Height (integer)
+#dash-prefheight=360
+
+# Buffer Size (Seconds) (integer)
+#dash-buffersize=30
+
 [main] # main program
 
 # Enable audio (boolean)
 #audio=1
 
-# Default audio volume (integer)
-volume=207
+# Audio gain (float)
+#gain=1.000000
 
-# Audio output volume step (integer)
-#volume-step=32
+# Audio output volume step (float)
+#volume-step=12.800000
 
-# High quality audio resampling (boolean)
-#hq-resampling=1
+# Remember the audio volume (boolean)
+#volume-save=1
 
 # Use S/PDIF when available (boolean)
 #spdif=0
@@ -3514,8 +3569,14 @@ volume=207
 # Force detection of Dolby Surround (integer)
 #force-dolby-surround=0
 
+# Stereo audio output mode (integer)
+#stereo-mode=0
+
 # Audio desynchronization compensation (integer)
 #audio-desync=0
+
+# Audio resampler (string)
+audio-resampler=any
 
 # Replay gain mode (string)
 #audio-replay-gain-mode=none
@@ -3538,8 +3599,8 @@ volume=207
 # Audio filters (string)
 #audio-filter=
 
-# Audio visualizations  (string)
-#audio-visual=
+# Audio visualizations (string)
+#audio-visual=none
 
 # Enable video (boolean)
 #video=1
@@ -3718,7 +3779,7 @@ deinterlace=-1
 # Audio track (integer)
 #audio-track=-1
 
-# Subtitles track (integer)
+# Subtitle track (integer)
 #sub-track=-1
 
 # Audio language (string)
@@ -3730,7 +3791,7 @@ deinterlace=-1
 # Audio track ID (integer)
 #audio-track-id=-1
 
-# Subtitles track ID (integer)
+# Subtitle track ID (integer)
 #sub-track-id=-1
 
 # Preferred video resolution (integer)
@@ -3919,6 +3980,9 @@ cd-audio=/dev/hda
 # VLM configuration file (string)
 #vlm-conf=
 
+# SAP announcement interval (integer)
+#sap-interval=5
+
 # Mux module (string)
 #mux=
 
@@ -3937,20 +4001,11 @@ cd-audio=/dev/hda
 # Preferred packetizer list (string)
 #packetizer=
 
-# SAP announcement interval (integer)
-#sap-interval=5
-
-# Memory copy module (string)
-#memcpy=
-
 # VoD server module (string)
 #vod-server=
 
 # Use a plugins cache (boolean)
 #plugins-cache=1
-
-# Data search path (string)
-#data-path=
 
 # Allow real-time priority (boolean)
 #rt-priority=0
@@ -3960,15 +4015,6 @@ cd-audio=/dev/hda
 
 # Inhibit the power management daemon during playback (boolean)
 #inhibit=1
-
-# Allow only one running instance (boolean)
-#one-instance=0
-
-# One instance when started from file (boolean)
-#one-instance-when-started-from-file=1
-
-# Enqueue items to playlist when in one instance mode (boolean)
-#playlist-enqueue=0
 
 # Play files randomly forever (boolean)
 random=1
@@ -3991,6 +4037,18 @@ repeat=1
 # Auto start (boolean)
 #playlist-autostart=1
 
+# Pause on audio communication (boolean)
+#playlist-cork=1
+
+# Allow only one running instance (boolean)
+#one-instance=0
+
+# Use only one instance when started from file manager (boolean)
+#one-instance-when-started-from-file=1
+
+# Enqueue items into playlist in one instance mode (boolean)
+#playlist-enqueue=0
+
 # Use media library (boolean)
 media-library=1
 
@@ -4007,16 +4065,7 @@ media-library=1
 album-art=1
 
 # Services discovery modules (string)
-#services-discovery=
-
-# Verbosity (0,1,2) (integer)
-#verbose=0
-
-# Choose which objects should print debug message (string)
-#verbose-objects=
-
-# Be quiet (boolean)
-#quiet=0
+services-discovery=dnla
 
 # Run as daemon process (boolean)
 #daemon=0
@@ -4029,9 +4078,6 @@ album-art=1
 
 # Log to syslog (boolean)
 #syslog=0
-
-# Color messages (boolean)
-#color=1
 
 # Show advanced options (boolean)
 #advanced=0
@@ -4051,35 +4097,38 @@ extraintf=http:telnet
 # Control interfaces (string)
 #control=
 
+# MouseWheel up-down axis Control (integer)
+#hotkeys-mousewheel-mode=0
+
 # Fullscreen (string)
 #global-key-toggle-fullscreen=
 
 # Fullscreen (string)
 #key-toggle-fullscreen=f
 
-# Leave fullscreen (string)
+# Exit fullscreen (string)
 #global-key-leave-fullscreen=
 
-# Leave fullscreen (string)
+# Exit fullscreen (string)
 #key-leave-fullscreen=Esc
 
 # Play/Pause (string)
 #global-key-play-pause=
 
 # Play/Pause (string)
-#key-play-pause=Space
+#key-play-pause=Space	Media Play Pause
 
 # Pause only (string)
 #global-key-pause=
 
 # Pause only (string)
-#key-pause=
+#key-pause=Browser Stop
 
 # Play only (string)
 #global-key-play=
 
 # Play only (string)
-#key-play=
+#key-play=Browser Refresh
 
 # Faster (string)
 #global-key-faster=
@@ -4115,19 +4164,19 @@ extraintf=http:telnet
 #global-key-next=
 
 # Next (string)
-#key-next=n
+#key-next=n	Media Next Track
 
 # Previous (string)
 #global-key-prev=
 
 # Previous (string)
-#key-prev=p
+#key-prev=p	Media Prev Track
 
 # Stop (string)
 #global-key-stop=
 
 # Stop (string)
-#key-stop=s
+#key-stop=s	Media Stop
 
 # Position (string)
 #global-key-position=
@@ -4187,7 +4236,7 @@ extraintf=http:telnet
 #global-key-frame-next=
 
 # Next frame (string)
-#key-frame-next=e
+#key-frame-next=e	Browser Next
 
 # Activate (string)
 #global-key-nav-activate=
@@ -4259,19 +4308,19 @@ extraintf=http:telnet
 #global-key-vol-up=
 
 # Volume up (string)
-#key-vol-up=Ctrl+Up
+#key-vol-up=Ctrl+Up	Volume Up
 
 # Volume down (string)
 #global-key-vol-down=
 
 # Volume down (string)
-#key-vol-down=Ctrl+Down
+#key-vol-down=Ctrl+Down	Volume Down
 
 # Mute (string)
 #global-key-vol-mute=
 
 # Mute (string)
-#key-vol-mute=m
+#key-vol-mute=m	Volume Mute
 
 # Subtitle delay up (string)
 #global-key-subdelay-up=
@@ -4284,6 +4333,30 @@ extraintf=http:telnet
 
 # Subtitle delay down (string)
 #key-subdelay-down=g
+
+# Subtitle sync / bookmark audio timestamp (string)
+#global-key-subsync-markaudio=
+
+# Subtitle sync / bookmark audio timestamp (string)
+#key-subsync-markaudio=Shift+h
+
+# Subtitle sync / bookmark subtitle timestamp (string)
+#global-key-subsync-marksub=
+
+# Subtitle sync / bookmark subtitle timestamp (string)
+#key-subsync-marksub=Shift+j
+
+# Subtitle sync / synchronize audio & subtitle timestamps (string)
+#global-key-subsync-apply=
+
+# Subtitle sync / synchronize audio & subtitle timestamps (string)
+#key-subsync-apply=Shift+k
+
+# Subtitle sync / reset audio & subtitle synchronization (string)
+#global-key-subsync-reset=
+
+# Subtitle sync / reset audio & subtitle synchronization (string)
+#key-subsync-reset=Ctrl+Shift+k
 
 # Subtitle position up (string)
 #global-key-subpos-up=
@@ -4327,6 +4400,18 @@ extraintf=http:telnet
 # Cycle subtitle track (string)
 #key-subtitle-track=v
 
+# Cycle next program Service ID (string)
+#global-key-program-sid-next=
+
+# Cycle next program Service ID (string)
+#key-program-sid-next=x
+
+# Cycle previous program Service ID (string)
+#global-key-program-sid-prev=
+
+# Cycle previous program Service ID (string)
+#key-program-sid-prev=Shift+x
+
 # Cycle source aspect ratio (string)
 #global-key-aspect-ratio=
 
@@ -4357,11 +4442,17 @@ extraintf=http:telnet
 # Decrease scale factor (string)
 #key-decr-scalefactor=Alt+Shift+o
 
-# Cycle deinterlace modes (string)
+# Toggle deinterlacing (string)
 #global-key-deinterlace=
 
-# Cycle deinterlace modes (string)
+# Toggle deinterlacing (string)
 #key-deinterlace=d
+
+# Cycle deinterlace modes (string)
+#global-key-deinterlace-mode=
+
+# Cycle deinterlace modes (string)
+#key-deinterlace-mode=Shift+d
 
 # Show controller in fullscreen (string)
 #global-key-intf-show=
@@ -4374,6 +4465,12 @@ extraintf=http:telnet
 
 # Boss key (string)
 #key-intf-boss=
+
+# Context menu (string)
+#global-key-intf-popup-menu=
+
+# Context menu (string)
+#key-intf-popup-menu=Menu
 
 # Take video snapshot (string)
 #global-key-snapshot=
@@ -4404,48 +4501,6 @@ extraintf=http:telnet
 
 # Toggle wallpaper mode in video output (string)
 #key-wallpaper=w
-
-# Display OSD menu on top of video output (string)
-#global-key-menu-on=
-
-# Display OSD menu on top of video output (string)
-#key-menu-on=Alt+Shift+m
-
-# Do not display OSD menu on video output (string)
-#global-key-menu-off=
-
-# Do not display OSD menu on video output (string)
-#key-menu-off=Ctrl+Alt+m
-
-# Highlight widget on the right (string)
-#global-key-menu-right=
-
-# Highlight widget on the right (string)
-#key-menu-right=Alt+Shift+Right
-
-# Highlight widget on the left (string)
-#global-key-menu-left=
-
-# Highlight widget on the left (string)
-#key-menu-left=Alt+Shift+Left
-
-# Highlight widget on top (string)
-#global-key-menu-up=
-
-# Highlight widget on top (string)
-#key-menu-up=Alt+Shift+Up
-
-# Highlight widget below (string)
-#global-key-menu-down=
-
-# Highlight widget below (string)
-#key-menu-down=Alt+Shift+Down
-
-# Select current widget (string)
-#global-key-menu-select=
-
-# Select current widget (string)
-#key-menu-select=Alt+Shift+Enter
 
 # Crop one pixel from the top of the video (string)
 #global-key-crop-top=
@@ -4501,10 +4556,10 @@ extraintf=http:telnet
 # Random (string)
 #key-random=r
 
-# Normal/Repeat/Loop (string)
+# Normal/Loop/Repeat (string)
 #global-key-loop=
 
-# Normal/Repeat/Loop (string)
+# Normal/Loop/Repeat (string)
 #key-loop=l
 
 # 1:4 Quarter (string)
@@ -4663,6 +4718,12 @@ extraintf=http:telnet
 # Play playlist bookmark 10 (string)
 #key-play-bookmark10=F10
 
+# Clear the playlist (string)
+#global-key-clear-playlist=
+
+# Clear the playlist (string)
+#key-clear-playlist=Ctrl+w
+
 # Playlist bookmark 1 (string)
 #bookmark1=
 
@@ -4693,302 +4754,3 @@ extraintf=http:telnet
 # Playlist bookmark 10 (string)
 #bookmark10=
 
-[zvbi] # VBI and Teletext decoder
-# Teletext page (integer)
-#vbi-page=100
-# Teletext transparency (boolean)
-#vbi-opaque=1
-# Teletext alignment (integer)
-#vbi-position=4
-# Teletext text subtitles (boolean)
-#vbi-text=0
-[access_mmap] # Memory-mapped file input
-# Use file memory mapping (boolean)
-#file-mmap=0
-[v4l] # Video4Linux input
-# Caching value in ms (integer)
-#v4l-caching=300
-# Video input chroma format (string)
-#v4l-chroma=
-# Framerate (float)
-#v4l-fps=-1.000000
-# Channel (integer)
-#v4l-channel=0
-# Tuner (integer)
-#v4l-tuner=-1
-# Norm (integer)
-#v4l-norm=3
-# Frequency (integer)
-#v4l-frequency=-1
-# Audio Channel (integer)
-#v4l-audio=-1
-# Width (integer)
-#v4l-width=0
-# Height (integer)
-#v4l-height=0
-# Brightness (integer)
-#v4l-brightness=-1
-# Color (integer)
-#v4l-colour=-1
-# Hue (integer)
-#v4l-hue=-1
-# Contrast (integer)
-#v4l-contrast=-1
-# MJPEG (boolean)
-#v4l-mjpeg=0
-# Decimation (integer)
-#v4l-decimation=1
-# Quality (integer)
-#v4l-quality=100
-[dvb] # DVB input with v4l2 support
-# Caching value in ms (integer)
-#dvb-caching=300
-# Adapter card to tune (integer)
-#dvb-adapter=0
-# Device number to use on adapter (integer)
-#dvb-device=0
-# Transponder/multiplex frequency (integer)
-#dvb-frequency=0
-# Inversion mode (integer)
-#dvb-inversion=2
-# Probe DVB card for capabilities (boolean)
-#dvb-probe=1
-# Budget mode (boolean)
-#dvb-budget-mode=0
-# Satellite number in the Diseqc system (integer)
-#dvb-satno=0
-# LNB voltage (integer)
-#dvb-voltage=13
-# High LNB voltage (boolean)
-#dvb-high-voltage=0
-# 22 kHz tone (integer)
-#dvb-tone=-1
-# Transponder FEC (integer)
-#dvb-fec=9
-# Transponder symbol rate in kHz (integer)
-#dvb-srate=27500000
-# Antenna lnb_lof1 (kHz) (integer)
-#dvb-lnb-lof1=0
-# Antenna lnb_lof2 (kHz) (integer)
-#dvb-lnb-lof2=0
-# Antenna lnb_slof (kHz) (integer)
-#dvb-lnb-slof=0
-# Modulation type (integer)
-#dvb-modulation=0
-# Terrestrial high priority stream code rate (FEC) (integer)
-#dvb-code-rate-hp=9
-# Terrestrial low priority stream code rate (FEC) (integer)
-#dvb-code-rate-lp=9
-# Terrestrial bandwidth (integer)
-#dvb-bandwidth=0
-# Terrestrial guard interval (integer)
-#dvb-guard=0
-# Terrestrial transmission mode (integer)
-#dvb-transmission=0
-# Terrestrial hierarchy mode (integer)
-#dvb-hierarchy=0
-# HTTP Host address (string)
-#dvb-http-host=
-# HTTP user name (string)
-#dvb-http-user=
-# HTTP password (string)
-#dvb-http-password=
-# HTTP ACL (string)
-#dvb-http-acl=
-# Certificate file (string)
-#dvb-http-intf-cert=
-# Private key file (string)
-#dvb-http-intf-key=
-# Root CA file (string)
-#dvb-http-intf-ca=
-# CRL file (string)
-#dvb-http-intf-crl=
-[access_fake] # Fake video input
-# Caching value in ms (integer)
-#fake-caching=300
-# Framerate (float)
-#fake-fps=25.000000
-# ID (integer)
-#fake-id=0
-# Duration in ms (integer)
-#fake-duration=-1
-[crop] # Crop video filter
-# Crop geometry (pixels) (string)
-#crop-geometry=
-# Automatic cropping (boolean)
-#autocrop=0
-# Ratio max (x 1000) (integer)
-#autocrop-ratio-max=2405
-# Manual ratio (integer)
-#crop-ratio=0
-# Number of images for change (integer)
-#autocrop-time=25
-# Number of lines for change (integer)
-#autocrop-diff=16
-# Number of non black pixels  (integer)
-#autocrop-non-black-pixels=3
-# Skip percentage (%) (integer)
-#autocrop-skip-percent=17
-# Luminance threshold  (integer)
-#autocrop-luminance-threshold=40
-[oldtelnet] # VLM remote control interface
-# Host (string)
-#telnet-host=localhost
-# Port (integer)
-#telnet-port=4212
-# Password (string)
-#telnet-password=admin
-[oldhttp] # HTTP remote control interface
-# Host address (string)
-#http-host=
-# Source directory (string)
-#http-src=
-# Handlers (string)
-#http-handlers=
-# Export album art as /art (boolean)
-#http-album-art=0
-# Certificate file (string)
-#http-intf-cert=
-# Private key file (string)
-#http-intf-key=
-# Root CA file (string)
-#http-intf-ca=
-# CRL file (string)
-#http-intf-crl=
-[fake] # Fake video decoder
-# Image file (string)
-#fake-file=
-# Reload image file (integer)
-#fake-file-reload=0
-# Video width (integer)
-#fake-width=0
-# Video height (integer)
-#fake-height=0
-# Keep aspect ratio (boolean)
-#fake-keep-ar=0
-# Background aspect ratio (string)
-#fake-aspect-ratio=
-# Deinterlace video (boolean)
-#fake-deinterlace=0
-# Deinterlace module (string)
-#fake-deinterlace-module=deinterlace
-# Chroma used (string)
-#fake-chroma=I420
-[invmem] # Memory video decoder
-# Width (integer)
-#invmem-width=0
-# Height (integer)
-#invmem-height=0
-# Lock function (string)
-#invmem-lock=0
-# Unlock function (string)
-#invmem-unlock=0
-# Callback data (string)
-#invmem-data=0
-# Chroma (string)
-#invmem-chroma=RV24
-[shout] # Shoutcast
-[access_directory] # Lecture d’un dossier
-# Comportement des sous-dossiers (string)
-#recursive=expand
-# Extensions ignorées (string)
-#ignore-filetypes=m3u,db,nfo,ini,jpg,jpeg,ljpg,gif,png,pgm,pgmyuv,pbm,pam,tga,bmp,pnm,xpm,xcf,pcx,tif,tiff,lbm,sfv,txt,sub,idx,srt,cue,ssa
-[x11_screen] # Module de capture d’écran
-# Taille du cache en ms (integer)
-#screen-caching=300
-# Débit d’images  (float)
-#screen-fps=5.000000
-# Coin haut gauche du sous-écran (integer)
-#screen-top=0
-# Coin haut gauche du sous-écran (integer)
-#screen-left=0
-# Taille sous-écran (integer)
-#screen-width=0
-# Hauteur sous-écran (integer)
-#screen-height=0
-# Suivre la souris (boolean)
-#screen-follow-mouse=0
-# Image du pointeur de la souris (string)
-#screen-mouse-image=
-[access_file] # Lecture de fichiers
-# Taille du cache en ms (integer)
-#file-caching=300
-[telnet] # Interface de commande à distance VLM
-# Hôte (string)
-#telnet-host=
-# Port (integer)
-#telnet-port=4212
-# Mot de passe (string)
-#telnet-password=admin
-[rc] # Interface de commande à distance
-# Montrer la position dans le flux (boolean)
-#rc-show-pos=0
-# TTY factice (boolean)
-#rc-fake-tty=0
-# Entrée de commandes par Socket Unix (string)
-#rc-unix=
-# Entrée de commandes par TCP/IP (string)
-#rc-host=
-[showintf] # Afficher l’interface avec la souris
-# Seuil (integer)
-#showintf-threshold=10
-[http] # Interface de commande à distance HTTP
-# Adresse de l’hôte (string)
-#http-host=
-# Dossier source (string)
-#http-src=
-# Prise en charge d’extensions (string)
-#http-handlers=
-# Exporter la jaquette vers « /art » (boolean)
-#http-album-art=0
-# Fichier certificat (string)
-#http-intf-cert=
-# Fichier de clé privée (string)
-#http-intf-key=
-# Fichier CA (string)
-#http-intf-ca=
-# Fichier CRL (string)
-#http-intf-crl=
-[opengl] # Sortie vidéo « OpenGL »
-# Module OpenGL (string)
-#opengl-provider=
-[drawable] # Fenêtre vidéo X intégrée
-[glx] # Sortie vidéo « OpenGL(GLX) »
-# Display X11 (string)
-#glx-display=
-# Méthode plein écran alternative (boolean)
-#glx-altfullscreen=0
-# Écran pour le mode plein écran. (integer)
-#glx-xineramascreen=-1
-[xvideo] # Sortie vidéo « extension XVideo »
-# Display X11 (string)
-#xvideo-display=
-# Numéro de l’adaptateur XVideo (integer)
-#xvideo-adaptor=-1
-# Méthode plein écran alternative (boolean)
-#xvideo-altfullscreen=0
-# Format chromatographique XVimage (string)
-#xvideo-chroma=
-# Utiliser la mémoire partagée (boolean)
-#xvideo-shm=1
-# Écran pour le mode plein écran. (integer)
-#xvideo-xineramascreen=-1
-[x11] # Sortie vidéo « X11 »
-# Display X11 (string)
-#x11-display=
-# Méthode plein écran alternative (boolean)
-#x11-altfullscreen=0
-# Utiliser la mémoire partagée (boolean)
-#x11-shm=1
-# Écran pour le mode plein écran. (integer)
-#x11-xineramascreen=-1
-[telx] # Décodeur de sous-titres Télétexte
-# Forcer la page (integer)
-#telx-override-page=-1
-# Ignorer l'indicateur de sous-titres (boolean)
-#telx-ignore-subtitle-flag=0
-# Contournement d’un bug spécifique à la France (boolean)
-#telx-french-workaround=0
-[m4v] # Démultiplexeur de flux vidéo MPEG-4
-# Images par seconde (float)
-#m4v-fps=25.000000
