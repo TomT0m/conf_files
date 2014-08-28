@@ -4,7 +4,7 @@ au BufRead,BufNewFile *.wikibooks.org*      set filetype=mediawiki
 au BufRead,BufNewFile *.wikimedia.org*      set filetype=mediawiki
 
 " utf-8 should be set if not already done globally
-setlocal fileencoding=utf-8
+" setlocal fileencoding=utf-8
 setlocal matchpairs+=<:>
  
 " Treat lists, indented text and tables as comment lines and continue with the

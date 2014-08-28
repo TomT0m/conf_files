@@ -8,9 +8,7 @@ case $- in
       *) return;;
 esac
 
-# don't put duplicate lines or lines starting with space in the history.
-# See bash(1) for more options
-HISTCONTROL=ignoreboth
+export HISTCONTROL=ignoreboth
 
 # append to the history file, don't overwrite it
 shopt -s histappend
@@ -108,3 +106,42 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+<<<<<<< HEAD
+=======
+
+if [ -d ~/.config/bash/complete.d ] ; then
+	for script in ~/.config/bash/complete.d/* ; do
+		. $script
+	done
+fi
+
+
+# Pager : vim
+
+if [ -f "/usr/local/bin/vimpager" ] ; then
+	export PAGER=/usr/local/bin/vimpager
+	alias less=$PAGER
+	alias zless=$PAGER
+else
+	export PAGER="/bin/sh -c \"unset PAGER;col -b -x | \
+	    vim -R -c 'set ft=man nomod nolist' -c 'map q :q<CR>' \
+	    -c 'map <SPACE> <C-D>' -c 'map b <C-U>' \
+	    -c 'nmap K :Man <C-R>=expand(\\\"<cword>\\\")<CR><CR>' -\""
+fi
+
+if [ "$TERM" == "xterm" ]; then
+    # No it isn't, it's gnome-terminal
+    export TERM=xterm-256color
+fi
+
+if [ -z "$TEST_MODE" ] ; then
+	for liquiddir in ~/src/personnalisation/liquidprompt/liquidprompt ~/src/liquidprompt/liquidprompt ; do
+		[[ -f $liquiddir ]] && source $liquiddir
+	done
+	source /usr/share/autojump/autojump.sh
+fi
+
+if [ -d ~/.config/pwb/ ] ; then
+	export PYWIKIBOT2_DIR="$HOME/.config/pwb"
+fi
+>>>>>>> franquin-tom
