@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/tom/src'
 let g:netrw_dirhist_2='/home/tom/src/SeriesPlay'
 let g:netrw_dirhist_3='/home/tom/src/SeriesPlay/snakeguice'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/home/tom/src/SeriesPlay/snakeguice'
 let g:netrw_dirhist_6='/home/tom/src/SeriesPlay/snakeguice/tests'
 let g:netrw_dirhist_7='/home/tom/src/SeriesPlay/snakeguice/examples'
 let g:netrw_dirhist_8='/home/tom/src/SeriesPlay/snakeguice/examples/cherrypy'
+let g:netrw_dirhist_9='/home/tom/conf/conf_files'

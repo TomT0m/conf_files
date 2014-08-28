@@ -119,20 +119,30 @@ fi
 
 
 # Pager : vim
-export PAGER="/bin/sh -c \"unset PAGER;col -b -x | \
-    vim -R -c 'set ft=man nomod nolist' -c 'map q :q<CR>' \
-    -c 'map <SPACE> <C-D>' -c 'map b <C-U>' \
-    -c 'nmap K :Man <C-R>=expand(\\\"<cword>\\\")<CR><CR>' -\""
 
+if [ -f "/usr/local/bin/vimpager" ] ; then
+	export PAGER=/usr/local/bin/vimpager
+	alias less=$PAGER
+	alias zless=$PAGER
+else
+	export PAGER="/bin/sh -c \"unset PAGER;col -b -x | \
+	    vim -R -c 'set ft=man nomod nolist' -c 'map q :q<CR>' \
+	    -c 'map <SPACE> <C-D>' -c 'map b <C-U>' \
+	    -c 'nmap K :Man <C-R>=expand(\\\"<cword>\\\")<CR><CR>' -\""
+fi
 
 if [ "$TERM" == "xterm" ]; then
     # No it isn't, it's gnome-terminal
     export TERM=xterm-256color
 fi
 
-if [ -z "$TEST_MODE" ] ; then 
-	source ~/src/liquidprompt/liquidprompt
+if [ -z "$TEST_MODE" ] ; then
+	for liquiddir in ~/src/personnalisation/liquidprompt/liquidprompt ~/src/liquidprompt/liquidprompt ; do
+		[[ -f $liquiddir ]] && source $liquiddir
+	done
 	source /usr/share/autojump/autojump.sh
 fi
 
-
+if [ -d ~/.config/pwb/ ] ; then
+	export PYWIKIBOT2_DIR="$HOME/.config/pwb"
+fi
