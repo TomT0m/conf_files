@@ -4,11 +4,11 @@
 [difftool]
 	prompt = false
 [diff]
-	tool = gvimdiff
+	tool = vimdiff
 	external = git_diff_wrapper
 [alias]
 	d = difftool
 [push]
 	default = simple
 [pager]
-	  diff =
+	diff = "vim -c '%sm/\\e.\\{-}m//g' -c 'set ft=diff' -"

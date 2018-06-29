@@ -137,10 +137,10 @@ if [ "$TERM" == "xterm" ]; then
 fi
 
 if [ -z "$TEST_MODE" ] ; then
+	source /usr/share/autojump/autojump.sh
 	for liquiddir in ~/src/personnalisation/liquidprompt/liquidprompt ~/src/liquidprompt/liquidprompt ; do
 		[[ -f $liquiddir ]] && source $liquiddir
 	done
-	source /usr/share/autojump/autojump.sh
 fi
 
 if [ -d ~/.config/pwb/ ] ; then

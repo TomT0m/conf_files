@@ -106,10 +106,14 @@ def create_cl_parser():
 
 import subprocess
 def try_exec(directory, script_name, args):
-    command = [os.path.join(directory, script_name)]
-    command.extend(args)
-    cmd = subprocess.Popen(command, shell = False)
-    cmd.wait()
+    try:
+        command = [os.path.join(directory, script_name)]
+        command.extend(args)
+        cmd = subprocess.Popen(command, shell = False)
+        cmd.wait()
+    except PermissionError:
+        print("erreur de permission: {}, {}, {}".format(directory, script_name, args))
+              
 
 def command_in(command_str, command_list):
     return command_str in [ command.name for command in command_list]

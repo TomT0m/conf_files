@@ -6,3 +6,5 @@ filetype plugin indent on
 colorscheme solarized
 set modeline
 
+source ~/.vim/scripts/wrapwithtag.vim
+
